@@ -1,0 +1,75 @@
+name: Update official mobile app charts
+
+on:
+  schedule:
+    # Every Monday at 13:00 Korea Standard Time (04:00 UTC)
+    - cron: "0 4 * * 1"
+  workflow_dispatch:
+  push:
+    branches: ["main"]
+    paths:
+      - ".github/workflows/update-charts.yml"
+      - "scripts/collect-charts.mjs"
+      - "package.json"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-mobile-app-charts
+  cancel-in-progress: false
+
+jobs:
+  collect-and-publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Install collector dependency
+        run: npm install --no-audit --no-fund
+
+      - name: Collect official Apple App Store and Google Play charts
+        run: npm run collect
+
+      - name: Commit snapshot to main
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          if git diff --cached --quiet; then
+            echo "No snapshot changes"
+          else
+            git commit -m "Update official app charts $(date -u +%F)"
+            git push origin HEAD:main
+          fi
+
+      - name: Publish dashboard and data to gh-pages
+        run: |
+          git fetch origin gh-pages
+          rm -rf /tmp/mobile-app-charts-pages
+          git worktree add /tmp/mobile-app-charts-pages origin/gh-pages
+
+          for item in index.html styles.css app.js favicon.svg 404.html .nojekyll README.md AUTOMATION.md data; do
+            if [ -e "$item" ]; then
+              rm -rf "/tmp/mobile-app-charts-pages/$item"
+              cp -R "$item" "/tmp/mobile-app-charts-pages/$item"
+            fi
+          done
+
+          cd /tmp/mobile-app-charts-pages
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No Pages changes"
+          else
+            git commit -m "Publish official app charts $(date -u +%F)"
+            git push origin HEAD:gh-pages
+          fi
