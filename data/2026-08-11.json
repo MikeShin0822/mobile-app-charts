@@ -1,6 +1,6 @@
 {
   "date": "2026-08-11",
-  "generatedAt": "2026-08-11T13:50:37.568Z",
+  "generatedAt": "2026-08-11T13:55:38.393Z",
   "officialOnly": true,
   "topN": 25,
   "titleFormat": {
@@ -496,12 +496,12 @@
       "title": "PDF 리더 - PDF 파일 편집",
       "originalTitle": "PDF 리더 - PDF 파일 편집",
       "translatedTitle": null,
-      "description": "기타 · Syntaxa Smart Studio",
-      "category": "기타",
-      "categoryId": "",
+      "description": "도구 · Syntaxa Smart Studio",
+      "category": "도구",
+      "categoryId": "TOOLS",
       "developer": "Syntaxa Smart Studio",
       "icon": "https://play-lh.googleusercontent.com/Mn6ffHkmMQaOLufUh4G7fdUdrdIsFvCWnFvb1wqDXKshJW2aa702jn7O3HPuKNx0yL05LRdS2I2pn8lo-tEaTg",
-      "url": "https://play.google.com/store/apps/details?id=com.syntaxa.pdf.reader.pdfviewer.pdfeditor"
+      "url": "https://play.google.com/store/apps/details?id=com.syntaxa.pdf.reader.pdfviewer.pdfeditor&hl=ko&gl=kr"
     },
     {
       "store": "google",
@@ -511,12 +511,12 @@
       "title": "장신몰 - 장사의신이 만든 최저가 쇼핑몰",
       "originalTitle": "장신몰 - 장사의신이 만든 최저가 쇼핑몰",
       "translatedTitle": null,
-      "description": "기타 · (주)장신컴퍼니글로벌",
-      "category": "기타",
-      "categoryId": "",
+      "description": "쇼핑 · (주)장신컴퍼니글로벌",
+      "category": "쇼핑",
+      "categoryId": "SHOPPING",
       "developer": "(주)장신컴퍼니글로벌",
       "icon": "https://play-lh.googleusercontent.com/FwRGklI7WgYPILYFPjVHeRhjCLVV_bsxn_bJJoHO1oPvDIY5-wXbZh8yz6XayMLMOOVxJv-YomJauKNIlg5uGQ",
-      "url": "https://play.google.com/store/apps/details?id=com.cafe24.ec.plusjooppang"
+      "url": "https://play.google.com/store/apps/details?id=com.cafe24.ec.plusjooppang&hl=ko&gl=kr"
     },
     {
       "store": "google",
@@ -526,12 +526,12 @@
       "title": "하나은행, 새로워진 하나원큐를 경험해보세요",
       "originalTitle": "하나은행, 새로워진 하나원큐를 경험해보세요",
       "translatedTitle": null,
-      "description": "기타 · Hanabank",
-      "category": "기타",
-      "categoryId": "",
+      "description": "금융 · Hanabank",
+      "category": "금융",
+      "categoryId": "FINANCE",
       "developer": "Hanabank",
       "icon": "https://play-lh.googleusercontent.com/l_ODfXz-4ixineb8vbQOXADRl80JoaogbXrEyf3ZPzsACiQs5_6al17W_uyHDUt6XkhGniYRcfFr_q0GLVrtoA",
-      "url": "https://play.google.com/store/apps/details?id=com.hanabank.oqf"
+      "url": "https://play.google.com/store/apps/details?id=com.hanabank.oqf&hl=ko&gl=kr"
     },
     {
       "store": "google",
@@ -541,12 +541,12 @@
       "title": "DramaBox - 미니시리즈 스트리밍 플레이어",
       "originalTitle": "DramaBox - 미니시리즈 스트리밍 플레이어",
       "translatedTitle": null,
-      "description": "기타 · STORYMATRIX",
-      "category": "기타",
-      "categoryId": "",
+      "description": "엔터테인먼트 · STORYMATRIX",
+      "category": "엔터테인먼트",
+      "categoryId": "ENTERTAINMENT",
       "developer": "STORYMATRIX",
       "icon": "https://play-lh.googleusercontent.com/GGi0g65ySR86svFuxny2J2FgfkTZuFlJcftmeAZ_bZ7sM86XfwUNL1h9omSyoRKha1c1-_BoFkUbyJz2VSXI",
-      "url": "https://play.google.com/store/apps/details?id=com.storymatrix.drama"
+      "url": "https://play.google.com/store/apps/details?id=com.storymatrix.drama&hl=ko&gl=kr"
     },
     {
       "store": "google",
@@ -556,12 +556,12 @@
       "title": "NetShort - 인기 드라마 및 TV 프로그램",
       "originalTitle": "NetShort - 인기 드라마 및 TV 프로그램",
       "translatedTitle": null,
-      "description": "기타 · NETSTORY PTE. LTD.",
-      "category": "기타",
-      "categoryId": "",
+      "description": "엔터테인먼트 · NETSTORY PTE. LTD.",
+      "category": "엔터테인먼트",
+      "categoryId": "ENTERTAINMENT",
       "developer": "NETSTORY PTE. LTD.",
       "icon": "https://play-lh.googleusercontent.com/ZL5yS20EujtVmUMMNHEnH9AI4NoqjUfjkolH7h44Ap0R2w3Vv1GF3zMGhB1KepyjCcH2a63rbbSl_PIwYxpr",
-      "url": "https://play.google.com/store/apps/details?id=com.netshort.abroad"
+      "url": "https://play.google.com/store/apps/details?id=com.netshort.abroad&hl=ko&gl=kr"
     },
     {
       "store": "google",
@@ -571,12 +571,12 @@
       "title": "네이버플러스 스토어",
       "originalTitle": "네이버플러스 스토어",
       "translatedTitle": null,
-      "description": "기타 · NAVER Corp.",
-      "category": "기타",
-      "categoryId": "",
+      "description": "쇼핑 · NAVER Corp.",
+      "category": "쇼핑",
+      "categoryId": "SHOPPING",
       "developer": "NAVER Corp.",
       "icon": "https://play-lh.googleusercontent.com/ZnBEwqQaoz4m149EEwyDWeceJqqTSh1ODIaKzjea74e7jDw5Ehc69LBzo5fRI76K3kvMmcARCx1A7ymDw2E2",
-      "url": "https://play.google.com/store/apps/details?id=com.navercorp.navershopping"
+      "url": "https://play.google.com/store/apps/details?id=com.navercorp.navershopping&hl=ko&gl=kr"
     },
     {
       "store": "google",
@@ -586,12 +586,12 @@
       "title": "ChatGPT",
       "originalTitle": "ChatGPT",
       "translatedTitle": null,
-      "description": "기타 · OpenAI",
-      "category": "기타",
-      "categoryId": "",
+      "description": "생산성 · OpenAI",
+      "category": "생산성",
+      "categoryId": "PRODUCTIVITY",
       "developer": "OpenAI",
       "icon": "https://play-lh.googleusercontent.com/T9J8e9oxxPd600j_KPM4KK2GHfNpUpGBdTy8lHPXBXpOUfGusRuZXj0UMgFNrP8we6LVt9V-AibEgcLootE6VK4",
-      "url": "https://play.google.com/store/apps/details?id=com.openai.chatgpt"
+      "url": "https://play.google.com/store/apps/details?id=com.openai.chatgpt&hl=ko&gl=kr"
     },
     {
       "store": "google",
@@ -601,12 +601,12 @@
       "title": "PDF뷰어 & PDF 리더: 편집기, 변환기, 스캐너",
       "originalTitle": "PDF뷰어 & PDF 리더: 편집기, 변환기, 스캐너",
       "translatedTitle": null,
-      "description": "기타 · Office Suite Pro",
-      "category": "기타",
-      "categoryId": "",
+      "description": "생산성 · Office Suite Pro",
+      "category": "생산성",
+      "categoryId": "PRODUCTIVITY",
       "developer": "Office Suite Pro",
       "icon": "https://play-lh.googleusercontent.com/JXRayZr9vfqTWA_POf55l4jsA0v8yPtFrTZlBaSzROUq3aTIx-K0hb55OC-xXGQLOORH6kg57HVFsk6wNStbXg",
-      "url": "https://play.google.com/store/apps/details?id=com.trusted.pdfeditor.pdfreader"
+      "url": "https://play.google.com/store/apps/details?id=com.trusted.pdfeditor.pdfreader&hl=ko&gl=kr"
     },
     {
       "store": "google",
@@ -616,12 +616,12 @@
       "title": "QR 스캐너",
       "originalTitle": "QR 스캐너",
       "translatedTitle": null,
-      "description": "기타 · P & L Studio",
-      "category": "기타",
-      "categoryId": "",
+      "description": "도구 · P & L Studio",
+      "category": "도구",
+      "categoryId": "TOOLS",
       "developer": "P & L Studio",
       "icon": "https://play-lh.googleusercontent.com/NCMgeAAo4RdMYt4THbMRyY0T54OCavHgqZ-B6HIbYGj_6zbDjcdTvF_czQLUoDQHyoIqpUlz0xSlmCG2uagwYA",
-      "url": "https://play.google.com/store/apps/details?id=com.scannerreader.qrcode.creatorfree"
+      "url": "https://play.google.com/store/apps/details?id=com.scannerreader.qrcode.creatorfree&hl=ko&gl=kr"
     },
     {
       "store": "google",
@@ -631,12 +631,12 @@
       "title": "DramaWave -인기 단편/한일 드라마, 역전극!",
       "originalTitle": "DramaWave -인기 단편/한일 드라마, 역전극!",
       "translatedTitle": null,
-      "description": "기타 · SKYWORK AI PTE.LTD.",
-      "category": "기타",
-      "categoryId": "",
+      "description": "엔터테인먼트 · SKYWORK AI PTE.LTD.",
+      "category": "엔터테인먼트",
+      "categoryId": "ENTERTAINMENT",
       "developer": "SKYWORK AI PTE.LTD.",
       "icon": "https://play-lh.googleusercontent.com/qdfS5KciqnG6lP2HCxKT-CoeWrGdXsxe2sQgRR_-X-G_MVG5WZljSIesMUPkAkic0cjxgsp7gA6WMNXaq-lA6iU",
-      "url": "https://play.google.com/store/apps/details?id=com.dramawave.app"
+      "url": "https://play.google.com/store/apps/details?id=com.dramawave.app&hl=ko&gl=kr"
     },
     {
       "store": "google",
@@ -646,12 +646,12 @@
       "title": "정부24(구 민원24)",
       "originalTitle": "정부24(구 민원24)",
       "translatedTitle": null,
-      "description": "기타 · 행정안전부",
-      "category": "기타",
-      "categoryId": "",
+      "description": "생산성 · 행정안전부",
+      "category": "생산성",
+      "categoryId": "PRODUCTIVITY",
       "developer": "행정안전부",
       "icon": "https://play-lh.googleusercontent.com/9ZwlSxrZ5zAGydEtON0V6SkvezO_v6xIlbQEIYR7AKPiJ7NLoYow-2LYjmRH48FC1b3CXBicR4DJw3zZ-GXi",
-      "url": "https://play.google.com/store/apps/details?id=kr.go.minwon.m"
+      "url": "https://play.google.com/store/apps/details?id=kr.go.minwon.m&hl=ko&gl=kr"
     },
     {
       "store": "google",
@@ -661,12 +661,12 @@
       "title": "PDF 리더: 보기, 편집, 스캔",
       "originalTitle": "PDF 리더: 보기, 편집, 스캔",
       "translatedTitle": null,
-      "description": "기타 · Daily Tool Labs",
-      "category": "기타",
-      "categoryId": "",
+      "description": "생산성 · Daily Tool Labs",
+      "category": "생산성",
+      "categoryId": "PRODUCTIVITY",
       "developer": "Daily Tool Labs",
       "icon": "https://play-lh.googleusercontent.com/T0Dz5EkDAXrtd8qUg-tHWB72pZcxIxJPmeyFt4NtVKk0ev-juvOPAKB30zH32U6RE7x2ezIuSU4DNeVDoYBI",
-      "url": "https://play.google.com/store/apps/details?id=fc.free.pdfreader.proeditor.pdfviewer"
+      "url": "https://play.google.com/store/apps/details?id=fc.free.pdfreader.proeditor.pdfviewer&hl=ko&gl=kr"
     },
     {
       "store": "google",
@@ -676,12 +676,12 @@
       "title": "TikTok Lite 포인트 & 쿠폰 & 리워드",
       "originalTitle": "TikTok Lite 포인트 & 쿠폰 & 리워드",
       "translatedTitle": null,
-      "description": "기타 · TikTok Pte. Ltd.",
-      "category": "기타",
-      "categoryId": "",
+      "description": "동영상 · TikTok Pte. Ltd.",
+      "category": "동영상",
+      "categoryId": "VIDEO_PLAYERS",
       "developer": "TikTok Pte. Ltd.",
       "icon": "https://play-lh.googleusercontent.com/Xv57nEbYY8dECWq8hoag5rHdOxwUhEvX3PiW5B9RMhQBwa0AXmPE8GzOP3U1VDXj3j5zCEDJawVyxjLtuz_SVQ",
-      "url": "https://play.google.com/store/apps/details?id=com.ss.android.ugc.tiktok.lite"
+      "url": "https://play.google.com/store/apps/details?id=com.ss.android.ugc.tiktok.lite&hl=ko&gl=kr"
     },
     {
       "store": "google",
@@ -691,12 +691,12 @@
       "title": "신한 슈퍼SOL - 신한 유니버셜 금융 앱",
       "originalTitle": "신한 슈퍼SOL - 신한 유니버셜 금융 앱",
       "translatedTitle": null,
-      "description": "기타 · Shinhan Bank",
-      "category": "기타",
-      "categoryId": "",
+      "description": "금융 · Shinhan Bank",
+      "category": "금융",
+      "categoryId": "FINANCE",
       "developer": "Shinhan Bank",
       "icon": "https://play-lh.googleusercontent.com/VoHoGvh399BRPls8rz-UpqshdPrZd04kEUTaTwy8bwP2iWBGUPElL0gf9EWDDOSVj7E_gUk3AlQDoFUpqXBwspY",
-      "url": "https://play.google.com/store/apps/details?id=com.shinhan.sbanking"
+      "url": "https://play.google.com/store/apps/details?id=com.shinhan.sbanking&hl=ko&gl=kr"
     },
     {
       "store": "google",
@@ -706,12 +706,12 @@
       "title": "TikTok 틱톡 - 숏폼 영상, 크리에이터, 수익창출",
       "originalTitle": "TikTok 틱톡 - 숏폼 영상, 크리에이터, 수익창출",
       "translatedTitle": null,
-      "description": "기타 · TikTok Pte. Ltd.",
-      "category": "기타",
-      "categoryId": "",
+      "description": "동영상 · TikTok Pte. Ltd.",
+      "category": "동영상",
+      "categoryId": "VIDEO_PLAYERS",
       "developer": "TikTok Pte. Ltd.",
       "icon": "https://play-lh.googleusercontent.com/U07AzIaLq2iMqMCMtnM5iiSrzy7__SmOkD5qeH1vWy745-0rCv6LbSRuyjlDN-4s8EDW1UkHJPrrpd5jYNNkgA",
-      "url": "https://play.google.com/store/apps/details?id=com.ss.android.ugc.trill"
+      "url": "https://play.google.com/store/apps/details?id=com.ss.android.ugc.trill&hl=ko&gl=kr"
     },
     {
       "store": "google",
@@ -721,12 +721,12 @@
       "title": "디지털온누리",
       "originalTitle": "디지털온누리",
       "translatedTitle": null,
-      "description": "기타 · KOMSCO",
-      "category": "기타",
-      "categoryId": "",
+      "description": "금융 · KOMSCO",
+      "category": "금융",
+      "categoryId": "FINANCE",
       "developer": "KOMSCO",
       "icon": "https://play-lh.googleusercontent.com/vlc_bF9rFj1DMwcgbTXQTKbx8Va31KnlMj2DrYuKCivKYJJWBBNtQg3MvmZffceMadOZUwta4Nh3J8NZsPIVZQ",
-      "url": "https://play.google.com/store/apps/details?id=com.komsco.kpay"
+      "url": "https://play.google.com/store/apps/details?id=com.komsco.kpay&hl=ko&gl=kr"
     },
     {
       "store": "google",
@@ -736,12 +736,12 @@
       "title": "듀오링고(Duolingo): 언어 학습",
       "originalTitle": "듀오링고(Duolingo): 언어 학습",
       "translatedTitle": null,
-      "description": "기타 · Duolingo",
-      "category": "기타",
-      "categoryId": "",
+      "description": "교육 · Duolingo",
+      "category": "교육",
+      "categoryId": "EDUCATION",
       "developer": "Duolingo",
       "icon": "https://play-lh.googleusercontent.com/Q-wEiKezZQEspFNNrWfKjcEgAqdWy_b98_tXTAZaXGgm9y1HZ1zi-JSZXA7Tmur9MjcM0xoIA0BdXEN0Bt54",
-      "url": "https://play.google.com/store/apps/details?id=com.duolingo"
+      "url": "https://play.google.com/store/apps/details?id=com.duolingo&hl=ko&gl=kr"
     },
     {
       "store": "google",
@@ -751,12 +751,12 @@
       "title": "Temu: 억만장자처럼 쇼핑하기",
       "originalTitle": "Temu: 억만장자처럼 쇼핑하기",
       "translatedTitle": null,
-      "description": "기타 · Temu",
-      "category": "기타",
-      "categoryId": "",
+      "description": "쇼핑 · Temu",
+      "category": "쇼핑",
+      "categoryId": "SHOPPING",
       "developer": "Temu",
       "icon": "https://play-lh.googleusercontent.com/opNFHpwXUxk8zAVzQbvBgEcBPmgYt0uX-p28VKDZ8nJNFPA7_JHx3PO3ski-GW_FW7gf3jrEP4OCKxTpP7Wv_w",
-      "url": "https://play.google.com/store/apps/details?id=com.einnovation.temu"
+      "url": "https://play.google.com/store/apps/details?id=com.einnovation.temu&hl=ko&gl=kr"
     },
     {
       "store": "google",
@@ -766,12 +766,12 @@
       "title": "모니모(삼성금융통합앱) 생명 화재 카드 증권",
       "originalTitle": "모니모(삼성금융통합앱) 생명 화재 카드 증권",
       "translatedTitle": null,
-      "description": "기타 · Samsung Card",
-      "category": "기타",
-      "categoryId": "",
+      "description": "금융 · Samsung Card",
+      "category": "금융",
+      "categoryId": "FINANCE",
       "developer": "Samsung Card",
       "icon": "https://play-lh.googleusercontent.com/g-tkfYaRAe0u_DqUAtk4ETg0nl3ZoJIrntTC_K-A4WmpeP-yQi80IHsugmpMEGm9qWCD82HbeeyI-tYQsH1YKg",
-      "url": "https://play.google.com/store/apps/details?id=net.ib.android.smcard"
+      "url": "https://play.google.com/store/apps/details?id=net.ib.android.smcard&hl=ko&gl=kr"
     },
     {
       "store": "google",
@@ -781,12 +781,12 @@
       "title": "Claude by Anthropic",
       "originalTitle": "Claude by Anthropic",
       "translatedTitle": null,
-      "description": "기타 · Anthropic PBC",
-      "category": "기타",
-      "categoryId": "",
+      "description": "생산성 · Anthropic PBC",
+      "category": "생산성",
+      "categoryId": "PRODUCTIVITY",
       "developer": "Anthropic PBC",
       "icon": "https://play-lh.googleusercontent.com/YeFCFSW5LkBVdsEAL_fjzxDxTbhKz31j1uZUfDbSaCeM0t4Bi3SqyHTWzWsUsZnbwjofXhYajitG_gr2_B2xil8",
-      "url": "https://play.google.com/store/apps/details?id=com.anthropic.claude"
+      "url": "https://play.google.com/store/apps/details?id=com.anthropic.claude&hl=ko&gl=kr"
     },
     {
       "store": "google",
@@ -796,12 +796,12 @@
       "title": "QR 스캐너 생성기",
       "originalTitle": "QR 스캐너 생성기",
       "translatedTitle": null,
-      "description": "기타 · Znd Digital",
-      "category": "기타",
-      "categoryId": "",
+      "description": "도구 · Znd Digital",
+      "category": "도구",
+      "categoryId": "TOOLS",
       "developer": "Znd Digital",
       "icon": "https://play-lh.googleusercontent.com/t_eZA2U5hQuECnFKO5Q1OqmMV_f8A6vzaTLZAdJftcKMvCidQFuVGs7J_4A1bAUKXRPTVqLImL6lddCtL-890jQ",
-      "url": "https://play.google.com/store/apps/details?id=com.qrscanner.qrcreator.bacodeqrsc"
+      "url": "https://play.google.com/store/apps/details?id=com.qrscanner.qrcreator.bacodeqrsc&hl=ko&gl=kr"
     },
     {
       "store": "google",
@@ -811,12 +811,12 @@
       "title": "Instagram",
       "originalTitle": "Instagram",
       "translatedTitle": null,
-      "description": "기타 · Instagram",
-      "category": "기타",
-      "categoryId": "",
+      "description": "소셜 · Instagram",
+      "category": "소셜",
+      "categoryId": "SOCIAL",
       "developer": "Instagram",
       "icon": "https://play-lh.googleusercontent.com/yHi59jmO_lVamcyJ1i3rM1_E8bAiAspShnGjjURq05ipQQSUksO3QVEsXTegRSqul038-4YNA7O644XAcx251Q",
-      "url": "https://play.google.com/store/apps/details?id=com.instagram.android"
+      "url": "https://play.google.com/store/apps/details?id=com.instagram.android&hl=ko&gl=kr"
     },
     {
       "store": "google",
@@ -826,12 +826,12 @@
       "title": "PDF 리더: 모든 파일",
       "originalTitle": "PDF 리더: 모든 파일",
       "translatedTitle": null,
-      "description": "기타 · imtiaz sarwar",
-      "category": "기타",
-      "categoryId": "",
+      "description": "도구 · imtiaz sarwar",
+      "category": "도구",
+      "categoryId": "TOOLS",
       "developer": "imtiaz sarwar",
       "icon": "https://play-lh.googleusercontent.com/F_GHnyydw-6qBEnuodJvyrrwjvc6iKigo93-ReiUPGx3toeJoFZEO6snco_Q0Ebjk4Tn2wYOE_vpBE26qmXE3m4",
-      "url": "https://play.google.com/store/apps/details?id=com.allreader.pdf"
+      "url": "https://play.google.com/store/apps/details?id=com.allreader.pdf&hl=ko&gl=kr"
     },
     {
       "store": "google",
@@ -841,12 +841,12 @@
       "title": "Trip.com 트립닷컴 - 호텔, 항공권, 기차",
       "originalTitle": "Trip.com 트립닷컴 - 호텔, 항공권, 기차",
       "translatedTitle": null,
-      "description": "기타 · Trip.com",
-      "category": "기타",
-      "categoryId": "",
+      "description": "여행·지역 · Trip.com",
+      "category": "여행·지역",
+      "categoryId": "TRAVEL_AND_LOCAL",
       "developer": "Trip.com",
       "icon": "https://play-lh.googleusercontent.com/vNZziIq3UAk5fRBofLa418ruaHqypKqyOh2vsgrV56ccQDdXkIV0v6WA11B3XlyEEPN4YrPvsqFDJEG3wqbi",
-      "url": "https://play.google.com/store/apps/details?id=ctrip.english"
+      "url": "https://play.google.com/store/apps/details?id=ctrip.english&hl=ko&gl=kr"
     },
     {
       "store": "google",
@@ -856,12 +856,12 @@
       "title": "쿠팡(Coupang)-모바일 쇼핑",
       "originalTitle": "쿠팡(Coupang)-모바일 쇼핑",
       "translatedTitle": null,
-      "description": "기타 · Coupang Corp.",
-      "category": "기타",
-      "categoryId": "",
+      "description": "쇼핑 · Coupang Corp.",
+      "category": "쇼핑",
+      "categoryId": "SHOPPING",
       "developer": "Coupang Corp.",
       "icon": "https://play-lh.googleusercontent.com/BneDL51Zx2_hR5SfhGJHw2PUDpgrNiedy6TbjP3ZAm4sOjZLnQNfOaiTiyPVhTmKFtjUAFAxlU6YQhNDjCiwm40",
-      "url": "https://play.google.com/store/apps/details?id=com.coupang.mobile"
+      "url": "https://play.google.com/store/apps/details?id=com.coupang.mobile&hl=ko&gl=kr"
     },
     {
       "store": "apple",
@@ -1246,12 +1246,12 @@
       "title": "ChatGPT",
       "originalTitle": "ChatGPT",
       "translatedTitle": null,
-      "description": "기타 · OpenAI",
-      "category": "기타",
-      "categoryId": "",
+      "description": "생산성 · OpenAI",
+      "category": "생산성",
+      "categoryId": "PRODUCTIVITY",
       "developer": "OpenAI",
       "icon": "https://play-lh.googleusercontent.com/T9J8e9oxxPd600j_KPM4KK2GHfNpUpGBdTy8lHPXBXpOUfGusRuZXj0UMgFNrP8we6LVt9V-AibEgcLootE6VK4",
-      "url": "https://play.google.com/store/apps/details?id=com.openai.chatgpt"
+      "url": "https://play.google.com/store/apps/details?id=com.openai.chatgpt&hl=en&gl=us"
     },
     {
       "store": "google",
@@ -1261,12 +1261,12 @@
       "title": "PineDrama - Short Dramas",
       "originalTitle": "PineDrama - Short Dramas",
       "translatedTitle": null,
-      "description": "기타 · TikTok Pte. Ltd.",
-      "category": "기타",
-      "categoryId": "",
+      "description": "엔터테인먼트 · TikTok Pte. Ltd.",
+      "category": "엔터테인먼트",
+      "categoryId": "ENTERTAINMENT",
       "developer": "TikTok Pte. Ltd.",
       "icon": "https://play-lh.googleusercontent.com/pfc2SBr-JiF9y5d47tVq2hreXASR0MOZV2SA0CHk0GGyPpmf2e47GtkOJi3_pL9PDYVh1dG6vxqRFzpBOHzN",
-      "url": "https://play.google.com/store/apps/details?id=com.ss.android.ttmd.video"
+      "url": "https://play.google.com/store/apps/details?id=com.ss.android.ttmd.video&hl=en&gl=us"
     },
     {
       "store": "google",
@@ -1276,12 +1276,12 @@
       "title": "TikTok Pro - Events",
       "originalTitle": "TikTok Pro - Events",
       "translatedTitle": null,
-      "description": "기타 · TikTok Pte. Ltd.",
-      "category": "기타",
-      "categoryId": "",
+      "description": "엔터테인먼트 · TikTok Pte. Ltd.",
+      "category": "엔터테인먼트",
+      "categoryId": "ENTERTAINMENT",
       "developer": "TikTok Pte. Ltd.",
       "icon": "https://play-lh.googleusercontent.com/PKSZ5KxriEBiLm1_LyNrOMANu7sI59pfIxwzmv2-9NXqf3IaK1kRW13rj_J8PtrW72dcDdN9BzYsjs02Tge0OA",
-      "url": "https://play.google.com/store/apps/details?id=com.ss.android.ugc.tiktok.pro"
+      "url": "https://play.google.com/store/apps/details?id=com.ss.android.ugc.tiktok.pro&hl=en&gl=us"
     },
     {
       "store": "google",
@@ -1291,12 +1291,12 @@
       "title": "TikTok - Videos, Shop & LIVE",
       "originalTitle": "TikTok - Videos, Shop & LIVE",
       "translatedTitle": null,
-      "description": "기타 · TikTok Pte. Ltd.",
-      "category": "기타",
-      "categoryId": "",
+      "description": "소셜 · TikTok Pte. Ltd.",
+      "category": "소셜",
+      "categoryId": "SOCIAL",
       "developer": "TikTok Pte. Ltd.",
       "icon": "https://play-lh.googleusercontent.com/2o7iuqPe-0msP3DvNhzoOgNo4eZ6GkL_RtGVeKyBn5UBQAW5cw-GW5V3wDOHB1yTQuqWzrFLFOv2u4_5ea1uhg",
-      "url": "https://play.google.com/store/apps/details?id=com.zhiliaoapp.musically"
+      "url": "https://play.google.com/store/apps/details?id=com.zhiliaoapp.musically&hl=en&gl=us"
     },
     {
       "store": "google",
@@ -1306,12 +1306,12 @@
       "title": "WhatsApp Messenger",
       "originalTitle": "WhatsApp Messenger",
       "translatedTitle": null,
-      "description": "기타 · WhatsApp LLC",
-      "category": "기타",
-      "categoryId": "",
+      "description": "커뮤니케이션 · WhatsApp LLC",
+      "category": "커뮤니케이션",
+      "categoryId": "COMMUNICATION",
       "developer": "WhatsApp LLC",
       "icon": "https://play-lh.googleusercontent.com/Gqxk4T0uZsDwFp07DE-508hkyvcNmgFuRwPiwTEfF7D7OzGv1FdHDzEyMxNsSBZLOJlGpe3ULvVM2RgrRAlBqA",
-      "url": "https://play.google.com/store/apps/details?id=com.whatsapp"
+      "url": "https://play.google.com/store/apps/details?id=com.whatsapp&hl=en&gl=us"
     },
     {
       "store": "google",
@@ -1321,12 +1321,12 @@
       "title": "DramaWave - Dramas & Reels",
       "originalTitle": "DramaWave - Dramas & Reels",
       "translatedTitle": null,
-      "description": "기타 · SKYWORK AI PTE.LTD.",
-      "category": "기타",
-      "categoryId": "",
+      "description": "엔터테인먼트 · SKYWORK AI PTE.LTD.",
+      "category": "엔터테인먼트",
+      "categoryId": "ENTERTAINMENT",
       "developer": "SKYWORK AI PTE.LTD.",
       "icon": "https://play-lh.googleusercontent.com/qdfS5KciqnG6lP2HCxKT-CoeWrGdXsxe2sQgRR_-X-G_MVG5WZljSIesMUPkAkic0cjxgsp7gA6WMNXaq-lA6iU",
-      "url": "https://play.google.com/store/apps/details?id=com.dramawave.app"
+      "url": "https://play.google.com/store/apps/details?id=com.dramawave.app&hl=en&gl=us"
     },
     {
       "store": "google",
@@ -1336,12 +1336,12 @@
       "title": "Instagram",
       "originalTitle": "Instagram",
       "translatedTitle": null,
-      "description": "기타 · Instagram",
-      "category": "기타",
-      "categoryId": "",
+      "description": "소셜 · Instagram",
+      "category": "소셜",
+      "categoryId": "SOCIAL",
       "developer": "Instagram",
       "icon": "https://play-lh.googleusercontent.com/yHi59jmO_lVamcyJ1i3rM1_E8bAiAspShnGjjURq05ipQQSUksO3QVEsXTegRSqul038-4YNA7O644XAcx251Q",
-      "url": "https://play.google.com/store/apps/details?id=com.instagram.android"
+      "url": "https://play.google.com/store/apps/details?id=com.instagram.android&hl=en&gl=us"
     },
     {
       "store": "google",
@@ -1351,12 +1351,12 @@
       "title": "Facebook",
       "originalTitle": "Facebook",
       "translatedTitle": null,
-      "description": "기타 · Meta Platforms, Inc.",
-      "category": "기타",
-      "categoryId": "",
+      "description": "소셜 · Meta Platforms, Inc.",
+      "category": "소셜",
+      "categoryId": "SOCIAL",
       "developer": "Meta Platforms, Inc.",
       "icon": "https://play-lh.googleusercontent.com/12KEJDhgk6oyE1VgmfCuFzFrQripZ_endElbvEhU1rZawQgV3RI-v3II8fDslI1sdC_WKBkmtxS3jxuIihk33Q",
-      "url": "https://play.google.com/store/apps/details?id=com.facebook.katana"
+      "url": "https://play.google.com/store/apps/details?id=com.facebook.katana&hl=en&gl=us"
     },
     {
       "store": "google",
@@ -1366,12 +1366,12 @@
       "title": "Meta AI",
       "originalTitle": "Meta AI",
       "translatedTitle": null,
-      "description": "기타 · Meta Platforms, Inc.",
-      "category": "기타",
-      "categoryId": "",
+      "description": "생산성 · Meta Platforms, Inc.",
+      "category": "생산성",
+      "categoryId": "PRODUCTIVITY",
       "developer": "Meta Platforms, Inc.",
       "icon": "https://play-lh.googleusercontent.com/o3R5N2Pz3oLVfMCbDWhAWA1WNUxewxwhRgLJUCHVR3QQA57oWXt6Yw5lYN-Huj0ZYxLZ3_7ZwcnvmbfDiv4q",
-      "url": "https://play.google.com/store/apps/details?id=com.facebook.stella"
+      "url": "https://play.google.com/store/apps/details?id=com.facebook.stella&hl=en&gl=us"
     },
     {
       "store": "google",
@@ -1381,12 +1381,12 @@
       "title": "NetShort - Popular Dramas & TV",
       "originalTitle": "NetShort - Popular Dramas & TV",
       "translatedTitle": null,
-      "description": "기타 · NETSTORY PTE. LTD.",
-      "category": "기타",
-      "categoryId": "",
+      "description": "엔터테인먼트 · NETSTORY PTE. LTD.",
+      "category": "엔터테인먼트",
+      "categoryId": "ENTERTAINMENT",
       "developer": "NETSTORY PTE. LTD.",
       "icon": "https://play-lh.googleusercontent.com/abBbNR-5zthxSLW7YYJTHBB-0gNcb6iJbX7CIGz3p99RBMaabM_ljYlSFuiHS33DTQ3PI2Ye7b2qzuRDmTQ6BzQ",
-      "url": "https://play.google.com/store/apps/details?id=com.netshort.abroad"
+      "url": "https://play.google.com/store/apps/details?id=com.netshort.abroad&hl=en&gl=us"
     },
     {
       "store": "google",
@@ -1396,12 +1396,12 @@
       "title": "Temu: Shop Like a Billionaire",
       "originalTitle": "Temu: Shop Like a Billionaire",
       "translatedTitle": null,
-      "description": "기타 · Temu",
-      "category": "기타",
-      "categoryId": "",
+      "description": "쇼핑 · Temu",
+      "category": "쇼핑",
+      "categoryId": "SHOPPING",
       "developer": "Temu",
       "icon": "https://play-lh.googleusercontent.com/opNFHpwXUxk8zAVzQbvBgEcBPmgYt0uX-p28VKDZ8nJNFPA7_JHx3PO3ski-GW_FW7gf3jrEP4OCKxTpP7Wv_w",
-      "url": "https://play.google.com/store/apps/details?id=com.einnovation.temu"
+      "url": "https://play.google.com/store/apps/details?id=com.einnovation.temu&hl=en&gl=us"
     },
     {
       "store": "google",
@@ -1411,12 +1411,12 @@
       "title": "ReelShort - Stream Drama & TV",
       "originalTitle": "ReelShort - Stream Drama & TV",
       "translatedTitle": null,
-      "description": "기타 · NewLeaf Publishing",
-      "category": "기타",
-      "categoryId": "",
+      "description": "엔터테인먼트 · NewLeaf Publishing",
+      "category": "엔터테인먼트",
+      "categoryId": "ENTERTAINMENT",
       "developer": "NewLeaf Publishing",
       "icon": "https://play-lh.googleusercontent.com/mzo4PnyNudAfdPmD7kPGoX0-OWqPgngejYRmiEkva1WCPvLfnA5n7CQWYJErwFGnGw-cg4zBXf8JOVVtrKM0HmI",
-      "url": "https://play.google.com/store/apps/details?id=com.newleaf.app.android.victor"
+      "url": "https://play.google.com/store/apps/details?id=com.newleaf.app.android.victor&hl=en&gl=us"
     },
     {
       "store": "google",
@@ -1426,12 +1426,12 @@
       "title": "Cash App",
       "originalTitle": "Cash App",
       "translatedTitle": null,
-      "description": "기타 · Block, Inc.",
-      "category": "기타",
-      "categoryId": "",
+      "description": "금융 · Block, Inc.",
+      "category": "금융",
+      "categoryId": "FINANCE",
       "developer": "Block, Inc.",
       "icon": "https://play-lh.googleusercontent.com/pBe5_NoQ0uojR_XLb_5f2mMxVOnFczommOo5Ho297TYnkqt6I26YM3X2cpKtowkLsxe27IdhP1gQz-Mq4OSQ",
-      "url": "https://play.google.com/store/apps/details?id=com.squareup.cash"
+      "url": "https://play.google.com/store/apps/details?id=com.squareup.cash&hl=en&gl=us"
     },
     {
       "store": "google",
@@ -1441,12 +1441,12 @@
       "title": "X",
       "originalTitle": "X",
       "translatedTitle": null,
-      "description": "기타 · X Corp.",
-      "category": "기타",
-      "categoryId": "",
+      "description": "뉴스·잡지 · X Corp.",
+      "category": "뉴스·잡지",
+      "categoryId": "NEWS_AND_MAGAZINES",
       "developer": "X Corp.",
       "icon": "https://play-lh.googleusercontent.com/IsLsCD4eLC2CYvlkgTI6Z5TROj0BJIBgUF7BZ5eliTzyyTjqG_mbofeG4kw2s7oG_JZMSi5ErLz_qsDi169C8w",
-      "url": "https://play.google.com/store/apps/details?id=com.twitter.android"
+      "url": "https://play.google.com/store/apps/details?id=com.twitter.android&hl=en&gl=us"
     },
     {
       "store": "google",
@@ -1456,12 +1456,12 @@
       "title": "Snapchat",
       "originalTitle": "Snapchat",
       "translatedTitle": null,
-      "description": "기타 · Snap Inc",
-      "category": "기타",
-      "categoryId": "",
+      "description": "커뮤니케이션 · Snap Inc",
+      "category": "커뮤니케이션",
+      "categoryId": "COMMUNICATION",
       "developer": "Snap Inc",
       "icon": "https://play-lh.googleusercontent.com/nOJWJoDAzuRSHmlFfpzHXAj8UbTJwk_JGYf0uAPTKPtiiIX_2Y7r5ATO1ZtxHRqaFTqfIDZ40PnBK4hukeJh",
-      "url": "https://play.google.com/store/apps/details?id=com.snapchat.android"
+      "url": "https://play.google.com/store/apps/details?id=com.snapchat.android&hl=en&gl=us"
     },
     {
       "store": "google",
@@ -1471,12 +1471,12 @@
       "title": "TikTok Lite - Faster TikTok",
       "originalTitle": "TikTok Lite - Faster TikTok",
       "translatedTitle": null,
-      "description": "기타 · TikTok Pte. Ltd.",
-      "category": "기타",
-      "categoryId": "",
+      "description": "소셜 · TikTok Pte. Ltd.",
+      "category": "소셜",
+      "categoryId": "SOCIAL",
       "developer": "TikTok Pte. Ltd.",
       "icon": "https://play-lh.googleusercontent.com/S86MXXSj9_08E__by-NaXaKwJTSYZXWuwOdEkeOeD1jH1Yu-l6yIdjOvjQWyphkYoarRyMSHKzTN83L73ZPieA",
-      "url": "https://play.google.com/store/apps/details?id=com.tiktok.lite.go"
+      "url": "https://play.google.com/store/apps/details?id=com.tiktok.lite.go&hl=en&gl=us"
     },
     {
       "store": "google",
@@ -1486,12 +1486,12 @@
       "title": "Vinted: Shop & sell pre-loved",
       "originalTitle": "Vinted: Shop & sell pre-loved",
       "translatedTitle": null,
-      "description": "기타 · Vinted",
-      "category": "기타",
-      "categoryId": "",
+      "description": "쇼핑 · Vinted",
+      "category": "쇼핑",
+      "categoryId": "SHOPPING",
       "developer": "Vinted",
       "icon": "https://play-lh.googleusercontent.com/cw3VzDl2b0m8eXx3dXe6RdV6r8ztpzUp_DJk4PStqU2mbD1x1TfKSCNJZVd6wjABgy0Nz0BCb3NqMI2TkKlR3Q",
-      "url": "https://play.google.com/store/apps/details?id=fr.vinted"
+      "url": "https://play.google.com/store/apps/details?id=fr.vinted&hl=en&gl=us"
     },
     {
       "store": "google",
@@ -1501,12 +1501,12 @@
       "title": "Messenger",
       "originalTitle": "Messenger",
       "translatedTitle": null,
-      "description": "기타 · Meta Platforms, Inc.",
-      "category": "기타",
-      "categoryId": "",
+      "description": "커뮤니케이션 · Meta Platforms, Inc.",
+      "category": "커뮤니케이션",
+      "categoryId": "COMMUNICATION",
       "developer": "Meta Platforms, Inc.",
       "icon": "https://play-lh.googleusercontent.com/cuRpiGqvAMkcbAOibD-AKCBagAunUkspQUWC_jVZF2Hob_ODdmkefnZeqkofW1idFQHhgZgnLIjsqT-2v7JKBw",
-      "url": "https://play.google.com/store/apps/details?id=com.facebook.orca"
+      "url": "https://play.google.com/store/apps/details?id=com.facebook.orca&hl=en&gl=us"
     },
     {
       "store": "google",
@@ -1516,12 +1516,12 @@
       "title": "CapCut - Video Editor",
       "originalTitle": "CapCut - Video Editor",
       "translatedTitle": null,
-      "description": "기타 · Bytedance Pte. Ltd.",
-      "category": "기타",
-      "categoryId": "",
+      "description": "동영상 · Bytedance Pte. Ltd.",
+      "category": "동영상",
+      "categoryId": "VIDEO_PLAYERS",
       "developer": "Bytedance Pte. Ltd.",
       "icon": "https://play-lh.googleusercontent.com/M78HyakHaxKrjoeqYx41E9DXfVYYtx67nvc7Ks4G4zFQeaAJdGCi8gzzGSrHIwlrmnJS6zD9S4fAXqdEwfuHQAQ",
-      "url": "https://play.google.com/store/apps/details?id=com.lemon.lvoverseas"
+      "url": "https://play.google.com/store/apps/details?id=com.lemon.lvoverseas&hl=en&gl=us"
     },
     {
       "store": "google",
@@ -1531,12 +1531,12 @@
       "title": "Life360: Family Safety & GPS",
       "originalTitle": "Life360: Family Safety & GPS",
       "translatedTitle": null,
-      "description": "기타 · Life360",
-      "category": "기타",
-      "categoryId": "",
+      "description": "라이프스타일 · Life360",
+      "category": "라이프스타일",
+      "categoryId": "LIFESTYLE",
       "developer": "Life360",
       "icon": "https://play-lh.googleusercontent.com/nQsrQf5cd6IeIhFTvVFjez12UiB1QTYYyX1UiVA448XkK--5jQYBhDuiMHtBOWrVnoldLTlnUN1x3AbCt4vflg",
-      "url": "https://play.google.com/store/apps/details?id=com.life360.android.safetymapd"
+      "url": "https://play.google.com/store/apps/details?id=com.life360.android.safetymapd&hl=en&gl=us"
     },
     {
       "store": "google",
@@ -1546,12 +1546,12 @@
       "title": "FreeReels - Dramas & Reels",
       "originalTitle": "FreeReels - Dramas & Reels",
       "translatedTitle": null,
-      "description": "기타 · SKYWORK AI PTE.LTD.",
-      "category": "기타",
-      "categoryId": "",
+      "description": "엔터테인먼트 · SKYWORK AI PTE.LTD.",
+      "category": "엔터테인먼트",
+      "categoryId": "ENTERTAINMENT",
       "developer": "SKYWORK AI PTE.LTD.",
       "icon": "https://play-lh.googleusercontent.com/1ybMEp7xw4kTY-K7ocih3vcbTEyCEqaxerVB6tDT8WcE3k5zCRR-jhKwS6Ct0UXIorczCIat3wTV0QLiuoLPdbY",
-      "url": "https://play.google.com/store/apps/details?id=com.freereels.app"
+      "url": "https://play.google.com/store/apps/details?id=com.freereels.app&hl=en&gl=us"
     },
     {
       "store": "google",
@@ -1561,12 +1561,12 @@
       "title": "Volume Control Sound Launcher",
       "originalTitle": "Volume Control Sound Launcher",
       "translatedTitle": null,
-      "description": "기타 · AtomApplications",
-      "category": "기타",
-      "categoryId": "",
+      "description": "도구 · AtomApplications",
+      "category": "도구",
+      "categoryId": "TOOLS",
       "developer": "AtomApplications",
       "icon": "https://play-lh.googleusercontent.com/vxaA3YWsjgqrBTjjrVL7QV_cOQjMg-728iGgJuYk8n2fyD1uejY15wQoBBgMygcbaexDhwq1Z8cjaqlD2X3t",
-      "url": "https://play.google.com/store/apps/details?id=com.soundcontroller.loudspeaker.volume.manager.android"
+      "url": "https://play.google.com/store/apps/details?id=com.soundcontroller.loudspeaker.volume.manager.android&hl=en&gl=us"
     },
     {
       "store": "google",
@@ -1576,12 +1576,12 @@
       "title": "DramaBox - Stream Drama Shorts",
       "originalTitle": "DramaBox - Stream Drama Shorts",
       "translatedTitle": null,
-      "description": "기타 · STORYMATRIX",
-      "category": "기타",
-      "categoryId": "",
+      "description": "엔터테인먼트 · STORYMATRIX",
+      "category": "엔터테인먼트",
+      "categoryId": "ENTERTAINMENT",
       "developer": "STORYMATRIX",
       "icon": "https://play-lh.googleusercontent.com/GGi0g65ySR86svFuxny2J2FgfkTZuFlJcftmeAZ_bZ7sM86XfwUNL1h9omSyoRKha1c1-_BoFkUbyJz2VSXI",
-      "url": "https://play.google.com/store/apps/details?id=com.storymatrix.drama"
+      "url": "https://play.google.com/store/apps/details?id=com.storymatrix.drama&hl=en&gl=us"
     },
     {
       "store": "google",
@@ -1591,12 +1591,12 @@
       "title": "Telegram",
       "originalTitle": "Telegram",
       "translatedTitle": null,
-      "description": "기타 · Telegram FZ-LLC",
-      "category": "기타",
-      "categoryId": "",
+      "description": "커뮤니케이션 · Telegram FZ-LLC",
+      "category": "커뮤니케이션",
+      "categoryId": "COMMUNICATION",
       "developer": "Telegram FZ-LLC",
       "icon": "https://play-lh.googleusercontent.com/PyZ3akMGXPV0tKKirKNwfO--PSQW3FHR6rD_H9mAaukZ8LiHyYFuBLeU8UZ2ok6r5SP79-3prkfybWKh98AZAD0",
-      "url": "https://play.google.com/store/apps/details?id=org.telegram.messenger"
+      "url": "https://play.google.com/store/apps/details?id=org.telegram.messenger&hl=en&gl=us"
     },
     {
       "store": "google",
@@ -1606,12 +1606,12 @@
       "title": "SHEIN-Shopping Online",
       "originalTitle": "SHEIN-Shopping Online",
       "translatedTitle": null,
-      "description": "기타 · Roadget Business PTE. LTD.",
-      "category": "기타",
-      "categoryId": "",
+      "description": "쇼핑 · Roadget Business PTE. LTD.",
+      "category": "쇼핑",
+      "categoryId": "SHOPPING",
       "developer": "Roadget Business PTE. LTD.",
       "icon": "https://play-lh.googleusercontent.com/M_c3ZcQ1dx3AlDSfFEL0S2KgYrmkvJz2gz6gMZaL0pSQS9yYfUOGAQJTfuXMvx0K5c46dh5TKauxuRbUlnxB7w",
-      "url": "https://play.google.com/store/apps/details?id=com.zzkko"
+      "url": "https://play.google.com/store/apps/details?id=com.zzkko&hl=en&gl=us"
     },
     {
       "store": "apple",
@@ -1996,12 +1996,12 @@
       "title": "TikTok Lite 동영상 좋아 필견! 동영상×포인트의 포이활 (TikTok Lite 動画好き必見！動画×ポイントのポイ活)",
       "originalTitle": "TikTok Lite 動画好き必見！動画×ポイントのポイ活",
       "translatedTitle": "TikTok Lite 동영상 좋아 필견! 동영상×포인트의 포이활",
-      "description": "기타 · TikTok Pte. Ltd.",
-      "category": "기타",
-      "categoryId": "",
+      "description": "동영상 · TikTok Pte. Ltd.",
+      "category": "동영상",
+      "categoryId": "VIDEO_PLAYERS",
       "developer": "TikTok Pte. Ltd.",
       "icon": "https://play-lh.googleusercontent.com/Xv57nEbYY8dECWq8hoag5rHdOxwUhEvX3PiW5B9RMhQBwa0AXmPE8GzOP3U1VDXj3j5zCEDJawVyxjLtuz_SVQ",
-      "url": "https://play.google.com/store/apps/details?id=com.ss.android.ugc.tiktok.lite"
+      "url": "https://play.google.com/store/apps/details?id=com.ss.android.ugc.tiktok.lite&hl=ja&gl=jp"
     },
     {
       "store": "google",
@@ -2011,12 +2011,12 @@
       "title": "챗GPT (ChatGPT)",
       "originalTitle": "ChatGPT",
       "translatedTitle": "챗GPT",
-      "description": "기타 · OpenAI",
-      "category": "기타",
-      "categoryId": "",
+      "description": "생산성 · OpenAI",
+      "category": "생산성",
+      "categoryId": "PRODUCTIVITY",
       "developer": "OpenAI",
       "icon": "https://play-lh.googleusercontent.com/T9J8e9oxxPd600j_KPM4KK2GHfNpUpGBdTy8lHPXBXpOUfGusRuZXj0UMgFNrP8we6LVt9V-AibEgcLootE6VK4",
-      "url": "https://play.google.com/store/apps/details?id=com.openai.chatgpt"
+      "url": "https://play.google.com/store/apps/details?id=com.openai.chatgpt&hl=ja&gl=jp"
     },
     {
       "store": "google",
@@ -2026,12 +2026,12 @@
       "title": "LINE(라인) - 통화/메일 앱 (LINE（ライン） - 通話・メールアプリ)",
       "originalTitle": "LINE（ライン） - 通話・メールアプリ",
       "translatedTitle": "LINE(라인) - 통화/메일 앱",
-      "description": "기타 · LINE (LY Corporation)",
-      "category": "기타",
-      "categoryId": "",
+      "description": "커뮤니케이션 · LINE (LY Corporation)",
+      "category": "커뮤니케이션",
+      "categoryId": "COMMUNICATION",
       "developer": "LINE (LY Corporation)",
       "icon": "https://play-lh.googleusercontent.com/7PeaZXtTu7EuCuWzGpkXWAnT9pLs_Ly9MbVSeZUULlIc5H02wGWzvrbmqxj86UnkM9gjUaGSeAcKbYbfbegTJw",
-      "url": "https://play.google.com/store/apps/details?id=jp.naver.line.android"
+      "url": "https://play.google.com/store/apps/details?id=jp.naver.line.android&hl=ja&gl=jp"
     },
     {
       "store": "google",
@@ -2041,12 +2041,12 @@
       "title": "TikTok - 동영상, LIVE 게재, 필터, 동영상 편집 (TikTok - 動画、LIVE配信、フィルター、動画編集)",
       "originalTitle": "TikTok - 動画、LIVE配信、フィルター、動画編集",
       "translatedTitle": "TikTok - 동영상, LIVE 게재, 필터, 동영상 편집",
-      "description": "기타 · TikTok Pte. Ltd.",
-      "category": "기타",
-      "categoryId": "",
+      "description": "동영상 · TikTok Pte. Ltd.",
+      "category": "동영상",
+      "categoryId": "VIDEO_PLAYERS",
       "developer": "TikTok Pte. Ltd.",
       "icon": "https://play-lh.googleusercontent.com/U07AzIaLq2iMqMCMtnM5iiSrzy7__SmOkD5qeH1vWy745-0rCv6LbSRuyjlDN-4s8EDW1UkHJPrrpd5jYNNkgA",
-      "url": "https://play.google.com/store/apps/details?id=com.ss.android.ugc.trill"
+      "url": "https://play.google.com/store/apps/details?id=com.ss.android.ugc.trill&hl=ja&gl=jp"
     },
     {
       "store": "google",
@@ -2056,12 +2056,12 @@
       "title": "WeatherSight - 라이브 일기 예보 (WeatherSight - ライブ天気予報)",
       "originalTitle": "WeatherSight - ライブ天気予報",
       "translatedTitle": "WeatherSight - 라이브 일기 예보",
-      "description": "기타 · Houpumobi Tech",
-      "category": "기타",
-      "categoryId": "",
+      "description": "날씨 · Houpumobi Tech",
+      "category": "날씨",
+      "categoryId": "WEATHER",
       "developer": "Houpumobi Tech",
       "icon": "https://play-lh.googleusercontent.com/RalBUiRl-rOkNmOTAi2zQyt_QWC3J3d_k6gszrpchJU-muXqjpfYdOIP0-6zFMdES_LgZUtr56Kahe7MIJx3hNs",
-      "url": "https://play.google.com/store/apps/details?id=com.sight.cleken.weather"
+      "url": "https://play.google.com/store/apps/details?id=com.sight.cleken.weather&hl=ja&gl=jp"
     },
     {
       "store": "google",
@@ -2071,12 +2071,12 @@
       "title": "엑스 (X)",
       "originalTitle": "X",
       "translatedTitle": "엑스",
-      "description": "기타 · X Corp.",
-      "category": "기타",
-      "categoryId": "",
+      "description": "뉴스·잡지 · X Corp.",
+      "category": "뉴스·잡지",
+      "categoryId": "NEWS_AND_MAGAZINES",
       "developer": "X Corp.",
       "icon": "https://play-lh.googleusercontent.com/IsLsCD4eLC2CYvlkgTI6Z5TROj0BJIBgUF7BZ5eliTzyyTjqG_mbofeG4kw2s7oG_JZMSi5ErLz_qsDi169C8w",
-      "url": "https://play.google.com/store/apps/details?id=com.twitter.android"
+      "url": "https://play.google.com/store/apps/details?id=com.twitter.android&hl=ja&gl=jp"
     },
     {
       "store": "google",
@@ -2086,12 +2086,12 @@
       "title": "날씨 뉴스 날씨 · 비 구름 레이더 · 태풍 일기 예보 앱 (ウェザーニュース 天気・雨雲レーダー・台風の天気予報アプリ)",
       "originalTitle": "ウェザーニュース 天気・雨雲レーダー・台風の天気予報アプリ",
       "translatedTitle": "날씨 뉴스 날씨 · 비 구름 레이더 · 태풍 일기 예보 앱",
-      "description": "기타 · Weathernews Inc.",
-      "category": "기타",
-      "categoryId": "",
+      "description": "날씨 · Weathernews Inc.",
+      "category": "날씨",
+      "categoryId": "WEATHER",
       "developer": "Weathernews Inc.",
       "icon": "https://play-lh.googleusercontent.com/vAJDGevEL-sDedrUE021QF6J_n4O3F9-OVqUjYHsd-u6NRjxmYfH4xFTGHB0a_gEYddrMve7QZkNw6LS4sHC",
-      "url": "https://play.google.com/store/apps/details?id=wni.WeathernewsTouch.jp"
+      "url": "https://play.google.com/store/apps/details?id=wni.WeathernewsTouch.jp&hl=ja&gl=jp"
     },
     {
       "store": "google",
@@ -2101,12 +2101,12 @@
       "title": "FreeReels - 화제의 단편·한일드라마, 역전극 (FreeReels - 話題の短編・日韓ドラマ、逆転劇)",
       "originalTitle": "FreeReels - 話題の短編・日韓ドラマ、逆転劇",
       "translatedTitle": "FreeReels - 화제의 단편·한일드라마, 역전극",
-      "description": "기타 · SKYWORK AI PTE.LTD.",
-      "category": "기타",
-      "categoryId": "",
+      "description": "엔터테인먼트 · SKYWORK AI PTE.LTD.",
+      "category": "엔터테인먼트",
+      "categoryId": "ENTERTAINMENT",
       "developer": "SKYWORK AI PTE.LTD.",
       "icon": "https://play-lh.googleusercontent.com/1ybMEp7xw4kTY-K7ocih3vcbTEyCEqaxerVB6tDT8WcE3k5zCRR-jhKwS6Ct0UXIorczCIat3wTV0QLiuoLPdbY",
-      "url": "https://play.google.com/store/apps/details?id=com.freereels.app"
+      "url": "https://play.google.com/store/apps/details?id=com.freereels.app&hl=ja&gl=jp"
     },
     {
       "store": "google",
@@ -2116,12 +2116,12 @@
       "title": "음식점 예약 핫 페퍼 음식 (飲食店予約ホットペッパーグルメ)",
       "originalTitle": "飲食店予約ホットペッパーグルメ",
       "translatedTitle": "음식점 예약 핫 페퍼 음식",
-      "description": "기타 · Recruit Co.,Ltd.",
-      "category": "기타",
-      "categoryId": "",
+      "description": "음식·음료 · Recruit Co.,Ltd.",
+      "category": "음식·음료",
+      "categoryId": "FOOD_AND_DRINK",
       "developer": "Recruit Co.,Ltd.",
       "icon": "https://play-lh.googleusercontent.com/dTPwzGdjNDNSs19XCDXIlp56bRh758tTBVoTAZGRH8wIOVwKXZip0v85ikHK1CFTCCsDu-5AhiqC2PUzhENT9g",
-      "url": "https://play.google.com/store/apps/details?id=jp.co.recruit.mtl.android.hotpepper"
+      "url": "https://play.google.com/store/apps/details?id=jp.co.recruit.mtl.android.hotpepper&hl=ja&gl=jp"
     },
     {
       "store": "google",
@@ -2131,12 +2131,12 @@
       "title": "Firefox 빠르고 개인적인 브라우저 (Firefox 高速・プライベートなブラウザー)",
       "originalTitle": "Firefox 高速・プライベートなブラウザー",
       "translatedTitle": "Firefox 빠르고 개인적인 브라우저",
-      "description": "기타 · Mozilla",
-      "category": "기타",
-      "categoryId": "",
+      "description": "커뮤니케이션 · Mozilla",
+      "category": "커뮤니케이션",
+      "categoryId": "COMMUNICATION",
       "developer": "Mozilla",
       "icon": "https://play-lh.googleusercontent.com/jQAmlGUkuJGc4TjZs2OEUeB5Gy3dCpKCWqfgVmab5NvM_43oed2qhVhrlEajccjJV6VkDFCEXws_6t6StKKLTY4",
-      "url": "https://play.google.com/store/apps/details?id=org.mozilla.firefox"
+      "url": "https://play.google.com/store/apps/details?id=org.mozilla.firefox&hl=ja&gl=jp"
     },
     {
       "store": "google",
@@ -2146,12 +2146,12 @@
       "title": "NetShort - 인기 단편 드라마 (NetShort - 人気短編ドラマ)",
       "originalTitle": "NetShort - 人気短編ドラマ",
       "translatedTitle": "NetShort - 인기 단편 드라마",
-      "description": "기타 · NETSTORY PTE. LTD.",
-      "category": "기타",
-      "categoryId": "",
+      "description": "엔터테인먼트 · NETSTORY PTE. LTD.",
+      "category": "엔터테인먼트",
+      "categoryId": "ENTERTAINMENT",
       "developer": "NETSTORY PTE. LTD.",
       "icon": "https://play-lh.googleusercontent.com/ZL5yS20EujtVmUMMNHEnH9AI4NoqjUfjkolH7h44Ap0R2w3Vv1GF3zMGhB1KepyjCcH2a63rbbSl_PIwYxpr",
-      "url": "https://play.google.com/store/apps/details?id=com.netshort.abroad"
+      "url": "https://play.google.com/store/apps/details?id=com.netshort.abroad&hl=ja&gl=jp"
     },
     {
       "store": "google",
@@ -2161,12 +2161,12 @@
       "title": "인스타그램 (Instagram)",
       "originalTitle": "Instagram",
       "translatedTitle": "인스타그램",
-      "description": "기타 · Instagram",
-      "category": "기타",
-      "categoryId": "",
+      "description": "소셜 · Instagram",
+      "category": "소셜",
+      "categoryId": "SOCIAL",
       "developer": "Instagram",
       "icon": "https://play-lh.googleusercontent.com/yHi59jmO_lVamcyJ1i3rM1_E8bAiAspShnGjjURq05ipQQSUksO3QVEsXTegRSqul038-4YNA7O644XAcx251Q",
-      "url": "https://play.google.com/store/apps/details?id=com.instagram.android"
+      "url": "https://play.google.com/store/apps/details?id=com.instagram.android&hl=ja&gl=jp"
     },
     {
       "store": "google",
@@ -2176,12 +2176,12 @@
       "title": "우표 · 하나코 할머니 (スタンプ・花子おばあちゃん)",
       "originalTitle": "スタンプ・花子おばあちゃん",
       "translatedTitle": "우표 · 하나코 할머니",
-      "description": "기타 · Tank Game Inc.",
-      "category": "기타",
-      "categoryId": "",
+      "description": "엔터테인먼트 · Tank Game Inc.",
+      "category": "엔터테인먼트",
+      "categoryId": "ENTERTAINMENT",
       "developer": "Tank Game Inc.",
       "icon": "https://play-lh.googleusercontent.com/Ewlt0MJ148hcmhkj3oUdFTMLotph0n6AbIr_9MGHWLcm1ckS_okhiPm_lQp9qxsxSMlwLhvvbsxMV-OKvx9Xfxk",
-      "url": "https://play.google.com/store/apps/details?id=com.getsticker.wasticker.wastickerapp.stickerpack.blondgirl"
+      "url": "https://play.google.com/store/apps/details?id=com.getsticker.wasticker.wastickerapp.stickerpack.blondgirl&hl=ja&gl=jp"
     },
     {
       "store": "google",
@@ -2191,12 +2191,12 @@
       "title": "DramaWave - 화제의 단편·한일 드라마, 역전극! (DramaWave - 話題の短編・日韓ドラマ、逆転劇！)",
       "originalTitle": "DramaWave - 話題の短編・日韓ドラマ、逆転劇！",
       "translatedTitle": "DramaWave - 화제의 단편·한일 드라마, 역전극!",
-      "description": "기타 · SKYWORK AI PTE.LTD.",
-      "category": "기타",
-      "categoryId": "",
+      "description": "엔터테인먼트 · SKYWORK AI PTE.LTD.",
+      "category": "엔터테인먼트",
+      "categoryId": "ENTERTAINMENT",
       "developer": "SKYWORK AI PTE.LTD.",
       "icon": "https://play-lh.googleusercontent.com/qdfS5KciqnG6lP2HCxKT-CoeWrGdXsxe2sQgRR_-X-G_MVG5WZljSIesMUPkAkic0cjxgsp7gA6WMNXaq-lA6iU",
-      "url": "https://play.google.com/store/apps/details?id=com.dramawave.app"
+      "url": "https://play.google.com/store/apps/details?id=com.dramawave.app&hl=ja&gl=jp"
     },
     {
       "store": "google",
@@ -2206,12 +2206,12 @@
       "title": "TVer(티바) 민방 공식 TV 전달 서비스 (TVer(ティーバー) 民放公式テレビ配信サービス)",
       "originalTitle": "TVer(ティーバー) 民放公式テレビ配信サービス",
       "translatedTitle": "TVer(티바) 민방 공식 TV 전달 서비스",
-      "description": "기타 · TVer INC.",
-      "category": "기타",
-      "categoryId": "",
+      "description": "엔터테인먼트 · TVer INC.",
+      "category": "엔터테인먼트",
+      "categoryId": "ENTERTAINMENT",
       "developer": "TVer INC.",
       "icon": "https://play-lh.googleusercontent.com/m3KvFV3q3-akXdEQgOUZTeSC7JKmM5fJURaA2x8W6Le2HAQ86K5MZbppcy3Gi7ph8jqnQCrigOskWslpGbhokA",
-      "url": "https://play.google.com/store/apps/details?id=jp.hamitv.hamiand1"
+      "url": "https://play.google.com/store/apps/details?id=jp.hamitv.hamiand1&hl=ja&gl=jp"
     },
     {
       "store": "google",
@@ -2221,12 +2221,12 @@
       "title": "세트로그 (setlog)",
       "originalTitle": "setlog",
       "translatedTitle": "세트로그",
-      "description": "기타 · newchat",
-      "category": "기타",
-      "categoryId": "",
+      "description": "소셜 · newchat",
+      "category": "소셜",
+      "categoryId": "SOCIAL",
       "developer": "newchat",
       "icon": "https://play-lh.googleusercontent.com/gXIkdW_gZMwzlqS_9KSV0WmkLEYWfSDqwV3dGuE5aSUXz-J6C-h9OVH6CzVxi-JROz10sny1gXq5vAvU-_Rjqp0",
-      "url": "https://play.google.com/store/apps/details?id=com.newchat.setlog"
+      "url": "https://play.google.com/store/apps/details?id=com.newchat.setlog&hl=ja&gl=jp"
     },
     {
       "store": "google",
@@ -2236,12 +2236,12 @@
       "title": "페이페이 (PayPay)",
       "originalTitle": "PayPay",
       "translatedTitle": "페이페이",
-      "description": "기타 · PayPay Corporation",
-      "category": "기타",
-      "categoryId": "",
+      "description": "금융 · PayPay Corporation",
+      "category": "금융",
+      "categoryId": "FINANCE",
       "developer": "PayPay Corporation",
       "icon": "https://play-lh.googleusercontent.com/8gZ9WtwcqI32SKw_xOpWvqcvFPflU1d1-jsTfA1TabRGZKWecETvvgsfngatb7NYKI5AW4Odn1K59t-YSiPzrA",
-      "url": "https://play.google.com/store/apps/details?id=jp.ne.paypay.android.app"
+      "url": "https://play.google.com/store/apps/details?id=jp.ne.paypay.android.app&hl=ja&gl=jp"
     },
     {
       "store": "google",
@@ -2251,12 +2251,12 @@
       "title": "Migoo - 당신만의 AI 어시스턴트 (Migoo - あなただけのAIアシスタント)",
       "originalTitle": "Migoo - あなただけのAIアシスタント",
       "translatedTitle": "Migoo - 당신만의 AI 어시스턴트",
-      "description": "기타 · Migoo Developer",
-      "category": "기타",
-      "categoryId": "",
+      "description": "생산성 · Migoo Developer",
+      "category": "생산성",
+      "categoryId": "PRODUCTIVITY",
       "developer": "Migoo Developer",
       "icon": "https://play-lh.googleusercontent.com/U8C-9m7GsWV8-xa6borieDFpWXDlGZMmklgLj9Jy1H_gYS5-HSixRnbfegBRJh5CAjCTNQ4QOXEo79E0RnuB",
-      "url": "https://play.google.com/store/apps/details?id=ai.migoo.app"
+      "url": "https://play.google.com/store/apps/details?id=ai.migoo.app&hl=ja&gl=jp"
     },
     {
       "store": "google",
@@ -2266,12 +2266,12 @@
       "title": "좋은 날씨 (Nice Weather)",
       "originalTitle": "Nice Weather",
       "translatedTitle": "좋은 날씨",
-      "description": "기타 · Znd Digital",
-      "category": "기타",
-      "categoryId": "",
+      "description": "날씨 · Znd Digital",
+      "category": "날씨",
+      "categoryId": "WEATHER",
       "developer": "Znd Digital",
       "icon": "https://play-lh.googleusercontent.com/yd17ZArDqX5KF1s-RzYYL0nkBR_ZO6TzxVt-IjKZanA8jHnYWbEoh_NL0IZYicVsbk-BRJ6YBGrudGb9uOib",
-      "url": "https://play.google.com/store/apps/details?id=com.weather.realinfo.really"
+      "url": "https://play.google.com/store/apps/details?id=com.weather.realinfo.really&hl=ja&gl=jp"
     },
     {
       "store": "google",
@@ -2281,12 +2281,12 @@
       "title": "PDF 리더&편집기 (PDF Reader&Editor)",
       "originalTitle": "PDF Reader&Editor",
       "translatedTitle": "PDF 리더&편집기",
-      "description": "기타 · Devolper Abdelrahman Mohsen",
-      "category": "기타",
-      "categoryId": "",
+      "description": "비즈니스 · Devolper Abdelrahman Mohsen",
+      "category": "비즈니스",
+      "categoryId": "BUSINESS",
       "developer": "Devolper Abdelrahman Mohsen",
       "icon": "https://play-lh.googleusercontent.com/zi2zr1DKzNKrQZa4HDrUUmDMZVdIJ0W1eRDuGpis9UmBnKB9fjn3RiQKBX7aAzZpQ61PYcQPdy_GKKl6qX33xw",
-      "url": "https://play.google.com/store/apps/details?id=safe.viewpdf.com"
+      "url": "https://play.google.com/store/apps/details?id=safe.viewpdf.com&hl=ja&gl=jp"
     },
     {
       "store": "google",
@@ -2296,12 +2296,12 @@
       "title": "QR 코드 읽기 앱 (qrコード読み取りアプリ)",
       "originalTitle": "qrコード読み取りアプリ",
       "translatedTitle": "QR 코드 읽기 앱",
-      "description": "기타 · Gamma Play",
-      "category": "기타",
-      "categoryId": "",
+      "description": "도구 · Gamma Play",
+      "category": "도구",
+      "categoryId": "TOOLS",
       "developer": "Gamma Play",
       "icon": "https://play-lh.googleusercontent.com/0QweSUOytSSdqMwlE1AWZ1piX68JLr92qmpm4WkK0waLvi6lzSxO9PCWdXO50O4-HugHrO9FDqrPcPZ060EZnw",
-      "url": "https://play.google.com/store/apps/details?id=com.gamma.scan"
+      "url": "https://play.google.com/store/apps/details?id=com.gamma.scan&hl=ja&gl=jp"
     },
     {
       "store": "google",
@@ -2311,12 +2311,12 @@
       "title": "교토시 공식 앱 (京都市公式アプリ)",
       "originalTitle": "京都市公式アプリ",
       "translatedTitle": "교토시 공식 앱",
-      "description": "기타 · 京都市",
-      "category": "기타",
-      "categoryId": "",
+      "description": "라이프스타일 · 京都市",
+      "category": "라이프스타일",
+      "categoryId": "LIFESTYLE",
       "developer": "京都市",
       "icon": "https://play-lh.googleusercontent.com/mI0L8hfj08gtfE5iiliu3KKWF23Wpe-sGC6eHZnWm6jMrlWYJ5M63t00_31hJV6UM02FiibHSOG5Pem8Zglo",
-      "url": "https://play.google.com/store/apps/details?id=jp.lg.kyoto.city.pocketsign"
+      "url": "https://play.google.com/store/apps/details?id=jp.lg.kyoto.city.pocketsign&hl=ja&gl=jp"
     },
     {
       "store": "google",
@@ -2326,12 +2326,12 @@
       "title": "구글 제미나이 (Google Gemini)",
       "originalTitle": "Google Gemini",
       "translatedTitle": "구글 제미나이",
-      "description": "기타 · Google LLC",
-      "category": "기타",
-      "categoryId": "",
+      "description": "생산성 · Google LLC",
+      "category": "생산성",
+      "categoryId": "PRODUCTIVITY",
       "developer": "Google LLC",
       "icon": "https://play-lh.googleusercontent.com/C64IqPWyFoCZzXVxXVl0Y6mliiNlG_sZJsqul-SBvk9ZL0wJHlU0Eho2wvsBHhho0FT5XQtH55RVGerIwXF_MA",
-      "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.bard"
+      "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.bard&hl=ja&gl=jp"
     },
     {
       "store": "google",
@@ -2341,12 +2341,12 @@
       "title": "Air PDF - PDF 리더 (Air PDF - PDF Reader)",
       "originalTitle": "Air PDF - PDF Reader",
       "translatedTitle": "Air PDF - PDF 리더",
-      "description": "기타 · shinschustlind",
-      "category": "기타",
-      "categoryId": "",
+      "description": "도구 · shinschustlind",
+      "category": "도구",
+      "categoryId": "TOOLS",
       "developer": "shinschustlind",
       "icon": "https://play-lh.googleusercontent.com/QShT7EMBHSMZKOoIeO7uDbfbwUujEtiBfFnimx3HaBRk7GmJSvwk1mxCcsvATREgJDyX-B3NcsgQe79N1-1fiA",
-      "url": "https://play.google.com/store/apps/details?id=com.read.file.air"
+      "url": "https://play.google.com/store/apps/details?id=com.read.file.air&hl=ja&gl=jp"
     },
     {
       "store": "google",
@@ -2356,12 +2356,12 @@
       "title": "Grok이 AI를 생성하다 (Grok 生成AI)",
       "originalTitle": "Grok 生成AI",
       "translatedTitle": "Grok이 AI를 생성하다",
-      "description": "기타 · xAI",
-      "category": "기타",
-      "categoryId": "",
+      "description": "생산성 · xAI",
+      "category": "생산성",
+      "categoryId": "PRODUCTIVITY",
       "developer": "xAI",
       "icon": "https://play-lh.googleusercontent.com/-VnI9BrQO0PYyZG15YE6wt68KOmZ7AXGAqGti58g25ES1XdXWDBaaWUMIewHaiROwge6ibvn_b3WalmpgWGG",
-      "url": "https://play.google.com/store/apps/details?id=ai.x.grok"
+      "url": "https://play.google.com/store/apps/details?id=ai.x.grok&hl=ja&gl=jp"
     },
     {
       "store": "apple",
@@ -2746,12 +2746,12 @@
       "title": "X(이전 트위터) (X（前身为Twitter）)",
       "originalTitle": "X（前身为Twitter）",
       "translatedTitle": "X(이전 트위터)",
-      "description": "기타 · X Corp.",
-      "category": "기타",
-      "categoryId": "",
+      "description": "뉴스·잡지 · X Corp.",
+      "category": "뉴스·잡지",
+      "categoryId": "NEWS_AND_MAGAZINES",
       "developer": "X Corp.",
       "icon": "https://play-lh.googleusercontent.com/IsLsCD4eLC2CYvlkgTI6Z5TROj0BJIBgUF7BZ5eliTzyyTjqG_mbofeG4kw2s7oG_JZMSi5ErLz_qsDi169C8w",
-      "url": "https://play.google.com/store/apps/details?id=com.twitter.android"
+      "url": "https://play.google.com/store/apps/details?id=com.twitter.android&hl=zh-CN&gl=cn"
     },
     {
       "store": "google",
@@ -2761,12 +2761,12 @@
       "title": "유튜브 (YouTube)",
       "originalTitle": "YouTube",
       "translatedTitle": "유튜브",
-      "description": "기타 · Google LLC",
-      "category": "기타",
-      "categoryId": "",
+      "description": "동영상 · Google LLC",
+      "category": "동영상",
+      "categoryId": "VIDEO_PLAYERS",
       "developer": "Google LLC",
       "icon": "https://play-lh.googleusercontent.com/QNmuZQc9I6Zbe3mWnSr0hycnENqGFCI5p3yE29Hkxtf22T0IWS6zTrpxULLyyjWpB7ONAXDsDQXnXcVWokl3eg",
-      "url": "https://play.google.com/store/apps/details?id=com.google.android.youtube"
+      "url": "https://play.google.com/store/apps/details?id=com.google.android.youtube&hl=zh-CN&gl=cn"
     },
     {
       "store": "google",
@@ -2776,12 +2776,12 @@
       "title": "텔레그램 (Telegram)",
       "originalTitle": "Telegram",
       "translatedTitle": "텔레그램",
-      "description": "기타 · Telegram FZ-LLC",
-      "category": "기타",
-      "categoryId": "",
+      "description": "커뮤니케이션 · Telegram FZ-LLC",
+      "category": "커뮤니케이션",
+      "categoryId": "COMMUNICATION",
       "developer": "Telegram FZ-LLC",
       "icon": "https://play-lh.googleusercontent.com/PyZ3akMGXPV0tKKirKNwfO--PSQW3FHR6rD_H9mAaukZ8LiHyYFuBLeU8UZ2ok6r5SP79-3prkfybWKh98AZAD0",
-      "url": "https://play.google.com/store/apps/details?id=org.telegram.messenger"
+      "url": "https://play.google.com/store/apps/details?id=org.telegram.messenger&hl=zh-CN&gl=cn"
     },
     {
       "store": "google",
@@ -2791,12 +2791,12 @@
       "title": "인스타그램 (Instagram)",
       "originalTitle": "Instagram",
       "translatedTitle": "인스타그램",
-      "description": "기타 · Instagram",
-      "category": "기타",
-      "categoryId": "",
+      "description": "소셜 · Instagram",
+      "category": "소셜",
+      "categoryId": "SOCIAL",
       "developer": "Instagram",
       "icon": "https://play-lh.googleusercontent.com/yHi59jmO_lVamcyJ1i3rM1_E8bAiAspShnGjjURq05ipQQSUksO3QVEsXTegRSqul038-4YNA7O644XAcx251Q",
-      "url": "https://play.google.com/store/apps/details?id=com.instagram.android"
+      "url": "https://play.google.com/store/apps/details?id=com.instagram.android&hl=zh-CN&gl=cn"
     },
     {
       "store": "google",
@@ -2806,12 +2806,12 @@
       "title": "구글 크롬 브라우저 (Google Chrome 浏览器)",
       "originalTitle": "Google Chrome 浏览器",
       "translatedTitle": "구글 크롬 브라우저",
-      "description": "기타 · Google LLC",
-      "category": "기타",
-      "categoryId": "",
+      "description": "커뮤니케이션 · Google LLC",
+      "category": "커뮤니케이션",
+      "categoryId": "COMMUNICATION",
       "developer": "Google LLC",
       "icon": "https://play-lh.googleusercontent.com/gbkzfC3R1fXcGR4Uag1uRSN_123Tpo_KxhVZFLFCatmthFuO1bzPczUomFtxI42YYEQMJeAaZuIFVrTF58gZYg",
-      "url": "https://play.google.com/store/apps/details?id=com.android.chrome"
+      "url": "https://play.google.com/store/apps/details?id=com.android.chrome&hl=zh-CN&gl=cn"
     },
     {
       "store": "google",
@@ -2821,12 +2821,12 @@
       "title": "지메일 (Gmail)",
       "originalTitle": "Gmail",
       "translatedTitle": "지메일",
-      "description": "기타 · Google LLC",
-      "category": "기타",
-      "categoryId": "",
+      "description": "커뮤니케이션 · Google LLC",
+      "category": "커뮤니케이션",
+      "categoryId": "COMMUNICATION",
       "developer": "Google LLC",
       "icon": "https://play-lh.googleusercontent.com/c6KD_8-GvnGRJA4lRQ4y5YnUa3-LOeYAS7ubw1jWyB9bmr6Kj6zzRvh2A5WBB-Vd3e6zhElmhDv07fCJx2Fc",
-      "url": "https://play.google.com/store/apps/details?id=com.google.android.gm"
+      "url": "https://play.google.com/store/apps/details?id=com.google.android.gm&hl=zh-CN&gl=cn"
     },
     {
       "store": "google",
@@ -2836,12 +2836,12 @@
       "title": "오픈채팅 - AI 만능 비서 & 챗봇 (Open Chat - AI全能助手 & 聊天机器人)",
       "originalTitle": "Open Chat - AI全能助手 & 聊天机器人",
       "translatedTitle": "오픈채팅 - AI 만능 비서 & 챗봇",
-      "description": "기타 · AceTools Team",
-      "category": "기타",
-      "categoryId": "",
+      "description": "생산성 · AceTools Team",
+      "category": "생산성",
+      "categoryId": "PRODUCTIVITY",
       "developer": "AceTools Team",
       "icon": "https://play-lh.googleusercontent.com/kKfhKYApJOdudKga783gfdgI27cJUR8-FehiVBGzqx3GuIb4iiN8hwgmIn8HAu_C0efbGE-hHgcCqqyn0CSz-Q",
-      "url": "https://play.google.com/store/apps/details?id=open.chat.gpt.aichat.bot.free.app"
+      "url": "https://play.google.com/store/apps/details?id=open.chat.gpt.aichat.bot.free.app&hl=zh-CN&gl=cn"
     },
     {
       "store": "google",
@@ -2851,12 +2851,12 @@
       "title": "Google (Google)",
       "originalTitle": "Google",
       "translatedTitle": "Google",
-      "description": "기타 · Google LLC",
-      "category": "기타",
-      "categoryId": "",
+      "description": "도구 · Google LLC",
+      "category": "도구",
+      "categoryId": "TOOLS",
       "developer": "Google LLC",
       "icon": "https://play-lh.googleusercontent.com/xqk8hd6dMyffxE6iQa59cUt75EA-0YDvjnJlxH4z8W63-e5KwaWXbrNob6Q-OoH5SSDa78Y0I0YA3BB0zDVnB8w",
-      "url": "https://play.google.com/store/apps/details?id=com.google.android.googlequicksearchbox"
+      "url": "https://play.google.com/store/apps/details?id=com.google.android.googlequicksearchbox&hl=zh-CN&gl=cn"
     },
     {
       "store": "google",
@@ -2866,12 +2866,12 @@
       "title": "V2VPN - 빠르고 안정적인 무료 VPN (V2VPN - 高速、可靠的免费VPN)",
       "originalTitle": "V2VPN - 高速、可靠的免费VPN",
       "translatedTitle": "V2VPN - 빠르고 안정적인 무료 VPN",
-      "description": "기타 · V2VPN",
-      "category": "기타",
-      "categoryId": "",
+      "description": "도구 · V2VPN",
+      "category": "도구",
+      "categoryId": "TOOLS",
       "developer": "V2VPN",
       "icon": "https://play-lh.googleusercontent.com/MYx98wh22AEkDogEZMyvcLcG326_ku6cPPzVn6OyvjINGuUKkU-LwFHFaM3-_nV0rRSGD3TdVbfDAP_f87yw",
-      "url": "https://play.google.com/store/apps/details?id=com.wrongchao.v2vpn"
+      "url": "https://play.google.com/store/apps/details?id=com.wrongchao.v2vpn&hl=zh-CN&gl=cn"
     },
     {
       "store": "google",
@@ -2881,12 +2881,12 @@
       "title": "왓츠앱 메신저 (WhatsApp Messenger)",
       "originalTitle": "WhatsApp Messenger",
       "translatedTitle": "왓츠앱 메신저",
-      "description": "기타 · WhatsApp LLC",
-      "category": "기타",
-      "categoryId": "",
+      "description": "커뮤니케이션 · WhatsApp LLC",
+      "category": "커뮤니케이션",
+      "categoryId": "COMMUNICATION",
       "developer": "WhatsApp LLC",
       "icon": "https://play-lh.googleusercontent.com/Gqxk4T0uZsDwFp07DE-508hkyvcNmgFuRwPiwTEfF7D7OzGv1FdHDzEyMxNsSBZLOJlGpe3ULvVM2RgrRAlBqA",
-      "url": "https://play.google.com/store/apps/details?id=com.whatsapp"
+      "url": "https://play.google.com/store/apps/details?id=com.whatsapp&hl=zh-CN&gl=cn"
     },
     {
       "store": "google",
@@ -2896,12 +2896,12 @@
       "title": "Proton VPN: 빠르고 안전한 VPN (Proton VPN：快速、安全的 VPN)",
       "originalTitle": "Proton VPN：快速、安全的 VPN",
       "translatedTitle": "Proton VPN: 빠르고 안전한 VPN",
-      "description": "기타 · Proton AG",
-      "category": "기타",
-      "categoryId": "",
+      "description": "도구 · Proton AG",
+      "category": "도구",
+      "categoryId": "TOOLS",
       "developer": "Proton AG",
       "icon": "https://play-lh.googleusercontent.com/sNzvGfn-_S8SLmWYHxLjCn04oy53n1bzfkhxCV9Pp_qhEsQ8biu3D0XoAsUdwD-qfPvzMqZPcx-pjYIHSbp4wg",
-      "url": "https://play.google.com/store/apps/details?id=ch.protonvpn.android"
+      "url": "https://play.google.com/store/apps/details?id=ch.protonvpn.android&hl=zh-CN&gl=cn"
     },
     {
       "store": "google",
@@ -2911,12 +2911,12 @@
       "title": "구글 지도 (Google 地图)",
       "originalTitle": "Google 地图",
       "translatedTitle": "구글 지도",
-      "description": "기타 · Google LLC",
-      "category": "기타",
-      "categoryId": "",
+      "description": "여행·지역 · Google LLC",
+      "category": "여행·지역",
+      "categoryId": "TRAVEL_AND_LOCAL",
       "developer": "Google LLC",
       "icon": "https://play-lh.googleusercontent.com/B8pdO_2K5nBsF0g1h6dKwV_jQFLP-XombGDEQGtJT-mw1EUKCKJpa9lBGCF4rP_MwCsozSXyvI3z19g9R3J4",
-      "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.maps"
+      "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.maps&hl=zh-CN&gl=cn"
     },
     {
       "store": "google",
@@ -2926,12 +2926,12 @@
       "title": "PikPak ​​​​- 매우 빠른 저장 공간을 갖춘 개인 클라우드 디스크 (PikPak - 极速秒存的私密云盘)",
       "originalTitle": "PikPak - 极速秒存的私密云盘",
       "translatedTitle": "PikPak ​​​​- 매우 빠른 저장 공간을 갖춘 개인 클라우드 디스크",
-      "description": "기타 · PikCloud Pte. Ltd.",
-      "category": "기타",
-      "categoryId": "",
+      "description": "생산성 · PikCloud Pte. Ltd.",
+      "category": "생산성",
+      "categoryId": "PRODUCTIVITY",
       "developer": "PikCloud Pte. Ltd.",
       "icon": "https://play-lh.googleusercontent.com/QQe8BLEPfGvCLRNAdOEdGgOUaiTk1cOSxLjx43N8KKtJ4ZvKVHyA_kpg7gVlmgkU6xFc89U5hPySVM15LIQMPA",
-      "url": "https://play.google.com/store/apps/details?id=com.pikcloud.pikpak"
+      "url": "https://play.google.com/store/apps/details?id=com.pikcloud.pikpak&hl=zh-CN&gl=cn"
     },
     {
       "store": "google",
@@ -2941,12 +2941,12 @@
       "title": "Discord - 채팅, 게임, 킬타임 (Discord - 聊天，游戏，消磨时光)",
       "originalTitle": "Discord - 聊天，游戏，消磨时光",
       "translatedTitle": "Discord - 채팅, 게임, 킬타임",
-      "description": "기타 · Discord Inc.",
-      "category": "기타",
-      "categoryId": "",
+      "description": "커뮤니케이션 · Discord Inc.",
+      "category": "커뮤니케이션",
+      "categoryId": "COMMUNICATION",
       "developer": "Discord Inc.",
       "icon": "https://play-lh.googleusercontent.com/w2DdjDHGSj3DQElQQM0_J3PsNsALS-WD3CBeH0aXOYceR-F3aT02gFonhoFzz-Tc9ec8Dx9cLqh48-tzIFcP",
-      "url": "https://play.google.com/store/apps/details?id=com.discord"
+      "url": "https://play.google.com/store/apps/details?id=com.discord&hl=zh-CN&gl=cn"
     },
     {
       "store": "google",
@@ -2956,12 +2956,12 @@
       "title": "증기 (Steam)",
       "originalTitle": "Steam",
       "translatedTitle": "증기",
-      "description": "기타 · Valve Corporation",
-      "category": "기타",
-      "categoryId": "",
+      "description": "엔터테인먼트 · Valve Corporation",
+      "category": "엔터테인먼트",
+      "categoryId": "ENTERTAINMENT",
       "developer": "Valve Corporation",
       "icon": "https://play-lh.googleusercontent.com/E_x2GPSJakCdUYfECBptVyFoVnC4BxIPy3K4OdbwNyEtEJkRAY_J-Lo_Ltiybq6LiJ_aZCIzvqLv5h4Fbk91",
-      "url": "https://play.google.com/store/apps/details?id=com.valvesoftware.android.steam.community"
+      "url": "https://play.google.com/store/apps/details?id=com.valvesoftware.android.steam.community&hl=zh-CN&gl=cn"
     },
     {
       "store": "google",
@@ -2971,12 +2971,12 @@
       "title": "섀도우로켓 (Shadowrocket)",
       "originalTitle": "Shadowrocket",
       "translatedTitle": "섀도우로켓",
-      "description": "기타 · Cross Ltd.",
-      "category": "기타",
-      "categoryId": "",
+      "description": "도구 · Cross Ltd.",
+      "category": "도구",
+      "categoryId": "TOOLS",
       "developer": "Cross Ltd.",
       "icon": "https://play-lh.googleusercontent.com/MhAXBxtxOH-q5uhLu3Eqws7A07N2_2PqhN02p9W4rVqRRinvuKON3fcdhH8tBFSwI9Ua-epCLIgS7U4k5Oxc5hI",
-      "url": "https://play.google.com/store/apps/details?id=com.v2cross.proxy"
+      "url": "https://play.google.com/store/apps/details?id=com.v2cross.proxy&hl=zh-CN&gl=cn"
     },
     {
       "store": "google",
@@ -2986,12 +2986,12 @@
       "title": "텔레그램X (Telegram X)",
       "originalTitle": "Telegram X",
       "translatedTitle": "텔레그램X",
-      "description": "기타 · Telegram FZ-LLC",
-      "category": "기타",
-      "categoryId": "",
+      "description": "소셜 · Telegram FZ-LLC",
+      "category": "소셜",
+      "categoryId": "SOCIAL",
       "developer": "Telegram FZ-LLC",
       "icon": "https://play-lh.googleusercontent.com/cVX0DX8dvrC2Q5A0E3swXM1bjGz2fyuGNrarVG144xNltRAAIipbNVCtzMao9yeFNRCLrO9n0sJmX05ahypGOsM",
-      "url": "https://play.google.com/store/apps/details?id=org.thunderdog.challegram"
+      "url": "https://play.google.com/store/apps/details?id=org.thunderdog.challegram&hl=zh-CN&gl=cn"
     },
     {
       "store": "google",
@@ -3001,12 +3001,12 @@
       "title": "스레드 (Threads)",
       "originalTitle": "Threads",
       "translatedTitle": "스레드",
-      "description": "기타 · Instagram",
-      "category": "기타",
-      "categoryId": "",
+      "description": "소셜 · Instagram",
+      "category": "소셜",
+      "categoryId": "SOCIAL",
       "developer": "Instagram",
       "icon": "https://play-lh.googleusercontent.com/6PzXaP0KaRU4DifAfsXKbWNVA3JPrP9uklvEh5EDhzPRdPfHV4tzszhAavQa4bq0YGdbnphBucz9vEUXiu1Ebg",
-      "url": "https://play.google.com/store/apps/details?id=com.instagram.barcelona"
+      "url": "https://play.google.com/store/apps/details?id=com.instagram.barcelona&hl=zh-CN&gl=cn"
     },
     {
       "store": "google",
@@ -3016,12 +3016,12 @@
       "title": "GitHub (GitHub)",
       "originalTitle": "GitHub",
       "translatedTitle": "GitHub",
-      "description": "기타 · GitHub",
-      "category": "기타",
-      "categoryId": "",
+      "description": "생산성 · GitHub",
+      "category": "생산성",
+      "categoryId": "PRODUCTIVITY",
       "developer": "GitHub",
       "icon": "https://play-lh.googleusercontent.com/nxpwi4UD84GNJuJ42S9U0f3lGDsHu8VkIDPCccFmJL6kyNVb1O3pTY1rl1YZICLBk6EcWIaX6n9prCbdUoQEOw",
-      "url": "https://play.google.com/store/apps/details?id=com.github.android"
+      "url": "https://play.google.com/store/apps/details?id=com.github.android&hl=zh-CN&gl=cn"
     },
     {
       "store": "google",
@@ -3031,12 +3031,12 @@
       "title": "구글 OTP (Google 身份验证器)",
       "originalTitle": "Google 身份验证器",
       "translatedTitle": "구글 OTP",
-      "description": "기타 · Google LLC",
-      "category": "기타",
-      "categoryId": "",
+      "description": "도구 · Google LLC",
+      "category": "도구",
+      "categoryId": "TOOLS",
       "developer": "Google LLC",
       "icon": "https://play-lh.googleusercontent.com/4qyuLCJkVpVfoIeu6b0ld6LkKzPHHby9ZilLbxhUZLK4f64o65oHGW-ZsuVe3LAWDVuIZpkQISmmVvA4-qnofw",
-      "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2"
+      "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=zh-CN&gl=cn"
     },
     {
       "store": "google",
@@ -3046,12 +3046,12 @@
       "title": "레딧 (Reddit)",
       "originalTitle": "Reddit",
       "translatedTitle": "레딧",
-      "description": "기타 · reddit Inc.",
-      "category": "기타",
-      "categoryId": "",
+      "description": "소셜 · reddit Inc.",
+      "category": "소셜",
+      "categoryId": "SOCIAL",
       "developer": "reddit Inc.",
       "icon": "https://play-lh.googleusercontent.com/8FVS0kvM60JwqZWRNzBIlwrZZxJa8vpli8IWaaTo8QXRe1PHmCNJ8UpWoXkGPV3jKEaTY2OVAeYoisOnGJXY",
-      "url": "https://play.google.com/store/apps/details?id=com.reddit.frontpage"
+      "url": "https://play.google.com/store/apps/details?id=com.reddit.frontpage&hl=zh-CN&gl=cn"
     },
     {
       "store": "google",
@@ -3061,12 +3061,12 @@
       "title": "구글 번역 (Google 翻译)",
       "originalTitle": "Google 翻译",
       "translatedTitle": "구글 번역",
-      "description": "기타 · Google LLC",
-      "category": "기타",
-      "categoryId": "",
+      "description": "도구 · Google LLC",
+      "category": "도구",
+      "categoryId": "TOOLS",
       "developer": "Google LLC",
       "icon": "https://play-lh.googleusercontent.com/muIZuJn9awFB9XWa4g0aiqFxHbgAFVVfHVQrEmos46v29NfyZX5z1n1ZYBjH3Zvg80Dm90TI2ZdQZMr2cLMcCg",
-      "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.translate"
+      "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.translate&hl=zh-CN&gl=cn"
     },
     {
       "store": "google",
@@ -3076,12 +3076,12 @@
       "title": "부싯깃 (Tinder)",
       "originalTitle": "Tinder",
       "translatedTitle": "부싯깃",
-      "description": "기타 · Tinder LLC",
-      "category": "기타",
-      "categoryId": "",
+      "description": "데이트 · Tinder LLC",
+      "category": "데이트",
+      "categoryId": "DATING",
       "developer": "Tinder LLC",
       "icon": "https://play-lh.googleusercontent.com/VaExVMyjnrd9PkIAKchSBK6Eo7zb4A2rriDbD3pUvmveAy46StPS-Hs5mYVIP9upZV4YCJxRoQRnj77FAaQd2A",
-      "url": "https://play.google.com/store/apps/details?id=com.tinder"
+      "url": "https://play.google.com/store/apps/details?id=com.tinder&hl=zh-CN&gl=cn"
     },
     {
       "store": "google",
@@ -3091,12 +3091,12 @@
       "title": "허브 비디오 다운로더 (Hub Video Downloader)",
       "originalTitle": "Hub Video Downloader",
       "translatedTitle": "허브 비디오 다운로더",
-      "description": "기타 · DOSA Apps",
-      "category": "기타",
-      "categoryId": "",
+      "description": "동영상 · DOSA Apps",
+      "category": "동영상",
+      "categoryId": "VIDEO_PLAYERS",
       "developer": "DOSA Apps",
       "icon": "https://play-lh.googleusercontent.com/KM2DCIFpt8qc_1150CumeH5rXCqgABmFVXFfQwQKC8wh8V5mF05R_8QNoX_wTNIWrytBpWP9ayRJ7_ayLM6jbws",
-      "url": "https://play.google.com/store/apps/details?id=hub.browser.video.downloader.saver"
+      "url": "https://play.google.com/store/apps/details?id=hub.browser.video.downloader.saver&hl=zh-CN&gl=cn"
     },
     {
       "store": "google",
@@ -3106,12 +3106,12 @@
       "title": "실시간 지구 지도 - 웹캠, GPS 및 위성 보기 (实时地球地图–网络摄像头，GPS和卫星视图)",
       "originalTitle": "实时地球地图–网络摄像头，GPS和卫星视图",
       "translatedTitle": "실시간 지구 지도 - 웹캠, GPS 및 위성 보기",
-      "description": "기타 · TarrySoft",
-      "category": "기타",
-      "categoryId": "",
+      "description": "지도·내비게이션 · TarrySoft",
+      "category": "지도·내비게이션",
+      "categoryId": "MAPS_AND_NAVIGATION",
       "developer": "TarrySoft",
       "icon": "https://play-lh.googleusercontent.com/0Tv49FKiaJPQS17XAdQScWItGoqwv5GnH2bw9Nojmgge3a8H4El3szQZh2T3JOHGO-Cgs2u6DSlixXOl52y6",
-      "url": "https://play.google.com/store/apps/details?id=com.live.earthmap.streetview.livecam"
+      "url": "https://play.google.com/store/apps/details?id=com.live.earthmap.streetview.livecam&hl=zh-CN&gl=cn"
     },
     {
       "store": "apple",
@@ -3496,12 +3496,12 @@
       "title": "챗GPT (ChatGPT)",
       "originalTitle": "ChatGPT",
       "translatedTitle": "챗GPT",
-      "description": "기타 · OpenAI",
-      "category": "기타",
-      "categoryId": "",
+      "description": "생산성 · OpenAI",
+      "category": "생산성",
+      "categoryId": "PRODUCTIVITY",
       "developer": "OpenAI",
       "icon": "https://play-lh.googleusercontent.com/T9J8e9oxxPd600j_KPM4KK2GHfNpUpGBdTy8lHPXBXpOUfGusRuZXj0UMgFNrP8we6LVt9V-AibEgcLootE6VK4",
-      "url": "https://play.google.com/store/apps/details?id=com.openai.chatgpt"
+      "url": "https://play.google.com/store/apps/details?id=com.openai.chatgpt&hl=fr&gl=fr"
     },
     {
       "store": "google",
@@ -3511,12 +3511,12 @@
       "title": "DramaWave - 코트 및 릴 (DramaWave - Courts & Reels)",
       "originalTitle": "DramaWave - Courts & Reels",
       "translatedTitle": "DramaWave - 코트 및 릴",
-      "description": "기타 · SKYWORK AI PTE.LTD.",
-      "category": "기타",
-      "categoryId": "",
+      "description": "엔터테인먼트 · SKYWORK AI PTE.LTD.",
+      "category": "엔터테인먼트",
+      "categoryId": "ENTERTAINMENT",
       "developer": "SKYWORK AI PTE.LTD.",
       "icon": "https://play-lh.googleusercontent.com/qdfS5KciqnG6lP2HCxKT-CoeWrGdXsxe2sQgRR_-X-G_MVG5WZljSIesMUPkAkic0cjxgsp7gA6WMNXaq-lA6iU",
-      "url": "https://play.google.com/store/apps/details?id=com.dramawave.app"
+      "url": "https://play.google.com/store/apps/details?id=com.dramawave.app&hl=fr&gl=fr"
     },
     {
       "store": "google",
@@ -3526,12 +3526,12 @@
       "title": "역할 지도 : 내비게이션 (Roole Map : Navigation)",
       "originalTitle": "Roole Map : Navigation",
       "translatedTitle": "역할 지도 : 내비게이션",
-      "description": "기타 · Roole",
-      "category": "기타",
-      "categoryId": "",
+      "description": "지도·내비게이션 · Roole",
+      "category": "지도·내비게이션",
+      "categoryId": "MAPS_AND_NAVIGATION",
       "developer": "Roole",
       "icon": "https://play-lh.googleusercontent.com/tG0A7D6RplxvBzF2niU5btSa0cz2z9pSKF-1Sp1U6RB2VwpIsWvh1HJRX2ZSxsNcMEZH1ZMfSEmMBnXKsV2LCg",
-      "url": "https://play.google.com/store/apps/details?id=com.roole.roolemap"
+      "url": "https://play.google.com/store/apps/details?id=com.roole.roolemap&hl=fr&gl=fr"
     },
     {
       "store": "google",
@@ -3541,12 +3541,12 @@
       "title": "왓츠앱 메신저 (WhatsApp Messenger)",
       "originalTitle": "WhatsApp Messenger",
       "translatedTitle": "왓츠앱 메신저",
-      "description": "기타 · WhatsApp LLC",
-      "category": "기타",
-      "categoryId": "",
+      "description": "커뮤니케이션 · WhatsApp LLC",
+      "category": "커뮤니케이션",
+      "categoryId": "COMMUNICATION",
       "developer": "WhatsApp LLC",
       "icon": "https://play-lh.googleusercontent.com/Gqxk4T0uZsDwFp07DE-508hkyvcNmgFuRwPiwTEfF7D7OzGv1FdHDzEyMxNsSBZLOJlGpe3ULvVM2RgrRAlBqA",
-      "url": "https://play.google.com/store/apps/details?id=com.whatsapp"
+      "url": "https://play.google.com/store/apps/details?id=com.whatsapp&hl=fr&gl=fr"
     },
     {
       "store": "google",
@@ -3556,12 +3556,12 @@
       "title": "TikTok: 비디오, 라이브, 음악 (TikTok : Vidéos, LIVE, Musique)",
       "originalTitle": "TikTok : Vidéos, LIVE, Musique",
       "translatedTitle": "TikTok: 비디오, 라이브, 음악",
-      "description": "기타 · TikTok Pte. Ltd.",
-      "category": "기타",
-      "categoryId": "",
+      "description": "소셜 · TikTok Pte. Ltd.",
+      "category": "소셜",
+      "categoryId": "SOCIAL",
       "developer": "TikTok Pte. Ltd.",
       "icon": "https://play-lh.googleusercontent.com/2o7iuqPe-0msP3DvNhzoOgNo4eZ6GkL_RtGVeKyBn5UBQAW5cw-GW5V3wDOHB1yTQuqWzrFLFOv2u4_5ea1uhg",
-      "url": "https://play.google.com/store/apps/details?id=com.zhiliaoapp.musically"
+      "url": "https://play.google.com/store/apps/details?id=com.zhiliaoapp.musically&hl=fr&gl=fr"
     },
     {
       "store": "google",
@@ -3571,12 +3571,12 @@
       "title": "DramaBox - 영화와 드라마 코트 (DramaBox - Film et Drame Court)",
       "originalTitle": "DramaBox - Film et Drame Court",
       "translatedTitle": "DramaBox - 영화와 드라마 코트",
-      "description": "기타 · STORYMATRIX",
-      "category": "기타",
-      "categoryId": "",
+      "description": "엔터테인먼트 · STORYMATRIX",
+      "category": "엔터테인먼트",
+      "categoryId": "ENTERTAINMENT",
       "developer": "STORYMATRIX",
       "icon": "https://play-lh.googleusercontent.com/GGi0g65ySR86svFuxny2J2FgfkTZuFlJcftmeAZ_bZ7sM86XfwUNL1h9omSyoRKha1c1-_BoFkUbyJz2VSXI",
-      "url": "https://play.google.com/store/apps/details?id=com.storymatrix.drama"
+      "url": "https://play.google.com/store/apps/details?id=com.storymatrix.drama&hl=fr&gl=fr"
     },
     {
       "store": "google",
@@ -3586,12 +3586,12 @@
       "title": "Waze 내비게이션 및 교통 (Navigation Waze et trafic)",
       "originalTitle": "Navigation Waze et trafic",
       "translatedTitle": "Waze 내비게이션 및 교통",
-      "description": "기타 · Waze",
-      "category": "기타",
-      "categoryId": "",
+      "description": "지도·내비게이션 · Waze",
+      "category": "지도·내비게이션",
+      "categoryId": "MAPS_AND_NAVIGATION",
       "developer": "Waze",
       "icon": "https://play-lh.googleusercontent.com/d4dltd4baeDGnfJD1H-ut68ERsIynfywij9zHRL7ioB-PJW3ENw-bFgg08KGPo8zQfSyRW36e58xhlqQ0pE1gg",
-      "url": "https://play.google.com/store/apps/details?id=com.waze"
+      "url": "https://play.google.com/store/apps/details?id=com.waze&hl=fr&gl=fr"
     },
     {
       "store": "google",
@@ -3601,12 +3601,12 @@
       "title": "CapCut – 비디오 편집기 (CapCut - Éditeur vidéo)",
       "originalTitle": "CapCut - Éditeur vidéo",
       "translatedTitle": "CapCut – 비디오 편집기",
-      "description": "기타 · Bytedance Pte. Ltd.",
-      "category": "기타",
-      "categoryId": "",
+      "description": "동영상 · Bytedance Pte. Ltd.",
+      "category": "동영상",
+      "categoryId": "VIDEO_PLAYERS",
       "developer": "Bytedance Pte. Ltd.",
       "icon": "https://play-lh.googleusercontent.com/M78HyakHaxKrjoeqYx41E9DXfVYYtx67nvc7Ks4G4zFQeaAJdGCi8gzzGSrHIwlrmnJS6zD9S4fAXqdEwfuHQAQ",
-      "url": "https://play.google.com/store/apps/details?id=com.lemon.lvoverseas"
+      "url": "https://play.google.com/store/apps/details?id=com.lemon.lvoverseas&hl=fr&gl=fr"
     },
     {
       "store": "google",
@@ -3616,12 +3616,12 @@
       "title": "스냅챗 (Snapchat)",
       "originalTitle": "Snapchat",
       "translatedTitle": "스냅챗",
-      "description": "기타 · Snap Inc",
-      "category": "기타",
-      "categoryId": "",
+      "description": "커뮤니케이션 · Snap Inc",
+      "category": "커뮤니케이션",
+      "categoryId": "COMMUNICATION",
       "developer": "Snap Inc",
       "icon": "https://play-lh.googleusercontent.com/nOJWJoDAzuRSHmlFfpzHXAj8UbTJwk_JGYf0uAPTKPtiiIX_2Y7r5ATO1ZtxHRqaFTqfIDZ40PnBK4hukeJh",
-      "url": "https://play.google.com/store/apps/details?id=com.snapchat.android"
+      "url": "https://play.google.com/store/apps/details?id=com.snapchat.android&hl=fr&gl=fr"
     },
     {
       "store": "google",
@@ -3631,12 +3631,12 @@
       "title": "인스타그램 (Instagram)",
       "originalTitle": "Instagram",
       "translatedTitle": "인스타그램",
-      "description": "기타 · Instagram",
-      "category": "기타",
-      "categoryId": "",
+      "description": "소셜 · Instagram",
+      "category": "소셜",
+      "categoryId": "SOCIAL",
       "developer": "Instagram",
       "icon": "https://play-lh.googleusercontent.com/yHi59jmO_lVamcyJ1i3rM1_E8bAiAspShnGjjURq05ipQQSUksO3QVEsXTegRSqul038-4YNA7O644XAcx251Q",
-      "url": "https://play.google.com/store/apps/details?id=com.instagram.android"
+      "url": "https://play.google.com/store/apps/details?id=com.instagram.android&hl=fr&gl=fr"
     },
     {
       "store": "google",
@@ -3646,12 +3646,12 @@
       "title": "WePlay - 즈앤챗 (WePlay - Jeu & Chat)",
       "originalTitle": "WePlay - Jeu & Chat",
       "translatedTitle": "WePlay - 즈앤챗",
-      "description": "기타 · WEJOY Pte. Ltd.",
-      "category": "기타",
-      "categoryId": "",
+      "description": "엔터테인먼트 · WEJOY Pte. Ltd.",
+      "category": "엔터테인먼트",
+      "categoryId": "ENTERTAINMENT",
       "developer": "WEJOY Pte. Ltd.",
       "icon": "https://play-lh.googleusercontent.com/ke5EtAx5t2gjSo6UwgI8N31lEL1LbGuEXMo-j_6W7Xw8UWBPud9uRPH371yL4X-6GxaPURByvAIl9poZxk7Z_g",
-      "url": "https://play.google.com/store/apps/details?id=com.wejoy.weplay.us"
+      "url": "https://play.google.com/store/apps/details?id=com.wejoy.weplay.us&hl=fr&gl=fr"
     },
     {
       "store": "google",
@@ -3661,12 +3661,12 @@
       "title": "메타AI (Meta AI)",
       "originalTitle": "Meta AI",
       "translatedTitle": "메타AI",
-      "description": "기타 · Meta Platforms, Inc.",
-      "category": "기타",
-      "categoryId": "",
+      "description": "생산성 · Meta Platforms, Inc.",
+      "category": "생산성",
+      "categoryId": "PRODUCTIVITY",
       "developer": "Meta Platforms, Inc.",
       "icon": "https://play-lh.googleusercontent.com/o3R5N2Pz3oLVfMCbDWhAWA1WNUxewxwhRgLJUCHVR3QQA57oWXt6Yw5lYN-Huj0ZYxLZ3_7ZwcnvmbfDiv4q",
-      "url": "https://play.google.com/store/apps/details?id=com.facebook.stella"
+      "url": "https://play.google.com/store/apps/details?id=com.facebook.stella&hl=fr&gl=fr"
     },
     {
       "store": "google",
@@ -3676,12 +3676,12 @@
       "title": "PDF 리더, PDF 뷰어 (Lecteur PDF, Visualiseur PDF)",
       "originalTitle": "Lecteur PDF, Visualiseur PDF",
       "translatedTitle": "PDF 리더, PDF 뷰어",
-      "description": "기타 · Office Suite Pro",
-      "category": "기타",
-      "categoryId": "",
+      "description": "생산성 · Office Suite Pro",
+      "category": "생산성",
+      "categoryId": "PRODUCTIVITY",
       "developer": "Office Suite Pro",
       "icon": "https://play-lh.googleusercontent.com/JXRayZr9vfqTWA_POf55l4jsA0v8yPtFrTZlBaSzROUq3aTIx-K0hb55OC-xXGQLOORH6kg57HVFsk6wNStbXg",
-      "url": "https://play.google.com/store/apps/details?id=com.trusted.pdfeditor.pdfreader"
+      "url": "https://play.google.com/store/apps/details?id=com.trusted.pdfeditor.pdfreader&hl=fr&gl=fr"
     },
     {
       "store": "google",
@@ -3691,12 +3691,12 @@
       "title": "클린마스터 (Clean Master)",
       "originalTitle": "Clean Master",
       "translatedTitle": "클린마스터",
-      "description": "기타 · A.M. Ahmed Dev",
-      "category": "기타",
-      "categoryId": "",
+      "description": "생산성 · A.M. Ahmed Dev",
+      "category": "생산성",
+      "categoryId": "PRODUCTIVITY",
       "developer": "A.M. Ahmed Dev",
       "icon": "https://play-lh.googleusercontent.com/NApXbOuDNMKqg6j6wxceDd-nf8QYbfgr5zZQxoTYi7obUrw3c5e8LkRv4SpxXoLHnq7mSDN1y63H2Rku4R5kxXo",
-      "url": "https://play.google.com/store/apps/details?id=com.cleanmaster.clma"
+      "url": "https://play.google.com/store/apps/details?id=com.cleanmaster.clma&hl=fr&gl=fr"
     },
     {
       "store": "google",
@@ -3706,12 +3706,12 @@
       "title": "앤트로픽 클로드 (Claude by Anthropic)",
       "originalTitle": "Claude by Anthropic",
       "translatedTitle": "앤트로픽 클로드",
-      "description": "기타 · Anthropic PBC",
-      "category": "기타",
-      "categoryId": "",
+      "description": "생산성 · Anthropic PBC",
+      "category": "생산성",
+      "categoryId": "PRODUCTIVITY",
       "developer": "Anthropic PBC",
       "icon": "https://play-lh.googleusercontent.com/YeFCFSW5LkBVdsEAL_fjzxDxTbhKz31j1uZUfDbSaCeM0t4Bi3SqyHTWzWsUsZnbwjofXhYajitG_gr2_B2xil8",
-      "url": "https://play.google.com/store/apps/details?id=com.anthropic.claude"
+      "url": "https://play.google.com/store/apps/details?id=com.anthropic.claude&hl=fr&gl=fr"
     },
     {
       "store": "google",
@@ -3721,12 +3721,12 @@
       "title": "leboncoin, 분류 광고 (leboncoin, petites annonces)",
       "originalTitle": "leboncoin, petites annonces",
       "translatedTitle": "leboncoin, 분류 광고",
-      "description": "기타 · LBC France",
-      "category": "기타",
-      "categoryId": "",
+      "description": "쇼핑 · LBC France",
+      "category": "쇼핑",
+      "categoryId": "SHOPPING",
       "developer": "LBC France",
       "icon": "https://play-lh.googleusercontent.com/Ur50rXEvAo7MIKBP_LlEUBBlIyK-gkqVrN8Bbe_oo640p-4rzLdAzvFNdf0Z8AIEJSIy550czQV-w2kTChcigyM",
-      "url": "https://play.google.com/store/apps/details?id=fr.leboncoin"
+      "url": "https://play.google.com/store/apps/details?id=fr.leboncoin&hl=fr&gl=fr"
     },
     {
       "store": "google",
@@ -3736,12 +3736,12 @@
       "title": "스텔라리움 - 하늘 지도 (Stellarium - Carte du ciel)",
       "originalTitle": "Stellarium - Carte du ciel",
       "translatedTitle": "스텔라리움 - 하늘 지도",
-      "description": "기타 · Noctua Software",
-      "category": "기타",
-      "categoryId": "",
+      "description": "교육 · Noctua Software",
+      "category": "교육",
+      "categoryId": "EDUCATION",
       "developer": "Noctua Software",
       "icon": "https://play-lh.googleusercontent.com/UiUfUaonnw8gKqR91CamVZeJu7AuPG5TgBgX51niEwuSua5mu4Bmlgs8w0cwmIzYctJCjRtdW7KlmzdN8p8lKw",
-      "url": "https://play.google.com/store/apps/details?id=com.noctuasoftware.stellarium_free"
+      "url": "https://play.google.com/store/apps/details?id=com.noctuasoftware.stellarium_free&hl=fr&gl=fr"
     },
     {
       "store": "google",
@@ -3751,12 +3751,12 @@
       "title": "가게 (Shop)",
       "originalTitle": "Shop",
       "translatedTitle": "가게",
-      "description": "기타 · Shopify Inc.",
-      "category": "기타",
-      "categoryId": "",
+      "description": "쇼핑 · Shopify Inc.",
+      "category": "쇼핑",
+      "categoryId": "SHOPPING",
       "developer": "Shopify Inc.",
       "icon": "https://play-lh.googleusercontent.com/Xz6JkG6gOYyB_Clk--dFNZa2eyu3T1bD8T1DQU7fe7jfBTpClPgjhBdrGe7MVFWTUBVaouhqzsHtYUEfOo4n",
-      "url": "https://play.google.com/store/apps/details?id=com.shopify.arrive"
+      "url": "https://play.google.com/store/apps/details?id=com.shopify.arrive&hl=fr&gl=fr"
     },
     {
       "store": "google",
@@ -3766,12 +3766,12 @@
       "title": "듀오링고: 언어와 체스 (Duolingo : Langues et échecs)",
       "originalTitle": "Duolingo : Langues et échecs",
       "translatedTitle": "듀오링고: 언어와 체스",
-      "description": "기타 · Duolingo",
-      "category": "기타",
-      "categoryId": "",
+      "description": "교육 · Duolingo",
+      "category": "교육",
+      "categoryId": "EDUCATION",
       "developer": "Duolingo",
       "icon": "https://play-lh.googleusercontent.com/Q-wEiKezZQEspFNNrWfKjcEgAqdWy_b98_tXTAZaXGgm9y1HZ1zi-JSZXA7Tmur9MjcM0xoIA0BdXEN0Bt54",
-      "url": "https://play.google.com/store/apps/details?id=com.duolingo"
+      "url": "https://play.google.com/store/apps/details?id=com.duolingo&hl=fr&gl=fr"
     },
     {
       "store": "google",
@@ -3781,12 +3781,12 @@
       "title": "폴라스텝 (Polarsteps)",
       "originalTitle": "Polarsteps",
       "translatedTitle": "폴라스텝",
-      "description": "기타 · Polarsteps Travel",
-      "category": "기타",
-      "categoryId": "",
+      "description": "여행·지역 · Polarsteps Travel",
+      "category": "여행·지역",
+      "categoryId": "TRAVEL_AND_LOCAL",
       "developer": "Polarsteps Travel",
       "icon": "https://play-lh.googleusercontent.com/J_Id4KKYcRWgopP_rl2rwwyemVMI6KMbWdXv_-Xw4ZXS6LWskiQuLuLk40fyqLYX55GmpnFiLya3yoQxqjxy",
-      "url": "https://play.google.com/store/apps/details?id=com.polarsteps"
+      "url": "https://play.google.com/store/apps/details?id=com.polarsteps&hl=fr&gl=fr"
     },
     {
       "store": "google",
@@ -3796,12 +3796,12 @@
       "title": "텔레그램 (Telegram)",
       "originalTitle": "Telegram",
       "translatedTitle": "텔레그램",
-      "description": "기타 · Telegram FZ-LLC",
-      "category": "기타",
-      "categoryId": "",
+      "description": "커뮤니케이션 · Telegram FZ-LLC",
+      "category": "커뮤니케이션",
+      "categoryId": "COMMUNICATION",
       "developer": "Telegram FZ-LLC",
       "icon": "https://play-lh.googleusercontent.com/PyZ3akMGXPV0tKKirKNwfO--PSQW3FHR6rD_H9mAaukZ8LiHyYFuBLeU8UZ2ok6r5SP79-3prkfybWKh98AZAD0",
-      "url": "https://play.google.com/store/apps/details?id=org.telegram.messenger"
+      "url": "https://play.google.com/store/apps/details?id=org.telegram.messenger&hl=fr&gl=fr"
     },
     {
       "store": "google",
@@ -3811,12 +3811,12 @@
       "title": "Revolut — 은행 그 이상 (Revolut — Plus qu'une banque)",
       "originalTitle": "Revolut — Plus qu'une banque",
       "translatedTitle": "Revolut — 은행 그 이상",
-      "description": "기타 · Revolut Ltd",
-      "category": "기타",
-      "categoryId": "",
+      "description": "금융 · Revolut Ltd",
+      "category": "금융",
+      "categoryId": "FINANCE",
       "developer": "Revolut Ltd",
       "icon": "https://play-lh.googleusercontent.com/LVmCH4DeBgO8Gyp69sApakf-KSy5Xf9ytV-NUmZnB2ZUKuIS0ee6cSACkalsLKuoQ1MorU7-0wW1xKZ6FUlS",
-      "url": "https://play.google.com/store/apps/details?id=com.revolut.revolut"
+      "url": "https://play.google.com/store/apps/details?id=com.revolut.revolut&hl=fr&gl=fr"
     },
     {
       "store": "google",
@@ -3826,12 +3826,12 @@
       "title": "핀터레스트 (Pinterest)",
       "originalTitle": "Pinterest",
       "translatedTitle": "핀터레스트",
-      "description": "기타 · Pinterest",
-      "category": "기타",
-      "categoryId": "",
+      "description": "라이프스타일 · Pinterest",
+      "category": "라이프스타일",
+      "categoryId": "LIFESTYLE",
       "developer": "Pinterest",
       "icon": "https://play-lh.googleusercontent.com/VExMwhu9Fe5kz72YnPWP6mHrNA5WfgZ-PJMnBnQmXFpLncTAOaaHtK4b8w7b2xxGxtqycDatYslVyNSLucl9QA",
-      "url": "https://play.google.com/store/apps/details?id=com.pinterest"
+      "url": "https://play.google.com/store/apps/details?id=com.pinterest&hl=fr&gl=fr"
     },
     {
       "store": "google",
@@ -3841,12 +3841,12 @@
       "title": "NetShort – 인기 드라마 (NetShort - Dramas populaires)",
       "originalTitle": "NetShort - Dramas populaires",
       "translatedTitle": "NetShort – 인기 드라마",
-      "description": "기타 · NETSTORY PTE. LTD.",
-      "category": "기타",
-      "categoryId": "",
+      "description": "엔터테인먼트 · NETSTORY PTE. LTD.",
+      "category": "엔터테인먼트",
+      "categoryId": "ENTERTAINMENT",
       "developer": "NETSTORY PTE. LTD.",
       "icon": "https://play-lh.googleusercontent.com/ZL5yS20EujtVmUMMNHEnH9AI4NoqjUfjkolH7h44Ap0R2w3Vv1GF3zMGhB1KepyjCcH2a63rbbSl_PIwYxpr",
-      "url": "https://play.google.com/store/apps/details?id=com.netshort.abroad"
+      "url": "https://play.google.com/store/apps/details?id=com.netshort.abroad&hl=fr&gl=fr"
     },
     {
       "store": "google",
@@ -3856,12 +3856,12 @@
       "title": "에어비앤비 (Airbnb)",
       "originalTitle": "Airbnb",
       "translatedTitle": "에어비앤비",
-      "description": "기타 · Airbnb",
-      "category": "기타",
-      "categoryId": "",
+      "description": "여행·지역 · Airbnb",
+      "category": "여행·지역",
+      "categoryId": "TRAVEL_AND_LOCAL",
       "developer": "Airbnb",
       "icon": "https://play-lh.googleusercontent.com/PDPmzZUDSmFa33PmzoZ_OWLeIbj23UtGFE9fXVEVjfuyMGvPygT-v9N7bFsJwc8PojCmw72i8Xn45qHElm8b",
-      "url": "https://play.google.com/store/apps/details?id=com.airbnb.android"
+      "url": "https://play.google.com/store/apps/details?id=com.airbnb.android&hl=fr&gl=fr"
     },
     {
       "store": "apple",
@@ -4246,12 +4246,12 @@
       "title": "챗GPT (ChatGPT)",
       "originalTitle": "ChatGPT",
       "translatedTitle": "챗GPT",
-      "description": "기타 · OpenAI",
-      "category": "기타",
-      "categoryId": "",
+      "description": "생산성 · OpenAI",
+      "category": "생산성",
+      "categoryId": "PRODUCTIVITY",
       "developer": "OpenAI",
       "icon": "https://play-lh.googleusercontent.com/T9J8e9oxxPd600j_KPM4KK2GHfNpUpGBdTy8lHPXBXpOUfGusRuZXj0UMgFNrP8we6LVt9V-AibEgcLootE6VK4",
-      "url": "https://play.google.com/store/apps/details?id=com.openai.chatgpt"
+      "url": "https://play.google.com/store/apps/details?id=com.openai.chatgpt&hl=en&gl=au"
     },
     {
       "store": "google",
@@ -4261,12 +4261,12 @@
       "title": "myGov (myGov)",
       "originalTitle": "myGov",
       "translatedTitle": "myGov",
-      "description": "기타 · Services Australia",
-      "category": "기타",
-      "categoryId": "",
+      "description": "생산성 · Services Australia",
+      "category": "생산성",
+      "categoryId": "PRODUCTIVITY",
       "developer": "Services Australia",
       "icon": "https://play-lh.googleusercontent.com/U8VJXTLhokLZs0MNCn21c8He52JWtgE7c3tghjgep4seXdtir_Ooa_t91B0TyqOA536gt6mK2kVzNnOpwiq5kA",
-      "url": "https://play.google.com/store/apps/details?id=au.gov.mygov.mygovapp"
+      "url": "https://play.google.com/store/apps/details?id=au.gov.mygov.mygovapp&hl=en&gl=au"
     },
     {
       "store": "google",
@@ -4276,12 +4276,12 @@
       "title": "DramaWave - 드라마 & 릴 (DramaWave - Dramas & Reels)",
       "originalTitle": "DramaWave - Dramas & Reels",
       "translatedTitle": "DramaWave - 드라마 & 릴",
-      "description": "기타 · SKYWORK AI PTE.LTD.",
-      "category": "기타",
-      "categoryId": "",
+      "description": "엔터테인먼트 · SKYWORK AI PTE.LTD.",
+      "category": "엔터테인먼트",
+      "categoryId": "ENTERTAINMENT",
       "developer": "SKYWORK AI PTE.LTD.",
       "icon": "https://play-lh.googleusercontent.com/qdfS5KciqnG6lP2HCxKT-CoeWrGdXsxe2sQgRR_-X-G_MVG5WZljSIesMUPkAkic0cjxgsp7gA6WMNXaq-lA6iU",
-      "url": "https://play.google.com/store/apps/details?id=com.dramawave.app"
+      "url": "https://play.google.com/store/apps/details?id=com.dramawave.app&hl=en&gl=au"
     },
     {
       "store": "google",
@@ -4291,12 +4291,12 @@
       "title": "왓츠앱 메신저 (WhatsApp Messenger)",
       "originalTitle": "WhatsApp Messenger",
       "translatedTitle": "왓츠앱 메신저",
-      "description": "기타 · WhatsApp LLC",
-      "category": "기타",
-      "categoryId": "",
+      "description": "커뮤니케이션 · WhatsApp LLC",
+      "category": "커뮤니케이션",
+      "categoryId": "COMMUNICATION",
       "developer": "WhatsApp LLC",
       "icon": "https://play-lh.googleusercontent.com/Gqxk4T0uZsDwFp07DE-508hkyvcNmgFuRwPiwTEfF7D7OzGv1FdHDzEyMxNsSBZLOJlGpe3ULvVM2RgrRAlBqA",
-      "url": "https://play.google.com/store/apps/details?id=com.whatsapp"
+      "url": "https://play.google.com/store/apps/details?id=com.whatsapp&hl=en&gl=au"
     },
     {
       "store": "google",
@@ -4306,12 +4306,12 @@
       "title": "틱톡 (TikTok)",
       "originalTitle": "TikTok",
       "translatedTitle": "틱톡",
-      "description": "기타 · TikTok Pte. Ltd.",
-      "category": "기타",
-      "categoryId": "",
+      "description": "소셜 · TikTok Pte. Ltd.",
+      "category": "소셜",
+      "categoryId": "SOCIAL",
       "developer": "TikTok Pte. Ltd.",
       "icon": "https://play-lh.googleusercontent.com/2o7iuqPe-0msP3DvNhzoOgNo4eZ6GkL_RtGVeKyBn5UBQAW5cw-GW5V3wDOHB1yTQuqWzrFLFOv2u4_5ea1uhg",
-      "url": "https://play.google.com/store/apps/details?id=com.zhiliaoapp.musically"
+      "url": "https://play.google.com/store/apps/details?id=com.zhiliaoapp.musically&hl=en&gl=au"
     },
     {
       "store": "google",
@@ -4321,12 +4321,12 @@
       "title": "HBO Max: TV 및 영화 스트리밍 (HBO Max: Stream TV & Movies)",
       "originalTitle": "HBO Max: Stream TV & Movies",
       "translatedTitle": "HBO Max: TV 및 영화 스트리밍",
-      "description": "기타 · WarnerMedia Global Digital Services, LLC",
-      "category": "기타",
-      "categoryId": "",
+      "description": "엔터테인먼트 · WarnerMedia Global Digital Services, LLC",
+      "category": "엔터테인먼트",
+      "categoryId": "ENTERTAINMENT",
       "developer": "WarnerMedia Global Digital Services, LLC",
       "icon": "https://play-lh.googleusercontent.com/wKJ5hN5CmSBWXPBVYYuRENzcEVb7FB6NyibjKqPT4SB0eoZ7Fww2jq-OhUDCxEPGALrSekQaazrHLSBwVb6T4A",
-      "url": "https://play.google.com/store/apps/details?id=com.wbd.stream"
+      "url": "https://play.google.com/store/apps/details?id=com.wbd.stream&hl=en&gl=au"
     },
     {
       "store": "google",
@@ -4336,12 +4336,12 @@
       "title": "AliExpress - 쇼핑 앱 (AliExpress - Shopping App)",
       "originalTitle": "AliExpress - Shopping App",
       "translatedTitle": "AliExpress - 쇼핑 앱",
-      "description": "기타 · Alibaba Mobile",
-      "category": "기타",
-      "categoryId": "",
+      "description": "쇼핑 · Alibaba Mobile",
+      "category": "쇼핑",
+      "categoryId": "SHOPPING",
       "developer": "Alibaba Mobile",
       "icon": "https://play-lh.googleusercontent.com/-26EaFSeFE-GPfgjA98H_ukuK2AEN0ZlMNB9lECGJDxUSG7G20emcnXaHrM5fL2d7mCi3O825iShQvn2J0ZY",
-      "url": "https://play.google.com/store/apps/details?id=com.alibaba.aliexpresshd"
+      "url": "https://play.google.com/store/apps/details?id=com.alibaba.aliexpresshd&hl=en&gl=au"
     },
     {
       "store": "google",
@@ -4351,12 +4351,12 @@
       "title": "Temu: 억만장자처럼 쇼핑하세요 (Temu: Shop Like a Billionaire)",
       "originalTitle": "Temu: Shop Like a Billionaire",
       "translatedTitle": "Temu: 억만장자처럼 쇼핑하세요",
-      "description": "기타 · Temu",
-      "category": "기타",
-      "categoryId": "",
+      "description": "쇼핑 · Temu",
+      "category": "쇼핑",
+      "categoryId": "SHOPPING",
       "developer": "Temu",
       "icon": "https://play-lh.googleusercontent.com/opNFHpwXUxk8zAVzQbvBgEcBPmgYt0uX-p28VKDZ8nJNFPA7_JHx3PO3ski-GW_FW7gf3jrEP4OCKxTpP7Wv_w",
-      "url": "https://play.google.com/store/apps/details?id=com.einnovation.temu"
+      "url": "https://play.google.com/store/apps/details?id=com.einnovation.temu&hl=en&gl=au"
     },
     {
       "store": "google",
@@ -4366,12 +4366,12 @@
       "title": "Vinted: 중고 제품을 쇼핑하고 판매하세요 (Vinted: Shop & sell pre-loved)",
       "originalTitle": "Vinted: Shop & sell pre-loved",
       "translatedTitle": "Vinted: 중고 제품을 쇼핑하고 판매하세요",
-      "description": "기타 · Vinted",
-      "category": "기타",
-      "categoryId": "",
+      "description": "쇼핑 · Vinted",
+      "category": "쇼핑",
+      "categoryId": "SHOPPING",
       "developer": "Vinted",
       "icon": "https://play-lh.googleusercontent.com/cw3VzDl2b0m8eXx3dXe6RdV6r8ztpzUp_DJk4PStqU2mbD1x1TfKSCNJZVd6wjABgy0Nz0BCb3NqMI2TkKlR3Q",
-      "url": "https://play.google.com/store/apps/details?id=fr.vinted"
+      "url": "https://play.google.com/store/apps/details?id=fr.vinted&hl=en&gl=au"
     },
     {
       "store": "google",
@@ -4381,12 +4381,12 @@
       "title": "인스타그램 (Instagram)",
       "originalTitle": "Instagram",
       "translatedTitle": "인스타그램",
-      "description": "기타 · Instagram",
-      "category": "기타",
-      "categoryId": "",
+      "description": "소셜 · Instagram",
+      "category": "소셜",
+      "categoryId": "SOCIAL",
       "developer": "Instagram",
       "icon": "https://play-lh.googleusercontent.com/yHi59jmO_lVamcyJ1i3rM1_E8bAiAspShnGjjURq05ipQQSUksO3QVEsXTegRSqul038-4YNA7O644XAcx251Q",
-      "url": "https://play.google.com/store/apps/details?id=com.instagram.android"
+      "url": "https://play.google.com/store/apps/details?id=com.instagram.android&hl=en&gl=au"
     },
     {
       "store": "google",
@@ -4396,12 +4396,12 @@
       "title": "ReelShort - 스트림 드라마 및 TV (ReelShort - Stream Drama & TV)",
       "originalTitle": "ReelShort - Stream Drama & TV",
       "translatedTitle": "ReelShort - 스트림 드라마 및 TV",
-      "description": "기타 · NewLeaf Publishing",
-      "category": "기타",
-      "categoryId": "",
+      "description": "엔터테인먼트 · NewLeaf Publishing",
+      "category": "엔터테인먼트",
+      "categoryId": "ENTERTAINMENT",
       "developer": "NewLeaf Publishing",
       "icon": "https://play-lh.googleusercontent.com/mzo4PnyNudAfdPmD7kPGoX0-OWqPgngejYRmiEkva1WCPvLfnA5n7CQWYJErwFGnGw-cg4zBXf8JOVVtrKM0HmI",
-      "url": "https://play.google.com/store/apps/details?id=com.newleaf.app.android.victor"
+      "url": "https://play.google.com/store/apps/details?id=com.newleaf.app.android.victor&hl=en&gl=au"
     },
     {
       "store": "google",
@@ -4411,12 +4411,12 @@
       "title": "페이스북 (Facebook)",
       "originalTitle": "Facebook",
       "translatedTitle": "페이스북",
-      "description": "기타 · Meta Platforms, Inc.",
-      "category": "기타",
-      "categoryId": "",
+      "description": "소셜 · Meta Platforms, Inc.",
+      "category": "소셜",
+      "categoryId": "SOCIAL",
       "developer": "Meta Platforms, Inc.",
       "icon": "https://play-lh.googleusercontent.com/12KEJDhgk6oyE1VgmfCuFzFrQripZ_endElbvEhU1rZawQgV3RI-v3II8fDslI1sdC_WKBkmtxS3jxuIihk33Q",
-      "url": "https://play.google.com/store/apps/details?id=com.facebook.katana"
+      "url": "https://play.google.com/store/apps/details?id=com.facebook.katana&hl=en&gl=au"
     },
     {
       "store": "google",
@@ -4426,12 +4426,12 @@
       "title": "VkusVill: 식료품 배달 (ВкусВилл: доставка продуктов)",
       "originalTitle": "ВкусВилл: доставка продуктов",
       "translatedTitle": "VkusVill: 식료품 배달",
-      "description": "기타 · VkusVill",
-      "category": "기타",
-      "categoryId": "",
+      "description": "음식·음료 · VkusVill",
+      "category": "음식·음료",
+      "categoryId": "FOOD_AND_DRINK",
       "developer": "VkusVill",
       "icon": "https://play-lh.googleusercontent.com/EoHxOZ98sJBy4c5qLufNSk7JuEn7nuCw3iJ2p6xp9Wnml_7kl2r_ONMQcmu49UDlziRuFwns8FXTLRBeBsIE",
-      "url": "https://play.google.com/store/apps/details?id=ru.vkusvill"
+      "url": "https://play.google.com/store/apps/details?id=ru.vkusvill&hl=en&gl=au"
     },
     {
       "store": "google",
@@ -4441,12 +4441,12 @@
       "title": "메타AI (Meta AI)",
       "originalTitle": "Meta AI",
       "translatedTitle": "메타AI",
-      "description": "기타 · Meta Platforms, Inc.",
-      "category": "기타",
-      "categoryId": "",
+      "description": "생산성 · Meta Platforms, Inc.",
+      "category": "생산성",
+      "categoryId": "PRODUCTIVITY",
       "developer": "Meta Platforms, Inc.",
       "icon": "https://play-lh.googleusercontent.com/o3R5N2Pz3oLVfMCbDWhAWA1WNUxewxwhRgLJUCHVR3QQA57oWXt6Yw5lYN-Huj0ZYxLZ3_7ZwcnvmbfDiv4q",
-      "url": "https://play.google.com/store/apps/details?id=com.facebook.stella"
+      "url": "https://play.google.com/store/apps/details?id=com.facebook.stella&hl=en&gl=au"
     },
     {
       "store": "google",
@@ -4456,12 +4456,12 @@
       "title": "앤트로픽 클로드 (Claude by Anthropic)",
       "originalTitle": "Claude by Anthropic",
       "translatedTitle": "앤트로픽 클로드",
-      "description": "기타 · Anthropic PBC",
-      "category": "기타",
-      "categoryId": "",
+      "description": "생산성 · Anthropic PBC",
+      "category": "생산성",
+      "categoryId": "PRODUCTIVITY",
       "developer": "Anthropic PBC",
       "icon": "https://play-lh.googleusercontent.com/YeFCFSW5LkBVdsEAL_fjzxDxTbhKz31j1uZUfDbSaCeM0t4Bi3SqyHTWzWsUsZnbwjofXhYajitG_gr2_B2xil8",
-      "url": "https://play.google.com/store/apps/details?id=com.anthropic.claude"
+      "url": "https://play.google.com/store/apps/details?id=com.anthropic.claude&hl=en&gl=au"
     },
     {
       "store": "google",
@@ -4471,12 +4471,12 @@
       "title": "스냅챗 (Snapchat)",
       "originalTitle": "Snapchat",
       "translatedTitle": "스냅챗",
-      "description": "기타 · Snap Inc",
-      "category": "기타",
-      "categoryId": "",
+      "description": "커뮤니케이션 · Snap Inc",
+      "category": "커뮤니케이션",
+      "categoryId": "COMMUNICATION",
       "developer": "Snap Inc",
       "icon": "https://play-lh.googleusercontent.com/nOJWJoDAzuRSHmlFfpzHXAj8UbTJwk_JGYf0uAPTKPtiiIX_2Y7r5ATO1ZtxHRqaFTqfIDZ40PnBK4hukeJh",
-      "url": "https://play.google.com/store/apps/details?id=com.snapchat.android"
+      "url": "https://play.google.com/store/apps/details?id=com.snapchat.android&hl=en&gl=au"
     },
     {
       "store": "google",
@@ -4486,12 +4486,12 @@
       "title": "메신저 (Messenger)",
       "originalTitle": "Messenger",
       "translatedTitle": "메신저",
-      "description": "기타 · Meta Platforms, Inc.",
-      "category": "기타",
-      "categoryId": "",
+      "description": "커뮤니케이션 · Meta Platforms, Inc.",
+      "category": "커뮤니케이션",
+      "categoryId": "COMMUNICATION",
       "developer": "Meta Platforms, Inc.",
       "icon": "https://play-lh.googleusercontent.com/cuRpiGqvAMkcbAOibD-AKCBagAunUkspQUWC_jVZF2Hob_ODdmkefnZeqkofW1idFQHhgZgnLIjsqT-2v7JKBw",
-      "url": "https://play.google.com/store/apps/details?id=com.facebook.orca"
+      "url": "https://play.google.com/store/apps/details?id=com.facebook.orca&hl=en&gl=au"
     },
     {
       "store": "google",
@@ -4501,12 +4501,12 @@
       "title": "파라마운트+ (Paramount+)",
       "originalTitle": "Paramount+",
       "translatedTitle": "파라마운트+",
-      "description": "기타 · ViacomCBS Streaming",
-      "category": "기타",
-      "categoryId": "",
+      "description": "엔터테인먼트 · ViacomCBS Streaming",
+      "category": "엔터테인먼트",
+      "categoryId": "ENTERTAINMENT",
       "developer": "ViacomCBS Streaming",
       "icon": "https://play-lh.googleusercontent.com/yU3omfdofyeO2Zfz1nYNc80-UajN2aR7HHcCZty45mI5dZW1QAz1PUdeI2t67UAldSk0PIyJoUkNIMS8HmdyRQ",
-      "url": "https://play.google.com/store/apps/details?id=com.cbs.ca"
+      "url": "https://play.google.com/store/apps/details?id=com.cbs.ca&hl=en&gl=au"
     },
     {
       "store": "google",
@@ -4516,12 +4516,12 @@
       "title": "ShopBack: 캐시백 및 보상 (ShopBack: Cashback & Rewards)",
       "originalTitle": "ShopBack: Cashback & Rewards",
       "translatedTitle": "ShopBack: 캐시백 및 보상",
-      "description": "기타 · ShopBack",
-      "category": "기타",
-      "categoryId": "",
+      "description": "쇼핑 · ShopBack",
+      "category": "쇼핑",
+      "categoryId": "SHOPPING",
       "developer": "ShopBack",
       "icon": "https://play-lh.googleusercontent.com/-f9T1Do3uZ7zOkcD8g6dIKGztRbGlwNOSv1JnBn6fdGRu0FLMkr7s3zQvEXjoLsPhBb55k5hsC6PcPvEQbYqVQ",
-      "url": "https://play.google.com/store/apps/details?id=com.shopback.app"
+      "url": "https://play.google.com/store/apps/details?id=com.shopback.app&hl=en&gl=au"
     },
     {
       "store": "google",
@@ -4531,12 +4531,12 @@
       "title": "아마존 쇼핑 (Amazon Shopping)",
       "originalTitle": "Amazon Shopping",
       "translatedTitle": "아마존 쇼핑",
-      "description": "기타 · Amazon Mobile LLC",
-      "category": "기타",
-      "categoryId": "",
+      "description": "쇼핑 · Amazon Mobile LLC",
+      "category": "쇼핑",
+      "categoryId": "SHOPPING",
       "developer": "Amazon Mobile LLC",
       "icon": "https://play-lh.googleusercontent.com/UIYZ9hTFNg-zZUg_uzLS9YdyDpvoo1VHNFb6VlzHy5JqNMq9Uq-p2S1VPwzXCipHTFacfGKhJkyAuKL19VVlcWA",
-      "url": "https://play.google.com/store/apps/details?id=com.amazon.mShop.android.shopping"
+      "url": "https://play.google.com/store/apps/details?id=com.amazon.mShop.android.shopping&hl=en&gl=au"
     },
     {
       "store": "google",
@@ -4546,12 +4546,12 @@
       "title": "구글 월렛 (Google Wallet)",
       "originalTitle": "Google Wallet",
       "translatedTitle": "구글 월렛",
-      "description": "기타 · Google LLC",
-      "category": "기타",
-      "categoryId": "",
+      "description": "금융 · Google LLC",
+      "category": "금융",
+      "categoryId": "FINANCE",
       "developer": "Google LLC",
       "icon": "https://play-lh.googleusercontent.com/q3v_EmpK05hGtZpAVXzUSdcX8BdVkmHcUmdID4uvCZx7HZMiprIYzQfOyBdZlR3hZeu3nAXlcSkS0FxlxY9J7g",
-      "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.walletnfcrel"
+      "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.walletnfcrel&hl=en&gl=au"
     },
     {
       "store": "google",
@@ -4561,12 +4561,12 @@
       "title": "NetShort - 인기 드라마 및 TV (NetShort - Popular Dramas & TV)",
       "originalTitle": "NetShort - Popular Dramas & TV",
       "translatedTitle": "NetShort - 인기 드라마 및 TV",
-      "description": "기타 · NETSTORY PTE. LTD.",
-      "category": "기타",
-      "categoryId": "",
+      "description": "엔터테인먼트 · NETSTORY PTE. LTD.",
+      "category": "엔터테인먼트",
+      "categoryId": "ENTERTAINMENT",
       "developer": "NETSTORY PTE. LTD.",
       "icon": "https://play-lh.googleusercontent.com/abBbNR-5zthxSLW7YYJTHBB-0gNcb6iJbX7CIGz3p99RBMaabM_ljYlSFuiHS33DTQ3PI2Ye7b2qzuRDmTQ6BzQ",
-      "url": "https://play.google.com/store/apps/details?id=com.netshort.abroad"
+      "url": "https://play.google.com/store/apps/details?id=com.netshort.abroad&hl=en&gl=au"
     },
     {
       "store": "google",
@@ -4576,12 +4576,12 @@
       "title": "DoorDash - 음식 배달 (DoorDash - Food Delivery)",
       "originalTitle": "DoorDash - Food Delivery",
       "translatedTitle": "DoorDash - 음식 배달",
-      "description": "기타 · DoorDash",
-      "category": "기타",
-      "categoryId": "",
+      "description": "음식·음료 · DoorDash",
+      "category": "음식·음료",
+      "categoryId": "FOOD_AND_DRINK",
       "developer": "DoorDash",
       "icon": "https://play-lh.googleusercontent.com/daqnb5FdirTUewbv81mzwbnhD6_d1ITPYjM-XBFykk3QXRebKeaZLwWjyIbFKzLaEm6c12_wqVEHQhVrX3kO",
-      "url": "https://play.google.com/store/apps/details?id=com.dd.doordash"
+      "url": "https://play.google.com/store/apps/details?id=com.dd.doordash&hl=en&gl=au"
     },
     {
       "store": "google",
@@ -4591,12 +4591,12 @@
       "title": "스마트 클린 프로 (Smart Clean Pro)",
       "originalTitle": "Smart Clean Pro",
       "translatedTitle": "스마트 클린 프로",
-      "description": "기타 · Rangana Global Studio",
-      "category": "기타",
-      "categoryId": "",
+      "description": "도구 · Rangana Global Studio",
+      "category": "도구",
+      "categoryId": "TOOLS",
       "developer": "Rangana Global Studio",
       "icon": "https://play-lh.googleusercontent.com/o3ZEkV8-DHkiheUY8Cw5TyekzUlkD8FlhuzB-xo5LGd02WOnO8boh4w8cFAm20OvagC3Q6d_gY3FxxHXandnQyI",
-      "url": "https://play.google.com/store/apps/details?id=com.clean.smart.cleanpro"
+      "url": "https://play.google.com/store/apps/details?id=com.clean.smart.cleanpro&hl=en&gl=au"
     },
     {
       "store": "google",
@@ -4606,12 +4606,12 @@
       "title": "DramaBox - 스트림 드라마 단편 (DramaBox - Stream Drama Shorts)",
       "originalTitle": "DramaBox - Stream Drama Shorts",
       "translatedTitle": "DramaBox - 스트림 드라마 단편",
-      "description": "기타 · STORYMATRIX",
-      "category": "기타",
-      "categoryId": "",
+      "description": "엔터테인먼트 · STORYMATRIX",
+      "category": "엔터테인먼트",
+      "categoryId": "ENTERTAINMENT",
       "developer": "STORYMATRIX",
       "icon": "https://play-lh.googleusercontent.com/GGi0g65ySR86svFuxny2J2FgfkTZuFlJcftmeAZ_bZ7sM86XfwUNL1h9omSyoRKha1c1-_BoFkUbyJz2VSXI",
-      "url": "https://play.google.com/store/apps/details?id=com.storymatrix.drama"
+      "url": "https://play.google.com/store/apps/details?id=com.storymatrix.drama&hl=en&gl=au"
     },
     {
       "store": "apple",
@@ -4996,12 +4996,12 @@
       "title": "챗GPT (ChatGPT)",
       "originalTitle": "ChatGPT",
       "translatedTitle": "챗GPT",
-      "description": "기타 · OpenAI",
-      "category": "기타",
-      "categoryId": "",
+      "description": "생산성 · OpenAI",
+      "category": "생산성",
+      "categoryId": "PRODUCTIVITY",
       "developer": "OpenAI",
       "icon": "https://play-lh.googleusercontent.com/T9J8e9oxxPd600j_KPM4KK2GHfNpUpGBdTy8lHPXBXpOUfGusRuZXj0UMgFNrP8we6LVt9V-AibEgcLootE6VK4",
-      "url": "https://play.google.com/store/apps/details?id=com.openai.chatgpt"
+      "url": "https://play.google.com/store/apps/details?id=com.openai.chatgpt&hl=de&gl=de"
     },
     {
       "store": "google",
@@ -5011,12 +5011,12 @@
       "title": "왓츠앱 메신저 (WhatsApp Messenger)",
       "originalTitle": "WhatsApp Messenger",
       "translatedTitle": "왓츠앱 메신저",
-      "description": "기타 · WhatsApp LLC",
-      "category": "기타",
-      "categoryId": "",
+      "description": "커뮤니케이션 · WhatsApp LLC",
+      "category": "커뮤니케이션",
+      "categoryId": "COMMUNICATION",
       "developer": "WhatsApp LLC",
       "icon": "https://play-lh.googleusercontent.com/Gqxk4T0uZsDwFp07DE-508hkyvcNmgFuRwPiwTEfF7D7OzGv1FdHDzEyMxNsSBZLOJlGpe3ULvVM2RgrRAlBqA",
-      "url": "https://play.google.com/store/apps/details?id=com.whatsapp"
+      "url": "https://play.google.com/store/apps/details?id=com.whatsapp&hl=de&gl=de"
     },
     {
       "store": "google",
@@ -5026,12 +5026,12 @@
       "title": "TikTok: 비디오, 쇼핑 및 라이브 (TikTok: Videos, Shop und LIVE)",
       "originalTitle": "TikTok: Videos, Shop und LIVE",
       "translatedTitle": "TikTok: 비디오, 쇼핑 및 라이브",
-      "description": "기타 · TikTok Pte. Ltd.",
-      "category": "기타",
-      "categoryId": "",
+      "description": "소셜 · TikTok Pte. Ltd.",
+      "category": "소셜",
+      "categoryId": "SOCIAL",
       "developer": "TikTok Pte. Ltd.",
       "icon": "https://play-lh.googleusercontent.com/2o7iuqPe-0msP3DvNhzoOgNo4eZ6GkL_RtGVeKyBn5UBQAW5cw-GW5V3wDOHB1yTQuqWzrFLFOv2u4_5ea1uhg",
-      "url": "https://play.google.com/store/apps/details?id=com.zhiliaoapp.musically"
+      "url": "https://play.google.com/store/apps/details?id=com.zhiliaoapp.musically&hl=de&gl=de"
     },
     {
       "store": "google",
@@ -5041,12 +5041,12 @@
       "title": "바이러스 백신 보호 및 클리너 (Antivirus-Schutz & Reiniger)",
       "originalTitle": "Antivirus-Schutz & Reiniger",
       "translatedTitle": "바이러스 백신 보호 및 클리너",
-      "description": "기타 · Kasyr Apps",
-      "category": "기타",
-      "categoryId": "",
+      "description": "도구 · Kasyr Apps",
+      "category": "도구",
+      "categoryId": "TOOLS",
       "developer": "Kasyr Apps",
       "icon": "https://play-lh.googleusercontent.com/HUVPgGxD4tkS1KUgoUMzMLHbSzUlDis32rWtXPNFRb8KwmP2X8vpuoWIXdv2MMhl94u4neZQJh8jh2QM4TXL8Q",
-      "url": "https://play.google.com/store/apps/details?id=com.antivi.shield.loish"
+      "url": "https://play.google.com/store/apps/details?id=com.antivi.shield.loish&hl=de&gl=de"
     },
     {
       "store": "google",
@@ -5056,12 +5056,12 @@
       "title": "인스타그램 (Instagram)",
       "originalTitle": "Instagram",
       "translatedTitle": "인스타그램",
-      "description": "기타 · Instagram",
-      "category": "기타",
-      "categoryId": "",
+      "description": "소셜 · Instagram",
+      "category": "소셜",
+      "categoryId": "SOCIAL",
       "developer": "Instagram",
       "icon": "https://play-lh.googleusercontent.com/yHi59jmO_lVamcyJ1i3rM1_E8bAiAspShnGjjURq05ipQQSUksO3QVEsXTegRSqul038-4YNA7O644XAcx251Q",
-      "url": "https://play.google.com/store/apps/details?id=com.instagram.android"
+      "url": "https://play.google.com/store/apps/details?id=com.instagram.android&hl=de&gl=de"
     },
     {
       "store": "google",
@@ -5071,12 +5071,12 @@
       "title": "CapCut: 사진 및 비디오 편집기 (CapCut: Foto- und Video-Editor)",
       "originalTitle": "CapCut: Foto- und Video-Editor",
       "translatedTitle": "CapCut: 사진 및 비디오 편집기",
-      "description": "기타 · Bytedance Pte. Ltd.",
-      "category": "기타",
-      "categoryId": "",
+      "description": "동영상 · Bytedance Pte. Ltd.",
+      "category": "동영상",
+      "categoryId": "VIDEO_PLAYERS",
       "developer": "Bytedance Pte. Ltd.",
       "icon": "https://play-lh.googleusercontent.com/M78HyakHaxKrjoeqYx41E9DXfVYYtx67nvc7Ks4G4zFQeaAJdGCi8gzzGSrHIwlrmnJS6zD9S4fAXqdEwfuHQAQ",
-      "url": "https://play.google.com/store/apps/details?id=com.lemon.lvoverseas"
+      "url": "https://play.google.com/store/apps/details?id=com.lemon.lvoverseas&hl=de&gl=de"
     },
     {
       "store": "google",
@@ -5086,12 +5086,12 @@
       "title": "PDF 리더 및 PDF 뷰어 (PDF-Reader und PDF-Viewer)",
       "originalTitle": "PDF-Reader und PDF-Viewer",
       "translatedTitle": "PDF 리더 및 PDF 뷰어",
-      "description": "기타 · Office Suite Pro",
-      "category": "기타",
-      "categoryId": "",
+      "description": "생산성 · Office Suite Pro",
+      "category": "생산성",
+      "categoryId": "PRODUCTIVITY",
       "developer": "Office Suite Pro",
       "icon": "https://play-lh.googleusercontent.com/JXRayZr9vfqTWA_POf55l4jsA0v8yPtFrTZlBaSzROUq3aTIx-K0hb55OC-xXGQLOORH6kg57HVFsk6wNStbXg",
-      "url": "https://play.google.com/store/apps/details?id=com.trusted.pdfeditor.pdfreader"
+      "url": "https://play.google.com/store/apps/details?id=com.trusted.pdfeditor.pdfreader&hl=de&gl=de"
     },
     {
       "store": "google",
@@ -5101,12 +5101,12 @@
       "title": "스마트 클린 프로 (Smart Clean Pro)",
       "originalTitle": "Smart Clean Pro",
       "translatedTitle": "스마트 클린 프로",
-      "description": "기타 · Rangana Global Studio",
-      "category": "기타",
-      "categoryId": "",
+      "description": "도구 · Rangana Global Studio",
+      "category": "도구",
+      "categoryId": "TOOLS",
       "developer": "Rangana Global Studio",
       "icon": "https://play-lh.googleusercontent.com/o3ZEkV8-DHkiheUY8Cw5TyekzUlkD8FlhuzB-xo5LGd02WOnO8boh4w8cFAm20OvagC3Q6d_gY3FxxHXandnQyI",
-      "url": "https://play.google.com/store/apps/details?id=com.clean.smart.cleanpro"
+      "url": "https://play.google.com/store/apps/details?id=com.clean.smart.cleanpro&hl=de&gl=de"
     },
     {
       "store": "google",
@@ -5116,12 +5116,12 @@
       "title": "테라 VPN (Tera VPN)",
       "originalTitle": "Tera VPN",
       "translatedTitle": "테라 VPN",
-      "description": "기타 · VRMN Tech",
-      "category": "기타",
-      "categoryId": "",
+      "description": "도구 · VRMN Tech",
+      "category": "도구",
+      "categoryId": "TOOLS",
       "developer": "VRMN Tech",
       "icon": "https://play-lh.googleusercontent.com/JSMZklxJM-gQE2yHcE0ep5qFsBQlfftoSH81O-XRrKfm2hQynYHjewYMXXjyqSep7hf8NVvh6-aYsmEibjdixw",
-      "url": "https://play.google.com/store/apps/details?id=tera.aiapp.com"
+      "url": "https://play.google.com/store/apps/details?id=tera.aiapp.com&hl=de&gl=de"
     },
     {
       "store": "google",
@@ -5131,12 +5131,12 @@
       "title": "딥 클린 엘리트 (Deep Clean Elite)",
       "originalTitle": "Deep Clean Elite",
       "translatedTitle": "딥 클린 엘리트",
-      "description": "기타 · PDI Turbo",
-      "category": "기타",
-      "categoryId": "",
+      "description": "생산성 · PDI Turbo",
+      "category": "생산성",
+      "categoryId": "PRODUCTIVITY",
       "developer": "PDI Turbo",
       "icon": "https://play-lh.googleusercontent.com/WIW6467xgGnS_ozOeEK1TaKYGc_X4TkNWbHTikbgz2IDmzqiuxYmkah3JNO0b0X-skh1Ksl3BxnmwOTejSWX",
-      "url": "https://play.google.com/store/apps/details?id=com.deepcleanelit.dcle"
+      "url": "https://play.google.com/store/apps/details?id=com.deepcleanelit.dcle&hl=de&gl=de"
     },
     {
       "store": "google",
@@ -5146,12 +5146,12 @@
       "title": "DramaWave - 드라마 & 릴 (DramaWave - Drama & Reel)",
       "originalTitle": "DramaWave - Drama & Reel",
       "translatedTitle": "DramaWave - 드라마 & 릴",
-      "description": "기타 · SKYWORK AI PTE.LTD.",
-      "category": "기타",
-      "categoryId": "",
+      "description": "엔터테인먼트 · SKYWORK AI PTE.LTD.",
+      "category": "엔터테인먼트",
+      "categoryId": "ENTERTAINMENT",
       "developer": "SKYWORK AI PTE.LTD.",
       "icon": "https://play-lh.googleusercontent.com/qdfS5KciqnG6lP2HCxKT-CoeWrGdXsxe2sQgRR_-X-G_MVG5WZljSIesMUPkAkic0cjxgsp7gA6WMNXaq-lA6iU",
-      "url": "https://play.google.com/store/apps/details?id=com.dramawave.app"
+      "url": "https://play.google.com/store/apps/details?id=com.dramawave.app&hl=de&gl=de"
     },
     {
       "store": "google",
@@ -5161,12 +5161,12 @@
       "title": "텔레그램 (Telegram)",
       "originalTitle": "Telegram",
       "translatedTitle": "텔레그램",
-      "description": "기타 · Telegram FZ-LLC",
-      "category": "기타",
-      "categoryId": "",
+      "description": "커뮤니케이션 · Telegram FZ-LLC",
+      "category": "커뮤니케이션",
+      "categoryId": "COMMUNICATION",
       "developer": "Telegram FZ-LLC",
       "icon": "https://play-lh.googleusercontent.com/PyZ3akMGXPV0tKKirKNwfO--PSQW3FHR6rD_H9mAaukZ8LiHyYFuBLeU8UZ2ok6r5SP79-3prkfybWKh98AZAD0",
-      "url": "https://play.google.com/store/apps/details?id=org.telegram.messenger"
+      "url": "https://play.google.com/store/apps/details?id=org.telegram.messenger&hl=de&gl=de"
     },
     {
       "store": "google",
@@ -5176,12 +5176,12 @@
       "title": "스냅챗 (Snapchat)",
       "originalTitle": "Snapchat",
       "translatedTitle": "스냅챗",
-      "description": "기타 · Snap Inc",
-      "category": "기타",
-      "categoryId": "",
+      "description": "커뮤니케이션 · Snap Inc",
+      "category": "커뮤니케이션",
+      "categoryId": "COMMUNICATION",
       "developer": "Snap Inc",
       "icon": "https://play-lh.googleusercontent.com/nOJWJoDAzuRSHmlFfpzHXAj8UbTJwk_JGYf0uAPTKPtiiIX_2Y7r5ATO1ZtxHRqaFTqfIDZ40PnBK4hukeJh",
-      "url": "https://play.google.com/store/apps/details?id=com.snapchat.android"
+      "url": "https://play.google.com/store/apps/details?id=com.snapchat.android&hl=de&gl=de"
     },
     {
       "store": "google",
@@ -5191,12 +5191,12 @@
       "title": "구글 월렛 (Google Wallet)",
       "originalTitle": "Google Wallet",
       "translatedTitle": "구글 월렛",
-      "description": "기타 · Google LLC",
-      "category": "기타",
-      "categoryId": "",
+      "description": "금융 · Google LLC",
+      "category": "금융",
+      "categoryId": "FINANCE",
       "developer": "Google LLC",
       "icon": "https://play-lh.googleusercontent.com/q3v_EmpK05hGtZpAVXzUSdcX8BdVkmHcUmdID4uvCZx7HZMiprIYzQfOyBdZlR3hZeu3nAXlcSkS0FxlxY9J7g",
-      "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.walletnfcrel"
+      "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.walletnfcrel&hl=de&gl=de"
     },
     {
       "store": "google",
@@ -5206,12 +5206,12 @@
       "title": "듀오링고: 언어 및 체스 (Duolingo: Sprachen & Schach)",
       "originalTitle": "Duolingo: Sprachen & Schach",
       "translatedTitle": "듀오링고: 언어 및 체스",
-      "description": "기타 · Duolingo",
-      "category": "기타",
-      "categoryId": "",
+      "description": "교육 · Duolingo",
+      "category": "교육",
+      "categoryId": "EDUCATION",
       "developer": "Duolingo",
       "icon": "https://play-lh.googleusercontent.com/Q-wEiKezZQEspFNNrWfKjcEgAqdWy_b98_tXTAZaXGgm9y1HZ1zi-JSZXA7Tmur9MjcM0xoIA0BdXEN0Bt54",
-      "url": "https://play.google.com/store/apps/details?id=com.duolingo"
+      "url": "https://play.google.com/store/apps/details?id=com.duolingo&hl=de&gl=de"
     },
     {
       "store": "google",
@@ -5221,12 +5221,12 @@
       "title": "DEICHMANN 신발 (DEICHMANN Schuhe)",
       "originalTitle": "DEICHMANN Schuhe",
       "translatedTitle": "DEICHMANN 신발",
-      "description": "기타 · Deichmann SE",
-      "category": "기타",
-      "categoryId": "",
+      "description": "쇼핑 · Deichmann SE",
+      "category": "쇼핑",
+      "categoryId": "SHOPPING",
       "developer": "Deichmann SE",
       "icon": "https://play-lh.googleusercontent.com/LLlH9ibVUuXrbEmFnlg2pYclpO9U_kyQ0lC6H0TsVoqiELXS6QLAck-Zf20ioT0LP7s2ZIQmtx5nqnx0td_7fdg",
-      "url": "https://play.google.com/store/apps/details?id=com.deichmann.deichmannapp"
+      "url": "https://play.google.com/store/apps/details?id=com.deichmann.deichmannapp&hl=de&gl=de"
     },
     {
       "store": "google",
@@ -5236,12 +5236,12 @@
       "title": "우편 및 DHL (Post & DHL)",
       "originalTitle": "Post & DHL",
       "translatedTitle": "우편 및 DHL",
-      "description": "기타 · Deutsche Post AG",
-      "category": "기타",
-      "categoryId": "",
+      "description": "생산성 · Deutsche Post AG",
+      "category": "생산성",
+      "categoryId": "PRODUCTIVITY",
       "developer": "Deutsche Post AG",
       "icon": "https://play-lh.googleusercontent.com/FtAetTdatdKHD7_BVEeUDhr8EKSxQqVCZfaWoMZ_mgpeNJ5sTtm5Jrb7_GjvhyK0ZrCVfhSnrFZQj-RT1PgWZdo",
-      "url": "https://play.google.com/store/apps/details?id=de.dhl.paket"
+      "url": "https://play.google.com/store/apps/details?id=de.dhl.paket&hl=de&gl=de"
     },
     {
       "store": "google",
@@ -5251,12 +5251,12 @@
       "title": "EasyPark - 주차 앱 (EasyPark – deine Park App)",
       "originalTitle": "EasyPark – deine Park App",
       "translatedTitle": "EasyPark - 주차 앱",
-      "description": "기타 · EasyPark AS",
-      "category": "기타",
-      "categoryId": "",
+      "description": "여행·지역 · EasyPark AS",
+      "category": "여행·지역",
+      "categoryId": "TRAVEL_AND_LOCAL",
       "developer": "EasyPark AS",
       "icon": "https://play-lh.googleusercontent.com/oynrl-CPadmiUoAh4tWftopFVF6U5C9U39UWuo-8cHMBNY5z9vB7JGGyJZkxwMlbN6ypgBQhe9cU_gRmbAO2",
-      "url": "https://play.google.com/store/apps/details?id=net.easypark.android"
+      "url": "https://play.google.com/store/apps/details?id=net.easypark.android&hl=de&gl=de"
     },
     {
       "store": "google",
@@ -5266,12 +5266,12 @@
       "title": "광고 - 마켓플레이스 (Kleinanzeigen - Marktplatz)",
       "originalTitle": "Kleinanzeigen - Marktplatz",
       "translatedTitle": "광고 - 마켓플레이스",
-      "description": "기타 · kleinanzeigen.de GmbH",
-      "category": "기타",
-      "categoryId": "",
+      "description": "쇼핑 · kleinanzeigen.de GmbH",
+      "category": "쇼핑",
+      "categoryId": "SHOPPING",
       "developer": "kleinanzeigen.de GmbH",
       "icon": "https://play-lh.googleusercontent.com/PuqeuAmOMsDoB9gRCVr-EQHthinCbtaKPzMbxabfmCY9RI9r1fmWncCb4k6umBszzPaszT_o2RopSpIhy9BAiQ",
-      "url": "https://play.google.com/store/apps/details?id=com.ebay.kleinanzeigen"
+      "url": "https://play.google.com/store/apps/details?id=com.ebay.kleinanzeigen&hl=de&gl=de"
     },
     {
       "store": "google",
@@ -5281,12 +5281,12 @@
       "title": "PDF 마스터 읽기 PDF (PDF Master-Read PDF)",
       "originalTitle": "PDF Master-Read PDF",
       "translatedTitle": "PDF 마스터 읽기 PDF",
-      "description": "기타 · AHJJ Studio",
-      "category": "기타",
-      "categoryId": "",
+      "description": "비즈니스 · AHJJ Studio",
+      "category": "비즈니스",
+      "categoryId": "BUSINESS",
       "developer": "AHJJ Studio",
       "icon": "https://play-lh.googleusercontent.com/1UVS7Tn4Y46AkcQcVMqdKGkqjrTHQI2rQYYCcN8EUBBwfYhadG4lwYRuEqyFCV2Ig3msSNXM6ZYMlDRZpSDc1A",
-      "url": "https://play.google.com/store/apps/details?id=master.pdfviewerreader.com"
+      "url": "https://play.google.com/store/apps/details?id=master.pdfviewerreader.com&hl=de&gl=de"
     },
     {
       "store": "google",
@@ -5296,12 +5296,12 @@
       "title": "WePlay - 파티 게임 및 채팅 (WePlay - Partyspiel & Chat)",
       "originalTitle": "WePlay - Partyspiel & Chat",
       "translatedTitle": "WePlay - 파티 게임 및 채팅",
-      "description": "기타 · WEJOY Pte. Ltd.",
-      "category": "기타",
-      "categoryId": "",
+      "description": "엔터테인먼트 · WEJOY Pte. Ltd.",
+      "category": "엔터테인먼트",
+      "categoryId": "ENTERTAINMENT",
       "developer": "WEJOY Pte. Ltd.",
       "icon": "https://play-lh.googleusercontent.com/ke5EtAx5t2gjSo6UwgI8N31lEL1LbGuEXMo-j_6W7Xw8UWBPud9uRPH371yL4X-6GxaPURByvAIl9poZxk7Z_g",
-      "url": "https://play.google.com/store/apps/details?id=com.wejoy.weplay.us"
+      "url": "https://play.google.com/store/apps/details?id=com.wejoy.weplay.us&hl=de&gl=de"
     },
     {
       "store": "google",
@@ -5311,12 +5311,12 @@
       "title": "DB 네비게이터 (DB Navigator)",
       "originalTitle": "DB Navigator",
       "translatedTitle": "DB 네비게이터",
-      "description": "기타 · Deutsche Bahn",
-      "category": "기타",
-      "categoryId": "",
+      "description": "여행·지역 · Deutsche Bahn",
+      "category": "여행·지역",
+      "categoryId": "TRAVEL_AND_LOCAL",
       "developer": "Deutsche Bahn",
       "icon": "https://play-lh.googleusercontent.com/Hydttdv79ikLRiECkE9SNcdvM8XZ_KsqBDlcZTDwRkAE5AgfD-4RGXJXcpODP41eeCaC14pcTntVW-BytkdXeg",
-      "url": "https://play.google.com/store/apps/details?id=de.hafas.android.db"
+      "url": "https://play.google.com/store/apps/details?id=de.hafas.android.db&hl=de&gl=de"
     },
     {
       "store": "google",
@@ -5326,12 +5326,12 @@
       "title": "앤트로픽 클로드 (Claude by Anthropic)",
       "originalTitle": "Claude by Anthropic",
       "translatedTitle": "앤트로픽 클로드",
-      "description": "기타 · Anthropic PBC",
-      "category": "기타",
-      "categoryId": "",
+      "description": "생산성 · Anthropic PBC",
+      "category": "생산성",
+      "categoryId": "PRODUCTIVITY",
       "developer": "Anthropic PBC",
       "icon": "https://play-lh.googleusercontent.com/YeFCFSW5LkBVdsEAL_fjzxDxTbhKz31j1uZUfDbSaCeM0t4Bi3SqyHTWzWsUsZnbwjofXhYajitG_gr2_B2xil8",
-      "url": "https://play.google.com/store/apps/details?id=com.anthropic.claude"
+      "url": "https://play.google.com/store/apps/details?id=com.anthropic.claude&hl=de&gl=de"
     },
     {
       "store": "google",
@@ -5341,12 +5341,12 @@
       "title": "구글 제미나이 (Google Gemini)",
       "originalTitle": "Google Gemini",
       "translatedTitle": "구글 제미나이",
-      "description": "기타 · Google LLC",
-      "category": "기타",
-      "categoryId": "",
+      "description": "생산성 · Google LLC",
+      "category": "생산성",
+      "categoryId": "PRODUCTIVITY",
       "developer": "Google LLC",
       "icon": "https://play-lh.googleusercontent.com/C64IqPWyFoCZzXVxXVl0Y6mliiNlG_sZJsqul-SBvk9ZL0wJHlU0Eho2wvsBHhho0FT5XQtH55RVGerIwXF_MA",
-      "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.bard"
+      "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.bard&hl=de&gl=de"
     },
     {
       "store": "google",
@@ -5356,12 +5356,12 @@
       "title": "더 깨끗하게 (Netto plus)",
       "originalTitle": "Netto plus",
       "translatedTitle": "더 깨끗하게",
-      "description": "기타 · Netto Marken-Discount Stiftung & Co. KG",
-      "category": "기타",
-      "categoryId": "",
+      "description": "쇼핑 · Netto Marken-Discount Stiftung & Co. KG",
+      "category": "쇼핑",
+      "categoryId": "SHOPPING",
       "developer": "Netto Marken-Discount Stiftung & Co. KG",
       "icon": "https://play-lh.googleusercontent.com/mQ9u0igbpyc3SOq-m1dOF_7ZuYQTlu7hjEdMToAn92e-5On9P1_epmWqmqaX3JgHxyAAkaGmgPq1sdmAJxKpUg",
-      "url": "https://play.google.com/store/apps/details?id=com.valuephone.vpnetto"
+      "url": "https://play.google.com/store/apps/details?id=com.valuephone.vpnetto&hl=de&gl=de"
     }
   ]
 }
