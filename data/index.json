@@ -3,8 +3,11 @@
     {
       "date": "2026-08-11",
       "file": "data/2026-08-11.json",
-      "label": "2026-08-11 test run",
-      "coverage": {"apple": 7, "google": 0},
+      "label": "2026-08-11 official charts",
+      "coverage": {
+        "apple": 7,
+        "google": 7
+      },
       "officialOnly": true
     }
   ]
