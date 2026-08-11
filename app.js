@@ -8,9 +8,24 @@ const countryFilter = $("countryFilter");
 const categoryFilter = $("categoryFilter");
 const dateFilter = $("dateFilter");
 
+function normalizeSnapshot(raw) {
+  if (!raw.records && raw.charts) {
+    raw.records = [];
+    Object.entries(raw.charts).forEach(([store, countries]) => {
+      Object.entries(countries || {}).forEach(([country, rows]) => {
+        (rows || []).forEach((row, index) => {
+          const [title, description, category] = row;
+          raw.records.push({store, country, rank:index + 1, title, description, category});
+        });
+      });
+    });
+  }
+  return raw;
+}
+
 async function loadData() {
   const index = await fetch("data/index.json").then(r => r.json());
-  snapshots = await Promise.all(index.snapshots.map(s => fetch(s.file).then(r => r.json())));
+  snapshots = await Promise.all(index.snapshots.map(s => fetch(s.file).then(r => r.json()).then(normalizeSnapshot)));
   snapshots.sort((a,b) => a.date.localeCompare(b.date));
   initializeFilters();
   render();
