@@ -164,7 +164,6 @@ async function collectGoogle(country, translationCache) {
     lang: country.lang,
     num: TOP_N,
     fullDetail: false,
-    throttle: 250,
   });
   if (!Array.isArray(items) || !items.length) throw new Error('Google Play returned no chart entries');
   const records = [];
