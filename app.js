@@ -1,191 +1,36 @@
-const COUNTRY_NAMES = {KR:"한국",US:"미국",JP:"일본",CN:"중국",FR:"프랑스",AU:"호주",DE:"독일"};
-let snapshots = [];
-let currentView = "country";
-
-const $ = (id) => document.getElementById(id);
-const storeFilter = $("storeFilter");
-const countryFilter = $("countryFilter");
-const categoryFilter = $("categoryFilter");
-const dateFilter = $("dateFilter");
-
-function normalizeSnapshot(raw) {
-  if (!raw.records && raw.charts) {
-    raw.records = [];
-    Object.entries(raw.charts).forEach(([store, countries]) => {
-      Object.entries(countries || {}).forEach(([country, rows]) => {
-        (rows || []).forEach((row, index) => {
-          const [title, description, category] = row;
-          raw.records.push({store, country, rank:index + 1, title, description, category});
-        });
-      });
-    });
-  }
-  return raw;
-}
-
-async function loadData() {
-  const index = await fetch("data/index.json").then(r => r.json());
-  snapshots = await Promise.all(index.snapshots.map(s => fetch(s.file).then(r => r.json()).then(normalizeSnapshot)));
-  snapshots.sort((a,b) => a.date.localeCompare(b.date));
-  initializeFilters();
-  render();
-}
-
-function initializeFilters() {
-  countryFilter.innerHTML = Object.entries(COUNTRY_NAMES).map(([k,v]) => `<option value="${k}">${v}</option>`).join("");
-  dateFilter.innerHTML = [...snapshots].reverse().map(s => `<option value="${s.date}">${s.date}</option>`).join("");
-  dateFilter.value = snapshots.at(-1).date;
-  document.querySelectorAll(".tab").forEach(btn => btn.addEventListener("click", () => {
-    document.querySelectorAll(".tab").forEach(b => b.classList.remove("active"));
-    btn.classList.add("active");
-    currentView = btn.dataset.view;
-    render();
-  }));
-  [storeFilter,countryFilter,categoryFilter,dateFilter].forEach(el => el.addEventListener("change", render));
-}
-
-function selectedSnapshot() {
-  return snapshots.find(s => s.date === dateFilter.value) || snapshots.at(-1);
-}
-
-function storeRecords(snapshot, store, country) {
-  return snapshot.records.filter(r => r.store === store && (!country || r.country === country));
-}
-
-function refreshCategories(snapshot) {
-  const rows = snapshot.records.filter(r => r.store === storeFilter.value && r.country === countryFilter.value);
-  const current = categoryFilter.value;
-  const cats = [...new Set(rows.map(r => r.category))].sort();
-  categoryFilter.innerHTML = `<option value="all">전체</option>` + cats.map(c => `<option>${c}</option>`).join("");
-  if (cats.includes(current)) categoryFilter.value = current; else categoryFilter.value = "all";
-}
-
-function renderMetrics(snapshot, rows) {
-  const countries = new Set(snapshot.records.filter(r => r.store === storeFilter.value).map(r => r.country)).size;
-  const cats = new Set(rows.map(r => r.category)).size;
-  const top = [...rows].sort((a,b)=>a.rank-b.rank)[0];
-  const coverage = rows.length ? `${rows.length}/25` : "0/25";
-  $("metrics").innerHTML = [
-    ["공식 수집 국가", `${countries}/7`],
-    ["현재 표본", coverage],
-    ["카테고리 수", String(cats)],
-    ["1위", top ? top.title : "확인 불가"]
-  ].map(([l,v]) => `<div class="metric"><div class="label">${l}</div><div class="value">${escapeHtml(v)}</div></div>`).join("");
-}
-
-function renderNotice(snapshot) {
-  const store = storeFilter.value;
-  const sources = Object.values(snapshot.sources).filter(s => s.store === store);
-  const ok = sources.filter(s => s.status === "verified").length;
-  const unavailable = sources.length - ok;
-  $("coverageNotice").innerHTML = store === "apple"
-    ? `<strong>Apple 공식 차트:</strong> ${ok}/7개국 TOP 25 확인. 카테고리 보기는 현재 TOP 25 항목의 공식/정규화 카테고리로 구성됩니다.`
-    : `<strong>Google Play 공식 차트:</strong> 이번 시험 실행에서는 정확한 TOP 25 목록을 공개 페이지에서 기계적으로 검증하지 못했습니다. 제3자 순위로 보완하지 않았습니다. (${unavailable}/7 미수집)`;
-}
-
-function filteredRows(snapshot) {
-  let rows = storeRecords(snapshot, storeFilter.value, countryFilter.value);
-  if (categoryFilter.value !== "all") rows = rows.filter(r => r.category === categoryFilter.value);
-  return rows.sort((a,b)=>a.rank-b.rank);
-}
-
-function tableCard(title, subtitle, rows) {
-  const body = rows.length ? `
-    <div class="table-wrap"><table>
-      <thead><tr><th>Rank</th><th>App</th><th>Category</th><th>Country</th></tr></thead>
-      <tbody>${rows.map(r => `<tr>
-        <td class="rank">#${r.rank}</td>
-        <td class="app"><strong>${escapeHtml(r.title)}</strong><span>${escapeHtml(r.description)}</span></td>
-        <td><span class="category-chip">${escapeHtml(r.category)}</span></td>
-        <td>${COUNTRY_NAMES[r.country] || r.country}</td>
-      </tr>`).join("")}</tbody>
-    </table></div>` : `<div class="empty">공식 공개 차트에서 확인 가능한 데이터가 없습니다.</div>`;
-  return `<section class="card"><div class="card-head"><div><h2>${escapeHtml(title)}</h2><p>${escapeHtml(subtitle)}</p></div></div>${body}</section>`;
-}
-
-function renderCountry(snapshot) {
-  refreshCategories(snapshot);
-  const rows = filteredRows(snapshot);
-  renderMetrics(snapshot, rows);
-  return tableCard(`${COUNTRY_NAMES[countryFilter.value]} · ${storeFilter.value === "apple" ? "Apple App Store" : "Google Play"}`,
-    `${snapshot.date} · 공식 무료 앱 TOP 25`, rows);
-}
-
-function renderWeekly(snapshot) {
-  refreshCategories(snapshot);
-  const rows = filteredRows(snapshot);
-  const idx = snapshots.findIndex(s => s.date === snapshot.date);
-  const prev = idx > 0 ? snapshots[idx-1] : null;
-  const prevMap = new Map((prev ? storeRecords(prev, storeFilter.value, countryFilter.value) : []).map(r => [r.title,r.rank]));
-  const enriched = rows.map(r => ({...r, movement: prevMap.has(r.title) ? prevMap.get(r.title)-r.rank : null}));
-  renderMetrics(snapshot, rows);
-  const items = enriched.length ? enriched.map(r => `<li><span>#${r.rank} ${escapeHtml(r.title)}</span><strong>${r.movement === null ? "기준점" : r.movement > 0 ? `▲${r.movement}` : r.movement < 0 ? `▼${Math.abs(r.movement)}` : "—"}</strong></li>`).join("") : `<li><span>공식 데이터 없음</span><strong>—</strong></li>`;
-  return `<div class="grid">
-    ${tableCard("주간 현재 순위", `${snapshot.date} 기준`, rows)}
-    <section class="card"><div class="card-head"><div><h2>주간 등락</h2><p>${prev ? `${prev.date} 대비` : "첫 스냅샷 — 다음 실행부터 등락 계산"}</p></div></div><div style="padding:0 18px 14px"><ul class="stat-list">${items}</ul></div></section>
-  </div>`;
-}
-
-function renderMonthly(snapshot) {
-  refreshCategories(snapshot);
-  const month = snapshot.date.slice(0,7);
-  const monthSnaps = snapshots.filter(s => s.date.startsWith(month));
-  const bucket = new Map();
-  monthSnaps.forEach(s => storeRecords(s, storeFilter.value, countryFilter.value).forEach(r => {
-    if (categoryFilter.value !== "all" && r.category !== categoryFilter.value) return;
-    const x = bucket.get(r.title) || {title:r.title, category:r.category, description:r.description, ranks:[]};
-    x.ranks.push(r.rank); bucket.set(r.title,x);
-  }));
-  const rows = [...bucket.values()].map(x => ({...x, avg: x.ranks.reduce((a,b)=>a+b,0)/x.ranks.length, appearances:x.ranks.length}))
-    .sort((a,b)=>a.avg-b.avg);
-  renderMetrics(snapshot, filteredRows(snapshot));
-  return `<section class="card"><div class="card-head"><div><h2>${month} 월간</h2><p>스냅샷 ${monthSnaps.length}회 기준 평균 순위</p></div></div>
-    ${rows.length ? `<div class="table-wrap"><table><thead><tr><th>Avg</th><th>App</th><th>Category</th><th>Appearances</th></tr></thead><tbody>
-    ${rows.map(r=>`<tr><td class="rank">${r.avg.toFixed(1)}</td><td class="app"><strong>${escapeHtml(r.title)}</strong><span>${escapeHtml(r.description)}</span></td><td><span class="category-chip">${escapeHtml(r.category)}</span></td><td>${r.appearances}</td></tr>`).join("")}
-    </tbody></table></div>` : `<div class="empty">월간 데이터가 없습니다.</div>`}
-  </section>`;
-}
-
-function renderCategory(snapshot) {
-  const rowsAll = snapshot.records.filter(r => r.store === storeFilter.value);
-  const counts = new Map();
-  rowsAll.forEach(r => counts.set(r.category, (counts.get(r.category)||0)+1));
-  const cats = [...counts.entries()].sort((a,b)=>b[1]-a[1]);
-  renderMetrics(snapshot, filteredRows(snapshot));
-  const list = cats.map(([c,n]) => `<li><span>${escapeHtml(c)}</span><strong>${n}</strong></li>`).join("");
-  const chosen = categoryFilter.value === "all" ? (cats[0]?.[0] || "all") : categoryFilter.value;
-  const rows = rowsAll.filter(r => chosen === "all" || r.category === chosen).sort((a,b)=>a.rank-b.rank);
-  return `<div class="grid">
-    <section class="card"><div class="card-head"><div><h2>카테고리 점유</h2><p>7개국 TOP 25에 등장한 항목 수</p></div></div><div style="padding:0 18px 14px"><ul class="stat-list">${list || "<li>데이터 없음</li>"}</ul></div></section>
-    ${tableCard(chosen === "all" ? "카테고리 앱" : chosen, "국가별 TOP 25 안에서 해당 카테고리만 보기", rows)}
-  </div>`;
-}
-
-function renderCoverage(snapshot) {
-  const items = Object.values(snapshot.sources).sort((a,b)=>a.store.localeCompare(b.store)||a.country.localeCompare(b.country));
-  renderMetrics(snapshot, filteredRows(snapshot));
-  return `<section class="card"><div class="card-head"><div><h2>공식 소스 수집 상태</h2><p>제3자 랭킹 사이트 사용 안 함</p></div></div>
-  <div class="table-wrap"><table><thead><tr><th>Store</th><th>Country</th><th>Status</th><th>Official source</th></tr></thead><tbody>
-  ${items.map(s => `<tr><td>${s.store}</td><td>${COUNTRY_NAMES[s.country]}</td><td class="${s.status==="verified"?"status-ok":"status-warn"}">${s.status}</td><td class="source"><a href="${s.url}" target="_blank" rel="noreferrer">${s.url}</a>${s.note?`<div class="muted">${escapeHtml(s.note)}</div>`:""}</td></tr>`).join("")}
-  </tbody></table></div></section>`;
-}
-
-function render() {
-  const snapshot = selectedSnapshot();
-  renderNotice(snapshot);
-  let html = "";
-  if (currentView === "country") html = renderCountry(snapshot);
-  if (currentView === "weekly") html = renderWeekly(snapshot);
-  if (currentView === "monthly") html = renderMonthly(snapshot);
-  if (currentView === "category") html = renderCategory(snapshot);
-  if (currentView === "coverage") html = renderCoverage(snapshot);
-  $("content").innerHTML = html;
-}
-
-function escapeHtml(value) {
-  return String(value ?? "").replace(/[&<>"']/g, ch => ({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#039;"}[ch]));
-}
-
-loadData().catch(err => {
-  $("coverageNotice").innerHTML = `<strong>데이터 로드 실패:</strong> ${escapeHtml(err.message)}`;
-});
+const COUNTRIES=[['KR','한국','🇰🇷'],['US','미국','🇺🇸'],['JP','일본','🇯🇵'],['CN','중국','🇨🇳'],['FR','프랑스','🇫🇷'],['AU','호주','🇦🇺'],['DE','독일','🇩🇪']];
+const C=Object.fromEntries(COUNTRIES.map(x=>[x[0],{code:x[0],name:x[1],flag:x[2]}]));
+const LABEL={apple:'Apple App Store',google:'Google Play'},SHORT={apple:'App Store',google:'Google Play'};
+const $=id=>document.getElementById(id),D={store:$('store'),country:$('country'),category:$('category'),date:$('date'),metrics:$('metrics'),content:$('content'),notice:$('notice'),updated:$('updated')};
+let snaps=[],view='country';
+const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const attr=v=>esc(v).replace(/`/g,'&#96;');
+const fmt=v=>{const d=new Date(`${v}T00:00:00`);return isNaN(d)?v:new Intl.DateTimeFormat('ko-KR',{year:'numeric',month:'long',day:'numeric'}).format(d)};
+const normStore=v=>{v=String(v||'').toLowerCase();return ['apple','appstore','app-store','ios'].includes(v)?'apple':['google','googleplay','google-play','android'].includes(v)?'google':''};
+function normalize(raw,meta={}){const records=[];if(Array.isArray(raw.records))raw.records.forEach((r,i)=>push(r,i));if(!records.length&&raw.charts)Object.entries(raw.charts).forEach(([s,cs])=>Object.entries(cs||{}).forEach(([country,list])=>(list||[]).forEach((e,i)=>push(Array.isArray(e)?{title:e[0],description:e[1],category:e[2],store:s,country,rank:i+1}:{...e,store:s,country,rank:i+1},i))));function push(r,i){if(!r)return;const title=String(r.title||r.name||'').trim(),store=normStore(r.store),country=String(r.country||'').toUpperCase(),rank=Number(r.rank||i+1);if(title&&store&&country&&Number.isFinite(rank))records.push({title,store,country,rank,description:String(r.description||r.summary||'앱 설명 없음'),category:String(r.category||'기타')})}return{...raw,date:String(raw.date||meta.date||''),records,sources:raw.sources||{}}}
+async function load(){try{const idx=await fetch('./data/index.json',{cache:'no-store'});if(!idx.ok)throw Error(`스냅샷 목록 ${idx.status}`);const data=await idx.json(),res=await Promise.allSettled((data.snapshots||[]).map(async m=>{const r=await fetch(new URL(String(m.file).replace(/^\.\//,''),document.baseURI),{cache:'no-store'});if(!r.ok)throw Error(`${m.file} ${r.status}`);return normalize(await r.json(),m)}));snaps=res.filter(x=>x.status==='fulfilled').map(x=>x.value).sort((a,b)=>a.date.localeCompare(b.date));if(!snaps.length)throw Error('유효한 스냅샷이 없습니다.');init();render()}catch(e){console.error(e);D.updated.textContent='데이터 로드 실패';D.notice.innerHTML=`<strong>차트를 불러오지 못했습니다.</strong> ${esc(e.message)}`;D.content.innerHTML=empty('데이터 로드 실패','data/index.json과 스냅샷 경로를 확인해 주세요.')}}
+function init(){D.country.innerHTML=COUNTRIES.map(x=>`<option value="${x[0]}">${x[2]} ${x[1]}</option>`).join('');D.date.innerHTML=[...snaps].reverse().map(s=>`<option value="${s.date}">${fmt(s.date)}</option>`).join('');D.date.value=snaps.at(-1).date;const q=new URLSearchParams(location.search);if(['country','weekly','monthly','category','coverage'].includes(q.get('view')))view=q.get('view');if(['apple','google'].includes(q.get('store')))D.store.value=q.get('store');if(C[q.get('country')])D.country.value=q.get('country');if(snaps.some(s=>s.date===q.get('date')))D.date.value=q.get('date');document.querySelectorAll('.tabs button').forEach(b=>b.addEventListener('click',()=>{view=b.dataset.view;render();D.content.focus({preventScroll:true})}));[D.store,D.country,D.category,D.date].forEach(x=>x.addEventListener('change',render))}
+const snap=()=>snaps.find(s=>s.date===D.date.value)||snaps.at(-1);
+const source=(s,store=D.store.value,country=D.country.value)=>s.sources?.[`${store}-${country}`]||Object.values(s.sources||{}).find(x=>x.store===store&&x.country===country);
+const verified=x=>!!x&&String(x.status).toLowerCase().startsWith('verified');
+function rows(s,{store=D.store.value,country=D.country.value,category='all'}={}){let r=s.records.filter(x=>x.store===store);if(country)r=r.filter(x=>x.country===country);if(category!=='all')r=r.filter(x=>x.category===category);return r.sort((a,b)=>a.rank-b.rank||a.title.localeCompare(b.title))}
+const key=r=>`${r.store}|${r.country}|${r.title.toLocaleLowerCase().replace(/\s+/g,' ').trim()}`;
+function categories(r){const m=new Map;r.forEach(x=>m.set(x.category,(m.get(x.category)||0)+1));return [...m].map(([name,count])=>({name,count})).sort((a,b)=>b.count-a.count||a.name.localeCompare(b.name,'ko'))}
+function refreshCats(s){const allCountry=['category','coverage'].includes(view)?null:D.country.value,cs=[...new Set(rows(s,{country:allCountry}).map(x=>x.category))].sort((a,b)=>a.localeCompare(b,'ko')),old=D.category.value;D.category.innerHTML='<option value="all">전체</option>'+cs.map(x=>`<option value="${attr(x)}">${esc(x)}</option>`).join('');D.category.value=cs.includes(old)?old:'all'}
+function render(){const s=snap();refreshCats(s);document.querySelectorAll('.tabs button').forEach(b=>b.classList.toggle('active',b.dataset.view===view));D.country.disabled=['category','coverage'].includes(view);D.category.disabled=view==='coverage';D.updated.textContent=`${fmt(s.date)} · ${s.records.length.toLocaleString('ko-KR')}개 수집`;notice(s);let html=view==='weekly'?weekly(s):view==='monthly'?monthly(s):view==='category'?categoryView(s):view==='coverage'?coverage(s):countryView(s);D.content.innerHTML=html;const q=new URLSearchParams({view,store:D.store.value,country:D.country.value,date:D.date.value});if(D.category.value!=='all')q.set('category',D.category.value);history.replaceState(null,'',`${location.pathname}?${q}`)}
+function notice(s){const c=C[D.country.value],src=source(s),n=Object.values(s.sources||{}).filter(x=>x.store===D.store.value&&verified(x)).length;if(verified(src))D.notice.innerHTML=`<strong>${c.flag} ${c.name} ${SHORT[D.store.value]} 공식 TOP 25 수집 완료.</strong> ${fmt(s.date)} 스냅샷이며 ${n}/7개국 공식 차트가 검증되었습니다.`;else D.notice.innerHTML=`<strong>${c.flag} ${c.name} ${SHORT[D.store.value]} 데이터 미수집.</strong> ${esc(src?.note||'공식 공개 페이지에서 정확한 순위를 확인하지 못했습니다.')} 제3자 순위로 보완하지 않았습니다.`}
+function metricCards(s,r,opt={}){const sources=Object.values(s.sources||{}).filter(x=>x.store===D.store.value),vc=sources.filter(verified).length,all=rows(s,{country:null}),cats=new Set(r.map(x=>x.category)).size,top=r[0];const ms=[['공식 수집 국가',`${vc} / 7`,`${SHORT[D.store.value]} 공식 공개 차트`],[opt.countLabel||'수집된 순위',String(opt.count??r.length),opt.countHint||`전체 ${all.length}개 레코드`],['카테고리',String(cats),D.category.value==='all'?'현재 선택 범위':D.category.value],[opt.topLabel||'현재 1위',opt.top||top?.title||'확인 불가',opt.topHint||top?.category||'공식 데이터 없음']];D.metrics.innerHTML=ms.map(m=>`<article class="metric"><small>${esc(m[0])}</small><b title="${attr(m[1])}">${esc(m[1])}</b><em>${esc(m[2])}</em></article>`).join('')}
+function countryView(s){const all=rows(s),r=rows(s,{category:D.category.value}),src=source(s),c=C[D.country.value];metricCards(s,r);if(!r.length)return empty(`${c.name} ${SHORT[D.store.value]} 순위를 확인할 수 없습니다.`,'공식 공개 차트에서 검증 가능한 TOP 25 데이터가 없습니다.');return `<div class="main-grid"><section class="card"><div class="card-head"><div><h2>${c.flag} ${c.name} · ${LABEL[D.store.value]}</h2><p>${fmt(s.date)} · 공식 무료 앱 TOP 25</p></div><span class="status ${verified(src)?'ok':'warn'}">${verified(src)?'검증 완료':'확인 불가'}</span></div>${top3(r)}${table(r)}</section><aside class="stack"><section class="card"><div class="card-head"><div><h2>카테고리 분포</h2><p>현재 TOP 25 앱 구성</p></div></div><div class="body">${bars(all)}</div></section>${sourceCard(src,c,s)}</aside></div>`}
+function top3(r){return `<div class="top3">${r.slice(0,3).map(x=>`<article class="topapp"><i>#${x.rank}</i><b>${esc(x.title)}</b><span>${esc(x.category)}</span></article>`).join('')}</div>`}
+function table(r,{moves=null,country=false,average=false,trend=false}={}){return `<div class="table-wrap"><table><thead><tr><th>순위</th><th>앱</th><th>카테고리</th>${country?'<th>국가</th>':''}${moves?'<th>등락</th>':''}${average?'<th>월 평균</th>':''}${trend?'<th>추이</th>':''}</tr></thead><tbody>${r.map(x=>`<tr><td class="rank">#${x.rank??x.latestRank}</td><td class="app"><b>${esc(x.title)}</b><span>${esc(x.description||'')}</span></td><td><span class="chip">${esc(x.category)}</span></td>${country?`<td>${C[x.country]?.flag||''} ${C[x.country]?.name||x.country}</td>`:''}${moves?`<td>${delta(moves.get(key(x)))}</td>`:''}${average?`<td class="rank">${x.average.toFixed(1)}</td>`:''}${trend?`<td>${spark(x.ranks)}</td>`:''}</tr>`).join('')}</tbody></table></div>`}
+function delta(v){return v==null?'<span class="delta new">NEW</span>':v>0?`<span class="delta up">▲ ${v}</span>`:v<0?`<span class="delta down">▼ ${Math.abs(v)}</span>`:'<span class="delta">—</span>'}
+function weekly(s){const r=rows(s,{category:D.category.value}),i=snaps.findIndex(x=>x.date===s.date),p=i>0?snaps[i-1]:null,pm=new Map((p?rows(p,{category:'all'}):[]).map(x=>[key(x),x.rank])),moves=new Map(r.map(x=>[key(x),pm.has(key(x))?pm.get(key(x))-x.rank:null])),rise=r.map(x=>({...x,d:moves.get(key(x))})).filter(x=>x.d>0).sort((a,b)=>b.d-a.d).slice(0,8),fresh=r.filter(x=>moves.get(key(x))==null).slice(0,8);metricCards(s,r,{countLabel:'비교 앱',count:r.length,countHint:p?`${fmt(p.date)} 대비`:'첫 기준점',topLabel:'최대 상승',top:rise[0]?.title||(p?'상승 없음':'기준점'),topHint:rise[0]?`▲${rise[0].d}계단`:'다음 수집부터 계산'});if(!r.length)return empty('주간 비교 데이터가 없습니다.','선택한 국가와 스토어의 공식 순위를 먼저 수집해야 합니다.');return `<div class="two-grid"><section class="card"><div class="card-head"><div><h2>주간 순위</h2><p>${p?`${fmt(p.date)} 대비`:'첫 스냅샷'}</p></div></div>${table(r,{moves})}</section><div class="stack">${listCard('상승 앱','지난 스냅샷보다 오른 앱',rise.map(x=>[x.title,`#${x.rank} · ${x.category}`,`▲${x.d}`]))}${listCard('신규·재진입','이전 TOP 25에서 없던 앱',fresh.map(x=>[x.title,`#${x.rank} · ${x.category}`,'NEW']))}</div></div>`}
+function listCard(title,sub,items){return `<section class="card"><div class="card-head"><div><h2>${title}</h2><p>${sub}</p></div></div><ul class="list">${items.length?items.map(x=>`<li><div><b>${esc(x[0])}</b><span>${esc(x[1])}</span></div><strong>${esc(x[2])}</strong></li>`).join(''):'<li><div><b>표시할 항목 없음</b><span>다음 스냅샷에서 자동 계산됩니다.</span></div><strong>—</strong></li>'}</ul></section>`}
+function monthly(s){const month=s.date.slice(0,7),ss=snaps.filter(x=>x.date.startsWith(month)&&x.date<=s.date),m=new Map;ss.forEach(q=>rows(q,{category:D.category.value}).forEach(x=>{const k=key(x),a=m.get(k)||{...x,ranks:[]};a.ranks.push(x.rank);a.latestRank=x.rank;m.set(k,a)}));const r=[...m.values()].map(x=>({...x,rank:x.latestRank,average:x.ranks.reduce((a,b)=>a+b,0)/x.ranks.length})).sort((a,b)=>a.average-b.average);metricCards(s,r,{countLabel:'월간 표본',count:ss.length,countHint:`${month} 누적 스냅샷`,topLabel:'월 평균 1위',top:r[0]?.title||'확인 불가',topHint:r[0]?`평균 ${r[0].average.toFixed(1)}위`:'월간 데이터 없음'});if(!r.length)return empty('월간 데이터가 없습니다.','해당 월에 공식 스냅샷이 없습니다.');return `<div class="two-grid"><section class="card"><div class="card-head"><div><h2>${month} 월간 순위</h2><p>${ss.length}개 스냅샷 평균</p></div></div>${table(r,{average:true,trend:true})}</section>${listCard('월간 지속 노출','TOP 25에 자주 등장한 앱',[...r].sort((a,b)=>b.ranks.length-a.ranks.length||a.average-b.average).slice(0,10).map(x=>[x.title,`평균 ${x.average.toFixed(1)}위`,`${x.ranks.length}회`]))}</div>`}
+function spark(v){if(!v?.length)return'—';const w=90,h=26,p=3,step=v.length===1?0:(w-p*2)/(v.length-1),pts=v.map((rank,i)=>[p+i*step,p+(rank-1)/24*(h-p*2)]),d=pts.map((x,i)=>`${i?'L':'M'}${x[0].toFixed(1)},${x[1].toFixed(1)}`).join(' '),last=pts.at(-1);return `<svg class="spark" viewBox="0 0 ${w} ${h}" aria-label="순위 추이"><path d="${d}"/><circle cx="${last[0]}" cy="${last[1]}" r="2.5"/></svg>`}
+function categoryView(s){const all=rows(s,{country:null}),cs=categories(all),chosen=D.category.value==='all'?cs[0]?.name:D.category.value,r=chosen?all.filter(x=>x.category===chosen):all;metricCards(s,r,{countLabel:'카테고리 앱',count:r.length,countHint:'7개국 TOP 25 합산',topLabel:'강세 카테고리',top:cs[0]?.name||'확인 불가',topHint:cs[0]?`${cs[0].count}개 앱`:'데이터 없음'});if(!all.length)return empty('카테고리 데이터가 없습니다.','현재 스토어에서 공식 수집된 국가가 없습니다.');return `<div class="category-grid"><section class="card"><div class="card-head"><div><h2>카테고리 점유율</h2><p>7개국 TOP 25 합산</p></div></div><div class="body">${bars(all,12)}</div></section><section class="card"><div class="card-head"><div><h2>${esc(chosen||'전체')}</h2><p>국가별 TOP 25 안의 앱</p></div></div>${table(r,{country:true})}</section></div>`}
+function coverage(s){const store=D.store.value,srcs=COUNTRIES.map(x=>({c:C[x[0]],s:source(s,store,x[0])})),vc=srcs.filter(x=>verified(x.s)).length,all=rows(s,{country:null});metricCards(s,all,{countLabel:'공식 수집',count:`${vc} / 7`,countHint:`${SHORT[store]} 국가 커버리지`,topLabel:'저장 레코드',top:String(all.length),topHint:`${fmt(s.date)} 스냅샷`});return `<section class="card" style="margin:0 16px 16px"><div class="card-head"><div><h2>공식 소스 수집 상태</h2><p>제3자 순위 사이트는 사용하지 않습니다.</p></div></div><div class="body"><div class="coverage">${srcs.map(x=>`<article><header><h3>${x.c.flag} ${x.c.name} ${SHORT[store]}</h3><span class="status ${verified(x.s)?'ok':'warn'}">${verified(x.s)?'수집 완료':'미수집'}</span></header><p>${esc(x.s?.note||'공식 공개 차트에서 정확한 순위를 확인하지 못했습니다.')}</p>${x.s?.url?`<a href="${attr(x.s.url)}" target="_blank" rel="noreferrer">공식 페이지 ↗</a>`:''}</article>`).join('')}</div></div></section>`}
+function bars(r,limit=8){const cs=categories(r).slice(0,limit),max=Math.max(...cs.map(x=>x.count),1);return `<div class="bars">${cs.map(x=>`<div class="bar"><span title="${attr(x.name)}">${esc(x.name)}</span><span class="track"><i class="fill" style="--w:${(x.count/max*100).toFixed(1)}%"></i></span><em>${x.count}</em></div>`).join('')}</div>`}
+function sourceCard(src,c,s){const ok=verified(src);return `<section class="card"><div class="card-head"><div><h2>데이터 출처</h2><p>${fmt(s.date)} 공식 공개 페이지</p></div></div><div class="body source"><div class="source-line"><b>${c.flag} ${c.name} ${SHORT[D.store.value]}</b><span class="status ${ok?'ok':'warn'}">${ok?'검증 완료':'확인 불가'}</span></div><p>${esc(src?.note||(ok?'공식 TOP 25를 검증했습니다.':'정확한 순위를 확인하지 못했습니다.'))}</p>${src?.url?`<a href="${attr(src.url)}" target="_blank" rel="noreferrer">공식 차트 확인 ↗</a>`:''}</div></section>`}
+function empty(t,p){metricCards(snap(),[]);return `<section class="card" style="margin:0 16px 16px"><div class="empty"><div><b>${esc(t)}</b><p>${esc(p)}</p></div></div></section>`}
+load();

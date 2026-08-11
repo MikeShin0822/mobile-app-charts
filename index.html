@@ -1,64 +1,43 @@
 <!doctype html>
 <html lang="ko">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Official mobile app chart snapshots across seven countries." />
-  <title>Mobile App Charts</title>
-  <link rel="stylesheet" href="styles.css" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="한국·미국·일본·중국·프랑스·호주·독일의 공식 모바일 앱 차트를 국가·주간·월간·카테고리별로 비교합니다.">
+  <meta name="theme-color" content="#f4f7fb">
+  <meta property="og:title" content="Mobile App Charts">
+  <meta property="og:description" content="7개국 공식 모바일 앱 TOP 25 데이터 대시보드">
+  <title>Mobile App Charts · 7개국 공식 앱 차트</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <main class="shell">
-    <header class="hero">
-      <div>
-        <p class="eyebrow">OFFICIAL CHART TRACKER</p>
-        <h1>Mobile App Charts</h1>
-        <p class="lede">한국·미국·일본·중국·프랑스·호주·독일의 공식 모바일 앱 차트를 주간·월간·국가·카테고리별로 탐색합니다.</p>
-      </div>
-      <div class="hero-badges">
-        <span>공식 소스만</span>
-        <span>7개국</span>
-        <span>TOP 25</span>
-      </div>
-    </header>
-
-    <section class="notice" id="coverageNotice" aria-live="polite"></section>
-
+<a class="skip" href="#content">본문으로 이동</a>
+<header class="topbar"><div class="topbar-inner">
+  <a class="brand" href="./"><span class="logo"><i></i><i></i><i></i></span><b>Mobile App Charts</b></a>
+  <div class="top-actions"><span class="updated"><i></i><span id="updated">불러오는 중</span></span><a href="https://github.com/MikeShin0822/mobile-app-charts" target="_blank" rel="noreferrer">GitHub ↗</a></div>
+</div></header>
+<main class="shell">
+  <section class="hero">
+    <div><h1>7개국 공식 앱 차트를<br>한 화면에서 비교합니다.</h1><p>한국, 미국, 일본, 중국, 프랑스, 호주, 독일의 Apple App Store와 Google Play 공개 차트를 국가·주간·월간·카테고리별로 탐색합니다.</p></div>
+    <div class="flags" aria-label="추적 국가"><span>🇰🇷</span><span>🇺🇸</span><span>🇯🇵</span><span>🇨🇳</span><span>🇫🇷</span><span>🇦🇺</span><span>🇩🇪</span></div>
+  </section>
+  <section id="notice" class="notice" aria-live="polite">공식 차트 데이터를 불러오고 있습니다.</section>
+  <section class="workspace">
     <nav class="tabs" aria-label="보기 방식">
-      <button class="tab active" data-view="country">국가별</button>
-      <button class="tab" data-view="weekly">주간</button>
-      <button class="tab" data-view="monthly">월간</button>
-      <button class="tab" data-view="category">카테고리별</button>
-      <button class="tab" data-view="coverage">수집 상태</button>
+      <button class="active" data-view="country">국가별</button><button data-view="weekly">주간</button><button data-view="monthly">월간</button><button data-view="category">카테고리</button><button data-view="coverage">수집 상태</button>
     </nav>
-
     <section class="filters">
-      <label>스토어
-        <select id="storeFilter">
-          <option value="apple">Apple App Store</option>
-          <option value="google">Google Play</option>
-        </select>
-      </label>
-      <label>국가
-        <select id="countryFilter"></select>
-      </label>
-      <label>카테고리
-        <select id="categoryFilter">
-          <option value="all">전체</option>
-        </select>
-      </label>
-      <label>기준 스냅샷
-        <select id="dateFilter"></select>
-      </label>
+      <label>스토어<select id="store"><option value="apple">Apple App Store</option><option value="google">Google Play</option></select></label>
+      <label>국가<select id="country"></select></label>
+      <label>카테고리<select id="category"><option value="all">전체</option></select></label>
+      <label>기준일<select id="date"></select></label>
     </section>
-
-    <section class="metrics" id="metrics"></section>
-    <section id="content"></section>
-
-    <footer>
-      <p>Rankings are stored only when they can be verified from official Apple App Store or Google Play public pages. Third-party ranking sites are intentionally excluded.</p>
-    </footer>
-  </main>
-  <script src="app.js" defer></script>
+    <section id="metrics" class="metrics"></section>
+    <section id="content" tabindex="-1"></section>
+  </section>
+  <footer><p>공식 Apple App Store 및 Google Play 공개 페이지에서 순위를 검증할 수 있을 때만 저장합니다. 제3자 순위 사이트는 사용하지 않습니다.</p><p>Snapshots are stored in the public GitHub repository.</p></footer>
+</main>
+<script src="app.js" defer></script>
 </body>
 </html>

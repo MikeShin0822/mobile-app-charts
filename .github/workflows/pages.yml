@@ -1,4 +1,4 @@
-name: Deploy static site to Pages
+name: Deploy dashboard to GitHub Pages
 
 on:
   push:
@@ -20,12 +20,13 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - name: Checkout
         uses: actions/checkout@v6
       - name: Setup Pages
         uses: actions/configure-pages@v5
-      - name: Upload artifact
+      - name: Upload static site
         uses: actions/upload-pages-artifact@v4
         with:
           path: "."
