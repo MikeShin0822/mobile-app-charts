@@ -4,9 +4,9 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "collect": "node scripts/collect-charts.mjs"
+    "collect": "node scripts/collect-charts.mjs && node scripts/enrich-google-categories.mjs"
   },
   "dependencies": {
-    "@mradex77/google-play-scraper": "1.0.0"
+    "@mradex77/google-play-scraper": "1.1.0"
   }
 }
