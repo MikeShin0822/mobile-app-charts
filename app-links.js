@@ -8,13 +8,6 @@
     ['AU', '호주', '🇦🇺'],
     ['DE', '독일', '🇩🇪'],
   ];
-  const COUNTRY_BY_TEXT = new Map();
-  COUNTRIES.forEach(([code, name, flag]) => {
-    COUNTRY_BY_TEXT.set(code, code);
-    COUNTRY_BY_TEXT.set(name, code);
-    COUNTRY_BY_TEXT.set(flag, code);
-  });
-
   const snapshots = new Map();
   let loading = null;
   let scheduled = false;
@@ -84,9 +77,9 @@
 
   function countryFromRow(row) {
     if (activeView() !== 'category') return selectedCountry();
-    const text = clean(row.textContent);
-    for (const [token, code] of COUNTRY_BY_TEXT) {
-      if (text.includes(token)) return code;
+    const text = clean(row.cells?.[3]?.textContent);
+    for (const [code, name, flag] of COUNTRIES) {
+      if (text.includes(flag) || text.includes(name)) return code;
     }
     return '';
   }
