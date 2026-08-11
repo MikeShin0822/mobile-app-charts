@@ -22,6 +22,6 @@
 - 정확한 앱-순위 매핑을 검증할 수 없으면 `unavailable`로 저장
 - 날짜별 `data/YYYY-MM-DD.json` 스냅샷 누적
 
-## GitHub Pages
+## Publishing
 
-정적 사이트는 `.github/workflows/pages.yml`로 배포합니다. 최초 한 번 저장소의 **Settings → Pages → Build and deployment → Source**를 **GitHub Actions**로 선택해야 합니다. 이후 `main` 브랜치가 갱신될 때 자동 배포됩니다.
+GitHub Pages는 저장소의 `gh-pages` 브랜치 루트에서 배포됩니다. 정적 사이트나 데이터가 갱신되면 `main`의 최신 배포 커밋을 `gh-pages`에도 반영해 공개 주소를 갱신합니다.
