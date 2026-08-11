@@ -11,9 +11,10 @@
 - 7개국 × Apple App Store 무료 앱 TOP 25 = 175개
 - 7개국 × Google Play 무료 앱 TOP 25 = 175개
 - 한 번의 주간 스냅샷에 총 350개 순위 항목
-- Google Play 앱 상세 페이지에서 카테고리·개발사·아이콘·스토어 URL 보강
+- 각 앱의 아이콘, 개발사, 카테고리, 공식 스토어 URL 저장
 - 한국·미국: 스토어 원문 제목
 - 일본·중국·프랑스·호주·독일: `한글 번역(원어 제목)` 형식
+- 앱 아이콘과 앱 제목을 눌러 공식 Apple App Store 또는 Google Play 페이지 열기
 
 ## Dashboard views
 
@@ -30,7 +31,8 @@
 - 제3자 순위 데이터셋 미사용
 - 정확한 앱-순위 매핑을 검증할 수 없으면 `unavailable`로 저장
 - 날짜별 `data/YYYY-MM-DD.json` 스냅샷과 번역 캐시 누적
+- 게시 전 350개 레코드, 순위 완전성, 공식 URL, 아이콘, 카테고리, 제목 형식 검증
 
 ## Schedule and publishing
 
-`.github/workflows/update-charts.yml`이 매주 월요일 13:00 KST에 실행됩니다. 새 스냅샷을 `main`에 커밋하고, 대시보드와 데이터를 `gh-pages` 브랜치에 게시해 공개 주소를 갱신합니다.
+`.github/workflows/update-charts.yml`이 매주 월요일 13:00 KST에 실행됩니다. 수집·번역·카테고리 보강·검증 후 새 스냅샷을 `main`에 커밋하고, UI와 데이터를 `gh-pages` 브랜치에 게시해 공개 주소를 갱신합니다.
