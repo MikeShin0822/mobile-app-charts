@@ -1,10 +1,19 @@
 # Mobile App Charts
 
-한국·미국·일본·중국·프랑스·호주·독일의 공식 모바일 앱 차트를 저장하고 비교하는 정적 대시보드입니다.
+한국·미국·일본·중국·프랑스·호주·독일의 Apple App Store와 Google Play 공식 모바일 앱 차트를 저장하고 비교하는 정적 대시보드입니다.
 
 ## Live dashboard
 
 - https://mikeshin0822.github.io/mobile-app-charts/
+
+## Current collection
+
+- 7개국 × Apple App Store 무료 앱 TOP 25 = 175개
+- 7개국 × Google Play 무료 앱 TOP 25 = 175개
+- 한 번의 주간 스냅샷에 총 350개 순위 항목
+- Google Play 앱 상세 페이지에서 카테고리·개발사·아이콘·스토어 URL 보강
+- 한국·미국: 스토어 원문 제목
+- 일본·중국·프랑스·호주·독일: `한글 번역(원어 제목)` 형식
 
 ## Dashboard views
 
@@ -16,12 +25,12 @@
 
 ## Data policy
 
-- Apple App Store와 Google Play의 공식 공개 페이지만 사용
+- Apple App Store 공식 Marketing Tools RSS와 Google Play 공식 Top Free 컬렉션에서 수집
 - 무료 앱 종합 TOP 25
-- 제3자 순위 사이트 미사용
+- 제3자 순위 데이터셋 미사용
 - 정확한 앱-순위 매핑을 검증할 수 없으면 `unavailable`로 저장
-- 날짜별 `data/YYYY-MM-DD.json` 스냅샷 누적
+- 날짜별 `data/YYYY-MM-DD.json` 스냅샷과 번역 캐시 누적
 
-## Publishing
+## Schedule and publishing
 
-GitHub Pages는 저장소의 `gh-pages` 브랜치 루트에서 배포됩니다. 정적 사이트나 데이터가 갱신되면 `main`의 최신 배포 커밋을 `gh-pages`에도 반영해 공개 주소를 갱신합니다.
+`.github/workflows/update-charts.yml`이 매주 월요일 13:00 KST에 실행됩니다. 새 스냅샷을 `main`에 커밋하고, 대시보드와 데이터를 `gh-pages` 브랜치에 게시해 공개 주소를 갱신합니다.
