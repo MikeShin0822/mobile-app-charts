@@ -9,8 +9,18 @@ on:
     branches: ["main"]
     paths:
       - ".github/workflows/update-charts.yml"
-      - "scripts/collect-charts.mjs"
+      - "scripts/**"
       - "package.json"
+      - "package-lock.json"
+      - "index.html"
+      - "app.js"
+      - "app-links.js"
+      - "styles.css"
+      - "icons.css"
+      - "favicon.svg"
+      - "404.html"
+      - "README.md"
+      - "AUTOMATION.md"
 
 permissions:
   contents: write
@@ -22,7 +32,7 @@ concurrency:
 jobs:
   collect-and-publish:
     runs-on: ubuntu-latest
-    timeout-minutes: 25
+    timeout-minutes: 30
     steps:
       - name: Checkout repository
         uses: actions/checkout@v6
@@ -37,7 +47,7 @@ jobs:
       - name: Install collector dependency
         run: npm install --no-audit --no-fund
 
-      - name: Collect official Apple App Store and Google Play charts
+      - name: Collect, translate, enrich, and validate official charts
         run: npm run collect
 
       - name: Commit snapshot to main
@@ -58,7 +68,7 @@ jobs:
           rm -rf /tmp/mobile-app-charts-pages
           git worktree add /tmp/mobile-app-charts-pages origin/gh-pages
 
-          for item in index.html styles.css app.js favicon.svg 404.html .nojekyll README.md AUTOMATION.md data; do
+          for item in index.html styles.css icons.css app.js app-links.js favicon.svg 404.html .nojekyll README.md AUTOMATION.md data; do
             if [ -e "$item" ]; then
               rm -rf "/tmp/mobile-app-charts-pages/$item"
               cp -R "$item" "/tmp/mobile-app-charts-pages/$item"
