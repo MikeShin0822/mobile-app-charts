@@ -1,0 +1,12 @@
+{
+  "name": "mobile-app-charts",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "collect": "node scripts/collect-charts.mjs"
+  },
+  "dependencies": {
+    "@mradex77/google-play-scraper": "1.0.0"
+  }
+}
