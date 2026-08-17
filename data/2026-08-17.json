@@ -1,6 +1,6 @@
 {
   "date": "2026-08-17",
-  "generatedAt": "2026-08-17T04:01:39.906Z",
+  "generatedAt": "2026-08-17T04:04:54.561Z",
   "officialOnly": true,
   "topN": 25,
   "titleFormat": {
@@ -1572,21 +1572,6 @@
       "store": "google",
       "country": "US",
       "rank": 23,
-      "appId": "android:com.soundcontroller.loudspeaker.volume.manager.android",
-      "title": "Volume Control Sound Launcher",
-      "originalTitle": "Volume Control Sound Launcher",
-      "translatedTitle": null,
-      "description": "도구 · AtomApplications",
-      "category": "도구",
-      "categoryId": "TOOLS",
-      "developer": "AtomApplications",
-      "icon": "https://play-lh.googleusercontent.com/vxaA3YWsjgqrBTjjrVL7QV_cOQjMg-728iGgJuYk8n2fyD1uejY15wQoBBgMygcbaexDhwq1Z8cjaqlD2X3t",
-      "url": "https://play.google.com/store/apps/details?id=com.soundcontroller.loudspeaker.volume.manager.android&hl=en&gl=us"
-    },
-    {
-      "store": "google",
-      "country": "US",
-      "rank": 24,
       "appId": "android:com.freecash.app2",
       "title": "Freecash: Earn Money",
       "originalTitle": "Freecash: Earn Money",
@@ -1597,6 +1582,21 @@
       "developer": "Freecash",
       "icon": "https://play-lh.googleusercontent.com/MqMKh5WAFtznYbtdHRKpihRnD8buqRvt2FS7mZkIHy0Yetxp4knXhruByOkjluyW8_-E7-6XqRVdQnwgzaBXfg",
       "url": "https://play.google.com/store/apps/details?id=com.freecash.app2&hl=en&gl=us"
+    },
+    {
+      "store": "google",
+      "country": "US",
+      "rank": 24,
+      "appId": "android:com.soundcontroller.loudspeaker.volume.manager.android",
+      "title": "Volume Control Sound Launcher",
+      "originalTitle": "Volume Control Sound Launcher",
+      "translatedTitle": null,
+      "description": "도구 · AtomApplications",
+      "category": "도구",
+      "categoryId": "TOOLS",
+      "developer": "AtomApplications",
+      "icon": "https://play-lh.googleusercontent.com/vxaA3YWsjgqrBTjjrVL7QV_cOQjMg-728iGgJuYk8n2fyD1uejY15wQoBBgMygcbaexDhwq1Z8cjaqlD2X3t",
+      "url": "https://play.google.com/store/apps/details?id=com.soundcontroller.loudspeaker.volume.manager.android&hl=en&gl=us"
     },
     {
       "store": "google",
@@ -5363,5 +5363,687 @@
       "icon": "https://play-lh.googleusercontent.com/12KEJDhgk6oyE1VgmfCuFzFrQripZ_endElbvEhU1rZawQgV3RI-v3II8fDslI1sdC_WKBkmtxS3jxuIihk33Q",
       "url": "https://play.google.com/store/apps/details?id=com.facebook.katana&hl=de&gl=de"
     }
-  ]
+  ],
+  "categoryComposition": {
+    "apple-KR": {
+      "store": "apple",
+      "country": "KR",
+      "status": "verified",
+      "total": 25,
+      "categories": [
+        {
+          "category": "기타",
+          "count": 10
+        },
+        {
+          "category": "라이프스타일",
+          "count": 3
+        },
+        {
+          "category": "생산성",
+          "count": 3
+        },
+        {
+          "category": "사진·비디오",
+          "count": 2
+        },
+        {
+          "category": "금융",
+          "count": 1
+        },
+        {
+          "category": "소셜",
+          "count": 1
+        },
+        {
+          "category": "쇼핑",
+          "count": 1
+        },
+        {
+          "category": "엔터테인먼트",
+          "count": 1
+        },
+        {
+          "category": "여행",
+          "count": 1
+        },
+        {
+          "category": "유틸리티",
+          "count": 1
+        },
+        {
+          "category": "음식·음료",
+          "count": 1
+        }
+      ]
+    },
+    "apple-US": {
+      "store": "apple",
+      "country": "US",
+      "status": "verified",
+      "total": 25,
+      "categories": [
+        {
+          "category": "기타",
+          "count": 10
+        },
+        {
+          "category": "엔터테인먼트",
+          "count": 6
+        },
+        {
+          "category": "생산성",
+          "count": 3
+        },
+        {
+          "category": "쇼핑",
+          "count": 2
+        },
+        {
+          "category": "내비게이션",
+          "count": 1
+        },
+        {
+          "category": "사진·비디오",
+          "count": 1
+        },
+        {
+          "category": "소셜",
+          "count": 1
+        },
+        {
+          "category": "유틸리티",
+          "count": 1
+        }
+      ]
+    },
+    "apple-JP": {
+      "store": "apple",
+      "country": "JP",
+      "status": "verified",
+      "total": 25,
+      "categories": [
+        {
+          "category": "기타",
+          "count": 10
+        },
+        {
+          "category": "엔터테인먼트",
+          "count": 6
+        },
+        {
+          "category": "음식·음료",
+          "count": 3
+        },
+        {
+          "category": "금융",
+          "count": 1
+        },
+        {
+          "category": "뉴스",
+          "count": 1
+        },
+        {
+          "category": "라이프스타일",
+          "count": 1
+        },
+        {
+          "category": "소셜",
+          "count": 1
+        },
+        {
+          "category": "쇼핑",
+          "count": 1
+        },
+        {
+          "category": "여행",
+          "count": 1
+        }
+      ]
+    },
+    "apple-CN": {
+      "store": "apple",
+      "country": "CN",
+      "status": "verified",
+      "total": 25,
+      "categories": [
+        {
+          "category": "기타",
+          "count": 10
+        },
+        {
+          "category": "라이프스타일",
+          "count": 3
+        },
+        {
+          "category": "쇼핑",
+          "count": 3
+        },
+        {
+          "category": "사진·비디오",
+          "count": 2
+        },
+        {
+          "category": "건강·피트니스",
+          "count": 1
+        },
+        {
+          "category": "금융",
+          "count": 1
+        },
+        {
+          "category": "내비게이션",
+          "count": 1
+        },
+        {
+          "category": "생산성",
+          "count": 1
+        },
+        {
+          "category": "스포츠",
+          "count": 1
+        },
+        {
+          "category": "엔터테인먼트",
+          "count": 1
+        },
+        {
+          "category": "유틸리티",
+          "count": 1
+        }
+      ]
+    },
+    "apple-FR": {
+      "store": "apple",
+      "country": "FR",
+      "status": "verified",
+      "total": 25,
+      "categories": [
+        {
+          "category": "기타",
+          "count": 10
+        },
+        {
+          "category": "여행",
+          "count": 3
+        },
+        {
+          "category": "금융",
+          "count": 2
+        },
+        {
+          "category": "내비게이션",
+          "count": 2
+        },
+        {
+          "category": "쇼핑",
+          "count": 2
+        },
+        {
+          "category": "건강·피트니스",
+          "count": 1
+        },
+        {
+          "category": "교육",
+          "count": 1
+        },
+        {
+          "category": "라이프스타일",
+          "count": 1
+        },
+        {
+          "category": "사진·비디오",
+          "count": 1
+        },
+        {
+          "category": "소셜",
+          "count": 1
+        },
+        {
+          "category": "유틸리티",
+          "count": 1
+        }
+      ]
+    },
+    "apple-AU": {
+      "store": "apple",
+      "country": "AU",
+      "status": "verified",
+      "total": 25,
+      "categories": [
+        {
+          "category": "기타",
+          "count": 10
+        },
+        {
+          "category": "쇼핑",
+          "count": 4
+        },
+        {
+          "category": "엔터테인먼트",
+          "count": 3
+        },
+        {
+          "category": "생산성",
+          "count": 2
+        },
+        {
+          "category": "금융",
+          "count": 1
+        },
+        {
+          "category": "내비게이션",
+          "count": 1
+        },
+        {
+          "category": "소셜",
+          "count": 1
+        },
+        {
+          "category": "스포츠",
+          "count": 1
+        },
+        {
+          "category": "유틸리티",
+          "count": 1
+        },
+        {
+          "category": "음식·음료",
+          "count": 1
+        }
+      ]
+    },
+    "apple-DE": {
+      "store": "apple",
+      "country": "DE",
+      "status": "verified",
+      "total": 25,
+      "categories": [
+        {
+          "category": "기타",
+          "count": 10
+        },
+        {
+          "category": "여행",
+          "count": 3
+        },
+        {
+          "category": "교육",
+          "count": 2
+        },
+        {
+          "category": "쇼핑",
+          "count": 2
+        },
+        {
+          "category": "음식·음료",
+          "count": 2
+        },
+        {
+          "category": "내비게이션",
+          "count": 1
+        },
+        {
+          "category": "뉴스",
+          "count": 1
+        },
+        {
+          "category": "라이프스타일",
+          "count": 1
+        },
+        {
+          "category": "사진·비디오",
+          "count": 1
+        },
+        {
+          "category": "엔터테인먼트",
+          "count": 1
+        },
+        {
+          "category": "유틸리티",
+          "count": 1
+        }
+      ]
+    },
+    "google-KR": {
+      "store": "google",
+      "country": "KR",
+      "status": "verified",
+      "total": 25,
+      "categories": [
+        {
+          "category": "생산성",
+          "count": 7
+        },
+        {
+          "category": "금융",
+          "count": 5
+        },
+        {
+          "category": "도구",
+          "count": 4
+        },
+        {
+          "category": "엔터테인먼트",
+          "count": 3
+        },
+        {
+          "category": "동영상",
+          "count": 2
+        },
+        {
+          "category": "쇼핑",
+          "count": 2
+        },
+        {
+          "category": "교육",
+          "count": 1
+        },
+        {
+          "category": "소셜",
+          "count": 1
+        }
+      ]
+    },
+    "google-US": {
+      "store": "google",
+      "country": "US",
+      "status": "verified",
+      "total": 25,
+      "categories": [
+        {
+          "category": "엔터테인먼트",
+          "count": 5
+        },
+        {
+          "category": "커뮤니케이션",
+          "count": 5
+        },
+        {
+          "category": "소셜",
+          "count": 4
+        },
+        {
+          "category": "금융",
+          "count": 2
+        },
+        {
+          "category": "도구",
+          "count": 2
+        },
+        {
+          "category": "생산성",
+          "count": 2
+        },
+        {
+          "category": "쇼핑",
+          "count": 2
+        },
+        {
+          "category": "뉴스·잡지",
+          "count": 1
+        },
+        {
+          "category": "동영상",
+          "count": 1
+        },
+        {
+          "category": "라이프스타일",
+          "count": 1
+        }
+      ]
+    },
+    "google-JP": {
+      "store": "google",
+      "country": "JP",
+      "status": "verified",
+      "total": 25,
+      "categories": [
+        {
+          "category": "엔터테인먼트",
+          "count": 6
+        },
+        {
+          "category": "생산성",
+          "count": 4
+        },
+        {
+          "category": "날씨",
+          "count": 3
+        },
+        {
+          "category": "도구",
+          "count": 3
+        },
+        {
+          "category": "동영상",
+          "count": 2
+        },
+        {
+          "category": "소셜",
+          "count": 2
+        },
+        {
+          "category": "커뮤니케이션",
+          "count": 2
+        },
+        {
+          "category": "금융",
+          "count": 1
+        },
+        {
+          "category": "뉴스·잡지",
+          "count": 1
+        },
+        {
+          "category": "라이프스타일",
+          "count": 1
+        }
+      ]
+    },
+    "google-CN": {
+      "store": "google",
+      "country": "CN",
+      "status": "verified",
+      "total": 25,
+      "categories": [
+        {
+          "category": "도구",
+          "count": 6
+        },
+        {
+          "category": "커뮤니케이션",
+          "count": 5
+        },
+        {
+          "category": "소셜",
+          "count": 4
+        },
+        {
+          "category": "생산성",
+          "count": 3
+        },
+        {
+          "category": "동영상",
+          "count": 2
+        },
+        {
+          "category": "엔터테인먼트",
+          "count": 2
+        },
+        {
+          "category": "뉴스·잡지",
+          "count": 1
+        },
+        {
+          "category": "여행·지역",
+          "count": 1
+        },
+        {
+          "category": "지도·내비게이션",
+          "count": 1
+        }
+      ]
+    },
+    "google-FR": {
+      "store": "google",
+      "country": "FR",
+      "status": "verified",
+      "total": 25,
+      "categories": [
+        {
+          "category": "소셜",
+          "count": 4
+        },
+        {
+          "category": "엔터테인먼트",
+          "count": 4
+        },
+        {
+          "category": "생산성",
+          "count": 3
+        },
+        {
+          "category": "커뮤니케이션",
+          "count": 3
+        },
+        {
+          "category": "날씨",
+          "count": 2
+        },
+        {
+          "category": "도구",
+          "count": 2
+        },
+        {
+          "category": "쇼핑",
+          "count": 2
+        },
+        {
+          "category": "교육",
+          "count": 1
+        },
+        {
+          "category": "금융",
+          "count": 1
+        },
+        {
+          "category": "동영상",
+          "count": 1
+        },
+        {
+          "category": "라이프스타일",
+          "count": 1
+        },
+        {
+          "category": "지도·내비게이션",
+          "count": 1
+        }
+      ]
+    },
+    "google-AU": {
+      "store": "google",
+      "country": "AU",
+      "status": "verified",
+      "total": 25,
+      "categories": [
+        {
+          "category": "쇼핑",
+          "count": 5
+        },
+        {
+          "category": "생산성",
+          "count": 4
+        },
+        {
+          "category": "엔터테인먼트",
+          "count": 4
+        },
+        {
+          "category": "소셜",
+          "count": 3
+        },
+        {
+          "category": "커뮤니케이션",
+          "count": 3
+        },
+        {
+          "category": "지도·내비게이션",
+          "count": 2
+        },
+        {
+          "category": "금융",
+          "count": 1
+        },
+        {
+          "category": "뉴스·잡지",
+          "count": 1
+        },
+        {
+          "category": "스포츠",
+          "count": 1
+        },
+        {
+          "category": "음식·음료",
+          "count": 1
+        }
+      ]
+    },
+    "google-DE": {
+      "store": "google",
+      "country": "DE",
+      "status": "verified",
+      "total": 25,
+      "categories": [
+        {
+          "category": "생산성",
+          "count": 4
+        },
+        {
+          "category": "교육",
+          "count": 3
+        },
+        {
+          "category": "도구",
+          "count": 3
+        },
+        {
+          "category": "소셜",
+          "count": 3
+        },
+        {
+          "category": "커뮤니케이션",
+          "count": 3
+        },
+        {
+          "category": "쇼핑",
+          "count": 2
+        },
+        {
+          "category": "엔터테인먼트",
+          "count": 2
+        },
+        {
+          "category": "금융",
+          "count": 1
+        },
+        {
+          "category": "뉴스·잡지",
+          "count": 1
+        },
+        {
+          "category": "동영상",
+          "count": 1
+        },
+        {
+          "category": "비즈니스",
+          "count": 1
+        },
+        {
+          "category": "여행·지역",
+          "count": 1
+        }
+      ]
+    }
+  }
 }
