@@ -17,3 +17,5 @@
 13. 스냅샷의 `YYYY-MM-DD` 기준일은 실행 시점의 `Asia/Seoul` 현지 날짜를 사용합니다.
 
 GitHub Pages는 `gh-pages` 브랜치 루트에서 배포됩니다. 정기 워크플로가 `main`과 `gh-pages`를 함께 갱신하므로 새 데이터와 UI 변경이 같은 실행에서 공개 사이트에 반영됩니다.
+
+Last automation kick: 2026-08-24 13:02 KST
