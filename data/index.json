@@ -59,6 +59,16 @@
         "google": 7
       },
       "officialOnly": true
+    },
+    {
+      "date": "2026-09-14",
+      "file": "data/2026-09-14.json",
+      "label": "2026-09-14 official charts",
+      "coverage": {
+        "apple": 7,
+        "google": 7
+      },
+      "officialOnly": true
     }
   ]
 }
