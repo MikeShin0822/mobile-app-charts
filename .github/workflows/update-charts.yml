@@ -39,6 +39,11 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Sync checkout to latest main
+        run: |
+          git fetch origin main
+          git checkout -B main origin/main
+
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
@@ -57,10 +62,23 @@ jobs:
           git add data
           if git diff --cached --quiet; then
             echo "No snapshot changes"
-          else
-            git commit -m "Update official app charts $(date -u +%F)"
-            git push origin HEAD:main
+            exit 0
           fi
+
+          git commit -m "Update official app charts $(date -u +%F)"
+
+          for attempt in 1 2 3; do
+            git fetch origin main
+            git rebase origin/main
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+            echo "Push attempt ${attempt} failed; refreshing main before retry"
+            sleep $((attempt * 3))
+          done
+
+          echo "Failed to push snapshot after 3 attempts"
+          exit 1
 
       - name: Publish dashboard and data to gh-pages
         run: |
@@ -76,10 +94,13 @@ jobs:
           done
 
           cd /tmp/mobile-app-charts-pages
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -A
           if git diff --cached --quiet; then
             echo "No Pages changes"
-          else
-            git commit -m "Publish official app charts $(date -u +%F)"
-            git push origin HEAD:gh-pages
+            exit 0
           fi
+
+          git commit -m "Publish official app charts $(date -u +%F)"
+          git push origin HEAD:gh-pages
