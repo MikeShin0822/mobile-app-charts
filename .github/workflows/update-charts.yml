@@ -52,6 +52,9 @@ jobs:
       - name: Install collector dependency
         run: npm install --no-audit --no-fund
 
+      - name: Test category collection and validation
+        run: npm test
+
       - name: Collect, translate, enrich, and validate official charts
         run: npm run collect
 

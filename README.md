@@ -36,3 +36,11 @@
 ## Schedule and publishing
 
 `.github/workflows/update-charts.yml`이 매주 월요일 13:00 KST에 실행됩니다. 수집·번역·카테고리 보강·검증 후 새 스냅샷을 `main`에 커밋하고, UI와 데이터를 `gh-pages` 브랜치에 게시해 공개 주소를 갱신합니다.
+
+## Apple category quality
+
+Apple RSS에서 카테고리가 비어 있으면 해당 국가의 공식 iTunes Lookup에서 앱 ID로 보강합니다. 확인하지 못한 값은 `기타`로 추정하지 않고 `미확인`으로 기록합니다. 기존 순위 검증 상태와 별도로 `categoryStatus` 및 소스별 `categoryQuality`에 품질·출처·확인 시각을 남깁니다. 기존 필드와 주간 수집 주기는 유지합니다.
+
+- 회귀 테스트: `npm test`
+- 특정 날짜 검증: `npm run validate -- 2026-10-19`
+- [원인 조사, 데이터 보강 정책 및 검증 기록](docs/apple-category-investigation.md)
