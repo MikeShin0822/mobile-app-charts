@@ -1,7 +1,9 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import process from 'node:process';
-import * as gplay from '@mradex77/google-play-scraper';
+import { pathToFileURL } from 'node:url';
+import { fetchJson } from './fetch-json.mjs';
+import { resolveAppleCategories, categoryQuality } from './apple-categories.mjs';
 
 const ROOT = process.cwd();
 const DATA_DIR = path.join(ROOT, 'data');
@@ -17,15 +19,6 @@ const COUNTRIES = [
   { code: 'DE', apple: 'de', google: 'de', lang: 'de' },
 ];
 
-const APPLE_CATEGORIES = {
-  '6000': '비즈니스', '6001': '날씨', '6002': '유틸리티', '6003': '여행',
-  '6004': '스포츠', '6005': '소셜', '6006': '도서·참고자료', '6007': '생산성',
-  '6008': '사진·비디오', '6009': '뉴스', '6010': '내비게이션', '6011': '음악',
-  '6012': '라이프스타일', '6013': '건강·피트니스', '6014': '게임', '6015': '금융',
-  '6016': '엔터테인먼트', '6017': '교육', '6018': '도서', '6020': '의료',
-  '6021': '잡지·신문', '6022': '카탈로그', '6023': '음식·음료', '6024': '쇼핑',
-  '6026': '개발자 도구', '6027': '그래픽·디자인',
-};
 
 const GOOGLE_CATEGORIES = {
   ART_AND_DESIGN: '예술·디자인', AUTO_AND_VEHICLES: '자동차', BEAUTY: '뷰티',
@@ -67,30 +60,6 @@ async function readJson(file, fallback) {
   }
 }
 
-async function fetchJson(url, { attempts = 3, timeoutMs = 30000, headers = {} } = {}) {
-  let lastError;
-  for (let attempt = 1; attempt <= attempts; attempt += 1) {
-    const controller = new AbortController();
-    const timer = setTimeout(() => controller.abort(), timeoutMs);
-    try {
-      const response = await fetch(url, {
-        signal: controller.signal,
-        headers: {
-          'user-agent': 'mobile-app-charts/1.0 (+https://github.com/MikeShin0822/mobile-app-charts)',
-          ...headers,
-        },
-      });
-      if (!response.ok) throw new Error(`${response.status} ${response.statusText}`);
-      return await response.json();
-    } catch (error) {
-      lastError = error;
-      if (attempt < attempts) await sleep(1000 * attempt);
-    } finally {
-      clearTimeout(timer);
-    }
-  }
-  throw lastError;
-}
 
 async function retry(label, operation, { attempts = 3, baseDelayMs = 1500 } = {}) {
   let lastError;
@@ -107,7 +76,6 @@ async function retry(label, operation, { attempts = 3, baseDelayMs = 1500 } = {}
 }
 
 function normalizeCategory(value, genreId, store) {
-  if (store === 'apple') return APPLE_CATEGORIES[String(genreId)] || value || '기타';
   const key = String(genreId || value || '').toUpperCase().replace(/[^A-Z0-9]+/g, '_');
   return GOOGLE_CATEGORIES[key] || value || '기타';
 }
@@ -171,17 +139,19 @@ async function titleFields(originalTitle, country, cache) {
   };
 }
 
-async function collectApple(country, translationCache) {
+export async function collectApple(country, translationCache, { fetcher = fetchJson, titleResolver = titleFields } = {}) {
   const url = `https://rss.marketingtools.apple.com/api/v2/${country.apple}/apps/top-free/${TOP_N}/apps.json`;
-  const json = await fetchJson(url);
+  const json = await fetcher(url);
   const items = json?.feed?.results || [];
   if (!items.length) throw new Error('Apple RSS returned no chart entries');
 
+  const chartItems = items.slice(0, TOP_N);
+  const categories = await resolveAppleCategories(chartItems, country.apple, { fetcher });
   const records = [];
-  for (const [index, item] of items.slice(0, TOP_N).entries()) {
-    const genre = item.genres?.[0] || {};
-    const titles = await titleFields(item.name, country.code, translationCache);
-    const category = normalizeCategory(genre.name, genre.genreId, 'apple');
+  for (const [index, item] of chartItems.entries()) {
+    const titles = await titleResolver(item.name, country.code, translationCache);
+    const metadata = categories[index];
+    const { category } = metadata;
     records.push({
       store: 'apple',
       country: country.code,
@@ -189,8 +159,7 @@ async function collectApple(country, translationCache) {
       appId: `ios:${item.id}`,
       ...titles,
       description: `${category} · ${item.artistName || '개발사 정보 없음'}`,
-      category,
-      categoryId: String(genre.genreId || ''),
+      ...metadata,
       developer: item.artistName || '',
       icon: item.artworkUrl100 || '',
       url: item.url || '',
@@ -198,10 +167,11 @@ async function collectApple(country, translationCache) {
   }
 
   assertCompleteOfficialChart(records, `${country.code} Apple App Store`);
-  return { records, url, status: 'verified' };
+  return { records, url, status: 'verified', categoryQuality: categoryQuality(records) };
 }
 
 async function collectGoogle(country, translationCache) {
+  const gplay = await import('@mradex77/google-play-scraper');
   const url = `https://play.google.com/store/apps/collection/topselling_free?gl=${country.code}&hl=${encodeURIComponent(country.lang)}`;
   const items = await retry(`${country.code} Google Play TOP_FREE`, () => gplay.list({
     collection: gplay.collection.TOP_FREE,
@@ -245,6 +215,7 @@ function sourceEntry(store, country, result, error) {
     country: country.code,
     status: result?.status || 'unavailable',
     url: result?.url || defaultUrl,
+    ...(store === 'apple' && result ? { categoryQuality: result.categoryQuality } : {}),
     note: error
       ? `Official chart unavailable: ${error.message}`
       : `Official ${store === 'apple' ? 'Apple RSS/App Store' : 'Google Play Top Free collection'} TOP ${TOP_N}.`,
@@ -332,7 +303,7 @@ async function main() {
   );
 }
 
-main().catch(error => {
+if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) main().catch(error => {
   console.error(error);
   process.exitCode = 1;
 });

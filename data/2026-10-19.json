@@ -18,7 +18,12 @@
       "country": "KR",
       "status": "verified",
       "url": "https://rss.marketingtools.apple.com/api/v2/kr/apps/top-free/25/apps.json",
-      "note": "Official Apple RSS/App Store TOP 25."
+      "note": "Official Apple RSS/App Store TOP 25.",
+      "categoryQuality": {
+        "status": "complete",
+        "verified": 25,
+        "unavailable": 0
+      }
     },
     "google-KR": {
       "store": "google",
@@ -32,7 +37,12 @@
       "country": "US",
       "status": "verified",
       "url": "https://rss.marketingtools.apple.com/api/v2/us/apps/top-free/25/apps.json",
-      "note": "Official Apple RSS/App Store TOP 25."
+      "note": "Official Apple RSS/App Store TOP 25.",
+      "categoryQuality": {
+        "status": "complete",
+        "verified": 25,
+        "unavailable": 0
+      }
     },
     "google-US": {
       "store": "google",
@@ -46,7 +56,12 @@
       "country": "JP",
       "status": "verified",
       "url": "https://rss.marketingtools.apple.com/api/v2/jp/apps/top-free/25/apps.json",
-      "note": "Official Apple RSS/App Store TOP 25."
+      "note": "Official Apple RSS/App Store TOP 25.",
+      "categoryQuality": {
+        "status": "complete",
+        "verified": 25,
+        "unavailable": 0
+      }
     },
     "google-JP": {
       "store": "google",
@@ -60,7 +75,12 @@
       "country": "CN",
       "status": "verified",
       "url": "https://rss.marketingtools.apple.com/api/v2/cn/apps/top-free/25/apps.json",
-      "note": "Official Apple RSS/App Store TOP 25."
+      "note": "Official Apple RSS/App Store TOP 25.",
+      "categoryQuality": {
+        "status": "complete",
+        "verified": 25,
+        "unavailable": 0
+      }
     },
     "google-CN": {
       "store": "google",
@@ -74,7 +94,12 @@
       "country": "FR",
       "status": "verified",
       "url": "https://rss.marketingtools.apple.com/api/v2/fr/apps/top-free/25/apps.json",
-      "note": "Official Apple RSS/App Store TOP 25."
+      "note": "Official Apple RSS/App Store TOP 25.",
+      "categoryQuality": {
+        "status": "complete",
+        "verified": 25,
+        "unavailable": 0
+      }
     },
     "google-FR": {
       "store": "google",
@@ -88,7 +113,12 @@
       "country": "AU",
       "status": "verified",
       "url": "https://rss.marketingtools.apple.com/api/v2/au/apps/top-free/25/apps.json",
-      "note": "Official Apple RSS/App Store TOP 25."
+      "note": "Official Apple RSS/App Store TOP 25.",
+      "categoryQuality": {
+        "status": "complete",
+        "verified": 25,
+        "unavailable": 0
+      }
     },
     "google-AU": {
       "store": "google",
@@ -102,7 +132,12 @@
       "country": "DE",
       "status": "verified",
       "url": "https://rss.marketingtools.apple.com/api/v2/de/apps/top-free/25/apps.json",
-      "note": "Official Apple RSS/App Store TOP 25."
+      "note": "Official Apple RSS/App Store TOP 25.",
+      "categoryQuality": {
+        "status": "complete",
+        "verified": 25,
+        "unavailable": 0
+      }
     },
     "google-DE": {
       "store": "google",
@@ -121,12 +156,16 @@
       "title": "하나은행, 새로워진 하나원큐를 경험해 보세요",
       "originalTitle": "하나은행, 새로워진 하나원큐를 경험해 보세요",
       "translatedTitle": null,
-      "description": "기타 · Hana Bank",
-      "category": "기타",
-      "categoryId": "",
+      "description": "금융 · Hana Bank",
+      "category": "금융",
+      "categoryId": "6015",
       "developer": "Hana Bank",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c4/20/ce/c420ce49-2515-c2b1-15d6-6328af6f1225/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/kr/app/%ED%95%98%EB%82%98%EC%9D%80%ED%96%89-%EC%83%88%EB%A1%9C%EC%9B%8C%EC%A7%84-%ED%95%98%EB%82%98%EC%9B%90%ED%81%90%EB%A5%BC-%EA%B2%BD%ED%97%98%ED%95%B4-%EB%B3%B4%EC%84%B8%EC%9A%94/id6743190232"
+      "url": "https://apps.apple.com/kr/app/%ED%95%98%EB%82%98%EC%9D%80%ED%96%89-%EC%83%88%EB%A1%9C%EC%9B%8C%EC%A7%84-%ED%95%98%EB%82%98%EC%9B%90%ED%81%90%EB%A5%BC-%EA%B2%BD%ED%97%98%ED%95%B4-%EB%B3%B4%EC%84%B8%EC%9A%94/id6743190232",
+      "categoryStatus": "verified",
+      "categorySource": "https://itunes.apple.com/lookup?id=6738063154%2C6783366739%2C6504849169%2C6473753684%2C6670430706%2C6445905219%2C573144133%2C6477489729%2C6739276631%2C6743190232&country=kr&entity=software",
+      "categoryCheckedAt": "2026-10-19T08:35:56.526Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -136,12 +175,16 @@
       "title": "실손24",
       "originalTitle": "실손24",
       "translatedTitle": null,
-      "description": "기타 · Korean Insurance Development Institute Inc.",
-      "category": "기타",
-      "categoryId": "",
+      "description": "금융 · Korean Insurance Development Institute Inc.",
+      "category": "금융",
+      "categoryId": "6015",
       "developer": "Korean Insurance Development Institute Inc.",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/08/3c/c0/083cc090-457a-dcc4-fb33-6e74a576378c/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/kr/app/%EC%8B%A4%EC%86%9024/id6553966660"
+      "url": "https://apps.apple.com/kr/app/%EC%8B%A4%EC%86%9024/id6553966660",
+      "categoryStatus": "verified",
+      "categorySource": "https://itunes.apple.com/lookup?id=6553966660&country=kr&entity=software",
+      "categoryCheckedAt": "2026-10-21T07:55:59.152Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -151,12 +194,16 @@
       "title": "NetShort - 인기 드라마 및 TV 프로그램",
       "originalTitle": "NetShort - 인기 드라마 및 TV 프로그램",
       "translatedTitle": null,
-      "description": "기타 · NETSTORY PTE. LTD.",
-      "category": "기타",
-      "categoryId": "",
+      "description": "엔터테인먼트 · NETSTORY PTE. LTD.",
+      "category": "엔터테인먼트",
+      "categoryId": "6016",
       "developer": "NETSTORY PTE. LTD.",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ef/0d/42/ef0d42c6-12b6-b9f6-3d9f-d95b91cd5627/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/kr/app/netshort-%EC%9D%B8%EA%B8%B0-%EB%93%9C%EB%9D%BC%EB%A7%88-%EB%B0%8F-tv-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8/id6504849169"
+      "url": "https://apps.apple.com/kr/app/netshort-%EC%9D%B8%EA%B8%B0-%EB%93%9C%EB%9D%BC%EB%A7%88-%EB%B0%8F-tv-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8/id6504849169",
+      "categoryStatus": "verified",
+      "categorySource": "https://itunes.apple.com/lookup?id=6738063154%2C6783366739%2C6504849169%2C6473753684%2C6670430706%2C6445905219%2C573144133%2C6477489729%2C6739276631%2C6743190232&country=kr&entity=software",
+      "categoryCheckedAt": "2026-10-19T08:35:56.526Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -166,12 +213,16 @@
       "title": "내가 당신을 사랑할 때 보이는 순간들: 빈티지 카메라앱",
       "originalTitle": "내가 당신을 사랑할 때 보이는 순간들: 빈티지 카메라앱",
       "translatedTitle": null,
-      "description": "기타 · ironpig Inc.",
-      "category": "기타",
-      "categoryId": "",
+      "description": "사진·비디오 · ironpig Inc.",
+      "category": "사진·비디오",
+      "categoryId": "6008",
       "developer": "ironpig Inc.",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9d/73/96/9d739664-db59-d7e3-aba2-81aceee30123/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/kr/app/%EB%82%B4%EA%B0%80-%EB%8B%B9%EC%8B%A0%EC%9D%84-%EC%82%AC%EB%9E%91%ED%95%A0-%EB%95%8C-%EB%B3%B4%EC%9D%B4%EB%8A%94-%EC%88%9C%EA%B0%84%EB%93%A4-%EB%B9%88%ED%8B%B0%EC%A7%80-%EC%B9%B4%EB%A9%94%EB%9D%BC%EC%95%B1/id6783366739"
+      "url": "https://apps.apple.com/kr/app/%EB%82%B4%EA%B0%80-%EB%8B%B9%EC%8B%A0%EC%9D%84-%EC%82%AC%EB%9E%91%ED%95%A0-%EB%95%8C-%EB%B3%B4%EC%9D%B4%EB%8A%94-%EC%88%9C%EA%B0%84%EB%93%A4-%EB%B9%88%ED%8B%B0%EC%A7%80-%EC%B9%B4%EB%A9%94%EB%9D%BC%EC%95%B1/id6783366739",
+      "categoryStatus": "verified",
+      "categorySource": "https://itunes.apple.com/lookup?id=6738063154%2C6783366739%2C6504849169%2C6473753684%2C6670430706%2C6445905219%2C573144133%2C6477489729%2C6739276631%2C6743190232&country=kr&entity=software",
+      "categoryCheckedAt": "2026-10-19T08:35:56.526Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -181,12 +232,16 @@
       "title": "Claude by Anthropic",
       "originalTitle": "Claude by Anthropic",
       "translatedTitle": null,
-      "description": "기타 · Anthropic PBC",
-      "category": "기타",
-      "categoryId": "",
+      "description": "생산성 · Anthropic PBC",
+      "category": "생산성",
+      "categoryId": "6007",
       "developer": "Anthropic PBC",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a4/22/d1/a422d187-52f2-ec6f-bb2d-87d3558373e6/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/kr/app/claude-by-anthropic/id6473753684"
+      "url": "https://apps.apple.com/kr/app/claude-by-anthropic/id6473753684",
+      "categoryStatus": "verified",
+      "categorySource": "https://itunes.apple.com/lookup?id=6738063154%2C6783366739%2C6504849169%2C6473753684%2C6670430706%2C6445905219%2C573144133%2C6477489729%2C6739276631%2C6743190232&country=kr&entity=software",
+      "categoryCheckedAt": "2026-10-19T08:35:56.526Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -196,12 +251,16 @@
       "title": "네이버플러스 스토어",
       "originalTitle": "네이버플러스 스토어",
       "translatedTitle": null,
-      "description": "기타 · NAVER Corp.",
-      "category": "기타",
-      "categoryId": "",
+      "description": "쇼핑 · NAVER Corp.",
+      "category": "쇼핑",
+      "categoryId": "6024",
       "developer": "NAVER Corp.",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6c/3f/d4/6c3fd4e2-4190-83a4-7a7f-9dea5022910f/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/kr/app/%EB%84%A4%EC%9D%B4%EB%B2%84%ED%94%8C%EB%9F%AC%EC%8A%A4-%EC%8A%A4%ED%86%A0%EC%96%B4/id6738063154"
+      "url": "https://apps.apple.com/kr/app/%EB%84%A4%EC%9D%B4%EB%B2%84%ED%94%8C%EB%9F%AC%EC%8A%A4-%EC%8A%A4%ED%86%A0%EC%96%B4/id6738063154",
+      "categoryStatus": "verified",
+      "categorySource": "https://itunes.apple.com/lookup?id=6738063154%2C6783366739%2C6504849169%2C6473753684%2C6670430706%2C6445905219%2C573144133%2C6477489729%2C6739276631%2C6743190232&country=kr&entity=software",
+      "categoryCheckedAt": "2026-10-19T08:35:56.526Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -211,12 +270,16 @@
       "title": "Google Gemini",
       "originalTitle": "Google Gemini",
       "translatedTitle": null,
-      "description": "기타 · Google",
-      "category": "기타",
-      "categoryId": "",
+      "description": "생산성 · Google",
+      "category": "생산성",
+      "categoryId": "6007",
       "developer": "Google",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/86/69/2c/86692cd5-8c2d-c25f-8aaf-9cd1c7478d4a/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-0-0-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/kr/app/google-gemini/id6477489729"
+      "url": "https://apps.apple.com/kr/app/google-gemini/id6477489729",
+      "categoryStatus": "verified",
+      "categorySource": "https://itunes.apple.com/lookup?id=6738063154%2C6783366739%2C6504849169%2C6473753684%2C6670430706%2C6445905219%2C573144133%2C6477489729%2C6739276631%2C6743190232&country=kr&entity=software",
+      "categoryCheckedAt": "2026-10-19T08:35:56.526Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -226,12 +289,16 @@
       "title": "DramaWave -일본 / 한국 / 인기 단편 드라마",
       "originalTitle": "DramaWave -일본 / 한국 / 인기 단편 드라마",
       "translatedTitle": null,
-      "description": "기타 · SKYWORK AI PTE LTD",
-      "category": "기타",
-      "categoryId": "",
+      "description": "엔터테인먼트 · SKYWORK AI PTE LTD",
+      "category": "엔터테인먼트",
+      "categoryId": "6016",
       "developer": "SKYWORK AI PTE LTD",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/27/97/16/279716b1-a124-611e-04a6-911a8b845dc1/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/kr/app/dramawave-%EC%9D%BC%EB%B3%B8-%ED%95%9C%EA%B5%AD-%EC%9D%B8%EA%B8%B0-%EB%8B%A8%ED%8E%B8-%EB%93%9C%EB%9D%BC%EB%A7%88/id6670430706"
+      "url": "https://apps.apple.com/kr/app/dramawave-%EC%9D%BC%EB%B3%B8-%ED%95%9C%EA%B5%AD-%EC%9D%B8%EA%B8%B0-%EB%8B%A8%ED%8E%B8-%EB%93%9C%EB%9D%BC%EB%A7%88/id6670430706",
+      "categoryStatus": "verified",
+      "categorySource": "https://itunes.apple.com/lookup?id=6738063154%2C6783366739%2C6504849169%2C6473753684%2C6670430706%2C6445905219%2C573144133%2C6477489729%2C6739276631%2C6743190232&country=kr&entity=software",
+      "categoryCheckedAt": "2026-10-19T08:35:56.526Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -241,12 +308,16 @@
       "title": "포켓CU",
       "originalTitle": "포켓CU",
       "translatedTitle": null,
-      "description": "기타 · BGFretail Co., Ltd.",
-      "category": "기타",
-      "categoryId": "",
+      "description": "라이프스타일 · BGFretail Co., Ltd.",
+      "category": "라이프스타일",
+      "categoryId": "6012",
       "developer": "BGFretail Co., Ltd.",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9f/d2/2c/9fd22cff-28af-a061-c879-3615406ec36e/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/kr/app/%ED%8F%AC%EC%BC%93cu/id573144133"
+      "url": "https://apps.apple.com/kr/app/%ED%8F%AC%EC%BC%93cu/id573144133",
+      "categoryStatus": "verified",
+      "categorySource": "https://itunes.apple.com/lookup?id=6738063154%2C6783366739%2C6504849169%2C6473753684%2C6670430706%2C6445905219%2C573144133%2C6477489729%2C6739276631%2C6743190232&country=kr&entity=software",
+      "categoryCheckedAt": "2026-10-19T08:35:56.526Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -256,12 +327,16 @@
       "title": "AI Catch(AI 캐치): AI 영상 생성기",
       "originalTitle": "AI Catch(AI 캐치): AI 영상 생성기",
       "translatedTitle": null,
-      "description": "기타 · Prominent Fortune PTE. LTD",
-      "category": "기타",
-      "categoryId": "",
+      "description": "사진·비디오 · Prominent Fortune PTE. LTD",
+      "category": "사진·비디오",
+      "categoryId": "6008",
       "developer": "Prominent Fortune PTE. LTD",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f5/59/0e/f5590e6a-9e2d-268f-72e6-1eb8c8ebe64d/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/kr/app/ai-catch-ai-%EC%BA%90%EC%B9%98-ai-%EC%98%81%EC%83%81-%EC%83%9D%EC%84%B1%EA%B8%B0/id6739276631"
+      "url": "https://apps.apple.com/kr/app/ai-catch-ai-%EC%BA%90%EC%B9%98-ai-%EC%98%81%EC%83%81-%EC%83%9D%EC%84%B1%EA%B8%B0/id6739276631",
+      "categoryStatus": "verified",
+      "categorySource": "https://itunes.apple.com/lookup?id=6738063154%2C6783366739%2C6504849169%2C6473753684%2C6670430706%2C6445905219%2C573144133%2C6477489729%2C6739276631%2C6743190232&country=kr&entity=software",
+      "categoryCheckedAt": "2026-10-19T08:35:56.526Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -276,7 +351,11 @@
       "categoryId": "6016",
       "developer": "STORYMATRIX PTE. LTD.",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/aa/47/bf/aa47bf74-45ed-aaac-384c-57c89b28c919/AppIcon-0-0-1x_U007ephone-0-1-0-0-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/kr/app/dramabox-%EC%98%81%ED%99%94%EC%99%80-%EC%88%8F%ED%8F%BC-%EB%93%9C%EB%9D%BC%EB%A7%88/id6445905219"
+      "url": "https://apps.apple.com/kr/app/dramabox-%EC%98%81%ED%99%94%EC%99%80-%EC%88%8F%ED%8F%BC-%EB%93%9C%EB%9D%BC%EB%A7%88/id6445905219",
+      "categoryStatus": "verified",
+      "categorySource": "https://rss.marketingtools.apple.com/api/v2/kr/apps/top-free/25/apps.json",
+      "categoryCheckedAt": "2026-10-19T09:46:36.721Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -291,7 +370,11 @@
       "categoryId": "6024",
       "developer": "浙江淘宝网络有限公司",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d4/b1/4a/d4b14a2f-73e2-a36d-49e7-ff8492fa7e06/AppIcon-0-0-1x_U007emarketing-0-10-0-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/kr/app/%E6%B7%98%E5%AE%9D-%E4%B8%87%E8%83%BD%E7%9A%84%E6%B7%98%E5%AE%9D/id387682726"
+      "url": "https://apps.apple.com/kr/app/%E6%B7%98%E5%AE%9D-%E4%B8%87%E8%83%BD%E7%9A%84%E6%B7%98%E5%AE%9D/id387682726",
+      "categoryStatus": "verified",
+      "categorySource": "https://rss.marketingtools.apple.com/api/v2/kr/apps/top-free/25/apps.json",
+      "categoryCheckedAt": "2026-10-19T09:46:36.721Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -306,7 +389,11 @@
       "categoryId": "6003",
       "developer": "Trip.com Travel Singapore Pte. Ltd.",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/81/06/57/81065700-90ee-2170-370f-d819c9ae48e1/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/kr/app/trip-com-%ED%8A%B8%EB%A6%BD%EB%8B%B7%EC%BB%B4-%EC%97%AC%ED%96%89-%ED%95%A0%EC%9D%B8-%EC%98%88%EC%95%BD/id681752345"
+      "url": "https://apps.apple.com/kr/app/trip-com-%ED%8A%B8%EB%A6%BD%EB%8B%B7%EC%BB%B4-%EC%97%AC%ED%96%89-%ED%95%A0%EC%9D%B8-%EC%98%88%EC%95%BD/id681752345",
+      "categoryStatus": "verified",
+      "categorySource": "https://rss.marketingtools.apple.com/api/v2/kr/apps/top-free/25/apps.json",
+      "categoryCheckedAt": "2026-10-19T09:46:36.721Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -321,7 +408,11 @@
       "categoryId": "6007",
       "developer": "OpenAI OpCo, LLC",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/30/23/eb/3023ebb0-1e40-6314-9909-f490a704b5d1/AppIcon-0-0-1x_U007epad-0-0-0-1-0-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/kr/app/chatgpt/id6448311069"
+      "url": "https://apps.apple.com/kr/app/chatgpt/id6448311069",
+      "categoryStatus": "verified",
+      "categorySource": "https://rss.marketingtools.apple.com/api/v2/kr/apps/top-free/25/apps.json",
+      "categoryCheckedAt": "2026-10-19T09:46:36.721Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -336,7 +427,11 @@
       "categoryId": "6017",
       "developer": "Duolingo",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/70/f8/4c/70f84cd4-f8f0-5d64-8b3a-f5d395293b80/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/kr/app/%EB%93%80%EC%98%A4%EB%A7%81%EA%B3%A0-duolingo-%EC%96%B8%EC%96%B4-%ED%95%99%EC%8A%B5/id570060128"
+      "url": "https://apps.apple.com/kr/app/%EB%93%80%EC%98%A4%EB%A7%81%EA%B3%A0-duolingo-%EC%96%B8%EC%96%B4-%ED%95%99%EC%8A%B5/id570060128",
+      "categoryStatus": "verified",
+      "categorySource": "https://rss.marketingtools.apple.com/api/v2/kr/apps/top-free/25/apps.json",
+      "categoryCheckedAt": "2026-10-19T09:46:36.721Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -351,7 +446,11 @@
       "categoryId": "6016",
       "developer": "NewLeaf Publishing",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/41/d5/c1/41d5c184-935e-0040-b565-a9dedfeccbb5/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/kr/app/reelshort-%EB%93%9C%EB%9D%BC%EB%A7%88-tv-%EC%8B%A4%EC%8B%9C%EA%B0%84/id1636235979"
+      "url": "https://apps.apple.com/kr/app/reelshort-%EB%93%9C%EB%9D%BC%EB%A7%88-tv-%EC%8B%A4%EC%8B%9C%EA%B0%84/id1636235979",
+      "categoryStatus": "verified",
+      "categorySource": "https://rss.marketingtools.apple.com/api/v2/kr/apps/top-free/25/apps.json",
+      "categoryCheckedAt": "2026-10-19T09:46:36.721Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -366,7 +465,11 @@
       "categoryId": "6003",
       "developer": "YANOLJA CO.,LTD",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/aa/d2/fe/aad2feda-66f5-4bf4-7633-e2b5124f21e9/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/kr/app/nol-%EC%95%BC%EB%86%80%EC%9E%90%EC%99%80-%EC%9D%B8%ED%84%B0%ED%8C%8C%ED%81%AC%EC%9D%98-%EC%83%88%EB%A1%9C%EC%9A%B4-%EC%9D%B4%EB%A6%84/id436731843"
+      "url": "https://apps.apple.com/kr/app/nol-%EC%95%BC%EB%86%80%EC%9E%90%EC%99%80-%EC%9D%B8%ED%84%B0%ED%8C%8C%ED%81%AC%EC%9D%98-%EC%83%88%EB%A1%9C%EC%9A%B4-%EC%9D%B4%EB%A6%84/id436731843",
+      "categoryStatus": "verified",
+      "categorySource": "https://rss.marketingtools.apple.com/api/v2/kr/apps/top-free/25/apps.json",
+      "categoryCheckedAt": "2026-10-19T09:46:36.721Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -381,7 +484,11 @@
       "categoryId": "6007",
       "developer": "FLEXTECH INC.",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/54/00/c1/5400c15c-d56b-c562-7af2-08e925e3edb3/AppIcon-0-0-1x_U007epad-0-1-0-0-sRGB-0-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/kr/app/terabox-1tb-%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C-%EC%A0%80%EC%9E%A5%EC%86%8C-ai-%EA%B3%B5%EA%B0%84/id1509453185"
+      "url": "https://apps.apple.com/kr/app/terabox-1tb-%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C-%EC%A0%80%EC%9E%A5%EC%86%8C-ai-%EA%B3%B5%EA%B0%84/id1509453185",
+      "categoryStatus": "verified",
+      "categorySource": "https://rss.marketingtools.apple.com/api/v2/kr/apps/top-free/25/apps.json",
+      "categoryCheckedAt": "2026-10-19T09:46:36.721Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -396,7 +503,11 @@
       "categoryId": "6015",
       "developer": "Naver Financial Corporation",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4e/b8/b8/4eb8b88b-d0ba-c87b-348f-88141bc2469c/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/kr/app/%EB%84%A4%EC%9D%B4%EB%B2%84%ED%8E%98%EC%9D%B4/id1554807824"
+      "url": "https://apps.apple.com/kr/app/%EB%84%A4%EC%9D%B4%EB%B2%84%ED%8E%98%EC%9D%B4/id1554807824",
+      "categoryStatus": "verified",
+      "categorySource": "https://rss.marketingtools.apple.com/api/v2/kr/apps/top-free/25/apps.json",
+      "categoryCheckedAt": "2026-10-19T09:46:36.721Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -411,7 +522,11 @@
       "categoryId": "6020",
       "developer": "국민건강보험공단",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/88/e2/0d/88e20d29-31ad-cae6-897d-b5722b04c8b7/AppIcon-0-0-1x_U007emarketing-0-6-0-0-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/kr/app/%EB%AA%A8%EB%B0%94%EC%9D%BC-%EA%B1%B4%EA%B0%95%EB%B3%B4%ED%97%98%EC%A6%9D/id6444602589"
+      "url": "https://apps.apple.com/kr/app/%EB%AA%A8%EB%B0%94%EC%9D%BC-%EA%B1%B4%EA%B0%95%EB%B3%B4%ED%97%98%EC%A6%9D/id6444602589",
+      "categoryStatus": "verified",
+      "categorySource": "https://rss.marketingtools.apple.com/api/v2/kr/apps/top-free/25/apps.json",
+      "categoryCheckedAt": "2026-10-19T09:46:36.721Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -426,7 +541,11 @@
       "categoryId": "6016",
       "developer": "Spoonlabs, Inc.",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f4/75/ab/f475ab28-c63a-7714-c383-963b7c5b5aed/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/kr/app/vigloo-%EC%88%8F%ED%8F%BC%EB%93%9C%EB%9D%BC%EB%A7%88/id6503421271"
+      "url": "https://apps.apple.com/kr/app/vigloo-%EC%88%8F%ED%8F%BC%EB%93%9C%EB%9D%BC%EB%A7%88/id6503421271",
+      "categoryStatus": "verified",
+      "categorySource": "https://rss.marketingtools.apple.com/api/v2/kr/apps/top-free/25/apps.json",
+      "categoryCheckedAt": "2026-10-19T09:46:36.721Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -441,7 +560,11 @@
       "categoryId": "6002",
       "developer": "인천국제공항공사",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/35/01/20/350120dd-9384-81a7-7563-e3767ebdfca3/AppIcon-0-0-1x_U007ephone-0-11-0-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/kr/app/icn-smartpass-%EC%9D%B8%EC%B2%9C%EA%B3%B5%ED%95%AD-%EC%8A%A4%EB%A7%88%ED%8A%B8%ED%8C%A8%EC%8A%A4/id6443837919"
+      "url": "https://apps.apple.com/kr/app/icn-smartpass-%EC%9D%B8%EC%B2%9C%EA%B3%B5%ED%95%AD-%EC%8A%A4%EB%A7%88%ED%8A%B8%ED%8C%A8%EC%8A%A4/id6443837919",
+      "categoryStatus": "verified",
+      "categorySource": "https://rss.marketingtools.apple.com/api/v2/kr/apps/top-free/25/apps.json",
+      "categoryCheckedAt": "2026-10-19T09:46:36.721Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -456,7 +579,11 @@
       "categoryId": "6015",
       "developer": "SHINHAN BANK",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e9/98/84/e998845d-93e8-2c2c-c0ff-710a9bb884ab/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/kr/app/%EC%8B%A0%ED%95%9C-%EC%8A%88%ED%8D%BCsol-%EC%8B%A0%ED%95%9C-%EC%9C%A0%EB%8B%88%EB%B2%84%EC%85%9C-%EA%B8%88%EC%9C%B5-%EC%95%B1/id357484932"
+      "url": "https://apps.apple.com/kr/app/%EC%8B%A0%ED%95%9C-%EC%8A%88%ED%8D%BCsol-%EC%8B%A0%ED%95%9C-%EC%9C%A0%EB%8B%88%EB%B2%84%EC%85%9C-%EA%B8%88%EC%9C%B5-%EC%95%B1/id357484932",
+      "categoryStatus": "verified",
+      "categorySource": "https://rss.marketingtools.apple.com/api/v2/kr/apps/top-free/25/apps.json",
+      "categoryCheckedAt": "2026-10-19T09:46:36.721Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -471,7 +598,11 @@
       "categoryId": "6012",
       "developer": "GS Retail Co., Ltd.",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8e/4b/cf/8e4bcfe2-b12a-1b59-d77f-f365c44eb343/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/kr/app/%EC%9A%B0%EB%A6%AC%EB%8F%99%EB%84%A4gs-gs25-gs%EB%8D%94%ED%94%84%EB%A0%88%EC%8B%9C-%EC%99%80%EC%9D%B825%ED%94%8C%EB%9F%AC%EC%8A%A4/id426644449"
+      "url": "https://apps.apple.com/kr/app/%EC%9A%B0%EB%A6%AC%EB%8F%99%EB%84%A4gs-gs25-gs%EB%8D%94%ED%94%84%EB%A0%88%EC%8B%9C-%EC%99%80%EC%9D%B825%ED%94%8C%EB%9F%AC%EC%8A%A4/id426644449",
+      "categoryStatus": "verified",
+      "categorySource": "https://rss.marketingtools.apple.com/api/v2/kr/apps/top-free/25/apps.json",
+      "categoryCheckedAt": "2026-10-19T09:46:36.721Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -486,7 +617,11 @@
       "categoryId": "6002",
       "developer": "행정안전부",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/79/b1/ef/79b1ef64-3a34-8644-409a-3a6a3507749a/AppIcon-0-0-1x_U007ephone-0-11-0-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/kr/app/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD-%EB%AA%A8%EB%B0%94%EC%9D%BC-%EC%8B%A0%EB%B6%84%EC%A6%9D/id1599450372"
+      "url": "https://apps.apple.com/kr/app/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD-%EB%AA%A8%EB%B0%94%EC%9D%BC-%EC%8B%A0%EB%B6%84%EC%A6%9D/id1599450372",
+      "categoryStatus": "verified",
+      "categorySource": "https://rss.marketingtools.apple.com/api/v2/kr/apps/top-free/25/apps.json",
+      "categoryCheckedAt": "2026-10-19T09:46:36.721Z",
+      "categoryReason": null
     },
     {
       "store": "google",
@@ -871,12 +1006,16 @@
       "title": "Muse from Meta",
       "originalTitle": "Muse from Meta",
       "translatedTitle": null,
-      "description": "기타 · Meta Platforms, Inc.",
-      "category": "기타",
-      "categoryId": "",
+      "description": "생산성 · Meta Platforms, Inc.",
+      "category": "생산성",
+      "categoryId": "6007",
       "developer": "Meta Platforms, Inc.",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/43/eb/1b/43eb1bff-c145-7968-55a6-1ff63ec49644/HatchAppIconPublic-0-0-1x_U007epad-0-1-0-sRGB-0-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/us/app/muse-from-meta/id6760173601"
+      "url": "https://apps.apple.com/us/app/muse-from-meta/id6760173601",
+      "categoryStatus": "verified",
+      "categorySource": "https://itunes.apple.com/lookup?id=6760173601%2C632064380%2C6448311069%2C6741796873%2C922103212%2C6754134922%2C1632713844%2C6447582581%2C6446202561%2C6446901002&country=us&entity=software",
+      "categoryCheckedAt": "2026-10-19T08:35:56.526Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -886,12 +1025,16 @@
       "title": "Vinted: Pre-loved marketplace",
       "originalTitle": "Vinted: Pre-loved marketplace",
       "translatedTitle": null,
-      "description": "기타 · Vinted Limited",
-      "category": "기타",
-      "categoryId": "",
+      "description": "쇼핑 · Vinted Limited",
+      "category": "쇼핑",
+      "categoryId": "6024",
       "developer": "Vinted Limited",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/df/27/50/df2750f9-14f0-27d4-7fa0-c9770a94b28e/VintedAppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/us/app/vinted-pre-loved-marketplace/id632064380"
+      "url": "https://apps.apple.com/us/app/vinted-pre-loved-marketplace/id632064380",
+      "categoryStatus": "verified",
+      "categorySource": "https://itunes.apple.com/lookup?id=6760173601%2C632064380%2C6448311069%2C6741796873%2C922103212%2C6754134922%2C1632713844%2C6447582581%2C6446202561%2C6446901002&country=us&entity=software",
+      "categoryCheckedAt": "2026-10-19T08:35:56.526Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -901,12 +1044,16 @@
       "title": "ChatGPT",
       "originalTitle": "ChatGPT",
       "translatedTitle": null,
-      "description": "기타 · OpenAI OpCo, LLC",
-      "category": "기타",
-      "categoryId": "",
+      "description": "생산성 · OpenAI OpCo, LLC",
+      "category": "생산성",
+      "categoryId": "6007",
       "developer": "OpenAI OpCo, LLC",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/30/23/eb/3023ebb0-1e40-6314-9909-f490a704b5d1/AppIcon-0-0-1x_U007epad-0-0-0-1-0-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/us/app/chatgpt/id6448311069"
+      "url": "https://apps.apple.com/us/app/chatgpt/id6448311069",
+      "categoryStatus": "verified",
+      "categorySource": "https://itunes.apple.com/lookup?id=6760173601%2C632064380%2C6448311069%2C6741796873%2C922103212%2C6754134922%2C1632713844%2C6447582581%2C6446202561%2C6446901002&country=us&entity=software",
+      "categoryCheckedAt": "2026-10-19T08:35:56.526Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -916,12 +1063,16 @@
       "title": "TikTok Pro - Events",
       "originalTitle": "TikTok Pro - Events",
       "translatedTitle": null,
-      "description": "기타 · TikTok Ltd.",
-      "category": "기타",
-      "categoryId": "",
+      "description": "엔터테인먼트 · TikTok Ltd.",
+      "category": "엔터테인먼트",
+      "categoryId": "6016",
       "developer": "TikTok Ltd.",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ea/78/45/ea784534-39b0-b4cd-9105-f143cf0703bb/AppIcon_TikTok-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/us/app/tiktok-pro-events/id6741796873"
+      "url": "https://apps.apple.com/us/app/tiktok-pro-events/id6741796873",
+      "categoryStatus": "verified",
+      "categorySource": "https://itunes.apple.com/lookup?id=6760173601%2C632064380%2C6448311069%2C6741796873%2C922103212%2C6754134922%2C1632713844%2C6447582581%2C6446202561%2C6446901002&country=us&entity=software",
+      "categoryCheckedAt": "2026-10-19T08:35:56.526Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -931,12 +1082,16 @@
       "title": "PineDrama - Short Dramas",
       "originalTitle": "PineDrama - Short Dramas",
       "translatedTitle": null,
-      "description": "기타 · TikTok Ltd.",
-      "category": "기타",
-      "categoryId": "",
+      "description": "엔터테인먼트 · TikTok Ltd.",
+      "category": "엔터테인먼트",
+      "categoryId": "6016",
       "developer": "TikTok Ltd.",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a6/c9/8b/a6c98b37-df1e-26e3-061c-b239c6decd40/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/us/app/pinedrama-short-dramas/id6754134922"
+      "url": "https://apps.apple.com/us/app/pinedrama-short-dramas/id6754134922",
+      "categoryStatus": "verified",
+      "categorySource": "https://itunes.apple.com/lookup?id=6760173601%2C632064380%2C6448311069%2C6741796873%2C922103212%2C6754134922%2C1632713844%2C6447582581%2C6446202561%2C6446901002&country=us&entity=software",
+      "categoryCheckedAt": "2026-10-19T08:35:56.526Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -946,12 +1101,16 @@
       "title": "McDonald's",
       "originalTitle": "McDonald's",
       "translatedTitle": null,
-      "description": "기타 · McDonald's USA",
-      "category": "기타",
-      "categoryId": "",
+      "description": "음식·음료 · McDonald's USA",
+      "category": "음식·음료",
+      "categoryId": "6023",
       "developer": "McDonald's USA",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f6/e4/93/f6e49317-2ff8-b185-b570-01c98e2d54e0/AppIcon-US-0-0-1x_U007ephone-0-1-0-sRGB-0-0-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/us/app/mcdonalds/id922103212"
+      "url": "https://apps.apple.com/us/app/mcdonalds/id922103212",
+      "categoryStatus": "verified",
+      "categorySource": "https://itunes.apple.com/lookup?id=6760173601%2C632064380%2C6448311069%2C6741796873%2C922103212%2C6754134922%2C1632713844%2C6447582581%2C6446202561%2C6446901002&country=us&entity=software",
+      "categoryCheckedAt": "2026-10-19T08:35:56.526Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -961,12 +1120,16 @@
       "title": "Kalshi: Trade Football & more",
       "originalTitle": "Kalshi: Trade Football & more",
       "translatedTitle": null,
-      "description": "기타 · KalshiEX LLC",
-      "category": "기타",
-      "categoryId": "",
+      "description": "금융 · KalshiEX LLC",
+      "category": "금융",
+      "categoryId": "6015",
       "developer": "KalshiEX LLC",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fa/30/59/fa30592e-59e6-69d2-70c1-7de62a5aa093/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/us/app/kalshi-trade-football-more/id1632713844"
+      "url": "https://apps.apple.com/us/app/kalshi-trade-football-more/id1632713844",
+      "categoryStatus": "verified",
+      "categorySource": "https://itunes.apple.com/lookup?id=6760173601%2C632064380%2C6448311069%2C6741796873%2C922103212%2C6754134922%2C1632713844%2C6447582581%2C6446202561%2C6446901002&country=us&entity=software",
+      "categoryCheckedAt": "2026-10-19T08:35:56.526Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -976,12 +1139,16 @@
       "title": "Netflix Game Controller",
       "originalTitle": "Netflix Game Controller",
       "translatedTitle": null,
-      "description": "기타 · Netflix, Inc.",
-      "category": "기타",
-      "categoryId": "",
+      "description": "엔터테인먼트 · Netflix, Inc.",
+      "category": "엔터테인먼트",
+      "categoryId": "6016",
       "developer": "Netflix, Inc.",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/43/41/dd/4341dd76-bd1b-c2ab-a8eb-20f19d859288/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/us/app/netflix-game-controller/id6447582581"
+      "url": "https://apps.apple.com/us/app/netflix-game-controller/id6447582581",
+      "categoryStatus": "verified",
+      "categorySource": "https://itunes.apple.com/lookup?id=6760173601%2C632064380%2C6448311069%2C6741796873%2C922103212%2C6754134922%2C1632713844%2C6447582581%2C6446202561%2C6446901002&country=us&entity=software",
+      "categoryCheckedAt": "2026-10-19T08:35:56.526Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -991,12 +1158,16 @@
       "title": "Threads",
       "originalTitle": "Threads",
       "translatedTitle": null,
-      "description": "기타 · Instagram, Inc.",
-      "category": "기타",
-      "categoryId": "",
+      "description": "소셜 · Instagram, Inc.",
+      "category": "소셜",
+      "categoryId": "6005",
       "developer": "Instagram, Inc.",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f8/d0/e8/f8d0e873-d8d9-b627-5afc-198d0a692846/Prod-0-0-1x_U007ephone-0-1-0-sRGB-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/us/app/threads/id6446901002"
+      "url": "https://apps.apple.com/us/app/threads/id6446901002",
+      "categoryStatus": "verified",
+      "categorySource": "https://itunes.apple.com/lookup?id=6760173601%2C632064380%2C6448311069%2C6741796873%2C922103212%2C6754134922%2C1632713844%2C6447582581%2C6446202561%2C6446901002&country=us&entity=software",
+      "categoryCheckedAt": "2026-10-19T08:35:56.526Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -1006,12 +1177,16 @@
       "title": "Claude by Anthropic",
       "originalTitle": "Claude by Anthropic",
       "translatedTitle": null,
-      "description": "기타 · Anthropic PBC",
-      "category": "기타",
-      "categoryId": "",
+      "description": "생산성 · Anthropic PBC",
+      "category": "생산성",
+      "categoryId": "6007",
       "developer": "Anthropic PBC",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a4/22/d1/a422d187-52f2-ec6f-bb2d-87d3558373e6/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/us/app/claude-by-anthropic/id6473753684"
+      "url": "https://apps.apple.com/us/app/claude-by-anthropic/id6473753684",
+      "categoryStatus": "verified",
+      "categorySource": "https://rss.marketingtools.apple.com/api/v2/us/apps/top-free/25/apps.json",
+      "categoryCheckedAt": "2026-10-19T04:08:47.820Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -1026,7 +1201,11 @@
       "categoryId": "6008",
       "developer": "Bytedance Pte. Ltd",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5e/3f/96/5e3f9662-e690-3e55-e0b0-77da51f98fd2/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/us/app/capcut-photo-video-editor/id1500855883"
+      "url": "https://apps.apple.com/us/app/capcut-photo-video-editor/id1500855883",
+      "categoryStatus": "verified",
+      "categorySource": "https://rss.marketingtools.apple.com/api/v2/us/apps/top-free/25/apps.json",
+      "categoryCheckedAt": "2026-10-19T09:46:36.721Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -1041,7 +1220,11 @@
       "categoryId": "6007",
       "developer": "Google",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/86/69/2c/86692cd5-8c2d-c25f-8aaf-9cd1c7478d4a/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-0-0-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/us/app/google-gemini/id6477489729"
+      "url": "https://apps.apple.com/us/app/google-gemini/id6477489729",
+      "categoryStatus": "verified",
+      "categorySource": "https://rss.marketingtools.apple.com/api/v2/us/apps/top-free/25/apps.json",
+      "categoryCheckedAt": "2026-10-19T09:46:36.721Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -1056,7 +1239,11 @@
       "categoryId": "6024",
       "developer": "Temu",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ed/99/87/ed9987d3-19b5-578d-4697-659e05594f4d/AppIcon-0-1x_U007epad-0-1-0-85-220-0.png/100x100bb.png",
-      "url": "https://apps.apple.com/us/app/temu-shop-like-a-billionaire/id1641486558"
+      "url": "https://apps.apple.com/us/app/temu-shop-like-a-billionaire/id1641486558",
+      "categoryStatus": "verified",
+      "categorySource": "https://rss.marketingtools.apple.com/api/v2/us/apps/top-free/25/apps.json",
+      "categoryCheckedAt": "2026-10-19T09:46:36.721Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -1071,7 +1258,11 @@
       "categoryId": "6024",
       "developer": "Depop Ltd",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d6/78/e5/d678e565-c338-6ea1-58b8-1ff377b0270d/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/us/app/depop-buy-sell-clothes/id518684914"
+      "url": "https://apps.apple.com/us/app/depop-buy-sell-clothes/id518684914",
+      "categoryStatus": "verified",
+      "categorySource": "https://rss.marketingtools.apple.com/api/v2/us/apps/top-free/25/apps.json",
+      "categoryCheckedAt": "2026-10-19T09:46:36.721Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -1086,7 +1277,11 @@
       "categoryId": "6002",
       "developer": "Google",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/59/47/5d/59475db0-a6e5-76f9-214e-82311c3fb04d/SuperG_ios26-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-0-0-0-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/us/app/google/id284815942"
+      "url": "https://apps.apple.com/us/app/google/id284815942",
+      "categoryStatus": "verified",
+      "categorySource": "https://rss.marketingtools.apple.com/api/v2/us/apps/top-free/25/apps.json",
+      "categoryCheckedAt": "2026-10-19T09:46:36.721Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -1101,7 +1296,11 @@
       "categoryId": "6008",
       "developer": "Kick Streaming",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/68/70/0b/68700bf4-6441-bb04-f2d2-588486d368d0/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/us/app/kick-live-streaming/id6446202561"
+      "url": "https://apps.apple.com/us/app/kick-live-streaming/id6446202561",
+      "categoryStatus": "verified",
+      "categorySource": "https://rss.marketingtools.apple.com/api/v2/us/apps/top-free/25/apps.json",
+      "categoryCheckedAt": "2026-10-19T09:46:36.721Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -1116,7 +1315,11 @@
       "categoryId": "6010",
       "developer": "Google",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/94/88/64/9488640b-74bb-84f0-fe2c-ac13c96ba19c/maps_2025-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-0-0-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/us/app/google-maps/id585027354"
+      "url": "https://apps.apple.com/us/app/google-maps/id585027354",
+      "categoryStatus": "verified",
+      "categorySource": "https://rss.marketingtools.apple.com/api/v2/us/apps/top-free/25/apps.json",
+      "categoryCheckedAt": "2026-10-19T09:46:36.721Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -1131,7 +1334,11 @@
       "categoryId": "6016",
       "developer": "SKYWORK AI PTE LTD",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/27/97/16/279716b1-a124-611e-04a6-911a8b845dc1/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/us/app/dramawave-dramas-reels/id6670430706"
+      "url": "https://apps.apple.com/us/app/dramawave-dramas-reels/id6670430706",
+      "categoryStatus": "verified",
+      "categorySource": "https://rss.marketingtools.apple.com/api/v2/us/apps/top-free/25/apps.json",
+      "categoryCheckedAt": "2026-10-19T09:46:36.721Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -1146,7 +1353,11 @@
       "categoryId": "6016",
       "developer": "Peacock TV LLC",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c3/93/89/c3938936-3baa-3cec-92ac-b3c9c37f251a/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/us/app/peacock-tv-stream-tv-movies/id1508186374"
+      "url": "https://apps.apple.com/us/app/peacock-tv-stream-tv-movies/id1508186374",
+      "categoryStatus": "verified",
+      "categorySource": "https://rss.marketingtools.apple.com/api/v2/us/apps/top-free/25/apps.json",
+      "categoryCheckedAt": "2026-10-19T09:46:36.721Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -1161,7 +1372,11 @@
       "categoryId": "6024",
       "developer": "Whatnot Inc.",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/db/bc/fb/dbbcfbe5-52c8-9762-67a6-e172c6fec957/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/us/app/whatnot-shop-sell-connect/id1488269261"
+      "url": "https://apps.apple.com/us/app/whatnot-shop-sell-connect/id1488269261",
+      "categoryStatus": "verified",
+      "categorySource": "https://rss.marketingtools.apple.com/api/v2/us/apps/top-free/25/apps.json",
+      "categoryCheckedAt": "2026-10-19T09:46:36.721Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -1176,7 +1391,11 @@
       "categoryId": "6024",
       "developer": "AMZN Mobile LLC",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7b/c1/2c/7bc12c5f-0620-c507-9291-3cb011691946/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/us/app/amazon-shopping/id297606951"
+      "url": "https://apps.apple.com/us/app/amazon-shopping/id297606951",
+      "categoryStatus": "verified",
+      "categorySource": "https://rss.marketingtools.apple.com/api/v2/us/apps/top-free/25/apps.json",
+      "categoryCheckedAt": "2026-10-19T09:46:36.721Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -1191,7 +1410,11 @@
       "categoryId": "6005",
       "developer": "WhatsApp Inc.",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/06/7d/17/067d170f-6f76-ab80-0356-39ac02ccd63c/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-0-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/us/app/whatsapp-messenger/id310633997"
+      "url": "https://apps.apple.com/us/app/whatsapp-messenger/id310633997",
+      "categoryStatus": "verified",
+      "categorySource": "https://rss.marketingtools.apple.com/api/v2/us/apps/top-free/25/apps.json",
+      "categoryCheckedAt": "2026-10-19T09:46:36.721Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -1206,7 +1429,11 @@
       "categoryId": "6023",
       "developer": "DoorDash, Inc.",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ed/38/4a/ed384a8f-298c-4d4e-e90f-5a8954d61b73/AppIcon-0-0-1x_U007ephone-0-1-sRGB-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/us/app/doordash-food-grocery-more/id719972451"
+      "url": "https://apps.apple.com/us/app/doordash-food-grocery-more/id719972451",
+      "categoryStatus": "verified",
+      "categorySource": "https://rss.marketingtools.apple.com/api/v2/us/apps/top-free/25/apps.json",
+      "categoryCheckedAt": "2026-10-19T09:46:36.721Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -1221,7 +1448,11 @@
       "categoryId": "6024",
       "developer": "Shopify Inc.",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/48/87/b4/4887b441-a7ff-fc92-bc61-6392539ea7ac/AppIconProduction-0-0-1x_U007ephone-0-11-0-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/us/app/shop-track-pay-discover/id1223471316"
+      "url": "https://apps.apple.com/us/app/shop-track-pay-discover/id1223471316",
+      "categoryStatus": "verified",
+      "categorySource": "https://rss.marketingtools.apple.com/api/v2/us/apps/top-free/25/apps.json",
+      "categoryCheckedAt": "2026-10-19T09:46:36.721Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -1236,7 +1467,11 @@
       "categoryId": "6027",
       "developer": "Hungry Birds",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/81/48/4c/81484c5f-8ee8-916c-39cd-437030620a9c/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/us/app/ai-maker-photo-video-filters/id6753982990"
+      "url": "https://apps.apple.com/us/app/ai-maker-photo-video-filters/id6753982990",
+      "categoryStatus": "verified",
+      "categorySource": "https://rss.marketingtools.apple.com/api/v2/us/apps/top-free/25/apps.json",
+      "categoryCheckedAt": "2026-10-19T09:46:36.721Z",
+      "categoryReason": null
     },
     {
       "store": "google",
@@ -1621,12 +1856,16 @@
       "title": "세트로그 (setlog)",
       "originalTitle": "setlog",
       "translatedTitle": "세트로그",
-      "description": "기타 · new chat",
-      "category": "기타",
-      "categoryId": "",
+      "description": "소셜 · new chat",
+      "category": "소셜",
+      "categoryId": "6005",
       "developer": "new chat",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6c/2a/48/6c2a484c-f2bc-99f8-671d-a267d7e7b2be/AppIcon-0-0-1x_U007ephone-0-1-0-sRGB-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/jp/app/setlog/id6587576438"
+      "url": "https://apps.apple.com/jp/app/setlog/id6587576438",
+      "categoryStatus": "verified",
+      "categorySource": "https://itunes.apple.com/lookup?id=6587576438%2C6471519217%2C6448311069%2C6477489729%2C1416481094%2C6446901002%2C1100564842%2C1636235979%2C1619030760%2C830340223&country=jp&entity=software",
+      "categoryCheckedAt": "2026-10-19T08:35:56.526Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -1636,12 +1875,16 @@
       "title": "Bump（旧Zenly） (Bump（旧Zenly）)",
       "originalTitle": "Bump（旧Zenly）",
       "translatedTitle": "Bump（旧Zenly）",
-      "description": "기타 · amo",
-      "category": "기타",
-      "categoryId": "",
+      "description": "소셜 · amo",
+      "category": "소셜",
+      "categoryId": "6005",
       "developer": "amo",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/37/06/29/370629d1-1964-b3f3-249f-9f4e0c509526/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/jp/app/bump-%E6%97%A7zenly/id6471519217"
+      "url": "https://apps.apple.com/jp/app/bump-%E6%97%A7zenly/id6471519217",
+      "categoryStatus": "verified",
+      "categorySource": "https://itunes.apple.com/lookup?id=6587576438%2C6471519217%2C6448311069%2C6477489729%2C1416481094%2C6446901002%2C1100564842%2C1636235979%2C1619030760%2C830340223&country=jp&entity=software",
+      "categoryCheckedAt": "2026-10-19T08:35:56.526Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -1651,12 +1894,16 @@
       "title": "챗GPT (ChatGPT)",
       "originalTitle": "ChatGPT",
       "translatedTitle": "챗GPT",
-      "description": "기타 · OpenAI OpCo, LLC",
-      "category": "기타",
-      "categoryId": "",
+      "description": "생산성 · OpenAI OpCo, LLC",
+      "category": "생산성",
+      "categoryId": "6007",
       "developer": "OpenAI OpCo, LLC",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/30/23/eb/3023ebb0-1e40-6314-9909-f490a704b5d1/AppIcon-0-0-1x_U007epad-0-0-0-1-0-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/jp/app/chatgpt/id6448311069"
+      "url": "https://apps.apple.com/jp/app/chatgpt/id6448311069",
+      "categoryStatus": "verified",
+      "categorySource": "https://itunes.apple.com/lookup?id=6587576438%2C6471519217%2C6448311069%2C6477489729%2C1416481094%2C6446901002%2C1100564842%2C1636235979%2C1619030760%2C830340223&country=jp&entity=software",
+      "categoryCheckedAt": "2026-10-19T08:35:56.526Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -1666,12 +1913,16 @@
       "title": "구글 제미나이 (Google Gemini)",
       "originalTitle": "Google Gemini",
       "translatedTitle": "구글 제미나이",
-      "description": "기타 · Google",
-      "category": "기타",
-      "categoryId": "",
+      "description": "생산성 · Google",
+      "category": "생산성",
+      "categoryId": "6007",
       "developer": "Google",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/86/69/2c/86692cd5-8c2d-c25f-8aaf-9cd1c7478d4a/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-0-0-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/jp/app/google-gemini/id6477489729"
+      "url": "https://apps.apple.com/jp/app/google-gemini/id6477489729",
+      "categoryStatus": "verified",
+      "categorySource": "https://itunes.apple.com/lookup?id=6587576438%2C6471519217%2C6448311069%2C6477489729%2C1416481094%2C6446901002%2C1100564842%2C1636235979%2C1619030760%2C830340223&country=jp&entity=software",
+      "categoryCheckedAt": "2026-10-19T08:35:56.526Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -1681,12 +1932,16 @@
       "title": "AEON Pay-스마트폰 결제로 WAON POINT가 쌓이는 (AEON Pay-スマホ決済でWAON POINTがたまる)",
       "originalTitle": "AEON Pay-スマホ決済でWAON POINTがたまる",
       "translatedTitle": "AEON Pay-스마트폰 결제로 WAON POINT가 쌓이는",
-      "description": "기타 · AEON Financial Service Co., Ltd.",
-      "category": "기타",
-      "categoryId": "",
+      "description": "금융 · AEON Financial Service Co., Ltd.",
+      "category": "금융",
+      "categoryId": "6015",
       "developer": "AEON Financial Service Co., Ltd.",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9e/0c/60/9e0c60b9-ca19-e343-9f27-b09166ba2174/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/jp/app/aeon-pay-%E3%82%B9%E3%83%9E%E3%83%9B%E6%B1%BA%E6%B8%88%E3%81%A7waon-point%E3%81%8C%E3%81%9F%E3%81%BE%E3%82%8B/id1100564842"
+      "url": "https://apps.apple.com/jp/app/aeon-pay-%E3%82%B9%E3%83%9E%E3%83%9B%E6%B1%BA%E6%B8%88%E3%81%A7waon-point%E3%81%8C%E3%81%9F%E3%81%BE%E3%82%8B/id1100564842",
+      "categoryStatus": "verified",
+      "categorySource": "https://itunes.apple.com/lookup?id=6587576438%2C6471519217%2C6448311069%2C6477489729%2C1416481094%2C6446901002%2C1100564842%2C1636235979%2C1619030760%2C830340223&country=jp&entity=software",
+      "categoryCheckedAt": "2026-10-19T08:35:56.526Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -1696,12 +1951,16 @@
       "title": "My SoftBank (My SoftBank)",
       "originalTitle": "My SoftBank",
       "translatedTitle": "My SoftBank",
-      "description": "기타 · SoftBank Corp.",
-      "category": "기타",
-      "categoryId": "",
+      "description": "유틸리티 · SoftBank Corp.",
+      "category": "유틸리티",
+      "categoryId": "6002",
       "developer": "SoftBank Corp.",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2b/10/13/2b1013bd-8421-37a4-199a-796cc5ddb863/AppIcon-0-0-1x_U007ephone-0-11-0-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/jp/app/my-softbank/id1416481094"
+      "url": "https://apps.apple.com/jp/app/my-softbank/id1416481094",
+      "categoryStatus": "verified",
+      "categorySource": "https://itunes.apple.com/lookup?id=6587576438%2C6471519217%2C6448311069%2C6477489729%2C1416481094%2C6446901002%2C1100564842%2C1636235979%2C1619030760%2C830340223&country=jp&entity=software",
+      "categoryCheckedAt": "2026-10-19T08:35:56.526Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -1711,12 +1970,16 @@
       "title": "Google Authenticator (Google Authenticator)",
       "originalTitle": "Google Authenticator",
       "translatedTitle": "Google Authenticator",
-      "description": "기타 · Google",
-      "category": "기타",
-      "categoryId": "",
+      "description": "유틸리티 · Google",
+      "category": "유틸리티",
+      "categoryId": "6002",
       "developer": "Google",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/70/2b/df/702bdfd3-b008-3dd0-af69-da2c920847a2/app_icon-0-0-1x_U007epad-0-0-0-1-0-0-0-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/jp/app/google-authenticator/id388497605"
+      "url": "https://apps.apple.com/jp/app/google-authenticator/id388497605",
+      "categoryStatus": "verified",
+      "categorySource": "https://itunes.apple.com/lookup?id=388497605&country=jp&entity=software",
+      "categoryCheckedAt": "2026-10-21T07:55:59.152Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -1726,12 +1989,16 @@
       "title": "マイナアプリ（旧マイナポータルアプリ） (マイナアプリ（旧マイナポータルアプリ）)",
       "originalTitle": "マイナアプリ（旧マイナポータルアプリ）",
       "translatedTitle": "マイナアプリ（旧マイナポータルアプリ）",
-      "description": "기타 · デジタル庁",
-      "category": "기타",
-      "categoryId": "",
+      "description": "유틸리티 · デジタル庁",
+      "category": "유틸리티",
+      "categoryId": "6002",
       "developer": "デジタル庁",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/55/b4/57/55b45794-2a7c-9815-965d-35a401df997c/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/jp/app/%E3%83%9E%E3%82%A4%E3%83%8A%E3%82%A2%E3%83%97%E3%83%AA-%E6%97%A7%E3%83%9E%E3%82%A4%E3%83%8A%E3%83%9D%E3%83%BC%E3%82%BF%E3%83%AB%E3%82%A2%E3%83%97%E3%83%AA/id1476359069"
+      "url": "https://apps.apple.com/jp/app/%E3%83%9E%E3%82%A4%E3%83%8A%E3%82%A2%E3%83%97%E3%83%AA-%E6%97%A7%E3%83%9E%E3%82%A4%E3%83%8A%E3%83%9D%E3%83%BC%E3%82%BF%E3%83%AB%E3%82%A2%E3%83%97%E3%83%AA/id1476359069",
+      "categoryStatus": "verified",
+      "categorySource": "https://rss.marketingtools.apple.com/api/v2/jp/apps/top-free/25/apps.json",
+      "categoryCheckedAt": "2026-10-19T04:08:47.820Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -1741,12 +2008,16 @@
       "title": "스레드 (Threads)",
       "originalTitle": "Threads",
       "translatedTitle": "스레드",
-      "description": "기타 · Instagram, Inc.",
-      "category": "기타",
-      "categoryId": "",
+      "description": "소셜 · Instagram, Inc.",
+      "category": "소셜",
+      "categoryId": "6005",
       "developer": "Instagram, Inc.",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f8/d0/e8/f8d0e873-d8d9-b627-5afc-198d0a692846/Prod-0-0-1x_U007ephone-0-1-0-sRGB-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/jp/app/threads/id6446901002"
+      "url": "https://apps.apple.com/jp/app/threads/id6446901002",
+      "categoryStatus": "verified",
+      "categorySource": "https://itunes.apple.com/lookup?id=6587576438%2C6471519217%2C6448311069%2C6477489729%2C1416481094%2C6446901002%2C1100564842%2C1636235979%2C1619030760%2C830340223&country=jp&entity=software",
+      "categoryCheckedAt": "2026-10-19T08:35:56.526Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -1756,12 +2027,16 @@
       "title": "ReelShort - 오리지널 단축 드라마 무제한 (ReelShort - オリジナル短尺ドラマ見放題)",
       "originalTitle": "ReelShort - オリジナル短尺ドラマ見放題",
       "translatedTitle": "ReelShort - 오리지널 단축 드라마 무제한",
-      "description": "기타 · NewLeaf Publishing",
-      "category": "기타",
-      "categoryId": "",
+      "description": "엔터테인먼트 · NewLeaf Publishing",
+      "category": "엔터테인먼트",
+      "categoryId": "6016",
       "developer": "NewLeaf Publishing",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/41/d5/c1/41d5c184-935e-0040-b565-a9dedfeccbb5/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/jp/app/reelshort-%E3%82%AA%E3%83%AA%E3%82%B8%E3%83%8A%E3%83%AB%E7%9F%AD%E5%B0%BA%E3%83%89%E3%83%A9%E3%83%9E%E8%A6%8B%E6%94%BE%E9%A1%8C/id1636235979"
+      "url": "https://apps.apple.com/jp/app/reelshort-%E3%82%AA%E3%83%AA%E3%82%B8%E3%83%8A%E3%83%AB%E7%9F%AD%E5%B0%BA%E3%83%89%E3%83%A9%E3%83%9E%E8%A6%8B%E6%94%BE%E9%A1%8C/id1636235979",
+      "categoryStatus": "verified",
+      "categorySource": "https://itunes.apple.com/lookup?id=6587576438%2C6471519217%2C6448311069%2C6477489729%2C1416481094%2C6446901002%2C1100564842%2C1636235979%2C1619030760%2C830340223&country=jp&entity=software",
+      "categoryCheckedAt": "2026-10-19T08:35:56.526Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -1776,7 +2051,11 @@
       "categoryId": "6016",
       "developer": "U-NEXT Co.,Ltd.",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bd/31/6a/bd316abf-9655-c9a4-3061-c9835d7139d8/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/jp/app/u-next-%E6%98%A0%E7%94%BB%E3%82%84%E3%83%89%E3%83%A9%E3%83%9E-%E3%82%A2%E3%83%8B%E3%83%A1%E3%81%AA%E3%81%A9%E3%81%AE%E5%8B%95%E7%94%BB%E3%81%8C%E8%A6%8B%E6%94%BE%E9%A1%8C/id882477693"
+      "url": "https://apps.apple.com/jp/app/u-next-%E6%98%A0%E7%94%BB%E3%82%84%E3%83%89%E3%83%A9%E3%83%9E-%E3%82%A2%E3%83%8B%E3%83%A1%E3%81%AA%E3%81%A9%E3%81%AE%E5%8B%95%E7%94%BB%E3%81%8C%E8%A6%8B%E6%94%BE%E9%A1%8C/id882477693",
+      "categoryStatus": "verified",
+      "categorySource": "https://rss.marketingtools.apple.com/api/v2/jp/apps/top-free/25/apps.json",
+      "categoryCheckedAt": "2026-10-19T09:46:36.721Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -1791,7 +2070,11 @@
       "categoryId": "6016",
       "developer": "Scatter Lab, Inc.",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/26/d6/da/26d6da15-9352-c7dc-874c-b7de8f368b2d/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/jp/app/zeta-ai%E3%82%AD%E3%83%A3%E3%83%A9-%E3%81%82%E3%81%AA%E3%81%9F%E3%81%AE%E6%8E%A8%E3%81%97%E3%81%A8%E3%83%AD%E3%83%BC%E3%83%AB%E3%83%97%E3%83%AC%E3%82%A4%E3%83%81%E3%83%A3%E3%83%83%E3%83%88/id1619030760"
+      "url": "https://apps.apple.com/jp/app/zeta-ai%E3%82%AD%E3%83%A3%E3%83%A9-%E3%81%82%E3%81%AA%E3%81%9F%E3%81%AE%E6%8E%A8%E3%81%97%E3%81%A8%E3%83%AD%E3%83%BC%E3%83%AB%E3%83%97%E3%83%AC%E3%82%A4%E3%83%81%E3%83%A3%E3%83%83%E3%83%88/id1619030760",
+      "categoryStatus": "verified",
+      "categorySource": "https://rss.marketingtools.apple.com/api/v2/jp/apps/top-free/25/apps.json",
+      "categoryCheckedAt": "2026-10-19T09:46:36.721Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -1806,7 +2089,11 @@
       "categoryId": "6016",
       "developer": "TVer INC.",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/41/1e/8c/411e8ca9-7fae-3d85-fc98-05e3c432a80f/AppIcon-0-0-1x_U007epad-0-1-sRGB-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/jp/app/tver-%E3%83%86%E3%82%A3%E3%83%BC%E3%83%90%E3%83%BC-%E6%B0%91%E6%94%BE%E5%85%AC%E5%BC%8F%E3%83%86%E3%83%AC%E3%83%93%E9%85%8D%E4%BF%A1%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9/id830340223"
+      "url": "https://apps.apple.com/jp/app/tver-%E3%83%86%E3%82%A3%E3%83%BC%E3%83%90%E3%83%BC-%E6%B0%91%E6%94%BE%E5%85%AC%E5%BC%8F%E3%83%86%E3%83%AC%E3%83%93%E9%85%8D%E4%BF%A1%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9/id830340223",
+      "categoryStatus": "verified",
+      "categorySource": "https://rss.marketingtools.apple.com/api/v2/jp/apps/top-free/25/apps.json",
+      "categoryCheckedAt": "2026-10-19T09:46:36.721Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -1821,7 +2108,11 @@
       "categoryId": "6024",
       "developer": "株式会社マツキヨココカラ&カンパニー",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c5/df/c1/c5dfc114-83bc-2321-0b62-89b23f27d6c7/AppIcon-production-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/jp/app/%E3%83%9E%E3%83%84%E3%82%AD%E3%83%A8%E3%82%B3%E3%82%B3%E3%82%AB%E3%83%A9%E5%85%AC%E5%BC%8F%E3%82%A2%E3%83%97%E3%83%AA/id6451037644"
+      "url": "https://apps.apple.com/jp/app/%E3%83%9E%E3%83%84%E3%82%AD%E3%83%A8%E3%82%B3%E3%82%B3%E3%82%AB%E3%83%A9%E5%85%AC%E5%BC%8F%E3%82%A2%E3%83%97%E3%83%AA/id6451037644",
+      "categoryStatus": "verified",
+      "categorySource": "https://rss.marketingtools.apple.com/api/v2/jp/apps/top-free/25/apps.json",
+      "categoryCheckedAt": "2026-10-19T09:46:36.721Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -1836,7 +2127,11 @@
       "categoryId": "6020",
       "developer": "DigiKar, Inc",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/70/a6/9b/70a69b7e-c2dc-f081-9562-1af689fab688/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/jp/app/m3%E3%83%87%E3%82%B8%E3%82%AB%E3%83%AB%E3%82%B9%E3%83%9E%E3%83%BC%E3%83%88%E8%A8%BA%E5%AF%9F%E5%88%B8/id1563102530"
+      "url": "https://apps.apple.com/jp/app/m3%E3%83%87%E3%82%B8%E3%82%AB%E3%83%AB%E3%82%B9%E3%83%9E%E3%83%BC%E3%83%88%E8%A8%BA%E5%AF%9F%E5%88%B8/id1563102530",
+      "categoryStatus": "verified",
+      "categorySource": "https://rss.marketingtools.apple.com/api/v2/jp/apps/top-free/25/apps.json",
+      "categoryCheckedAt": "2026-10-19T09:46:36.721Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -1851,7 +2146,11 @@
       "categoryId": "6024",
       "developer": "PAL CO.,LTD.",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/95/eb/8e/95eb8e03-8602-5acb-a3e6-b9378f2eb0f0/AppIcon2023-0-0-1x_U007ephone-0-1-0-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/jp/app/pal-closet-%E3%83%91%E3%83%AB%E3%82%AF%E3%83%AD%E3%83%BC%E3%82%BC%E3%83%83%E3%83%88/id643133414"
+      "url": "https://apps.apple.com/jp/app/pal-closet-%E3%83%91%E3%83%AB%E3%82%AF%E3%83%AD%E3%83%BC%E3%82%BC%E3%83%83%E3%83%88/id643133414",
+      "categoryStatus": "verified",
+      "categorySource": "https://rss.marketingtools.apple.com/api/v2/jp/apps/top-free/25/apps.json",
+      "categoryCheckedAt": "2026-10-19T09:46:36.721Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -1866,7 +2165,11 @@
       "categoryId": "6023",
       "developer": "SUNTORY BEVERAGE SOLUTION LIMITED",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5f/74/6f/5f746f92-03d6-43ab-c295-4c92e4b458ec/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/jp/app/%E3%82%B8%E3%83%8F%E3%83%B3%E3%83%94/id6667104573"
+      "url": "https://apps.apple.com/jp/app/%E3%82%B8%E3%83%8F%E3%83%B3%E3%83%94/id6667104573",
+      "categoryStatus": "verified",
+      "categorySource": "https://rss.marketingtools.apple.com/api/v2/jp/apps/top-free/25/apps.json",
+      "categoryCheckedAt": "2026-10-19T09:46:36.721Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -1881,7 +2184,11 @@
       "categoryId": "6023",
       "developer": "CP One Japan G.K.",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ca/de/fb/cadefb38-21b0-d92f-f570-5dcf5d2a1534/AppIcon-0-0-1x_U007ephone-0-11-0-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/jp/app/rocket-now-%E5%87%BA%E5%89%8D-%E3%83%95%E3%83%BC%E3%83%89%E3%83%87%E3%83%AA%E3%83%90%E3%83%AA%E3%83%BC/id6739188587"
+      "url": "https://apps.apple.com/jp/app/rocket-now-%E5%87%BA%E5%89%8D-%E3%83%95%E3%83%BC%E3%83%89%E3%83%87%E3%83%AA%E3%83%90%E3%83%AA%E3%83%BC/id6739188587",
+      "categoryStatus": "verified",
+      "categorySource": "https://rss.marketingtools.apple.com/api/v2/jp/apps/top-free/25/apps.json",
+      "categoryCheckedAt": "2026-10-19T09:46:36.721Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -1896,7 +2203,11 @@
       "categoryId": "6023",
       "developer": "KOMEDA CO.,LTD.",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/01/5e/0d015e0f-1547-7a47-bd41-bfba9989ef0f/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/jp/app/%E3%82%B3%E3%83%A1%E3%83%80%E7%8F%88%E7%90%B2%E5%BA%97/id1667214457"
+      "url": "https://apps.apple.com/jp/app/%E3%82%B3%E3%83%A1%E3%83%80%E7%8F%88%E7%90%B2%E5%BA%97/id1667214457",
+      "categoryStatus": "verified",
+      "categorySource": "https://rss.marketingtools.apple.com/api/v2/jp/apps/top-free/25/apps.json",
+      "categoryCheckedAt": "2026-10-19T09:46:36.721Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -1911,7 +2222,11 @@
       "categoryId": "6007",
       "developer": "Anthropic PBC",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a4/22/d1/a422d187-52f2-ec6f-bb2d-87d3558373e6/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/jp/app/claude-by-anthropic/id6473753684"
+      "url": "https://apps.apple.com/jp/app/claude-by-anthropic/id6473753684",
+      "categoryStatus": "verified",
+      "categorySource": "https://rss.marketingtools.apple.com/api/v2/jp/apps/top-free/25/apps.json",
+      "categoryCheckedAt": "2026-10-19T09:46:36.721Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -1926,7 +2241,11 @@
       "categoryId": "6016",
       "developer": "SKYWORK AI PTE LTD",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/27/97/16/279716b1-a124-611e-04a6-911a8b845dc1/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/jp/app/dramawave-%E6%97%A5%E6%9C%AC-%E9%9F%93%E5%9B%BD-%E4%BA%BA%E6%B0%97%E7%9F%AD%E7%B7%A8%E3%83%89%E3%83%A9%E3%83%9E/id6670430706"
+      "url": "https://apps.apple.com/jp/app/dramawave-%E6%97%A5%E6%9C%AC-%E9%9F%93%E5%9B%BD-%E4%BA%BA%E6%B0%97%E7%9F%AD%E7%B7%A8%E3%83%89%E3%83%A9%E3%83%9E/id6670430706",
+      "categoryStatus": "verified",
+      "categorySource": "https://rss.marketingtools.apple.com/api/v2/jp/apps/top-free/25/apps.json",
+      "categoryCheckedAt": "2026-10-19T09:46:36.721Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -1941,7 +2260,11 @@
       "categoryId": "6024",
       "developer": "株式会社大創産業",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/06/88/9c/06889c8c-a6be-6b64-5841-69c3dbe61c39/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/jp/app/daiso%E3%82%A2%E3%83%97%E3%83%AA/id6466987025"
+      "url": "https://apps.apple.com/jp/app/daiso%E3%82%A2%E3%83%97%E3%83%AA/id6466987025",
+      "categoryStatus": "verified",
+      "categorySource": "https://rss.marketingtools.apple.com/api/v2/jp/apps/top-free/25/apps.json",
+      "categoryCheckedAt": "2026-10-19T09:46:36.721Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -1956,7 +2279,11 @@
       "categoryId": "6023",
       "developer": "Starbucks Coffee Company",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/17/df/3c/17df3c7e-169f-6986-d618-75704941ba08/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/jp/app/%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%90%E3%83%83%E3%82%AF%E3%82%B9-%E3%82%B8%E3%83%A3%E3%83%91%E3%83%B3%E5%85%AC%E5%BC%8F%E3%83%A2%E3%83%90%E3%82%A4%E3%83%AB%E3%82%A2%E3%83%97%E3%83%AA/id1113037275"
+      "url": "https://apps.apple.com/jp/app/%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%90%E3%83%83%E3%82%AF%E3%82%B9-%E3%82%B8%E3%83%A3%E3%83%91%E3%83%B3%E5%85%AC%E5%BC%8F%E3%83%A2%E3%83%90%E3%82%A4%E3%83%AB%E3%82%A2%E3%83%97%E3%83%AA/id1113037275",
+      "categoryStatus": "verified",
+      "categorySource": "https://rss.marketingtools.apple.com/api/v2/jp/apps/top-free/25/apps.json",
+      "categoryCheckedAt": "2026-10-19T09:46:36.721Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -1971,7 +2298,11 @@
       "categoryId": "6024",
       "developer": "Shopify Inc.",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/48/87/b4/4887b441-a7ff-fc92-bc61-6392539ea7ac/AppIconProduction-0-0-1x_U007ephone-0-11-0-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/jp/app/shop-%E8%BF%BD%E8%B7%A1-%E8%B3%BC%E5%85%A5-%E7%99%BA%E8%A6%8B/id1223471316"
+      "url": "https://apps.apple.com/jp/app/shop-%E8%BF%BD%E8%B7%A1-%E8%B3%BC%E5%85%A5-%E7%99%BA%E8%A6%8B/id1223471316",
+      "categoryStatus": "verified",
+      "categorySource": "https://rss.marketingtools.apple.com/api/v2/jp/apps/top-free/25/apps.json",
+      "categoryCheckedAt": "2026-10-19T09:46:36.721Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -1986,7 +2317,11 @@
       "categoryId": "6024",
       "developer": "株式会社NTTドコモ",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f9/19/56/f919565e-7503-1de5-201c-c210badc3d15/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/jp/app/d%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88%E3%82%AF%E3%83%A9%E3%83%96-%E3%81%8A%E5%BE%97%E6%83%85%E5%A0%B1%E6%BA%80%E8%BC%89%E3%81%AE%E3%83%89%E3%82%B3%E3%83%A2%E5%85%AC%E5%BC%8F%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88%E3%82%AF%E3%83%A9%E3%83%96/id821434357"
+      "url": "https://apps.apple.com/jp/app/d%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88%E3%82%AF%E3%83%A9%E3%83%96-%E3%81%8A%E5%BE%97%E6%83%85%E5%A0%B1%E6%BA%80%E8%BC%89%E3%81%AE%E3%83%89%E3%82%B3%E3%83%A2%E5%85%AC%E5%BC%8F%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88%E3%82%AF%E3%83%A9%E3%83%96/id821434357",
+      "categoryStatus": "verified",
+      "categorySource": "https://rss.marketingtools.apple.com/api/v2/jp/apps/top-free/25/apps.json",
+      "categoryCheckedAt": "2026-10-19T09:46:36.721Z",
+      "categoryReason": null
     },
     {
       "store": "google",
@@ -2371,12 +2706,16 @@
       "title": "Douyin Mall - 주문 시 리워드 포인트, 반품 배송비 포함 (抖音商城-下单返积分、退货包运费)",
       "originalTitle": "抖音商城-下单返积分、退货包运费",
       "translatedTitle": "Douyin Mall - 주문 시 리워드 포인트, 반품 배송비 포함",
-      "description": "기타 · Beijing Douyin Technology Co., Ltd.",
-      "category": "기타",
-      "categoryId": "",
+      "description": "쇼핑 · Beijing Douyin Technology Co., Ltd.",
+      "category": "쇼핑",
+      "categoryId": "6024",
       "developer": "Beijing Douyin Technology Co., Ltd.",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9a/fd/21/9afd21c3-a89b-8a81-546d-f27125bdc0d7/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/cn/app/%E6%8A%96%E9%9F%B3%E5%95%86%E5%9F%8E-%E4%B8%8B%E5%8D%95%E8%BF%94%E7%A7%AF%E5%88%86-%E9%80%80%E8%B4%A7%E5%8C%85%E8%BF%90%E8%B4%B9/id1485191072"
+      "url": "https://apps.apple.com/cn/app/%E6%8A%96%E9%9F%B3%E5%95%86%E5%9F%8E-%E4%B8%8B%E5%8D%95%E8%BF%94%E7%A7%AF%E5%88%86-%E9%80%80%E8%B4%A7%E5%8C%85%E8%BF%90%E8%B4%B9/id1485191072",
+      "categoryStatus": "verified",
+      "categorySource": "https://itunes.apple.com/lookup?id=1485191072%2C6451407032%2C6745890963%2C6459478672%2C6466733523%2C1605585211%2C336141475%2C414245413%2C6756863766%2C510909506&country=cn&entity=software",
+      "categoryCheckedAt": "2026-10-19T08:35:56.526Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -2386,12 +2725,16 @@
       "title": "Hongguo Short Drama - 수많은 인기 단편 드라마를 원하는 대로 시청하세요 (红果短剧 - 海量热门短剧随心看)",
       "originalTitle": "红果短剧 - 海量热门短剧随心看",
       "translatedTitle": "Hongguo Short Drama - 수많은 인기 단편 드라마를 원하는 대로 시청하세요",
-      "description": "기타 · Beijing Bimo Liuxiang Technology Co., Ltd.",
-      "category": "기타",
-      "categoryId": "",
+      "description": "엔터테인먼트 · Beijing Bimo Liuxiang Technology Co., Ltd.",
+      "category": "엔터테인먼트",
+      "categoryId": "6016",
       "developer": "Beijing Bimo Liuxiang Technology Co., Ltd.",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6a/54/ad/6a54ad83-2520-1595-9a54-702ca9aac97d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/cn/app/%E7%BA%A2%E6%9E%9C%E7%9F%AD%E5%89%A7-%E6%B5%B7%E9%87%8F%E7%83%AD%E9%97%A8%E7%9F%AD%E5%89%A7%E9%9A%8F%E5%BF%83%E7%9C%8B/id6451407032"
+      "url": "https://apps.apple.com/cn/app/%E7%BA%A2%E6%9E%9C%E7%9F%AD%E5%89%A7-%E6%B5%B7%E9%87%8F%E7%83%AD%E9%97%A8%E7%9F%AD%E5%89%A7%E9%9A%8F%E5%BF%83%E7%9C%8B/id6451407032",
+      "categoryStatus": "verified",
+      "categorySource": "https://itunes.apple.com/lookup?id=1485191072%2C6451407032%2C6745890963%2C6459478672%2C6466733523%2C1605585211%2C336141475%2C414245413%2C6756863766%2C510909506&country=cn&entity=software",
+      "categoryCheckedAt": "2026-10-19T08:35:56.526Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -2401,12 +2744,16 @@
       "title": "Hongguo Comics – 인기 있고 흥미로운 만화 (红果漫剧 - 热门精彩漫剧)",
       "originalTitle": "红果漫剧 - 热门精彩漫剧",
       "translatedTitle": "Hongguo Comics – 인기 있고 흥미로운 만화",
-      "description": "기타 · Hainan Yuyue Technology Co., Ltd.",
-      "category": "기타",
-      "categoryId": "",
+      "description": "엔터테인먼트 · Hainan Yuyue Technology Co., Ltd.",
+      "category": "엔터테인먼트",
+      "categoryId": "6016",
       "developer": "Hainan Yuyue Technology Co., Ltd.",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c3/f7/2f/c3f72f33-aa8c-0857-1965-7b2fd20fb5df/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/cn/app/%E7%BA%A2%E6%9E%9C%E6%BC%AB%E5%89%A7-%E7%83%AD%E9%97%A8%E7%B2%BE%E5%BD%A9%E6%BC%AB%E5%89%A7/id6745890963"
+      "url": "https://apps.apple.com/cn/app/%E7%BA%A2%E6%9E%9C%E6%BC%AB%E5%89%A7-%E7%83%AD%E9%97%A8%E7%B2%BE%E5%BD%A9%E6%BC%AB%E5%89%A7/id6745890963",
+      "categoryStatus": "verified",
+      "categorySource": "https://itunes.apple.com/lookup?id=1485191072%2C6451407032%2C6745890963%2C6459478672%2C6466733523%2C1605585211%2C336141475%2C414245413%2C6756863766%2C510909506&country=cn&entity=software",
+      "categoryCheckedAt": "2026-10-19T08:35:56.526Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -2416,12 +2763,16 @@
       "title": "Qianwen - Alibaba AI 보조원 (千问 - 阿里AI助手)",
       "originalTitle": "千问 - 阿里AI助手",
       "translatedTitle": "Qianwen - Alibaba AI 보조원",
-      "description": "기타 · Shanghai Zhixin Puhui Technology Co., Ltd.",
-      "category": "기타",
-      "categoryId": "",
+      "description": "생산성 · Shanghai Zhixin Puhui Technology Co., Ltd.",
+      "category": "생산성",
+      "categoryId": "6007",
       "developer": "Shanghai Zhixin Puhui Technology Co., Ltd.",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/53/b4/18/53b41885-9d5e-a9ab-efda-14b5c184909b/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/cn/app/%E5%8D%83%E9%97%AE-%E9%98%BF%E9%87%8Cai%E5%8A%A9%E6%89%8B/id6466733523"
+      "url": "https://apps.apple.com/cn/app/%E5%8D%83%E9%97%AE-%E9%98%BF%E9%87%8Cai%E5%8A%A9%E6%89%8B/id6466733523",
+      "categoryStatus": "verified",
+      "categorySource": "https://itunes.apple.com/lookup?id=1485191072%2C6451407032%2C6745890963%2C6459478672%2C6466733523%2C1605585211%2C336141475%2C414245413%2C6756863766%2C510909506&country=cn&entity=software",
+      "categoryCheckedAt": "2026-10-19T08:35:56.526Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -2431,12 +2782,16 @@
       "title": "Doubao - 삶과 업무를 위한 AI 도우미 (豆包 - 生活工作 AI 助手)",
       "originalTitle": "豆包 - 生活工作 AI 助手",
       "translatedTitle": "Doubao - 삶과 업무를 위한 AI 도우미",
-      "description": "기타 · Beijing Chuntian Zhiyun Technology Co., Ltd.",
-      "category": "기타",
-      "categoryId": "",
+      "description": "생산성 · Beijing Chuntian Zhiyun Technology Co., Ltd.",
+      "category": "생산성",
+      "categoryId": "6007",
       "developer": "Beijing Chuntian Zhiyun Technology Co., Ltd.",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/71/4e/9b/714e9b83-d2ab-f735-afd1-18938246fdfd/AppIcon-0-0-1x_U007epad-0-8-0-sRGB-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/cn/app/%E8%B1%86%E5%8C%85-%E7%94%9F%E6%B4%BB%E5%B7%A5%E4%BD%9C-ai-%E5%8A%A9%E6%89%8B/id6459478672"
+      "url": "https://apps.apple.com/cn/app/%E8%B1%86%E5%8C%85-%E7%94%9F%E6%B4%BB%E5%B7%A5%E4%BD%9C-ai-%E5%8A%A9%E6%89%8B/id6459478672",
+      "categoryStatus": "verified",
+      "categorySource": "https://itunes.apple.com/lookup?id=1485191072%2C6451407032%2C6745890963%2C6459478672%2C6466733523%2C1605585211%2C336141475%2C414245413%2C6756863766%2C510909506&country=cn&entity=software",
+      "categoryCheckedAt": "2026-10-19T08:35:56.526Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -2446,12 +2801,16 @@
       "title": "소다뮤직 - 언제든지 좋은 노래를 들어보세요 (汽水音乐 - 随时听好歌)",
       "originalTitle": "汽水音乐 - 随时听好歌",
       "translatedTitle": "소다뮤직 - 언제든지 좋은 노래를 들어보세요",
-      "description": "기타 · Beijing Douyin Technology Co., Ltd.",
-      "category": "기타",
-      "categoryId": "",
+      "description": "음악 · Beijing Douyin Technology Co., Ltd.",
+      "category": "음악",
+      "categoryId": "6011",
       "developer": "Beijing Douyin Technology Co., Ltd.",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a2/84/63/a2846363-ddca-6173-a90d-0b95bb422f63/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/cn/app/%E6%B1%BD%E6%B0%B4%E9%9F%B3%E4%B9%90-%E9%9A%8F%E6%97%B6%E5%90%AC%E5%A5%BD%E6%AD%8C/id1605585211"
+      "url": "https://apps.apple.com/cn/app/%E6%B1%BD%E6%B0%B4%E9%9F%B3%E4%B9%90-%E9%9A%8F%E6%97%B6%E5%90%AC%E5%A5%BD%E6%AD%8C/id1605585211",
+      "categoryStatus": "verified",
+      "categorySource": "https://itunes.apple.com/lookup?id=1485191072%2C6451407032%2C6745890963%2C6459478672%2C6466733523%2C1605585211%2C336141475%2C414245413%2C6756863766%2C510909506&country=cn&entity=software",
+      "categoryCheckedAt": "2026-10-19T08:35:56.526Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -2461,12 +2820,16 @@
       "title": "Youku Video- \"황금 비녀와 결혼\"은 전 네트워크에서 독점 방송됩니다. (优酷视频-《嫁金钗》全网独播)",
       "originalTitle": "优酷视频-《嫁金钗》全网独播",
       "translatedTitle": "Youku Video- \"황금 비녀와 결혼\"은 전 네트워크에서 독점 방송됩니다.",
-      "description": "기타 · Youku.com Inc.",
-      "category": "기타",
-      "categoryId": "",
+      "description": "엔터테인먼트 · Youku.com Inc.",
+      "category": "엔터테인먼트",
+      "categoryId": "6016",
       "developer": "Youku.com Inc.",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/41/62/73/416273c5-c919-49f7-f486-47daee443213/AppIcon-0-0-1x_U007emarketing-0-9-0-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/cn/app/%E4%BC%98%E9%85%B7%E8%A7%86%E9%A2%91-%E5%AB%81%E9%87%91%E9%92%97-%E5%85%A8%E7%BD%91%E7%8B%AC%E6%92%AD/id336141475"
+      "url": "https://apps.apple.com/cn/app/%E4%BC%98%E9%85%B7%E8%A7%86%E9%A2%91-%E5%AB%81%E9%87%91%E9%92%97-%E5%85%A8%E7%BD%91%E7%8B%AC%E6%92%AD/id336141475",
+      "categoryStatus": "verified",
+      "categorySource": "https://itunes.apple.com/lookup?id=1485191072%2C6451407032%2C6745890963%2C6459478672%2C6466733523%2C1605585211%2C336141475%2C414245413%2C6756863766%2C510909506&country=cn&entity=software",
+      "categoryCheckedAt": "2026-10-19T08:35:56.526Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -2476,12 +2839,16 @@
       "title": "전국망 신원인증 (国家网络身份认证)",
       "originalTitle": "国家网络身份认证",
       "translatedTitle": "전국망 신원인증",
-      "description": "기타 · 中华人民共和国公安部",
-      "category": "기타",
-      "categoryId": "",
+      "description": "유틸리티 · 中华人民共和国公安部",
+      "category": "유틸리티",
+      "categoryId": "6002",
       "developer": "中华人民共和国公安部",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/74/9c/46/749c467b-2860-ec6d-1233-efdc1201d2b8/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/cn/app/%E5%9B%BD%E5%AE%B6%E7%BD%91%E7%BB%9C%E8%BA%AB%E4%BB%BD%E8%AE%A4%E8%AF%81/id1588080869"
+      "url": "https://apps.apple.com/cn/app/%E5%9B%BD%E5%AE%B6%E7%BD%91%E7%BB%9C%E8%BA%AB%E4%BB%BD%E8%AE%A4%E8%AF%81/id1588080869",
+      "categoryStatus": "verified",
+      "categorySource": "https://rss.marketingtools.apple.com/api/v2/cn/apps/top-free/25/apps.json",
+      "categoryCheckedAt": "2026-10-19T04:08:47.820Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -2491,12 +2858,16 @@
       "title": "DouShengSheng - Douyin의 공식 공동 구매 플랫폼 (抖省省 - 抖音官方团购平台)",
       "originalTitle": "抖省省 - 抖音官方团购平台",
       "translatedTitle": "DouShengSheng - Douyin의 공식 공동 구매 플랫폼",
-      "description": "기타 · Beijing Douyin Technology Co., Ltd.",
-      "category": "기타",
-      "categoryId": "",
+      "description": "쇼핑 · Beijing Douyin Technology Co., Ltd.",
+      "category": "쇼핑",
+      "categoryId": "6024",
       "developer": "Beijing Douyin Technology Co., Ltd.",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fc/26/ff/fc26ff9c-d228-9af1-aff8-f170dcb2eaa3/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/cn/app/%E6%8A%96%E7%9C%81%E7%9C%81-%E6%8A%96%E9%9F%B3%E5%AE%98%E6%96%B9%E5%9B%A2%E8%B4%AD%E5%B9%B3%E5%8F%B0/id6756863766"
+      "url": "https://apps.apple.com/cn/app/%E6%8A%96%E7%9C%81%E7%9C%81-%E6%8A%96%E9%9F%B3%E5%AE%98%E6%96%B9%E5%9B%A2%E8%B4%AD%E5%B9%B3%E5%8F%B0/id6756863766",
+      "categoryStatus": "verified",
+      "categorySource": "https://itunes.apple.com/lookup?id=1485191072%2C6451407032%2C6745890963%2C6459478672%2C6466733523%2C1605585211%2C336141475%2C414245413%2C6756863766%2C510909506&country=cn&entity=software",
+      "categoryCheckedAt": "2026-10-19T08:35:56.526Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -2506,12 +2877,16 @@
       "title": "Xianyu - Xianyu로 가서 돈을 벌어보세요! (闲鱼 - 上闲鱼，赚一笔 !)",
       "originalTitle": "闲鱼 - 上闲鱼，赚一笔 !",
       "translatedTitle": "Xianyu - Xianyu로 가서 돈을 벌어보세요!",
-      "description": "기타 · 浙江阿里巴巴闲鱼网络科技有限公司",
-      "category": "기타",
-      "categoryId": "",
+      "description": "쇼핑 · 浙江阿里巴巴闲鱼网络科技有限公司",
+      "category": "쇼핑",
+      "categoryId": "6024",
       "developer": "浙江阿里巴巴闲鱼网络科技有限公司",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a4/7a/df/a47adf4a-e7ff-68f3-9d9f-acfcb148b43e/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/cn/app/%E9%97%B2%E9%B1%BC-%E4%B8%8A%E9%97%B2%E9%B1%BC-%E8%B5%9A%E4%B8%80%E7%AC%94/id510909506"
+      "url": "https://apps.apple.com/cn/app/%E9%97%B2%E9%B1%BC-%E4%B8%8A%E9%97%B2%E9%B1%BC-%E8%B5%9A%E4%B8%80%E7%AC%94/id510909506",
+      "categoryStatus": "verified",
+      "categorySource": "https://itunes.apple.com/lookup?id=1485191072%2C6451407032%2C6745890963%2C6459478672%2C6466733523%2C1605585211%2C336141475%2C414245413%2C6756863766%2C510909506&country=cn&entity=software",
+      "categoryCheckedAt": "2026-10-19T08:35:56.526Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -2526,7 +2901,11 @@
       "categoryId": "6024",
       "developer": "Beijing Jingdong Century Trading Co., Ltd.",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/00/0f/bb/000fbb09-13de-382a-e167-0f0b4f1dc4bc/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/cn/app/%E4%BA%AC%E4%B8%9C-%E5%8F%88%E5%A5%BD%E5%8F%88%E4%BE%BF%E5%AE%9C/id414245413"
+      "url": "https://apps.apple.com/cn/app/%E4%BA%AC%E4%B8%9C-%E5%8F%88%E5%A5%BD%E5%8F%88%E4%BE%BF%E5%AE%9C/id414245413",
+      "categoryStatus": "verified",
+      "categorySource": "https://rss.marketingtools.apple.com/api/v2/cn/apps/top-free/25/apps.json",
+      "categoryCheckedAt": "2026-10-19T09:46:36.721Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -2541,7 +2920,11 @@
       "categoryId": "6015",
       "developer": "中国银联",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f1/6a/4e/f16a4eb9-1de3-833f-0f56-df39c3df6d09/AppIcon-0-1x_U007ephone-0-1-0-sRGB-85-220-0.png/100x100bb.png",
-      "url": "https://apps.apple.com/cn/app/%E4%BA%91%E9%97%AA%E4%BB%98-%E9%93%B6%E8%A1%8C%E4%B8%9A%E7%BB%9F%E4%B8%80%E7%A7%BB%E5%8A%A8%E6%94%AF%E4%BB%98app/id600273928"
+      "url": "https://apps.apple.com/cn/app/%E4%BA%91%E9%97%AA%E4%BB%98-%E9%93%B6%E8%A1%8C%E4%B8%9A%E7%BB%9F%E4%B8%80%E7%A7%BB%E5%8A%A8%E6%94%AF%E4%BB%98app/id600273928",
+      "categoryStatus": "verified",
+      "categorySource": "https://rss.marketingtools.apple.com/api/v2/cn/apps/top-free/25/apps.json",
+      "categoryCheckedAt": "2026-10-19T09:46:36.721Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -2556,7 +2939,11 @@
       "categoryId": "6007",
       "developer": "深圳市迅雷网络技术有限公司",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6e/85/9f/6e859f46-0e7e-1779-1be7-591c2cc6fb7b/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/cn/app/%E8%BF%85%E9%9B%B7-%E9%AB%98%E9%80%9F%E4%BC%A0%E8%BE%93-%E7%BD%91%E7%9B%98-4k%E5%8E%9F%E7%94%BB/id1503466530"
+      "url": "https://apps.apple.com/cn/app/%E8%BF%85%E9%9B%B7-%E9%AB%98%E9%80%9F%E4%BC%A0%E8%BE%93-%E7%BD%91%E7%9B%98-4k%E5%8E%9F%E7%94%BB/id1503466530",
+      "categoryStatus": "verified",
+      "categorySource": "https://rss.marketingtools.apple.com/api/v2/cn/apps/top-free/25/apps.json",
+      "categoryCheckedAt": "2026-10-19T09:46:36.721Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -2571,7 +2958,11 @@
       "categoryId": "6017",
       "developer": "中国高等教育学生信息网(学信网)",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/33/da/40/33da403d-b2c5-341a-7a83-a82d65909155/AppIcon-0-0-1x_U007emarketing-0-6-0-sRGB-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/cn/app/%E5%AD%A6%E4%BF%A1%E7%BD%91/id1488854568"
+      "url": "https://apps.apple.com/cn/app/%E5%AD%A6%E4%BF%A1%E7%BD%91/id1488854568",
+      "categoryStatus": "verified",
+      "categorySource": "https://rss.marketingtools.apple.com/api/v2/cn/apps/top-free/25/apps.json",
+      "categoryCheckedAt": "2026-10-19T09:46:36.721Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -2586,7 +2977,11 @@
       "categoryId": "6008",
       "developer": "深圳市脸萌科技有限公司",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/20/c2/c6/20c2c648-e4b9-166a-4884-d0274425c81f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/cn/app/%E5%89%AA%E6%98%A0-%E6%8A%96%E9%9F%B3%E5%AE%98%E6%96%B9ai%E5%88%9B%E4%BD%9C%E7%A5%9E%E5%99%A8/id1458072671"
+      "url": "https://apps.apple.com/cn/app/%E5%89%AA%E6%98%A0-%E6%8A%96%E9%9F%B3%E5%AE%98%E6%96%B9ai%E5%88%9B%E4%BD%9C%E7%A5%9E%E5%99%A8/id1458072671",
+      "categoryStatus": "verified",
+      "categorySource": "https://rss.marketingtools.apple.com/api/v2/cn/apps/top-free/25/apps.json",
+      "categoryCheckedAt": "2026-10-19T09:46:36.721Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -2601,7 +2996,11 @@
       "categoryId": "6002",
       "developer": "中移在线",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/31/4c/ba/314cba49-6e99-7cff-7054-c5bb99c15b8c/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/cn/app/%E4%B8%AD%E5%9B%BD%E7%A7%BB%E5%8A%A8-%E6%89%8B%E6%9C%BA%E8%90%A5%E4%B8%9A%E5%8E%85/id583700738"
+      "url": "https://apps.apple.com/cn/app/%E4%B8%AD%E5%9B%BD%E7%A7%BB%E5%8A%A8-%E6%89%8B%E6%9C%BA%E8%90%A5%E4%B8%9A%E5%8E%85/id583700738",
+      "categoryStatus": "verified",
+      "categorySource": "https://rss.marketingtools.apple.com/api/v2/cn/apps/top-free/25/apps.json",
+      "categoryCheckedAt": "2026-10-19T09:46:36.721Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -2616,7 +3015,11 @@
       "categoryId": "6002",
       "developer": "广州市动悦信息技术有限公司",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5e/d4/d0/5ed4d09d-4b9c-0b7c-b080-585534ca9962/AppIcon-0-0-1x_U007ephone-0-1-0-sRGB-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/cn/app/%E5%A4%B8%E5%85%8B-ai%E6%97%97%E8%88%B0%E5%BA%94%E7%94%A8/id1160172628"
+      "url": "https://apps.apple.com/cn/app/%E5%A4%B8%E5%85%8B-ai%E6%97%97%E8%88%B0%E5%BA%94%E7%94%A8/id1160172628",
+      "categoryStatus": "verified",
+      "categorySource": "https://rss.marketingtools.apple.com/api/v2/cn/apps/top-free/25/apps.json",
+      "categoryCheckedAt": "2026-10-19T09:46:36.721Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -2631,7 +3034,11 @@
       "categoryId": "6015",
       "developer": "State Administration of Taxation",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/18/8b/ea/188bea3d-07de-0940-a8ce-95dcb13eea8d/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/cn/app/%E7%94%B5%E5%AD%90%E7%A8%8E%E5%8A%A1%E5%B1%80/id6468941332"
+      "url": "https://apps.apple.com/cn/app/%E7%94%B5%E5%AD%90%E7%A8%8E%E5%8A%A1%E5%B1%80/id6468941332",
+      "categoryStatus": "verified",
+      "categorySource": "https://rss.marketingtools.apple.com/api/v2/cn/apps/top-free/25/apps.json",
+      "categoryCheckedAt": "2026-10-19T09:46:36.721Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -2646,7 +3053,11 @@
       "categoryId": "6010",
       "developer": "AutoNavi Information Technology Co. Ltd.",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a6/4b/2d/a64b2d3b-277c-c6d4-4e6a-7d4d4fd7a99c/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/cn/app/%E9%AB%98%E5%BE%B7%E5%9C%B0%E5%9B%BE-%E9%AB%98%E5%BE%B7%E6%89%93%E8%BD%A6-%E5%AF%BC%E8%88%AA%E5%85%AC%E4%BA%A4%E5%9C%B0%E9%93%81%E5%87%BA%E8%A1%8C/id461703208"
+      "url": "https://apps.apple.com/cn/app/%E9%AB%98%E5%BE%B7%E5%9C%B0%E5%9B%BE-%E9%AB%98%E5%BE%B7%E6%89%93%E8%BD%A6-%E5%AF%BC%E8%88%AA%E5%85%AC%E4%BA%A4%E5%9C%B0%E9%93%81%E5%87%BA%E8%A1%8C/id461703208",
+      "categoryStatus": "verified",
+      "categorySource": "https://rss.marketingtools.apple.com/api/v2/cn/apps/top-free/25/apps.json",
+      "categoryCheckedAt": "2026-10-19T09:46:36.721Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -2661,7 +3072,11 @@
       "categoryId": "6002",
       "developer": "Tencent Technology (Shanghai) Company Limited",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/22/15/36/221536fc-3443-6d9b-d210-2a04c0d8b67a/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/cn/app/workbuddy-ai-%E5%8A%9E%E5%85%AC%E6%88%91%E5%B8%AE%E4%BD%A0/id6761374913"
+      "url": "https://apps.apple.com/cn/app/workbuddy-ai-%E5%8A%9E%E5%85%AC%E6%88%91%E5%B8%AE%E4%BD%A0/id6761374913",
+      "categoryStatus": "verified",
+      "categorySource": "https://rss.marketingtools.apple.com/api/v2/cn/apps/top-free/25/apps.json",
+      "categoryCheckedAt": "2026-10-19T09:46:36.721Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -2676,7 +3091,11 @@
       "categoryId": "6007",
       "developer": "Beijing Duyou Science and Technology Co.,Ltd.",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d6/e4/4a/d6e44a5a-f212-0f89-da75-038483f4f4e8/AppIcon-0-0-1x_U007ephone-0-1-0-0-sRGB-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/cn/app/%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98/id547166701"
+      "url": "https://apps.apple.com/cn/app/%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98/id547166701",
+      "categoryStatus": "verified",
+      "categorySource": "https://rss.marketingtools.apple.com/api/v2/cn/apps/top-free/25/apps.json",
+      "categoryCheckedAt": "2026-10-19T09:46:36.721Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -2691,7 +3110,11 @@
       "categoryId": "6016",
       "developer": "Beijing Damai Cultural Media Development Co., Ltd.",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c5/23/4c/c5234cd0-5980-c184-e14a-41ca193e83f0/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/cn/app/%E5%A4%A7%E9%BA%A6-%E7%94%B5%E5%BD%B1-%E6%BC%94%E5%87%BA-%E4%BD%93%E8%82%B2%E8%B4%AD%E7%A5%A8%E5%B9%B3%E5%8F%B0/id513829338"
+      "url": "https://apps.apple.com/cn/app/%E5%A4%A7%E9%BA%A6-%E7%94%B5%E5%BD%B1-%E6%BC%94%E5%87%BA-%E4%BD%93%E8%82%B2%E8%B4%AD%E7%A5%A8%E5%B9%B3%E5%8F%B0/id513829338",
+      "categoryStatus": "verified",
+      "categorySource": "https://rss.marketingtools.apple.com/api/v2/cn/apps/top-free/25/apps.json",
+      "categoryCheckedAt": "2026-10-19T09:46:36.721Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -2706,7 +3129,11 @@
       "categoryId": "6004",
       "developer": "Shanghai Dewu Information Group Co., Ltd.",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4f/1c/e9/4f1ce9f8-6a19-2404-600c-caf56797a4b1/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/cn/app/%E5%BE%97%E7%89%A9-%E5%BE%97%E5%88%B0%E7%BE%8E%E5%A5%BD%E4%BA%8B%E7%89%A9/id1012871328"
+      "url": "https://apps.apple.com/cn/app/%E5%BE%97%E7%89%A9-%E5%BE%97%E5%88%B0%E7%BE%8E%E5%A5%BD%E4%BA%8B%E7%89%A9/id1012871328",
+      "categoryStatus": "verified",
+      "categorySource": "https://rss.marketingtools.apple.com/api/v2/cn/apps/top-free/25/apps.json",
+      "categoryCheckedAt": "2026-10-19T09:46:36.721Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -2721,7 +3148,11 @@
       "categoryId": "6012",
       "developer": "公安部交通管理科学研究所",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/56/a3/82/56a3827f-60a7-fbdf-bf27-daa0a621c9c0/AppIcon-0-0-1x_U007emarketing-0-5-0-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/cn/app/%E4%BA%A4%E7%AE%A112123/id1039727169"
+      "url": "https://apps.apple.com/cn/app/%E4%BA%A4%E7%AE%A112123/id1039727169",
+      "categoryStatus": "verified",
+      "categorySource": "https://rss.marketingtools.apple.com/api/v2/cn/apps/top-free/25/apps.json",
+      "categoryCheckedAt": "2026-10-19T09:46:36.721Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -2736,7 +3167,11 @@
       "categoryId": "6024",
       "developer": "浙江淘宝网络有限公司",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d4/b1/4a/d4b14a2f-73e2-a36d-49e7-ff8492fa7e06/AppIcon-0-0-1x_U007emarketing-0-10-0-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/cn/app/%E6%B7%98%E5%AE%9D-%E4%B8%87%E8%83%BD%E7%9A%84%E6%B7%98%E5%AE%9D/id387682726"
+      "url": "https://apps.apple.com/cn/app/%E6%B7%98%E5%AE%9D-%E4%B8%87%E8%83%BD%E7%9A%84%E6%B7%98%E5%AE%9D/id387682726",
+      "categoryStatus": "verified",
+      "categorySource": "https://rss.marketingtools.apple.com/api/v2/cn/apps/top-free/25/apps.json",
+      "categoryCheckedAt": "2026-10-19T09:46:36.721Z",
+      "categoryReason": null
     },
     {
       "store": "google",
@@ -3121,12 +3556,16 @@
       "title": "DramaWave - 코트 및 릴 (DramaWave - Courts & Reels)",
       "originalTitle": "DramaWave - Courts & Reels",
       "translatedTitle": "DramaWave - 코트 및 릴",
-      "description": "기타 · SKYWORK AI PTE LTD",
-      "category": "기타",
-      "categoryId": "",
+      "description": "엔터테인먼트 · SKYWORK AI PTE LTD",
+      "category": "엔터테인먼트",
+      "categoryId": "6016",
       "developer": "SKYWORK AI PTE LTD",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/27/97/16/279716b1-a124-611e-04a6-911a8b845dc1/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/fr/app/dramawave-courts-reels/id6670430706"
+      "url": "https://apps.apple.com/fr/app/dramawave-courts-reels/id6670430706",
+      "categoryStatus": "verified",
+      "categorySource": "https://itunes.apple.com/lookup?id=6670430706%2C6473753684%2C6448311069%2C632064380%2C6477489729%2C1488269261%2C1500855883%2C932493382%2C835599320%2C284815942&country=fr&entity=software",
+      "categoryCheckedAt": "2026-10-19T08:35:56.526Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -3136,12 +3575,16 @@
       "title": "앤트로픽 클로드 (Claude by Anthropic)",
       "originalTitle": "Claude by Anthropic",
       "translatedTitle": "앤트로픽 클로드",
-      "description": "기타 · Anthropic PBC",
-      "category": "기타",
-      "categoryId": "",
+      "description": "생산성 · Anthropic PBC",
+      "category": "생산성",
+      "categoryId": "6007",
       "developer": "Anthropic PBC",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a4/22/d1/a422d187-52f2-ec6f-bb2d-87d3558373e6/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/fr/app/claude-by-anthropic/id6473753684"
+      "url": "https://apps.apple.com/fr/app/claude-by-anthropic/id6473753684",
+      "categoryStatus": "verified",
+      "categorySource": "https://itunes.apple.com/lookup?id=6670430706%2C6473753684%2C6448311069%2C632064380%2C6477489729%2C1488269261%2C1500855883%2C932493382%2C835599320%2C284815942&country=fr&entity=software",
+      "categoryCheckedAt": "2026-10-19T08:35:56.526Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -3151,12 +3594,16 @@
       "title": "Vinted : 쇼핑 세컨드 메인 (Vinted : shopping seconde main)",
       "originalTitle": "Vinted : shopping seconde main",
       "translatedTitle": "Vinted : 쇼핑 세컨드 메인",
-      "description": "기타 · Vinted Limited",
-      "category": "기타",
-      "categoryId": "",
+      "description": "쇼핑 · Vinted Limited",
+      "category": "쇼핑",
+      "categoryId": "6024",
       "developer": "Vinted Limited",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/df/27/50/df2750f9-14f0-27d4-7fa0-c9770a94b28e/VintedAppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/fr/app/vinted-shopping-seconde-main/id632064380"
+      "url": "https://apps.apple.com/fr/app/vinted-shopping-seconde-main/id632064380",
+      "categoryStatus": "verified",
+      "categorySource": "https://itunes.apple.com/lookup?id=6670430706%2C6473753684%2C6448311069%2C632064380%2C6477489729%2C1488269261%2C1500855883%2C932493382%2C835599320%2C284815942&country=fr&entity=software",
+      "categoryCheckedAt": "2026-10-19T08:35:56.526Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -3166,12 +3613,16 @@
       "title": "챗GPT (ChatGPT)",
       "originalTitle": "ChatGPT",
       "translatedTitle": "챗GPT",
-      "description": "기타 · OpenAI OpCo, LLC",
-      "category": "기타",
-      "categoryId": "",
+      "description": "생산성 · OpenAI OpCo, LLC",
+      "category": "생산성",
+      "categoryId": "6007",
       "developer": "OpenAI OpCo, LLC",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/30/23/eb/3023ebb0-1e40-6314-9909-f490a704b5d1/AppIcon-0-0-1x_U007epad-0-0-0-1-0-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/fr/app/chatgpt/id6448311069"
+      "url": "https://apps.apple.com/fr/app/chatgpt/id6448311069",
+      "categoryStatus": "verified",
+      "categorySource": "https://itunes.apple.com/lookup?id=6670430706%2C6473753684%2C6448311069%2C632064380%2C6477489729%2C1488269261%2C1500855883%2C932493382%2C835599320%2C284815942&country=fr&entity=software",
+      "categoryCheckedAt": "2026-10-19T08:35:56.526Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -3181,12 +3632,16 @@
       "title": "참고 사항: 라이브 쇼핑 비디오 (Whatnot: Live Shopping Vidéo)",
       "originalTitle": "Whatnot: Live Shopping Vidéo",
       "translatedTitle": "참고 사항: 라이브 쇼핑 비디오",
-      "description": "기타 · Whatnot Inc.",
-      "category": "기타",
-      "categoryId": "",
+      "description": "쇼핑 · Whatnot Inc.",
+      "category": "쇼핑",
+      "categoryId": "6024",
       "developer": "Whatnot Inc.",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/db/bc/fb/dbbcfbe5-52c8-9762-67a6-e172c6fec957/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/fr/app/whatnot-live-shopping-vid%C3%A9o/id1488269261"
+      "url": "https://apps.apple.com/fr/app/whatnot-live-shopping-vid%C3%A9o/id1488269261",
+      "categoryStatus": "verified",
+      "categorySource": "https://itunes.apple.com/lookup?id=6670430706%2C6473753684%2C6448311069%2C632064380%2C6477489729%2C1488269261%2C1500855883%2C932493382%2C835599320%2C284815942&country=fr&entity=software",
+      "categoryCheckedAt": "2026-10-19T08:35:56.526Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -3196,12 +3651,16 @@
       "title": "구글 제미나이 (Google Gemini)",
       "originalTitle": "Google Gemini",
       "translatedTitle": "구글 제미나이",
-      "description": "기타 · Google",
-      "category": "기타",
-      "categoryId": "",
+      "description": "생산성 · Google",
+      "category": "생산성",
+      "categoryId": "6007",
       "developer": "Google",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/86/69/2c/86692cd5-8c2d-c25f-8aaf-9cd1c7478d4a/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-0-0-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/fr/app/google-gemini/id6477489729"
+      "url": "https://apps.apple.com/fr/app/google-gemini/id6477489729",
+      "categoryStatus": "verified",
+      "categorySource": "https://itunes.apple.com/lookup?id=6670430706%2C6473753684%2C6448311069%2C632064380%2C6477489729%2C1488269261%2C1500855883%2C932493382%2C835599320%2C284815942&country=fr&entity=software",
+      "categoryCheckedAt": "2026-10-19T08:35:56.526Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -3211,12 +3670,16 @@
       "title": "CapCut - 비디오 & 사진 편집기 (CapCut - Éditeur vidéo & photo)",
       "originalTitle": "CapCut - Éditeur vidéo & photo",
       "translatedTitle": "CapCut - 비디오 & 사진 편집기",
-      "description": "기타 · Bytedance Pte. Ltd",
-      "category": "기타",
-      "categoryId": "",
+      "description": "사진·비디오 · Bytedance Pte. Ltd",
+      "category": "사진·비디오",
+      "categoryId": "6008",
       "developer": "Bytedance Pte. Ltd",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5e/3f/96/5e3f9662-e690-3e55-e0b0-77da51f98fd2/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/fr/app/capcut-%C3%A9diteur-vid%C3%A9o-photo/id1500855883"
+      "url": "https://apps.apple.com/fr/app/capcut-%C3%A9diteur-vid%C3%A9o-photo/id1500855883",
+      "categoryStatus": "verified",
+      "categorySource": "https://itunes.apple.com/lookup?id=6670430706%2C6473753684%2C6448311069%2C632064380%2C6477489729%2C1488269261%2C1500855883%2C932493382%2C835599320%2C284815942&country=fr&entity=software",
+      "categoryCheckedAt": "2026-10-19T08:35:56.526Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -3226,12 +3689,16 @@
       "title": "Shop: suivez, achetez, trouvez (Shop: suivez, achetez, trouvez)",
       "originalTitle": "Shop: suivez, achetez, trouvez",
       "translatedTitle": "Shop: suivez, achetez, trouvez",
-      "description": "기타 · Shopify Inc.",
-      "category": "기타",
-      "categoryId": "",
+      "description": "쇼핑 · Shopify Inc.",
+      "category": "쇼핑",
+      "categoryId": "6024",
       "developer": "Shopify Inc.",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/48/87/b4/4887b441-a7ff-fc92-bc61-6392539ea7ac/AppIconProduction-0-0-1x_U007ephone-0-11-0-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/fr/app/shop-suivez-achetez-trouvez/id1223471316"
+      "url": "https://apps.apple.com/fr/app/shop-suivez-achetez-trouvez/id1223471316",
+      "categoryStatus": "verified",
+      "categorySource": "https://rss.marketingtools.apple.com/api/v2/fr/apps/top-free/25/apps.json",
+      "categoryCheckedAt": "2026-10-19T04:08:47.820Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -3241,12 +3708,16 @@
       "title": "Revolut — 은행 그 이상 (Revolut — Plus qu'une banque)",
       "originalTitle": "Revolut — Plus qu'une banque",
       "translatedTitle": "Revolut — 은행 그 이상",
-      "description": "기타 · Revolut Ltd",
-      "category": "기타",
-      "categoryId": "",
+      "description": "금융 · Revolut Ltd",
+      "category": "금융",
+      "categoryId": "6015",
       "developer": "Revolut Ltd",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9d/72/e7/9d72e765-7a20-e360-9927-afcbb90da70c/AppIcon-Production-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/fr/app/revolut-plus-quune-banque/id932493382"
+      "url": "https://apps.apple.com/fr/app/revolut-plus-quune-banque/id932493382",
+      "categoryStatus": "verified",
+      "categorySource": "https://itunes.apple.com/lookup?id=6670430706%2C6473753684%2C6448311069%2C632064380%2C6477489729%2C1488269261%2C1500855883%2C932493382%2C835599320%2C284815942&country=fr&entity=software",
+      "categoryCheckedAt": "2026-10-19T08:35:56.526Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -3256,12 +3727,16 @@
       "title": "ReelShort - 스트림 드라마 및 TV (ReelShort - Stream Drama & TV)",
       "originalTitle": "ReelShort - Stream Drama & TV",
       "translatedTitle": "ReelShort - 스트림 드라마 및 TV",
-      "description": "기타 · NewLeaf Publishing",
-      "category": "기타",
-      "categoryId": "",
+      "description": "엔터테인먼트 · NewLeaf Publishing",
+      "category": "엔터테인먼트",
+      "categoryId": "6016",
       "developer": "NewLeaf Publishing",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/41/d5/c1/41d5c184-935e-0040-b565-a9dedfeccbb5/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/fr/app/reelshort-stream-drama-tv/id1636235979"
+      "url": "https://apps.apple.com/fr/app/reelshort-stream-drama-tv/id1636235979",
+      "categoryStatus": "verified",
+      "categorySource": "https://rss.marketingtools.apple.com/api/v2/fr/apps/top-free/25/apps.json",
+      "categoryCheckedAt": "2026-10-19T04:08:47.820Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -3276,7 +3751,11 @@
       "categoryId": "6003",
       "developer": "BOLT TECHNOLOGY OU",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/25/9c/94/259c94ee-8198-25d2-a217-8809ce6efada/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/fr/app/bolt-demandez-un-trajet-24-7/id675033630"
+      "url": "https://apps.apple.com/fr/app/bolt-demandez-un-trajet-24-7/id675033630",
+      "categoryStatus": "verified",
+      "categorySource": "https://rss.marketingtools.apple.com/api/v2/fr/apps/top-free/25/apps.json",
+      "categoryCheckedAt": "2026-10-19T09:46:36.721Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -3291,7 +3770,11 @@
       "categoryId": "6002",
       "developer": "Google",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/59/47/5d/59475db0-a6e5-76f9-214e-82311c3fb04d/SuperG_ios26-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-0-0-0-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/fr/app/google/id284815942"
+      "url": "https://apps.apple.com/fr/app/google/id284815942",
+      "categoryStatus": "verified",
+      "categorySource": "https://rss.marketingtools.apple.com/api/v2/fr/apps/top-free/25/apps.json",
+      "categoryCheckedAt": "2026-10-19T09:46:36.721Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -3306,7 +3789,11 @@
       "categoryId": "6003",
       "developer": "Uber Technologies, Inc.",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7a/3f/42/7a3f424c-d273-a56c-059d-8f6c32359d88/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/fr/app/uber-vtc-repas-et-plus/id368677368"
+      "url": "https://apps.apple.com/fr/app/uber-vtc-repas-et-plus/id368677368",
+      "categoryStatus": "verified",
+      "categorySource": "https://rss.marketingtools.apple.com/api/v2/fr/apps/top-free/25/apps.json",
+      "categoryCheckedAt": "2026-10-19T09:46:36.721Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -3321,7 +3808,11 @@
       "categoryId": "6009",
       "developer": "X Corp.",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c4/41/93/c441932f-2acf-3ad1-1d2e-fb84d82afed1/ProductionAppIcon-0-0-1x_U007emarketing-0-8-0-0-0-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/fr/app/x-anciennement-twitter/id333903271"
+      "url": "https://apps.apple.com/fr/app/x-anciennement-twitter/id333903271",
+      "categoryStatus": "verified",
+      "categorySource": "https://rss.marketingtools.apple.com/api/v2/fr/apps/top-free/25/apps.json",
+      "categoryCheckedAt": "2026-10-19T09:46:36.721Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -3336,7 +3827,11 @@
       "categoryId": "6010",
       "developer": "Ile de France Mobilites",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9e/f2/63/9ef263cf-77d8-f93e-ce9c-6109aae78b4f/AppIcon_18-0-0-1x_U007emarketing-0-8-0-sRGB-0-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/fr/app/%C3%AEle-de-france-mobilit%C3%A9s/id484527651"
+      "url": "https://apps.apple.com/fr/app/%C3%AEle-de-france-mobilit%C3%A9s/id484527651",
+      "categoryStatus": "verified",
+      "categorySource": "https://rss.marketingtools.apple.com/api/v2/fr/apps/top-free/25/apps.json",
+      "categoryCheckedAt": "2026-10-19T09:46:36.721Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -3351,7 +3846,11 @@
       "categoryId": "6016",
       "developer": "Netflix, Inc.",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/43/41/dd/4341dd76-bd1b-c2ab-a8eb-20f19d859288/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/fr/app/netflix-game-controller/id6447582581"
+      "url": "https://apps.apple.com/fr/app/netflix-game-controller/id6447582581",
+      "categoryStatus": "verified",
+      "categorySource": "https://rss.marketingtools.apple.com/api/v2/fr/apps/top-free/25/apps.json",
+      "categoryCheckedAt": "2026-10-19T09:46:36.721Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -3366,7 +3865,11 @@
       "categoryId": "6005",
       "developer": "Telegram FZ-LLC",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/52/47/26/5247269d-36db-c530-6d22-1918a5d6e357/Telegram-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/fr/app/telegram-messenger/id686449807"
+      "url": "https://apps.apple.com/fr/app/telegram-messenger/id686449807",
+      "categoryStatus": "verified",
+      "categorySource": "https://rss.marketingtools.apple.com/api/v2/fr/apps/top-free/25/apps.json",
+      "categoryCheckedAt": "2026-10-19T09:46:36.721Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -3381,7 +3884,11 @@
       "categoryId": "6002",
       "developer": "LBC France",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f4/55/7f/f4557f36-e657-1b90-618b-9f295491a654/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/fr/app/leboncoin/id484115113"
+      "url": "https://apps.apple.com/fr/app/leboncoin/id484115113",
+      "categoryStatus": "verified",
+      "categorySource": "https://rss.marketingtools.apple.com/api/v2/fr/apps/top-free/25/apps.json",
+      "categoryCheckedAt": "2026-10-19T09:46:36.721Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -3396,7 +3903,11 @@
       "categoryId": "6010",
       "developer": "Google",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/94/88/64/9488640b-74bb-84f0-fe2c-ac13c96ba19c/maps_2025-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-0-0-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/fr/app/google-maps/id585027354"
+      "url": "https://apps.apple.com/fr/app/google-maps/id585027354",
+      "categoryStatus": "verified",
+      "categorySource": "https://rss.marketingtools.apple.com/api/v2/fr/apps/top-free/25/apps.json",
+      "categoryCheckedAt": "2026-10-19T09:46:36.721Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -3411,7 +3922,11 @@
       "categoryId": "6013",
       "developer": "Strava, Inc.",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e3/40/96/e34096a0-2cbe-d684-f3e9-ef676498f298/AppIcon-Primary-0-0-1x_U007ephone-0-1-0-0-sRGB-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/fr/app/strava-course-v%C3%A9lo-rando/id426826309"
+      "url": "https://apps.apple.com/fr/app/strava-course-v%C3%A9lo-rando/id426826309",
+      "categoryStatus": "verified",
+      "categorySource": "https://rss.marketingtools.apple.com/api/v2/fr/apps/top-free/25/apps.json",
+      "categoryCheckedAt": "2026-10-19T09:46:36.721Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -3426,7 +3941,11 @@
       "categoryId": "6005",
       "developer": "Instagram, Inc.",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f8/d0/e8/f8d0e873-d8d9-b627-5afc-198d0a692846/Prod-0-0-1x_U007ephone-0-1-0-sRGB-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/fr/app/threads/id6446901002"
+      "url": "https://apps.apple.com/fr/app/threads/id6446901002",
+      "categoryStatus": "verified",
+      "categorySource": "https://rss.marketingtools.apple.com/api/v2/fr/apps/top-free/25/apps.json",
+      "categoryCheckedAt": "2026-10-19T09:46:36.721Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -3441,7 +3960,11 @@
       "categoryId": "6023",
       "developer": "Uber Technologies, Inc.",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8e/31/60/8e3160df-b877-5e71-bfa5-b8091d778c5a/AppIcon-0-0-1x_U007emarketing-0-8-0-0-sRGB-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/fr/app/uber-eats-livraison-de-repas/id1058959277"
+      "url": "https://apps.apple.com/fr/app/uber-eats-livraison-de-repas/id1058959277",
+      "categoryStatus": "verified",
+      "categorySource": "https://rss.marketingtools.apple.com/api/v2/fr/apps/top-free/25/apps.json",
+      "categoryCheckedAt": "2026-10-19T09:46:36.721Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -3456,7 +3979,11 @@
       "categoryId": "6023",
       "developer": "Too Good To Go",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7e/47/21/7e472158-792d-75c8-b715-1cb16d478f46/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/fr/app/too-good-to-go-pas-de-gaspi/id1060683933"
+      "url": "https://apps.apple.com/fr/app/too-good-to-go-pas-de-gaspi/id1060683933",
+      "categoryStatus": "verified",
+      "categorySource": "https://rss.marketingtools.apple.com/api/v2/fr/apps/top-free/25/apps.json",
+      "categoryCheckedAt": "2026-10-19T09:46:36.721Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -3471,7 +3998,11 @@
       "categoryId": "6024",
       "developer": "Amazon",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7b/b7/2f/7bb72f5a-29c4-2a40-0b96-7e642d33045c/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/fr/app/amazon-fr/id358861688"
+      "url": "https://apps.apple.com/fr/app/amazon-fr/id358861688",
+      "categoryStatus": "verified",
+      "categorySource": "https://rss.marketingtools.apple.com/api/v2/fr/apps/top-free/25/apps.json",
+      "categoryCheckedAt": "2026-10-19T09:46:36.721Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -3486,7 +4017,11 @@
       "categoryId": "6017",
       "developer": "Duolingo",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/70/f8/4c/70f84cd4-f8f0-5d64-8b3a-f5d395293b80/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/fr/app/duolingo-langues-et-%C3%A9checs/id570060128"
+      "url": "https://apps.apple.com/fr/app/duolingo-langues-et-%C3%A9checs/id570060128",
+      "categoryStatus": "verified",
+      "categorySource": "https://rss.marketingtools.apple.com/api/v2/fr/apps/top-free/25/apps.json",
+      "categoryCheckedAt": "2026-10-19T09:46:36.721Z",
+      "categoryReason": null
     },
     {
       "store": "google",
@@ -3871,12 +4406,16 @@
       "title": "Vinted: 이미 사랑받는 마켓플레이스 (Vinted: Pre-loved marketplace)",
       "originalTitle": "Vinted: Pre-loved marketplace",
       "translatedTitle": "Vinted: 이미 사랑받는 마켓플레이스",
-      "description": "기타 · Vinted Limited",
-      "category": "기타",
-      "categoryId": "",
+      "description": "쇼핑 · Vinted Limited",
+      "category": "쇼핑",
+      "categoryId": "6024",
       "developer": "Vinted Limited",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/df/27/50/df2750f9-14f0-27d4-7fa0-c9770a94b28e/VintedAppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/au/app/vinted-pre-loved-marketplace/id632064380"
+      "url": "https://apps.apple.com/au/app/vinted-pre-loved-marketplace/id632064380",
+      "categoryStatus": "verified",
+      "categorySource": "https://itunes.apple.com/lookup?id=632064380%2C1119404646%2C6448311069%2C1500855883%2C6473753684%2C938033081%2C436672029%2C500003565%2C1053752571%2C297606951&country=au&entity=software",
+      "categoryCheckedAt": "2026-10-19T08:35:56.526Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -3886,12 +4425,16 @@
       "title": "챗GPT (ChatGPT)",
       "originalTitle": "ChatGPT",
       "translatedTitle": "챗GPT",
-      "description": "기타 · OpenAI OpCo, LLC",
-      "category": "기타",
-      "categoryId": "",
+      "description": "생산성 · OpenAI OpCo, LLC",
+      "category": "생산성",
+      "categoryId": "6007",
       "developer": "OpenAI OpCo, LLC",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/30/23/eb/3023ebb0-1e40-6314-9909-f490a704b5d1/AppIcon-0-0-1x_U007epad-0-0-0-1-0-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/au/app/chatgpt/id6448311069"
+      "url": "https://apps.apple.com/au/app/chatgpt/id6448311069",
+      "categoryStatus": "verified",
+      "categorySource": "https://itunes.apple.com/lookup?id=632064380%2C1119404646%2C6448311069%2C1500855883%2C6473753684%2C938033081%2C436672029%2C500003565%2C1053752571%2C297606951&country=au&entity=software",
+      "categoryCheckedAt": "2026-10-19T08:35:56.526Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -3901,12 +4444,16 @@
       "title": "myGov (myGov)",
       "originalTitle": "myGov",
       "translatedTitle": "myGov",
-      "description": "기타 · Services Australia",
-      "category": "기타",
-      "categoryId": "",
+      "description": "유틸리티 · Services Australia",
+      "category": "유틸리티",
+      "categoryId": "6002",
       "developer": "Services Australia",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4f/aa/85/4faa8590-f050-f628-5c72-c90626578e11/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/au/app/mygov/id938033081"
+      "url": "https://apps.apple.com/au/app/mygov/id938033081",
+      "categoryStatus": "verified",
+      "categorySource": "https://itunes.apple.com/lookup?id=632064380%2C1119404646%2C6448311069%2C1500855883%2C6473753684%2C938033081%2C436672029%2C500003565%2C1053752571%2C297606951&country=au&entity=software",
+      "categoryCheckedAt": "2026-10-19T08:35:56.526Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -3916,12 +4463,16 @@
       "title": "CapCut: 사진 및 비디오 편집기 (CapCut: Photo & Video Editor)",
       "originalTitle": "CapCut: Photo & Video Editor",
       "translatedTitle": "CapCut: 사진 및 비디오 편집기",
-      "description": "기타 · Bytedance Pte. Ltd",
-      "category": "기타",
-      "categoryId": "",
+      "description": "사진·비디오 · Bytedance Pte. Ltd",
+      "category": "사진·비디오",
+      "categoryId": "6008",
       "developer": "Bytedance Pte. Ltd",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5e/3f/96/5e3f9662-e690-3e55-e0b0-77da51f98fd2/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/au/app/capcut-photo-video-editor/id1500855883"
+      "url": "https://apps.apple.com/au/app/capcut-photo-video-editor/id1500855883",
+      "categoryStatus": "verified",
+      "categorySource": "https://itunes.apple.com/lookup?id=632064380%2C1119404646%2C6448311069%2C1500855883%2C6473753684%2C938033081%2C436672029%2C500003565%2C1053752571%2C297606951&country=au&entity=software",
+      "categoryCheckedAt": "2026-10-19T08:35:56.526Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -3931,12 +4482,16 @@
       "title": "앤트로픽 클로드 (Claude by Anthropic)",
       "originalTitle": "Claude by Anthropic",
       "translatedTitle": "앤트로픽 클로드",
-      "description": "기타 · Anthropic PBC",
-      "category": "기타",
-      "categoryId": "",
+      "description": "생산성 · Anthropic PBC",
+      "category": "생산성",
+      "categoryId": "6007",
       "developer": "Anthropic PBC",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a4/22/d1/a422d187-52f2-ec6f-bb2d-87d3558373e6/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/au/app/claude-by-anthropic/id6473753684"
+      "url": "https://apps.apple.com/au/app/claude-by-anthropic/id6473753684",
+      "categoryStatus": "verified",
+      "categorySource": "https://itunes.apple.com/lookup?id=632064380%2C1119404646%2C6448311069%2C1500855883%2C6473753684%2C938033081%2C436672029%2C500003565%2C1053752571%2C297606951&country=au&entity=software",
+      "categoryCheckedAt": "2026-10-19T08:35:56.526Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -3946,12 +4501,16 @@
       "title": "Aussie Bird Count (Aussie Bird Count)",
       "originalTitle": "Aussie Bird Count",
       "translatedTitle": "Aussie Bird Count",
-      "description": "기타 · BirdLife Australia Ltd.",
-      "category": "기타",
-      "categoryId": "",
+      "description": "교육 · BirdLife Australia Ltd.",
+      "category": "교육",
+      "categoryId": "6017",
       "developer": "BirdLife Australia Ltd.",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9b/8c/f4/9b8cf429-0030-8679-f2db-57bcae7ed9a1/AppIcon-0-0-1x_U007epad-0-9-0-0-0-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/au/app/aussie-bird-count/id917024019"
+      "url": "https://apps.apple.com/au/app/aussie-bird-count/id917024019",
+      "categoryStatus": "verified",
+      "categorySource": "https://rss.marketingtools.apple.com/api/v2/au/apps/top-free/25/apps.json",
+      "categoryCheckedAt": "2026-10-19T04:08:47.820Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -3961,12 +4520,16 @@
       "title": "7plus (7plus)",
       "originalTitle": "7plus",
       "translatedTitle": "7plus",
-      "description": "기타 · Seven Network (Operations) Ltd.",
-      "category": "기타",
-      "categoryId": "",
+      "description": "엔터테인먼트 · Seven Network (Operations) Ltd.",
+      "category": "엔터테인먼트",
+      "categoryId": "6016",
       "developer": "Seven Network (Operations) Ltd.",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/58/3a/04/583a043c-1cb4-e14c-aeb7-bc2be5a9021a/AppIcon-0-1x_U007emarketing-0-8-0-sRGB-85-220-0.png/100x100bb.png",
-      "url": "https://apps.apple.com/au/app/7plus/id1119404646"
+      "url": "https://apps.apple.com/au/app/7plus/id1119404646",
+      "categoryStatus": "verified",
+      "categorySource": "https://itunes.apple.com/lookup?id=632064380%2C1119404646%2C6448311069%2C1500855883%2C6473753684%2C938033081%2C436672029%2C500003565%2C1053752571%2C297606951&country=au&entity=software",
+      "categoryCheckedAt": "2026-10-19T08:35:56.526Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -3976,12 +4539,16 @@
       "title": "마이크로소프트 인증자 (Microsoft Authenticator)",
       "originalTitle": "Microsoft Authenticator",
       "translatedTitle": "마이크로소프트 인증자",
-      "description": "기타 · Microsoft Corporation",
-      "category": "기타",
-      "categoryId": "",
+      "description": "생산성 · Microsoft Corporation",
+      "category": "생산성",
+      "categoryId": "6007",
       "developer": "Microsoft Corporation",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/03/43/b2/0343b28c-bee0-cd1b-652b-96e4dd94d51e/AppIcon-0-1x_U007emarketing-0-11-0-sRGB-85-220-0.png/100x100bb.png",
-      "url": "https://apps.apple.com/au/app/microsoft-authenticator/id983156458"
+      "url": "https://apps.apple.com/au/app/microsoft-authenticator/id983156458",
+      "categoryStatus": "verified",
+      "categorySource": "https://itunes.apple.com/lookup?id=983156458%2C1397699449&country=au&entity=software",
+      "categoryCheckedAt": "2026-10-21T07:55:59.152Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -3991,12 +4558,16 @@
       "title": "AliExpress 쇼핑 앱 (AliExpress Shopping App)",
       "originalTitle": "AliExpress Shopping App",
       "translatedTitle": "AliExpress 쇼핑 앱",
-      "description": "기타 · Alibaba",
-      "category": "기타",
-      "categoryId": "",
+      "description": "쇼핑 · Alibaba",
+      "category": "쇼핑",
+      "categoryId": "6024",
       "developer": "Alibaba",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e3/d1/ba/e3d1ba6f-8ced-5590-8a75-30ea27603aea/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/au/app/aliexpress-shopping-app/id436672029"
+      "url": "https://apps.apple.com/au/app/aliexpress-shopping-app/id436672029",
+      "categoryStatus": "verified",
+      "categorySource": "https://itunes.apple.com/lookup?id=632064380%2C1119404646%2C6448311069%2C1500855883%2C6473753684%2C938033081%2C436672029%2C500003565%2C1053752571%2C297606951&country=au&entity=software",
+      "categoryCheckedAt": "2026-10-19T08:35:56.526Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -4006,12 +4577,16 @@
       "title": "myID - 호주 정부 (myID - Australian Government)",
       "originalTitle": "myID - Australian Government",
       "translatedTitle": "myID - 호주 정부",
-      "description": "기타 · Australian Taxation Office",
-      "category": "기타",
-      "categoryId": "",
+      "description": "생산성 · Australian Taxation Office",
+      "category": "생산성",
+      "categoryId": "6007",
       "developer": "Australian Taxation Office",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/13/00/52/130052ac-9b68-44c2-f29c-845cb130f211/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/au/app/myid-australian-government/id1397699449"
+      "url": "https://apps.apple.com/au/app/myid-australian-government/id1397699449",
+      "categoryStatus": "verified",
+      "categorySource": "https://itunes.apple.com/lookup?id=983156458%2C1397699449&country=au&entity=software",
+      "categoryCheckedAt": "2026-10-21T07:55:59.152Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -4026,7 +4601,11 @@
       "categoryId": "6015",
       "developer": "ING Bank (Australia) Limited",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/84/1e/b1/841eb1c1-1894-856e-1225-bc6a6af3fe82/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/au/app/ing-banking-do-your-thing/id6503263049"
+      "url": "https://apps.apple.com/au/app/ing-banking-do-your-thing/id6503263049",
+      "categoryStatus": "verified",
+      "categorySource": "https://rss.marketingtools.apple.com/api/v2/au/apps/top-free/25/apps.json",
+      "categoryCheckedAt": "2026-10-19T09:46:36.721Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -4041,7 +4620,11 @@
       "categoryId": "6016",
       "developer": "Ticketmaster",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/99/ad/af/99adafd0-e850-b2a0-5181-12d4910bbf7d/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/au/app/ticketmaster-buy-sell-tickets/id500003565"
+      "url": "https://apps.apple.com/au/app/ticketmaster-buy-sell-tickets/id500003565",
+      "categoryStatus": "verified",
+      "categorySource": "https://rss.marketingtools.apple.com/api/v2/au/apps/top-free/25/apps.json",
+      "categoryCheckedAt": "2026-10-19T09:46:36.721Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -4056,7 +4639,11 @@
       "categoryId": "6015",
       "developer": "NAB",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/87/7f/31/877f318c-2270-7f9d-d3c4-766d3c35ba63/AppIcon-0-0-1x_U007epad-0-1-0-0-sRGB-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/au/app/nab-mobile-banking/id373434223"
+      "url": "https://apps.apple.com/au/app/nab-mobile-banking/id373434223",
+      "categoryStatus": "verified",
+      "categorySource": "https://rss.marketingtools.apple.com/api/v2/au/apps/top-free/25/apps.json",
+      "categoryCheckedAt": "2026-10-19T09:46:36.721Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -4071,7 +4658,11 @@
       "categoryId": "6023",
       "developer": "EATCLUB PTY LTD",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/df/ee/3a/dfee3a23-e8d8-b78f-6646-dc915ac51f14/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/au/app/eatclub-restaurant-deals/id1053752571"
+      "url": "https://apps.apple.com/au/app/eatclub-restaurant-deals/id1053752571",
+      "categoryStatus": "verified",
+      "categorySource": "https://rss.marketingtools.apple.com/api/v2/au/apps/top-free/25/apps.json",
+      "categoryCheckedAt": "2026-10-19T09:46:36.721Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -4086,7 +4677,11 @@
       "categoryId": "6016",
       "developer": "AXS",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d2/1d/71/d21d714c-68a8-96fd-9a63-2a8294c041ed/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/au/app/axs-tickets/id679805463"
+      "url": "https://apps.apple.com/au/app/axs-tickets/id679805463",
+      "categoryStatus": "verified",
+      "categorySource": "https://rss.marketingtools.apple.com/api/v2/au/apps/top-free/25/apps.json",
+      "categoryCheckedAt": "2026-10-19T09:46:36.721Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -4101,7 +4696,11 @@
       "categoryId": "6024",
       "developer": "Shopify Inc.",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/48/87/b4/4887b441-a7ff-fc92-bc61-6392539ea7ac/AppIconProduction-0-0-1x_U007ephone-0-11-0-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/au/app/shop-track-pay-discover/id1223471316"
+      "url": "https://apps.apple.com/au/app/shop-track-pay-discover/id1223471316",
+      "categoryStatus": "verified",
+      "categorySource": "https://rss.marketingtools.apple.com/api/v2/au/apps/top-free/25/apps.json",
+      "categoryCheckedAt": "2026-10-19T09:46:36.721Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -4116,7 +4715,11 @@
       "categoryId": "6000",
       "developer": "Australia Post",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/27/27/4f/27274f76-eb97-c690-60d4-98bbe0c749f3/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/au/app/australia-post/id380897313"
+      "url": "https://apps.apple.com/au/app/australia-post/id380897313",
+      "categoryStatus": "verified",
+      "categorySource": "https://rss.marketingtools.apple.com/api/v2/au/apps/top-free/25/apps.json",
+      "categoryCheckedAt": "2026-10-19T09:46:36.721Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -4131,7 +4734,11 @@
       "categoryId": "6024",
       "developer": "Woolworths Group Limited",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/55/78/f1/5578f1d2-5c20-a0ad-b143-3a91167f66b9/RewardsAppLiquidGlassLogo-0-0-1x_U007ephone-0-1-0-sRGB-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/au/app/everyday-rewards/id1489403660"
+      "url": "https://apps.apple.com/au/app/everyday-rewards/id1489403660",
+      "categoryStatus": "verified",
+      "categorySource": "https://rss.marketingtools.apple.com/api/v2/au/apps/top-free/25/apps.json",
+      "categoryCheckedAt": "2026-10-19T09:46:36.721Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -4146,7 +4753,11 @@
       "categoryId": "6024",
       "developer": "AMZN Mobile LLC",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7b/c1/2c/7bc12c5f-0620-c507-9291-3cb011691946/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/au/app/amazon-shopping-made-easy/id297606951"
+      "url": "https://apps.apple.com/au/app/amazon-shopping-made-easy/id297606951",
+      "categoryStatus": "verified",
+      "categorySource": "https://rss.marketingtools.apple.com/api/v2/au/apps/top-free/25/apps.json",
+      "categoryCheckedAt": "2026-10-19T09:46:36.721Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -4161,7 +4772,11 @@
       "categoryId": "6020",
       "developer": "HotDoc",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3e/56/5e/3e565ea1-16d2-6e23-5778-cad15cc1df16/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/au/app/hotdoc/id757696633"
+      "url": "https://apps.apple.com/au/app/hotdoc/id757696633",
+      "categoryStatus": "verified",
+      "categorySource": "https://rss.marketingtools.apple.com/api/v2/au/apps/top-free/25/apps.json",
+      "categoryCheckedAt": "2026-10-19T09:46:36.721Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -4176,7 +4791,11 @@
       "categoryId": "6024",
       "developer": "Woolworths Group Limited",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/87/30/30/873030e4-60eb-4537-586d-314289e99b6d/AppIcon-Supers-0-0-1x_U007ephone-0-1-0-sRGB-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/au/app/woolworths/id975089690"
+      "url": "https://apps.apple.com/au/app/woolworths/id975089690",
+      "categoryStatus": "verified",
+      "categorySource": "https://rss.marketingtools.apple.com/api/v2/au/apps/top-free/25/apps.json",
+      "categoryCheckedAt": "2026-10-19T09:46:36.721Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -4191,7 +4810,11 @@
       "categoryId": "6013",
       "developer": "The trustee for Solomos Family Trust",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9c/76/de/9c76de71-81fd-a217-6a04-d820171b3c22/AppIcon-0-0-1x_U007emarketing-0-7-0-0-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/au/app/derrimut-gym/id6814796812"
+      "url": "https://apps.apple.com/au/app/derrimut-gym/id6814796812",
+      "categoryStatus": "verified",
+      "categorySource": "https://rss.marketingtools.apple.com/api/v2/au/apps/top-free/25/apps.json",
+      "categoryCheckedAt": "2026-10-19T09:46:36.721Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -4206,7 +4829,11 @@
       "categoryId": "6007",
       "developer": "Google",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/86/69/2c/86692cd5-8c2d-c25f-8aaf-9cd1c7478d4a/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-0-0-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/au/app/google-gemini/id6477489729"
+      "url": "https://apps.apple.com/au/app/google-gemini/id6477489729",
+      "categoryStatus": "verified",
+      "categorySource": "https://rss.marketingtools.apple.com/api/v2/au/apps/top-free/25/apps.json",
+      "categoryCheckedAt": "2026-10-19T09:46:36.721Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -4221,7 +4848,11 @@
       "categoryId": "6005",
       "developer": "Instagram, Inc.",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f8/d0/e8/f8d0e873-d8d9-b627-5afc-198d0a692846/Prod-0-0-1x_U007ephone-0-1-0-sRGB-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/au/app/threads/id6446901002"
+      "url": "https://apps.apple.com/au/app/threads/id6446901002",
+      "categoryStatus": "verified",
+      "categorySource": "https://rss.marketingtools.apple.com/api/v2/au/apps/top-free/25/apps.json",
+      "categoryCheckedAt": "2026-10-19T09:46:36.721Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -4236,7 +4867,11 @@
       "categoryId": "6023",
       "developer": "Guzman y Gomez (GYG) Mexican Taqueria",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/82/55/47/82554731-043d-b9f6-c08f-b010f49fbf5c/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/au/app/guzman-y-gomez-gyg-mexican/id595292048"
+      "url": "https://apps.apple.com/au/app/guzman-y-gomez-gyg-mexican/id595292048",
+      "categoryStatus": "verified",
+      "categorySource": "https://rss.marketingtools.apple.com/api/v2/au/apps/top-free/25/apps.json",
+      "categoryCheckedAt": "2026-10-19T09:46:36.721Z",
+      "categoryReason": null
     },
     {
       "store": "google",
@@ -4621,12 +5256,16 @@
       "title": "앤트로픽 클로드 (Claude by Anthropic)",
       "originalTitle": "Claude by Anthropic",
       "translatedTitle": "앤트로픽 클로드",
-      "description": "기타 · Anthropic PBC",
-      "category": "기타",
-      "categoryId": "",
+      "description": "생산성 · Anthropic PBC",
+      "category": "생산성",
+      "categoryId": "6007",
       "developer": "Anthropic PBC",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a4/22/d1/a422d187-52f2-ec6f-bb2d-87d3558373e6/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/de/app/claude-by-anthropic/id6473753684"
+      "url": "https://apps.apple.com/de/app/claude-by-anthropic/id6473753684",
+      "categoryStatus": "verified",
+      "categorySource": "https://itunes.apple.com/lookup?id=6473753684%2C632064380%2C6448311069%2C6477489729%2C368677368%2C1331065474%2C6814945846%2C6670430706%2C1500855883%2C6737608605&country=de&entity=software",
+      "categoryCheckedAt": "2026-10-19T08:35:56.526Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -4636,12 +5275,16 @@
       "title": "Vinted: 중고 시장 (Vinted: Secondhand-Marktplatz)",
       "originalTitle": "Vinted: Secondhand-Marktplatz",
       "translatedTitle": "Vinted: 중고 시장",
-      "description": "기타 · Vinted Limited",
-      "category": "기타",
-      "categoryId": "",
+      "description": "쇼핑 · Vinted Limited",
+      "category": "쇼핑",
+      "categoryId": "6024",
       "developer": "Vinted Limited",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/df/27/50/df2750f9-14f0-27d4-7fa0-c9770a94b28e/VintedAppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/de/app/vinted-secondhand-marktplatz/id632064380"
+      "url": "https://apps.apple.com/de/app/vinted-secondhand-marktplatz/id632064380",
+      "categoryStatus": "verified",
+      "categorySource": "https://itunes.apple.com/lookup?id=6473753684%2C632064380%2C6448311069%2C6477489729%2C368677368%2C1331065474%2C6814945846%2C6670430706%2C1500855883%2C6737608605&country=de&entity=software",
+      "categoryCheckedAt": "2026-10-19T08:35:56.526Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -4651,12 +5294,16 @@
       "title": "챗GPT (ChatGPT)",
       "originalTitle": "ChatGPT",
       "translatedTitle": "챗GPT",
-      "description": "기타 · OpenAI OpCo, LLC",
-      "category": "기타",
-      "categoryId": "",
+      "description": "생산성 · OpenAI OpCo, LLC",
+      "category": "생산성",
+      "categoryId": "6007",
       "developer": "OpenAI OpCo, LLC",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/30/23/eb/3023ebb0-1e40-6314-9909-f490a704b5d1/AppIcon-0-0-1x_U007epad-0-0-0-1-0-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/de/app/chatgpt/id6448311069"
+      "url": "https://apps.apple.com/de/app/chatgpt/id6448311069",
+      "categoryStatus": "verified",
+      "categorySource": "https://itunes.apple.com/lookup?id=6473753684%2C632064380%2C6448311069%2C6477489729%2C368677368%2C1331065474%2C6814945846%2C6670430706%2C1500855883%2C6737608605&country=de&entity=software",
+      "categoryCheckedAt": "2026-10-19T08:35:56.526Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -4666,12 +5313,16 @@
       "title": "구글 제미나이 (Google Gemini)",
       "originalTitle": "Google Gemini",
       "translatedTitle": "구글 제미나이",
-      "description": "기타 · Google",
-      "category": "기타",
-      "categoryId": "",
+      "description": "생산성 · Google",
+      "category": "생산성",
+      "categoryId": "6007",
       "developer": "Google",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/86/69/2c/86692cd5-8c2d-c25f-8aaf-9cd1c7478d4a/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-0-0-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/de/app/google-gemini/id6477489729"
+      "url": "https://apps.apple.com/de/app/google-gemini/id6477489729",
+      "categoryStatus": "verified",
+      "categorySource": "https://itunes.apple.com/lookup?id=6473753684%2C632064380%2C6448311069%2C6477489729%2C368677368%2C1331065474%2C6814945846%2C6670430706%2C1500855883%2C6737608605&country=de&entity=software",
+      "categoryCheckedAt": "2026-10-19T08:35:56.526Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -4681,12 +5332,16 @@
       "title": "Uber: 차량 공유 및 택시 (Uber: Ride-Hailing & Taxis)",
       "originalTitle": "Uber: Ride-Hailing & Taxis",
       "translatedTitle": "Uber: 차량 공유 및 택시",
-      "description": "기타 · Uber Technologies, Inc.",
-      "category": "기타",
-      "categoryId": "",
+      "description": "여행 · Uber Technologies, Inc.",
+      "category": "여행",
+      "categoryId": "6003",
       "developer": "Uber Technologies, Inc.",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7a/3f/42/7a3f424c-d273-a56c-059d-8f6c32359d88/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/de/app/uber-ride-hailing-taxis/id368677368"
+      "url": "https://apps.apple.com/de/app/uber-ride-hailing-taxis/id368677368",
+      "categoryStatus": "verified",
+      "categorySource": "https://itunes.apple.com/lookup?id=6473753684%2C632064380%2C6448311069%2C6477489729%2C368677368%2C1331065474%2C6814945846%2C6670430706%2C1500855883%2C6737608605&country=de&entity=software",
+      "categoryCheckedAt": "2026-10-19T08:35:56.526Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -4696,12 +5351,16 @@
       "title": "DramaWave - 드라마 & 릴 (DramaWave - Drama & Reel)",
       "originalTitle": "DramaWave - Drama & Reel",
       "translatedTitle": "DramaWave - 드라마 & 릴",
-      "description": "기타 · SKYWORK AI PTE LTD",
-      "category": "기타",
-      "categoryId": "",
+      "description": "엔터테인먼트 · SKYWORK AI PTE LTD",
+      "category": "엔터테인먼트",
+      "categoryId": "6016",
       "developer": "SKYWORK AI PTE LTD",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/27/97/16/279716b1-a124-611e-04a6-911a8b845dc1/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/de/app/dramawave-drama-reel/id6670430706"
+      "url": "https://apps.apple.com/de/app/dramawave-drama-reel/id6670430706",
+      "categoryStatus": "verified",
+      "categorySource": "https://itunes.apple.com/lookup?id=6473753684%2C632064380%2C6448311069%2C6477489729%2C368677368%2C1331065474%2C6814945846%2C6670430706%2C1500855883%2C6737608605&country=de&entity=software",
+      "categoryCheckedAt": "2026-10-19T08:35:56.526Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -4711,12 +5370,16 @@
       "title": "넥트월렛 (Nect Wallet)",
       "originalTitle": "Nect Wallet",
       "translatedTitle": "넥트월렛",
-      "description": "기타 · Nect",
-      "category": "기타",
-      "categoryId": "",
+      "description": "생산성 · Nect",
+      "category": "생산성",
+      "categoryId": "6007",
       "developer": "Nect",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/88/c1/0c/88c10cec-fa48-66c1-1903-984613cb790c/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/de/app/nect-wallet/id1331065474"
+      "url": "https://apps.apple.com/de/app/nect-wallet/id1331065474",
+      "categoryStatus": "verified",
+      "categorySource": "https://itunes.apple.com/lookup?id=6473753684%2C632064380%2C6448311069%2C6477489729%2C368677368%2C1331065474%2C6814945846%2C6670430706%2C1500855883%2C6737608605&country=de&entity=software",
+      "categoryCheckedAt": "2026-10-19T08:35:56.526Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -4726,12 +5389,16 @@
       "title": "AOK Ident (AOK Ident)",
       "originalTitle": "AOK Ident",
       "translatedTitle": "AOK Ident",
-      "description": "기타 · AOK Mein Leben GbR",
-      "category": "기타",
-      "categoryId": "",
+      "description": "유틸리티 · AOK Mein Leben GbR",
+      "category": "유틸리티",
+      "categoryId": "6002",
       "developer": "AOK Mein Leben GbR",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/58/f7/36/58f73629-163a-0985-6f71-6542e35e10be/AppIcon-0-0-1x_U007ephone-0-1-sRGB-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/de/app/aok-ident/id6737608605"
+      "url": "https://apps.apple.com/de/app/aok-ident/id6737608605",
+      "categoryStatus": "verified",
+      "categorySource": "https://itunes.apple.com/lookup?id=6473753684%2C632064380%2C6448311069%2C6477489729%2C368677368%2C1331065474%2C6814945846%2C6670430706%2C1500855883%2C6737608605&country=de&entity=software",
+      "categoryCheckedAt": "2026-10-19T08:35:56.526Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -4741,12 +5408,16 @@
       "title": "Nhas City Chicken (Nhas City Chicken)",
       "originalTitle": "Nhas City Chicken",
       "translatedTitle": "Nhas City Chicken",
-      "description": "기타 · Nhas Food Tech",
-      "category": "기타",
-      "categoryId": "",
+      "description": "음식·음료 · Nhas Food Tech",
+      "category": "음식·음료",
+      "categoryId": "6023",
       "developer": "Nhas Food Tech",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3c/0e/38/3c0e3850-5417-ce75-61de-48627b0a4d6e/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/de/app/nhas-city-chicken/id6814945846"
+      "url": "https://apps.apple.com/de/app/nhas-city-chicken/id6814945846",
+      "categoryStatus": "verified",
+      "categorySource": "https://itunes.apple.com/lookup?id=6473753684%2C632064380%2C6448311069%2C6477489729%2C368677368%2C1331065474%2C6814945846%2C6670430706%2C1500855883%2C6737608605&country=de&entity=software",
+      "categoryCheckedAt": "2026-10-19T08:35:56.526Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -4756,12 +5427,16 @@
       "title": "CapCut: 사진 및 비디오 편집기 (CapCut: Foto- und Video-Editor)",
       "originalTitle": "CapCut: Foto- und Video-Editor",
       "translatedTitle": "CapCut: 사진 및 비디오 편집기",
-      "description": "기타 · Bytedance Pte. Ltd",
-      "category": "기타",
-      "categoryId": "",
+      "description": "사진·비디오 · Bytedance Pte. Ltd",
+      "category": "사진·비디오",
+      "categoryId": "6008",
       "developer": "Bytedance Pte. Ltd",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5e/3f/96/5e3f9662-e690-3e55-e0b0-77da51f98fd2/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/de/app/capcut-foto-und-video-editor/id1500855883"
+      "url": "https://apps.apple.com/de/app/capcut-foto-und-video-editor/id1500855883",
+      "categoryStatus": "verified",
+      "categorySource": "https://itunes.apple.com/lookup?id=6473753684%2C632064380%2C6448311069%2C6477489729%2C368677368%2C1331065474%2C6814945846%2C6670430706%2C1500855883%2C6737608605&country=de&entity=software",
+      "categoryCheckedAt": "2026-10-19T08:35:56.526Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -4776,7 +5451,11 @@
       "categoryId": "6024",
       "developer": "Otto GmbH & Co. KGaA",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5b/95/0f/5b950fcd-4b41-05cd-dc9f-2ebe8b88d14d/app-icon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/de/app/otto-online-shopping-m%C3%B6bel/id404844644"
+      "url": "https://apps.apple.com/de/app/otto-online-shopping-m%C3%B6bel/id404844644",
+      "categoryStatus": "verified",
+      "categorySource": "https://rss.marketingtools.apple.com/api/v2/de/apps/top-free/25/apps.json",
+      "categoryCheckedAt": "2026-10-19T09:46:36.721Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -4791,7 +5470,11 @@
       "categoryId": "6016",
       "developer": "AGILE QUADRANT MEDIA LIMITED",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c4/fd/63/c4fd63e4-d798-f4e8-7b4f-8d429183935a/AppIcon-0-0-1x_U007ephone-0-1-0-0-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/de/app/vibeshort-ai-kurzdramen-tv/id6758667154"
+      "url": "https://apps.apple.com/de/app/vibeshort-ai-kurzdramen-tv/id6758667154",
+      "categoryStatus": "verified",
+      "categorySource": "https://rss.marketingtools.apple.com/api/v2/de/apps/top-free/25/apps.json",
+      "categoryCheckedAt": "2026-10-19T09:46:36.721Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -4806,7 +5489,11 @@
       "categoryId": "6002",
       "developer": "Governikus Service GmbH",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7e/a4/39/7ea439ce-01f2-4b48-4e02-203ba2b52b66/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/de/app/ausweisapp-bund/id948660805"
+      "url": "https://apps.apple.com/de/app/ausweisapp-bund/id948660805",
+      "categoryStatus": "verified",
+      "categorySource": "https://rss.marketingtools.apple.com/api/v2/de/apps/top-free/25/apps.json",
+      "categoryCheckedAt": "2026-10-19T09:46:36.721Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -4821,7 +5508,11 @@
       "categoryId": "6007",
       "developer": "Deutsche Post AG",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e4/d5/0f/e4d50f05-7799-3b04-f72a-07b26e2f86dd/AppIcon.Prod-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/de/app/post-dhl/id329315203"
+      "url": "https://apps.apple.com/de/app/post-dhl/id329315203",
+      "categoryStatus": "verified",
+      "categorySource": "https://rss.marketingtools.apple.com/api/v2/de/apps/top-free/25/apps.json",
+      "categoryCheckedAt": "2026-10-19T09:46:36.721Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -4836,7 +5527,11 @@
       "categoryId": "6016",
       "developer": "Sudwestrundfunk, Anstalt des offentlichen Rechts",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f8/2b/f9/f82bf96d-a6bc-6b09-377c-7c0f50de9403/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/de/app/ard-sounds/id1224607890"
+      "url": "https://apps.apple.com/de/app/ard-sounds/id1224607890",
+      "categoryStatus": "verified",
+      "categorySource": "https://rss.marketingtools.apple.com/api/v2/de/apps/top-free/25/apps.json",
+      "categoryCheckedAt": "2026-10-19T09:46:36.721Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -4851,7 +5546,11 @@
       "categoryId": "6024",
       "developer": "Shopify Inc.",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/48/87/b4/4887b441-a7ff-fc92-bc61-6392539ea7ac/AppIconProduction-0-0-1x_U007ephone-0-11-0-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/de/app/shop-tracken-zahlen-finden/id1223471316"
+      "url": "https://apps.apple.com/de/app/shop-tracken-zahlen-finden/id1223471316",
+      "categoryStatus": "verified",
+      "categorySource": "https://rss.marketingtools.apple.com/api/v2/de/apps/top-free/25/apps.json",
+      "categoryCheckedAt": "2026-10-19T09:46:36.721Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -4866,7 +5565,11 @@
       "categoryId": "6002",
       "developer": "Google",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/59/47/5d/59475db0-a6e5-76f9-214e-82311c3fb04d/SuperG_ios26-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-0-0-0-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/de/app/google/id284815942"
+      "url": "https://apps.apple.com/de/app/google/id284815942",
+      "categoryStatus": "verified",
+      "categorySource": "https://rss.marketingtools.apple.com/api/v2/de/apps/top-free/25/apps.json",
+      "categoryCheckedAt": "2026-10-19T09:46:36.721Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -4881,7 +5584,11 @@
       "categoryId": "6000",
       "developer": "Allianz Deutschland AG",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ba/81/16/ba81169e-b349-6bdf-531d-04d065eab2ef/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/de/app/meine-allianz/id1116091166"
+      "url": "https://apps.apple.com/de/app/meine-allianz/id1116091166",
+      "categoryStatus": "verified",
+      "categorySource": "https://rss.marketingtools.apple.com/api/v2/de/apps/top-free/25/apps.json",
+      "categoryCheckedAt": "2026-10-19T09:46:36.721Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -4896,7 +5603,11 @@
       "categoryId": "6024",
       "developer": "C&A Mode GmbH & Co. KG",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/40/06/fb/4006fbb7-80c9-0335-cd67-3b3c96dac614/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/de/app/c-a-mode-online-shop/id1462636376"
+      "url": "https://apps.apple.com/de/app/c-a-mode-online-shop/id1462636376",
+      "categoryStatus": "verified",
+      "categorySource": "https://rss.marketingtools.apple.com/api/v2/de/apps/top-free/25/apps.json",
+      "categoryCheckedAt": "2026-10-19T09:46:36.721Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -4911,7 +5622,11 @@
       "categoryId": "6023",
       "developer": "Wolt Oy",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fd/7e/b2/fd7eb2af-21fa-95e5-ecd2-028bd5d255c6/WoltDefault-0-0-1x_U007ephone-0-1-sRGB-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/de/app/wolt-essen-bestellen-mehr/id943905271"
+      "url": "https://apps.apple.com/de/app/wolt-essen-bestellen-mehr/id943905271",
+      "categoryStatus": "verified",
+      "categorySource": "https://rss.marketingtools.apple.com/api/v2/de/apps/top-free/25/apps.json",
+      "categoryCheckedAt": "2026-10-19T09:46:36.721Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -4926,7 +5641,11 @@
       "categoryId": "6024",
       "developer": "Marktplaats BV",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b3/5c/50/b35c503b-8363-820c-8708-08cffe350b1f/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/de/app/kleinanzeigen-dein-marktplatz/id382596778"
+      "url": "https://apps.apple.com/de/app/kleinanzeigen-dein-marktplatz/id382596778",
+      "categoryStatus": "verified",
+      "categorySource": "https://rss.marketingtools.apple.com/api/v2/de/apps/top-free/25/apps.json",
+      "categoryCheckedAt": "2026-10-19T09:46:36.721Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -4941,7 +5660,11 @@
       "categoryId": "6024",
       "developer": "Amazon",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1f/0b/8a/1f0b8ab4-cbdd-e55d-6a08-f4b59abbd568/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/de/app/amazon/id348712880"
+      "url": "https://apps.apple.com/de/app/amazon/id348712880",
+      "categoryStatus": "verified",
+      "categorySource": "https://rss.marketingtools.apple.com/api/v2/de/apps/top-free/25/apps.json",
+      "categoryCheckedAt": "2026-10-19T09:46:36.721Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -4956,7 +5679,11 @@
       "categoryId": "6017",
       "developer": "Duolingo",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/70/f8/4c/70f84cd4-f8f0-5d64-8b3a-f5d395293b80/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/de/app/duolingo-sprachen-und-schach/id570060128"
+      "url": "https://apps.apple.com/de/app/duolingo-sprachen-und-schach/id570060128",
+      "categoryStatus": "verified",
+      "categorySource": "https://rss.marketingtools.apple.com/api/v2/de/apps/top-free/25/apps.json",
+      "categoryCheckedAt": "2026-10-19T09:46:36.721Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -4971,7 +5698,11 @@
       "categoryId": "6003",
       "developer": "Deutsche Bahn",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6f/6e/e4/6f6ee429-6f88-16b8-e81a-cebc560902e1/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/de/app/db-navigator/id343555245"
+      "url": "https://apps.apple.com/de/app/db-navigator/id343555245",
+      "categoryStatus": "verified",
+      "categorySource": "https://rss.marketingtools.apple.com/api/v2/de/apps/top-free/25/apps.json",
+      "categoryCheckedAt": "2026-10-19T09:46:36.721Z",
+      "categoryReason": null
     },
     {
       "store": "apple",
@@ -4986,7 +5717,11 @@
       "categoryId": "6024",
       "developer": "Lidl Digital International GmbH & Co. KG",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/85/c5/73/85c57339-a30c-04c9-a4e4-54d76423d977/AppIcon-0-0-1x_U007ephone-0-1-P3-85-220.png/100x100bb.png",
-      "url": "https://apps.apple.com/de/app/lidl-plus/id1238611143"
+      "url": "https://apps.apple.com/de/app/lidl-plus/id1238611143",
+      "categoryStatus": "verified",
+      "categorySource": "https://rss.marketingtools.apple.com/api/v2/de/apps/top-free/25/apps.json",
+      "categoryCheckedAt": "2026-10-19T09:46:36.721Z",
+      "categoryReason": null
     },
     {
       "store": "google",
@@ -5372,19 +6107,27 @@
       "total": 25,
       "categories": [
         {
-          "category": "기타",
-          "count": 10
-        },
-        {
           "category": "엔터테인먼트",
-          "count": 3
+          "count": 5
         },
         {
           "category": "금융",
-          "count": 2
+          "count": 4
         },
         {
           "category": "생산성",
+          "count": 4
+        },
+        {
+          "category": "라이프스타일",
+          "count": 2
+        },
+        {
+          "category": "사진·비디오",
+          "count": 2
+        },
+        {
+          "category": "쇼핑",
           "count": 2
         },
         {
@@ -5400,14 +6143,6 @@
           "count": 1
         },
         {
-          "category": "라이프스타일",
-          "count": 1
-        },
-        {
-          "category": "쇼핑",
-          "count": 1
-        },
-        {
           "category": "의료",
           "count": 1
         }
@@ -5420,19 +6155,27 @@
       "total": 25,
       "categories": [
         {
-          "category": "기타",
-          "count": 10
+          "category": "쇼핑",
+          "count": 6
         },
         {
-          "category": "쇼핑",
+          "category": "엔터테인먼트",
           "count": 5
+        },
+        {
+          "category": "생산성",
+          "count": 4
         },
         {
           "category": "사진·비디오",
           "count": 2
         },
         {
-          "category": "엔터테인먼트",
+          "category": "소셜",
+          "count": 2
+        },
+        {
+          "category": "음식·음료",
           "count": 2
         },
         {
@@ -5440,23 +6183,15 @@
           "count": 1
         },
         {
+          "category": "금융",
+          "count": 1
+        },
+        {
           "category": "내비게이션",
           "count": 1
         },
         {
-          "category": "생산성",
-          "count": 1
-        },
-        {
-          "category": "소셜",
-          "count": 1
-        },
-        {
           "category": "유틸리티",
-          "count": 1
-        },
-        {
-          "category": "음식·음료",
           "count": 1
         }
       ]
@@ -5468,16 +6203,12 @@
       "total": 25,
       "categories": [
         {
-          "category": "기타",
-          "count": 10
-        },
-        {
           "category": "쇼핑",
           "count": 5
         },
         {
           "category": "엔터테인먼트",
-          "count": 4
+          "count": 5
         },
         {
           "category": "음식·음료",
@@ -5485,6 +6216,18 @@
         },
         {
           "category": "생산성",
+          "count": 3
+        },
+        {
+          "category": "소셜",
+          "count": 3
+        },
+        {
+          "category": "유틸리티",
+          "count": 3
+        },
+        {
+          "category": "금융",
           "count": 1
         },
         {
@@ -5500,23 +6243,23 @@
       "total": 25,
       "categories": [
         {
-          "category": "기타",
-          "count": 10
-        },
-        {
-          "category": "유틸리티",
-          "count": 3
-        },
-        {
-          "category": "금융",
-          "count": 2
+          "category": "쇼핑",
+          "count": 5
         },
         {
           "category": "생산성",
-          "count": 2
+          "count": 4
         },
         {
-          "category": "쇼핑",
+          "category": "엔터테인먼트",
+          "count": 4
+        },
+        {
+          "category": "유틸리티",
+          "count": 4
+        },
+        {
+          "category": "금융",
           "count": 2
         },
         {
@@ -5540,7 +6283,7 @@
           "count": 1
         },
         {
-          "category": "엔터테인먼트",
+          "category": "음악",
           "count": 1
         }
       ]
@@ -5552,8 +6295,16 @@
       "total": 25,
       "categories": [
         {
-          "category": "기타",
-          "count": 10
+          "category": "쇼핑",
+          "count": 4
+        },
+        {
+          "category": "생산성",
+          "count": 3
+        },
+        {
+          "category": "엔터테인먼트",
+          "count": 3
         },
         {
           "category": "내비게이션",
@@ -5584,15 +6335,15 @@
           "count": 1
         },
         {
+          "category": "금융",
+          "count": 1
+        },
+        {
           "category": "뉴스",
           "count": 1
         },
         {
-          "category": "쇼핑",
-          "count": 1
-        },
-        {
-          "category": "엔터테인먼트",
+          "category": "사진·비디오",
           "count": 1
         }
       ]
@@ -5604,19 +6355,19 @@
       "total": 25,
       "categories": [
         {
-          "category": "기타",
-          "count": 10
-        },
-        {
           "category": "쇼핑",
-          "count": 4
+          "count": 6
         },
         {
-          "category": "금융",
-          "count": 2
+          "category": "생산성",
+          "count": 5
         },
         {
           "category": "엔터테인먼트",
+          "count": 3
+        },
+        {
+          "category": "금융",
           "count": 2
         },
         {
@@ -5628,15 +6379,23 @@
           "count": 1
         },
         {
+          "category": "교육",
+          "count": 1
+        },
+        {
           "category": "비즈니스",
           "count": 1
         },
         {
-          "category": "생산성",
+          "category": "사진·비디오",
           "count": 1
         },
         {
           "category": "소셜",
+          "count": 1
+        },
+        {
+          "category": "유틸리티",
           "count": 1
         },
         {
@@ -5652,19 +6411,27 @@
       "total": 25,
       "categories": [
         {
-          "category": "기타",
-          "count": 10
+          "category": "쇼핑",
+          "count": 7
         },
         {
-          "category": "쇼핑",
-          "count": 6
+          "category": "생산성",
+          "count": 5
         },
         {
           "category": "엔터테인먼트",
-          "count": 2
+          "count": 3
         },
         {
           "category": "유틸리티",
+          "count": 3
+        },
+        {
+          "category": "여행",
+          "count": 2
+        },
+        {
+          "category": "음식·음료",
           "count": 2
         },
         {
@@ -5676,15 +6443,7 @@
           "count": 1
         },
         {
-          "category": "생산성",
-          "count": 1
-        },
-        {
-          "category": "여행",
-          "count": 1
-        },
-        {
-          "category": "음식·음료",
+          "category": "사진·비디오",
           "count": 1
         }
       ]

@@ -1,5 +1,7 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
+import { pathToFileURL } from 'node:url';
+import { categoryLabel } from '../scripts/apple-categories.mjs';
 
 const ROOT = process.cwd();
 const DATA_DIR = path.join(ROOT, 'data');
@@ -14,10 +16,10 @@ const kstDate = () =>
     day: '2-digit',
   }).format(new Date());
 
-function buildCategories(rows) {
+export function buildCategories(rows) {
   const counts = new Map();
   for (const row of rows) {
-    const category = String(row.category || '기타').trim() || '기타';
+    const category = categoryLabel(row);
     counts.set(category, (counts.get(category) || 0) + 1);
   }
   return [...counts.entries()]
@@ -26,7 +28,7 @@ function buildCategories(rows) {
 }
 
 async function main() {
-  const date = kstDate();
+  const date = process.argv[2] || kstDate();
   const snapshotPath = path.join(DATA_DIR, `${date}.json`);
   const snapshot = JSON.parse(await fs.readFile(snapshotPath, 'utf8'));
   const composition = {};
@@ -57,7 +59,7 @@ async function main() {
   console.log(`Stored category composition for ${Object.keys(composition).length} country/store charts.`);
 }
 
-main().catch(error => {
+if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) main().catch(error => {
   console.error(`Category composition failed: ${error.message}`);
   process.exitCode = 1;
 });
