@@ -2,6 +2,11 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import { pathToFileURL } from 'node:url';
 import { appleCategory, categoryQuality, UNKNOWN_CATEGORY } from './apple-categories.mjs';
+import {
+  DESCRIPTION_MAX_LENGTH,
+  DESCRIPTION_UNAVAILABLE,
+  descriptionQuality,
+} from './descriptions.mjs';
 import { buildCategories } from '../tools/category-composition.mjs';
 
 const ROOT = process.cwd();
@@ -35,6 +40,36 @@ function isHttpUrl(value) {
 
 function isVerified(source) {
   return source?.status === 'verified';
+}
+
+function assertQuality(actual, expected, label) {
+  assert(
+    actual?.status === expected.status &&
+      actual?.verified === expected.verified &&
+      actual?.unavailable === expected.unavailable,
+    `${label} is missing or inconsistent.`,
+  );
+}
+
+function isAppleLookupForRecord(url, country, record) {
+  return url.protocol === 'https:' &&
+    url.hostname === 'itunes.apple.com' &&
+    url.pathname === '/lookup' &&
+    url.searchParams.get('country') === country.toLowerCase() &&
+    (url.searchParams.get('id') || '').split(',').includes(record.appId.slice(4));
+}
+
+function isAppleAppPageForRecord(url, record) {
+  return url.protocol === 'https:' &&
+    url.hostname === 'apps.apple.com' &&
+    url.pathname.includes(`/id${record.appId.slice(4)}`);
+}
+
+function isGoogleAppPageForRecord(url, record) {
+  return url.protocol === 'https:' &&
+    url.hostname === 'play.google.com' &&
+    url.pathname === '/store/apps/details' &&
+    url.searchParams.get('id') === record.appId.replace(/^android:/, '');
 }
 
 export function validateSnapshot(snapshot, index, date = snapshot.date) {
@@ -91,15 +126,16 @@ export function validateSnapshot(snapshot, index, date = snapshot.date) {
       );
       assert(categoryTotal === composition.total, `${key}: category counts do not match total.`);
       assert(composition.total === records.length, `${key}: composition total does not match records.`);
+      assert(
+        JSON.stringify(composition.categories) === JSON.stringify(buildCategories(records)),
+        `${key}: category composition does not match record categories.`,
+      );
 
-      assert(JSON.stringify(composition.categories) === JSON.stringify(buildCategories(records)),
-        `${key}: category composition does not match record categories.`);
       if (store === 'apple' && records.length) {
-        const quality = categoryQuality(records);
-        assert(source.categoryQuality?.status === quality.status &&
-          source.categoryQuality?.verified === quality.verified &&
-          source.categoryQuality?.unavailable === quality.unavailable,
-          `${key}: categoryQuality is missing or inconsistent.`);
+        assertQuality(source.categoryQuality, categoryQuality(records), `${key}: categoryQuality`);
+      }
+      if (records.length) {
+        assertQuality(source.descriptionQuality, descriptionQuality(records), `${key}: descriptionQuality`);
       }
 
       if (isVerified(source)) {
@@ -148,24 +184,54 @@ export function validateSnapshot(snapshot, index, date = snapshot.date) {
             assert(isHttpUrl(record.categorySource), `${key} #${record.rank}: categorySource is missing.`);
             const categoryUrl = new URL(record.categorySource);
             const rssPath = `/api/v2/${country.toLowerCase()}/apps/top-free/25/apps.json`;
-            const isRss = categoryUrl.protocol === 'https:' && categoryUrl.hostname === 'rss.marketingtools.apple.com' && categoryUrl.pathname === rssPath;
-            const isLookup = categoryUrl.protocol === 'https:' && categoryUrl.hostname === 'itunes.apple.com' &&
-              categoryUrl.pathname === '/lookup' && categoryUrl.searchParams.get('country') === country.toLowerCase() &&
-              (categoryUrl.searchParams.get('id') || '').split(',').includes(record.appId.slice(4));
-            assert(isRss || isLookup, `${key} #${record.rank}: categorySource must match official storefront/app ID.`);
+            const isRss = categoryUrl.protocol === 'https:' &&
+              categoryUrl.hostname === 'rss.marketingtools.apple.com' &&
+              categoryUrl.pathname === rssPath;
+            const isLookup = isAppleLookupForRecord(categoryUrl, country, record);
+            assert(isRss || isLookup,
+              `${key} #${record.rank}: categorySource must match official storefront/app ID.`);
             if (record.categoryStatus === 'verified') {
               const category = appleCategory(record.categoryId, record.category);
               assert(category && category.category === record.category &&
                 !['기타', UNKNOWN_CATEGORY].includes(record.category),
                 `${key} #${record.rank}: verified category requires real metadata.`);
-              assert(record.categoryReason === null, `${key} #${record.rank}: verified category must not have a failure reason.`);
+              assert(record.categoryReason === null,
+                `${key} #${record.rank}: verified category must not have a failure reason.`);
             } else {
               assert(record.category === UNKNOWN_CATEGORY && record.categoryId === '' &&
                 typeof record.categoryReason === 'string' && record.categoryReason.trim(),
                 `${key} #${record.rank}: unavailable category must be explicit, empty-ID and reasoned.`);
             }
           } else {
-            assert(url.hostname === 'play.google.com', `${key} #${record.rank}: expected a Play Store URL.`);
+            assert(isGoogleAppPageForRecord(url, record),
+              `${key} #${record.rank}: expected a matching Play Store app URL.`);
+          }
+
+          assert(['verified', 'unavailable'].includes(record.descriptionStatus),
+            `${key} #${record.rank}: descriptionStatus is missing or unsupported.`);
+          assert(!Number.isNaN(Date.parse(record.descriptionCheckedAt)),
+            `${key} #${record.rank}: descriptionCheckedAt is missing.`);
+          assert(isHttpUrl(record.descriptionSource),
+            `${key} #${record.rank}: descriptionSource is missing or invalid.`);
+          const descriptionUrl = new URL(record.descriptionSource);
+          const validDescriptionSource = store === 'apple'
+            ? isAppleLookupForRecord(descriptionUrl, country, record) ||
+              isAppleAppPageForRecord(descriptionUrl, record)
+            : isGoogleAppPageForRecord(descriptionUrl, record);
+          assert(validDescriptionSource,
+            `${key} #${record.rank}: descriptionSource must be the matching official app detail source.`);
+
+          if (record.descriptionStatus === 'verified') {
+            assert(record.description !== DESCRIPTION_UNAVAILABLE,
+              `${key} #${record.rank}: verified description cannot use unavailable placeholder.`);
+            assert(record.description.length <= DESCRIPTION_MAX_LENGTH,
+              `${key} #${record.rank}: short description exceeds ${DESCRIPTION_MAX_LENGTH} characters.`);
+            assert(record.descriptionReason === null,
+              `${key} #${record.rank}: verified description must not have a failure reason.`);
+          } else {
+            assert(record.description === DESCRIPTION_UNAVAILABLE &&
+              typeof record.descriptionReason === 'string' && record.descriptionReason.trim(),
+              `${key} #${record.rank}: unavailable description must be explicit and reasoned.`);
           }
 
           if (TRANSLATED_COUNTRIES.has(country)) {
@@ -215,8 +281,12 @@ export function validateSnapshot(snapshot, index, date = snapshot.date) {
     );
   }
 
-  return { verifiedCharts, records: snapshot.records.length,
-    unavailableCategories: snapshot.records.filter(row => row.categoryStatus === 'unavailable').length };
+  return {
+    verifiedCharts,
+    records: snapshot.records.length,
+    unavailableCategories: snapshot.records.filter(row => row.categoryStatus === 'unavailable').length,
+    unavailableDescriptions: snapshot.records.filter(row => row.descriptionStatus === 'unavailable').length,
+  };
 }
 
 async function main() {
@@ -224,9 +294,21 @@ async function main() {
   const snapshot = JSON.parse(await fs.readFile(path.join(DATA_DIR, `${date}.json`), 'utf8'));
   const index = JSON.parse(await fs.readFile(path.join(DATA_DIR, 'index.json'), 'utf8'));
   const result = validateSnapshot(snapshot, index, date);
-  console.log(`Validated ${result.records} official records across ${result.verifiedCharts}/14 verified charts; ` +
-    `${result.unavailableCategories} Apple categories explicitly unavailable.`);
-  if (result.unavailableCategories) console.warn(`::warning::Apple category metadata incomplete: ${result.unavailableCategories} unavailable; ranks preserved.`);
+  console.log(
+    `Validated ${result.records} official records across ${result.verifiedCharts}/14 verified charts; ` +
+      `${result.unavailableCategories} Apple categories and ` +
+      `${result.unavailableDescriptions} descriptions explicitly unavailable.`,
+  );
+  if (result.unavailableCategories) {
+    console.warn(
+      `::warning::Apple category metadata incomplete: ${result.unavailableCategories} unavailable; ranks preserved.`,
+    );
+  }
+  if (result.unavailableDescriptions) {
+    console.warn(
+      `::warning::Official descriptions incomplete: ${result.unavailableDescriptions} unavailable; no text was invented.`,
+    );
+  }
 }
 
 if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) main().catch(error => {
