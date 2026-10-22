@@ -1,0 +1,16 @@
+{
+  "chartType": "games",
+  "snapshots": [
+    {
+      "date": "2026-10-22",
+      "file": "data/games/2026-10-22.json",
+      "label": "2026-10-22 official free game charts",
+      "coverage": {
+        "apple": 0,
+        "google": 7
+      },
+      "chartType": "games",
+      "officialOnly": true
+    }
+  ]
+}
