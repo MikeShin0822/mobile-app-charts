@@ -222,8 +222,11 @@ export function validateSnapshot(snapshot, index, date = snapshot.date) {
             `${key} #${record.rank}: descriptionSource must be the matching official app detail source.`);
 
           if (record.descriptionStatus === 'verified') {
+            const legacyPlaceholder = `${record.category} · ${record.developer || '개발사 정보 없음'}`;
             assert(record.description !== DESCRIPTION_UNAVAILABLE,
               `${key} #${record.rank}: verified description cannot use unavailable placeholder.`);
+            assert(record.description !== legacyPlaceholder,
+              `${key} #${record.rank}: verified description cannot use legacy category/developer text.`);
             assert(record.description.length <= DESCRIPTION_MAX_LENGTH,
               `${key} #${record.rank}: short description exceeds ${DESCRIPTION_MAX_LENGTH} characters.`);
             assert(record.descriptionReason === null,
