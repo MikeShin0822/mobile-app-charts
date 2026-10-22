@@ -11,16 +11,16 @@
 
 ### 종합 앱
 
-- 7개국 × Apple App Store 무료 앱 TOP 25 = 175개
-- 7개국 × Google Play 무료 앱 TOP 25 = 175개
+- 7개국 × Apple App Store 무료 앱 TOP 25 = 최대 175개
+- 7개국 × Google Play 무료 앱 TOP 25 = 최대 175개
 - `data/YYYY-MM-DD.json`과 `data/index.json`에 누적
 
 ### 무료 게임
 
-- 7개국 × Apple App Store 무료 게임 TOP 25 = 175개
-- 7개국 × Google Play 무료 게임 TOP 25 = 175개
+- 7개국 × Apple App Store 무료 게임 TOP 25 = 최대 175개
+- 7개국 × Google Play 무료 게임 TOP 25 = 최대 175개
 - `data/games/YYYY-MM-DD.json`과 `data/games/index.json`에 별도 누적
-- Apple 공식 Games RSS와 Google Play 공식 `TOP_FREE + GAME` 컬렉션 사용
+- Apple 공식 카테고리 필터 RSS의 Games 장르(6014)와 Google Play 공식 `TOP_FREE + GAME` 컬렉션 사용
 
 각 앱·게임에는 안정적인 스토어 ID, 순위, 제목, 공식 설명 발췌, 개발사, 카테고리/장르, 아이콘, 공식 스토어 URL과 메타데이터 품질 상태를 저장합니다.
 
@@ -40,7 +40,7 @@
 
 ## Data policy
 
-- Apple App Store 공식 Marketing Tools RSS 및 공식 iTunes Lookup 사용
+- Apple App Store 공식 Marketing Tools RSS, Apple 공식 카테고리 필터 RSS 및 공식 iTunes Lookup 사용
 - Google Play 공식 차트/컬렉션과 공식 앱 상세 페이지 사용
 - 제3자 순위 데이터셋 미사용
 - 정확한 앱·게임과 순위의 1~25위 매핑을 검증할 수 없으면 해당 국가/스토어를 `unavailable`로 저장
@@ -53,7 +53,7 @@
 게시 전 다음을 검사합니다.
 
 - verified 차트별 정확한 1~25위와 중복 없는 안정적 앱 ID
-- Apple/Google 공식 차트 및 상세 페이지 도메인
+- Apple/Google 공식 차트 및 상세 페이지 도메인·국가·앱 ID 일치
 - 아이콘·제목·카테고리·설명·출처·확인 시각
 - 국가별 제목 표시 형식
 - 카테고리/장르 구성 합계
