@@ -2,7 +2,6 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import process from 'node:process';
 import { pathToFileURL } from 'node:url';
-import { createClient } from '@mradex77/google-play-scraper';
 import {
   descriptionQuality,
   officialDescriptionMetadata,
@@ -46,6 +45,11 @@ const normalizeCategory = (genre, genreId) => {
   return CATEGORY_NAMES[key] || genre || '기타';
 };
 
+async function defaultClientFactory(options) {
+  const { createClient } = await import('@mradex77/google-play-scraper');
+  return createClient(options);
+}
+
 async function retry(label, operation, { attempts = 3, baseDelayMs = 700 } = {}) {
   let lastError;
   for (let attempt = 1; attempt <= attempts; attempt += 1) {
@@ -77,7 +81,7 @@ async function parallelMap(items, limit, mapper) {
 }
 
 export async function enrichGoogleSnapshot(snapshot, {
-  clientFactory = options => createClient(options),
+  clientFactory = defaultClientFactory,
   checkedAt = new Date().toISOString(),
   concurrency = 3,
   attempts = 3,
@@ -89,7 +93,7 @@ export async function enrichGoogleSnapshot(snapshot, {
     if (!rows.length) continue;
 
     console.log(`Enriching Google Play details for ${countryCode} (${rows.length})…`);
-    const client = clientFactory({ ...options, throttle: 4 });
+    const client = await clientFactory({ ...options, throttle: 4 });
     const details = await parallelMap(rows, concurrency, record => retry(
       record.appId,
       () => client.app({ appId: record.appId.replace(/^android:/, '') }),
