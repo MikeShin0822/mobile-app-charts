@@ -16,6 +16,15 @@ const EXPECTED_STORES = ['apple', 'google'];
 const TRANSLATED_COUNTRIES = new Set(['JP', 'CN', 'FR', 'AU', 'DE']);
 const EXPECTED_TOP_N = 25;
 const ALLOWED_STATUSES = new Set(['verified', 'unavailable']);
+const LEGACY_DESCRIPTION_CATEGORIES = new Set([
+  '예술·디자인', '자동차', '뷰티', '도서·참고자료', '비즈니스', '날씨', '유틸리티',
+  '여행', '여행·지역', '스포츠', '소셜', '커뮤니케이션', '뉴스', '뉴스·잡지',
+  '생산성', '사진', '사진·비디오', '내비게이션', '지도·내비게이션', '음악',
+  '음악·오디오', '라이프스타일', '건강·피트니스', '게임', '금융', '엔터테인먼트',
+  '교육', '도서', '의료', '잡지·신문', '카탈로그', '음식·음료', '쇼핑', '도구',
+  '만화', '데이트', '이벤트', '주택·홈', '라이브러리·데모', '육아', '맞춤설정',
+  '개발자 도구', '그래픽·디자인', '기타', '미확인',
+]);
 
 const kstDate = () =>
   new Intl.DateTimeFormat('en-CA', {
@@ -40,6 +49,15 @@ function isHttpUrl(value) {
 
 function isVerified(source) {
   return source?.status === 'verified';
+}
+
+function isLegacyCategoryDeveloperDescription(record) {
+  const parts = String(record.description || '').split(/\s+·\s+/u);
+  if (parts.length !== 2) return false;
+  const [category, developer] = parts.map(value => value.trim());
+  return LEGACY_DESCRIPTION_CATEGORIES.has(category) &&
+    (developer === String(record.developer || '').trim() ||
+      developer === '개발사' || developer === '개발사 정보 없음');
 }
 
 function assertQuality(actual, expected, label) {
@@ -222,10 +240,9 @@ export function validateSnapshot(snapshot, index, date = snapshot.date) {
             `${key} #${record.rank}: descriptionSource must be the matching official app detail source.`);
 
           if (record.descriptionStatus === 'verified') {
-            const legacyPlaceholder = `${record.category} · ${record.developer || '개발사 정보 없음'}`;
             assert(record.description !== DESCRIPTION_UNAVAILABLE,
               `${key} #${record.rank}: verified description cannot use unavailable placeholder.`);
-            assert(record.description !== legacyPlaceholder,
+            assert(!isLegacyCategoryDeveloperDescription(record),
               `${key} #${record.rank}: verified description cannot use legacy category/developer text.`);
             assert(record.description.length <= DESCRIPTION_MAX_LENGTH,
               `${key} #${record.rank}: short description exceeds ${DESCRIPTION_MAX_LENGTH} characters.`);
