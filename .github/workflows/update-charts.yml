@@ -10,9 +10,12 @@ on:
     paths:
       - ".github/workflows/update-charts.yml"
       - "scripts/**"
+      - "tests/**"
       - "package.json"
       - "package-lock.json"
       - "index.html"
+      - "games.html"
+      - "games.js"
       - "app.js"
       - "app-links.js"
       - "styles.css"
@@ -32,7 +35,7 @@ concurrency:
 jobs:
   collect-and-publish:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 45
     steps:
       - name: Checkout repository
         uses: actions/checkout@v6
@@ -52,13 +55,13 @@ jobs:
       - name: Install collector dependency
         run: npm install --no-audit --no-fund
 
-      - name: Test official metadata collection and validation
+      - name: Test official app and game chart collection
         run: npm test
 
-      - name: Collect, enrich official details, and validate charts
+      - name: Collect and validate official app and game charts
         run: npm run collect
 
-      - name: Commit snapshot to main
+      - name: Commit snapshots to main
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -68,7 +71,7 @@ jobs:
             exit 0
           fi
 
-          git commit -m "Update official app charts $(date -u +%F)"
+          git commit -m "Update official app and game charts $(date -u +%F)"
 
           for attempt in 1 2 3; do
             git fetch origin main
@@ -80,16 +83,16 @@ jobs:
             sleep $((attempt * 3))
           done
 
-          echo "Failed to push snapshot after 3 attempts"
+          echo "Failed to push snapshots after 3 attempts"
           exit 1
 
-      - name: Publish dashboard and data to gh-pages
+      - name: Publish dashboards and data to gh-pages
         run: |
           git fetch origin gh-pages
           rm -rf /tmp/mobile-app-charts-pages
           git worktree add /tmp/mobile-app-charts-pages origin/gh-pages
 
-          for item in index.html styles.css icons.css app.js app-links.js favicon.svg 404.html .nojekyll README.md AUTOMATION.md data; do
+          for item in index.html games.html games.js styles.css icons.css app.js app-links.js favicon.svg 404.html .nojekyll README.md AUTOMATION.md data; do
             if [ -e "$item" ]; then
               rm -rf "/tmp/mobile-app-charts-pages/$item"
               cp -R "$item" "/tmp/mobile-app-charts-pages/$item"
@@ -105,5 +108,5 @@ jobs:
             exit 0
           fi
 
-          git commit -m "Publish official app charts $(date -u +%F)"
+          git commit -m "Publish official app and game charts $(date -u +%F)"
           git push origin HEAD:gh-pages
