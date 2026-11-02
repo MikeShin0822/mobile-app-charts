@@ -159,6 +159,16 @@
         "google": 7
       },
       "officialOnly": true
+    },
+    {
+      "date": "2026-11-02",
+      "file": "data/2026-11-02.json",
+      "label": "2026-11-02 official charts",
+      "coverage": {
+        "apple": 6,
+        "google": 7
+      },
+      "officialOnly": true
     }
   ]
 }
