@@ -175,7 +175,7 @@
       "file": "data/2026-11-09.json",
       "label": "2026-11-09 official charts",
       "coverage": {
-        "apple": 6,
+        "apple": 7,
         "google": 7
       },
       "officialOnly": true
