@@ -44,6 +44,17 @@
       },
       "chartType": "games",
       "officialOnly": true
+    },
+    {
+      "date": "2026-11-16",
+      "file": "data/games/2026-11-16.json",
+      "label": "2026-11-16 official free game charts",
+      "coverage": {
+        "apple": 7,
+        "google": 7
+      },
+      "chartType": "games",
+      "officialOnly": true
     }
   ]
 }
