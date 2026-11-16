@@ -34,3 +34,5 @@
 GitHub Pages는 `gh-pages` 브랜치 루트에서 배포됩니다. 종합 앱 대시보드는 `/`, 무료 게임 대시보드는 `/games.html`입니다.
 
 Last automation expansion: 2026-10-22 KST — added official country-level free game charts and Apple Games genre feed.
+
+Execution note: 2026-11-16 KST — push-triggered refresh requested because the scheduled event had not appeared after the 13:00 KST window began.
