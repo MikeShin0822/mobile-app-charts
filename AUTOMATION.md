@@ -36,3 +36,5 @@ GitHub Pages는 `gh-pages` 브랜치 루트에서 배포됩니다. 종합 앱 �
 Last automation expansion: 2026-10-22 KST — added official country-level free game charts and Apple Games genre feed.
 
 Execution note: 2026-11-16 KST — push-triggered refresh requested because the scheduled event had not appeared after the 13:00 KST window began.
+
+Execution note: 2026-11-23 KST — weekly official-only app/game charts refresh requested; validate 14 source statuses, snapshot index, weekly comparisons, and Pages publish.
