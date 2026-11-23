@@ -127,8 +127,8 @@ export async function resolveAppleCategories(items, country, {
 export async function resolveAppleMetadata(items, country, {
   fetcher = fetchJson,
   checkedAt = new Date().toISOString(),
+  rssUrl = `https://rss.marketingtools.apple.com/api/v2/${country.toLowerCase()}/apps/top-free/25/apps.json`,
 } = {}) {
-  const rssUrl = `https://rss.marketingtools.apple.com/api/v2/${country.toLowerCase()}/apps/top-free/25/apps.json`;
   const rssCategories = items.map(rssCategory);
   const { byId, endpoint, failure } = await lookupAppleApps(
     items.map(item => item.id),

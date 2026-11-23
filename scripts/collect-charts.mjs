@@ -142,18 +142,66 @@ async function titleFields(originalTitle, country, cache) {
   };
 }
 
+// Recover a transiently failing 25-item endpoint using the same official Apple
+// Top Free feed with a larger limit. Never use cached third-party rankings.
+async function fetchOfficialAppleTopFree(country, fetcher, checkedAt) {
+  const errors = [];
+  const observedAt = Date.parse(checkedAt);
+  for (const limit of [25, 50, 100]) {
+    const url = `https://rss.marketingtools.apple.com/api/v2/${country.apple}/apps/top-free/${limit}/apps.json`;
+    try {
+      const json = await fetcher(url);
+      const feed = json?.feed;
+      if (!feed || !Array.isArray(feed.results) || feed.results.length < TOP_N) {
+        throw new Error(`incomplete official RSS feed (need ${TOP_N} ranked apps)`);
+      }
+      if (feed.country && String(feed.country).toLowerCase() !== country.apple) {
+        throw new Error(`official RSS country mismatch: ${feed.country}`);
+      }
+      if (feed.updated) {
+        const publishedAt = Date.parse(feed.updated);
+        const ageMs = observedAt - publishedAt;
+        if (!Number.isFinite(publishedAt) || ageMs > 72 * 60 * 60 * 1000 ||
+            ageMs < -6 * 60 * 60 * 1000) {
+          throw new Error(`stale or implausible official RSS updated timestamp: ${feed.updated}`);
+        }
+      }
+      const items = feed.results.slice(0, TOP_N);
+      const seen = new Set();
+      for (const item of items) {
+        const id = String(item?.id ?? '');
+        let appUrl;
+        try { appUrl = new URL(item?.url); } catch { throw new Error('invalid official app URL'); }
+        if (!/^\d+$/.test(id) || !String(item?.name || '').trim() || seen.has(id) ||
+            appUrl.protocol !== 'https:' || appUrl.hostname !== 'apps.apple.com' ||
+            !appUrl.pathname.startsWith(`/${country.apple}/app/`) ||
+            !appUrl.pathname.endsWith(`/id${id}`)) {
+          throw new Error('invalid or duplicate Apple App Store app-to-rank mapping');
+        }
+        seen.add(id);
+      }
+      if (limit !== TOP_N) console.warn(
+        `${country.code} Apple RSS: recovered TOP ${TOP_N} from official TOP ${limit} feed.`,
+      );
+      return { chartItems: items, url, feedUpdated: feed.updated || null, requestedLimit: limit };
+    } catch (error) {
+      errors.push(`TOP ${limit}: ${error.message}`);
+      console.warn(`${country.code} Apple RSS ${limit} unavailable: ${error.message}`);
+    }
+  }
+  throw new Error(`All official Apple Top Free feeds failed: ${errors.join('; ')}`);
+}
+
 export async function collectApple(country, translationCache, {
   fetcher = fetchJson,
   titleResolver = titleFields,
   checkedAt = new Date().toISOString(),
 } = {}) {
-  const url = `https://rss.marketingtools.apple.com/api/v2/${country.apple}/apps/top-free/${TOP_N}/apps.json`;
-  const json = await fetcher(url);
-  const items = json?.feed?.results || [];
-  if (!items.length) throw new Error('Apple RSS returned no chart entries');
-
-  const chartItems = items.slice(0, TOP_N);
-  const metadata = await resolveAppleMetadata(chartItems, country.apple, { fetcher, checkedAt });
+  const { chartItems, url, feedUpdated, requestedLimit } =
+    await fetchOfficialAppleTopFree(country, fetcher, checkedAt);
+  const metadata = await resolveAppleMetadata(chartItems, country.apple, {
+    fetcher, checkedAt, rssUrl: url,
+  });
   const records = [];
   for (const [index, item] of chartItems.entries()) {
     const titles = await titleResolver(item.name, country.code, translationCache);
@@ -175,6 +223,8 @@ export async function collectApple(country, translationCache, {
     records,
     url,
     status: 'verified',
+    ...(feedUpdated ? { feedUpdated } : {}),
+    requestedLimit,
     categoryQuality: categoryQuality(records),
     descriptionQuality: descriptionQuality(records),
   };
@@ -237,6 +287,8 @@ function sourceEntry(store, country, result, error) {
     status: result?.status || 'unavailable',
     url: result?.url || defaultUrl,
     ...(result?.categoryQuality ? { categoryQuality: result.categoryQuality } : {}),
+    ...(result?.feedUpdated ? { feedUpdated: result.feedUpdated } : {}),
+    ...(result?.requestedLimit ? { requestedLimit: result.requestedLimit } : {}),
     ...(result?.descriptionQuality ? { descriptionQuality: result.descriptionQuality } : {}),
     note: error
       ? `Official chart unavailable: ${error.message}`

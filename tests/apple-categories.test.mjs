@@ -258,3 +258,63 @@ test('old snapshots and dashboard separate unknown categories from 기타', asyn
   assert.match(vm.runInContext(`bars([{category:'미확인'},{category:'생산성'}])`, ctx),
     /카테고리 미확인 1개/);
 });
+
+test('transient Apple TOP 25 502 recovers from same-country official TOP 50 while preserving ranks', async () => {
+  const items = fixture.JP.feed.results;
+  const seenLimits = [];
+  const extra = items.map((item, i) => ({
+    ...item,
+    id: String(900000000 + i),
+    name: `Extra app ${i}`,
+    url: `https://apps.apple.com/jp/app/extra/id${900000000 + i}`,
+  }));
+  const result = await collectApple({ apple: 'jp', code: 'JP' }, {}, {
+    titleResolver: titles,
+    checkedAt,
+    fetcher: async url => {
+      const endpoint = new URL(url);
+      if (endpoint.hostname === 'rss.marketingtools.apple.com') {
+        const size = Number(endpoint.pathname.match(/top-free\\/(\\d+)\\/apps.json/)[1]);
+        seenLimits.push(size);
+        if (size === 25) throw new Error('502 Bad Gateway');
+        assert.equal(size, 50);
+        return { feed: { country: 'jp', updated: checkedAt, results: [...items, ...extra] } };
+      }
+      return successfulLookup(url);
+    },
+  });
+  assert.deepEqual(seenLimits, [25, 50]);
+  assert.equal(result.status, 'verified');
+  assert.equal(result.requestedLimit, 50);
+  assert.equal(result.records.length, 25);
+  assert.equal(result.records[0].appId, `ios:${items[0].id}`);
+  assert.equal(result.records[24].appId, `ios:${items[24].id}`);
+  assert(result.records.every((row, i) => row.rank === i + 1));
+  assert(result.records.some(row => row.categorySource.includes('/50/apps.json')));
+});
+
+test('Apple RSS fallback rejects stale chart dates and wrong storefronts', async () => {
+  const items = fixture.JP.feed.results;
+  await assert.rejects(
+    collectApple({ apple: 'jp', code: 'JP' }, {}, {
+      titleResolver: titles,
+      checkedAt: '2026-11-23T06:00:00.000Z',
+      fetcher: async url => {
+        const endpoint = new URL(url);
+        if (endpoint.hostname !== 'rss.marketingtools.apple.com') {
+          assert.fail('No metadata lookup should run when chart is invalid');
+        }
+        return { feed: { country: 'jp', updated: '2026-01-01T00:00:00Z', results: items } };
+      },
+    }),
+    /stale or implausible official RSS/,
+  );
+  await assert.rejects(
+    collectApple({ apple: 'jp', code: 'JP' }, {}, {
+      titleResolver: titles,
+      checkedAt,
+      fetcher: async () => ({ feed: { country: 'us', results: items } }),
+    }),
+    /country mismatch/,
+  );
+});
