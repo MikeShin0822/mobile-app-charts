@@ -274,7 +274,7 @@ test('transient Apple TOP 25 502 recovers from same-country official TOP 50 whil
     fetcher: async url => {
       const endpoint = new URL(url);
       if (endpoint.hostname === 'rss.marketingtools.apple.com') {
-        const size = Number(endpoint.pathname.match(/top-free\\/(\\d+)\\/apps.json/)[1]);
+        const size = Number(endpoint.pathname.split('/').at(-2));
         seenLimits.push(size);
         if (size === 25) throw new Error('502 Bad Gateway');
         assert.equal(size, 50);
